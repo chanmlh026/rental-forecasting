@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing, coverage, and type-checker caches
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+*.csv
+*.tsv
+*.parquet
+*.pq
+*.arrow
+*.feather
+*.xls
+*.xlsx
+
+# Generated model artifacts
+/artifacts/
+/models/artifacts/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+
+# Editors and operating systems
+.vscode/
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+*credentials*.json
+*service-account*.json
+*service_account*.json
+secrets/
+
+# Local datasets and generated data; retain directory markers
+/data/raw/**
+!/data/raw/.gitkeep
+/data/external/**
+!/data/external/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak

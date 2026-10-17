@@ -1,0 +1,7 @@
+# Storage defaults for local development.
+# Keep credentials out of this file. A future storage adapter can map the same
+# logical paths to GCS (for example, gs://<bucket>/<prefix>).
+backend = "local"
+local_root = "./data"
+gcs_bucket = ""
+gcs_prefix = "rental-forecasting"
