@@ -1,0 +1,25 @@
+﻿metric,value,denominator,definition
+latest_edition,2026-10-21,ONS release,Workbook edition
+workbook_retrieved_at,2026-10-24T17:09:49+01:00,local retrieval,Workbook only
+observation_start,2015-01,141,Earliest month
+observation_end,2026-09,141,Latest month
+observation_month_count,141,inclusive,Calendar months
+official_england_lad_count,296,ONS April 2025 LAD reference,English E0 codes
+eligible_lad_count,294,296,Excludes two unavailable series
+known_geographic_exclusions,2,296,E06000053 Isles of Scilly; E09000001 City of London
+target_series_count,882,294 x 3,LA x bedroom
+full_period_expected_observations,124362,294 x 3 x 141,Eligible LA x bedroom x month
+full_period_valid_observations,124362,same as expected,Numeric positive values
+full_period_missing_observations,0,expected cells,Latest workbook
+full_period_completeness_percent,100,124362,Valid / expected
+per_series_span_expected_observations,124362,First valid through last valid per series,Span denominator
+per_series_span_valid_observations,124362,same,Valid values
+per_series_span_completeness_percent,100,124362,Valid / span expected
+series_entirely_absent,0,882,Latest workbook
+series_with_missing_months,0,882,Latest workbook
+duplicate_la_month_keys,0,Eligible LAs,Latest workbook
+nonpositive_values,0,Eligible target cells,Latest workbook
+structural_12_month_pairs,113778,294 x 3 x 129,Numeric endpoints; not PIT proof
+archive_absent_las,2,294,E08000038 Barnsley; E08000039 Sheffield
+archive_month_count,110,March 2024 workbook,Archive extraction
+archive_observation_rows,38390,all extracted rows,March 2024 workbook

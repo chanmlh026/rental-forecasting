@@ -1,0 +1,4 @@
+﻿bedroom_category,archive_release_month,archive_first_month,archive_last_month,both_vintages_numeric_overlap,overlap_values_different,percent_overlap_values_different,max_absolute_rent_difference_gbp,archive_absent_la_count,archive_absent_la_codes,interpretation
+1,2024-03,2015-01,2024-02,32120,26809,83.4651307596513,36.0,2,E08000038;E08000039,Differences do not establish cause.
+2,2024-03,2015-01,2024-02,32120,26310,81.91158156911581,61.0,2,E08000038;E08000039,Differences do not establish cause.
+3,2024-03,2015-01,2024-02,32120,27007,84.0815691158157,78.0,2,E08000038;E08000039,Differences do not establish cause.

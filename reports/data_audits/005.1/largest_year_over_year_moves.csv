@@ -1,0 +1,26 @@
+﻿rank_by_absolute_percent_change,area_code,area_name,bedroom_category,origin_month,target_month,origin_rent_gbp,rent_12_months_later_gbp,absolute_change_gbp,percent_change,interpretation
+1,E09000005,Brent,1,2023-07,2024-07,1224.0,1633.0,409.0,33.41503267973856,Ranked for review only; not classified as erroneous
+2,E09000005,Brent,1,2023-08,2024-08,1232.0,1643.0,411.0,33.36038961038961,Ranked for review only; not classified as erroneous
+3,E09000005,Brent,1,2023-06,2024-06,1210.0,1606.0,396.0,32.72727272727273,Ranked for review only; not classified as erroneous
+4,E09000005,Brent,2,2023-07,2024-07,1518.0,2014.0,496.0,32.674571805006586,Ranked for review only; not classified as erroneous
+5,E09000005,Brent,3,2023-07,2024-07,1780.0,2361.0,581.0,32.640449438202246,Ranked for review only; not classified as erroneous
+6,E09000005,Brent,2,2023-08,2024-08,1528.0,2025.0,497.0,32.526178010471206,Ranked for review only; not classified as erroneous
+7,E09000005,Brent,3,2023-08,2024-08,1791.0,2373.0,582.0,32.49581239530988,Ranked for review only; not classified as erroneous
+8,E09000005,Brent,3,2023-06,2024-06,1757.0,2323.0,566.0,32.21400113830393,Ranked for review only; not classified as erroneous
+9,E09000005,Brent,2,2023-06,2024-06,1500.0,1983.0,483.0,32.2,Ranked for review only; not classified as erroneous
+10,E09000005,Brent,1,2023-05,2024-05,1197.0,1581.0,384.0,32.08020050125313,Ranked for review only; not classified as erroneous
+11,E09000005,Brent,1,2023-04,2024-04,1186.0,1564.0,378.0,31.871838111298484,Ranked for review only; not classified as erroneous
+12,E09000005,Brent,1,2023-09,2024-09,1249.0,1647.0,398.0,31.865492393915133,Ranked for review only; not classified as erroneous
+13,E09000005,Brent,3,2023-05,2024-05,1739.0,2290.0,551.0,31.68487636572743,Ranked for review only; not classified as erroneous
+14,E09000005,Brent,2,2023-05,2024-05,1484.0,1953.0,469.0,31.60377358490566,Ranked for review only; not classified as erroneous
+15,E09000005,Brent,2,2023-04,2024-04,1469.0,1933.0,464.0,31.586113002042204,Ranked for review only; not classified as erroneous
+16,E09000005,Brent,3,2023-04,2024-04,1723.0,2267.0,544.0,31.572838073128263,Ranked for review only; not classified as erroneous
+17,E09000005,Brent,2,2023-09,2024-09,1547.0,2027.0,480.0,31.027795733678087,Ranked for review only; not classified as erroneous
+18,E09000005,Brent,3,2023-09,2024-09,1815.0,2376.0,561.0,30.90909090909091,Ranked for review only; not classified as erroneous
+19,E09000005,Brent,1,2023-10,2024-10,1262.0,1649.0,387.0,30.665610142630744,Ranked for review only; not classified as erroneous
+20,E09000005,Brent,2,2023-10,2024-10,1563.0,2029.0,466.0,29.81445937300064,Ranked for review only; not classified as erroneous
+21,E09000005,Brent,3,2023-10,2024-10,1833.0,2377.0,544.0,29.678123295144573,Ranked for review only; not classified as erroneous
+22,E09000005,Brent,1,2023-11,2024-11,1281.0,1649.0,368.0,28.727556596409055,Ranked for review only; not classified as erroneous
+23,E09000005,Brent,2,2023-11,2024-11,1586.0,2028.0,442.0,27.868852459016395,Ranked for review only; not classified as erroneous
+24,E09000005,Brent,3,2023-11,2024-11,1860.0,2375.0,515.0,27.688172043010752,Ranked for review only; not classified as erroneous
+25,E09000005,Brent,1,2023-12,2024-12,1293.0,1647.0,354.0,27.378190255220417,Ranked for review only; not classified as erroneous
