@@ -1,0 +1,962 @@
+{
+  "task": "006.2",
+  "inspection_date": "2026-11-08",
+  "purpose": "Exploratory source assessment only; no acceptance thresholds or production ingestion",
+  "cohort_reference": {
+    "path": "configs/ons_lad_apr2025_v2.csv",
+    "sha256": "120f51b8bfb9bed7f5fec4d20488263e3c62831f18b0a7e2937b5c2904edb70a",
+    "eligible_authorities": 294
+  },
+  "method": {
+    "geography": "Exact source GSS-code membership in the 294 target_eligible=true rows; no recoding or boundary mapping",
+    "numeric": "Finite float after removal of thousands separators; blank and source markers remain unavailable, not zero",
+    "ODS": "ZIP content.xml table elements; expand repeated columns, retain text paragraphs, select named sheets and their header labels",
+    "XLSX": "ZIP workbook relationships and shared strings; MYE3/MYE4/MYE5 column definitions recorded below",
+    "PS2": "Decode cp1252; third row contains 334 column names; count unique LPACD within each Quarter and numeric values in the two residential granted fields",
+    "IUMZID4": "Parse DATE as day-month-year, compare distinct monthly periods against inclusive first-to-last calendar range",
+    "scope": "Counts describe inspected editions only. Numeric coverage is not a quality score; no source-imputation flags or historic vintage completeness inferred."
+  },
+  "retrievals": [
+    {
+      "file": "Live_Table_122.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/691f395e9c8e8f345bf985d3/Live_Table_122.ods",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/691f395e9c8e8f345bf985d3/Live_Table_122.ods",
+      "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+      "bytes": 92204,
+      "sha256": "35667e8610b92d818257433b7b625e37c59da25aea8338e3c30361b580b68e38",
+      "retrieved_at": "2026-11-08T11:33:33.522820+00:00"
+    },
+    {
+      "file": "Live_Table_123.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/691de4732c6b98ecdbc500cb/Live_Table_123.ods",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/691de4732c6b98ecdbc500cb/Live_Table_123.ods",
+      "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+      "bytes": 545519,
+      "sha256": "9f97f5961881e50891763cb4b2f0f49f3a1912101a0399a92c8e47e9dd9e3fd6",
+      "retrieved_at": "2026-11-08T11:33:33.937558+00:00"
+    },
+    {
+      "file": "LiveTable125.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/6a0dcbf65c3c79da61662e39/LiveTable125.ods",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6a0dcbf65c3c79da61662e39/LiveTable125.ods",
+      "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+      "bytes": 195364,
+      "sha256": "8bf5ca0244e68d8cf8096e200535035fb02fada1802717327f933015c50c41b2",
+      "retrieved_at": "2026-11-08T11:33:34.180666+00:00"
+    },
+    {
+      "file": "mye25tablesew.xlsx",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20252023localauthorityboundaries%2Fmye25tablesew.xlsx",
+      "resolved_url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20252023localauthorityboundaries%2Fmye25tablesew.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8",
+      "bytes": 976621,
+      "sha256": "85b4e105e9618043884e5ac41d46e6eae8a46bb01b31790f1c76110cbe92d0d8",
+      "retrieved_at": "2026-11-08T11:33:34.594155+00:00"
+    },
+    {
+      "file": "IUMZID4.csv",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=08/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+      "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=08/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+      "content_type": "application/csv",
+      "bytes": 3204,
+      "sha256": "4898f29acf50c5fee73cee2d8123873cca7108a56324c049c9ee62a9e9642630",
+      "retrieved_at": "2026-11-08T11:33:34.938755+00:00"
+    },
+    {
+      "file": "ashetable82026provisional.zip",
+      "url": "https://www.ons.gov.uk/file?uri=%2Femploymentandlabourmarket%2Fpeopleinwork%2Fearningsandworkinghours%2Fdatasets%2Fplaceofresidencebylocalauthorityashetable8%2F2026provisional%2Fashetable82026provisional.zip",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "PS2_last_four_quarters_202606.csv",
+      "url": "https://assets.publishing.service.gov.uk/media/6ab280b6a9c3d267bcccecfb/PS2_data_-_last_four_quarters_open_data_table__202606_.csv",
+      "bytes": 1027442,
+      "content_type": "text/csv",
+      "sha256": "4ae1adcec0431ddafa83797c22ce989f1f14ad193f6672967499697f67b995e0",
+      "retrieved_at": "2026-11-08T11:36:31.323068+00:00"
+    },
+    {
+      "file": "Glenigan_tables_data_file_202606.xlsx",
+      "url": "https://assets.publishing.service.gov.uk/media/6ab28db98cb3c0580e500fd2/Glenigan_tables_data_file_202606.xlsx",
+      "bytes": 21148,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "336a6bf1c4da046810012824dfdcc415d0eb5f8a851a4ab5f90aae399226cfc7",
+      "retrieved_at": "2026-11-08T11:36:31.523270+00:00"
+    },
+    {
+      "file": "aps-definition.json",
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.def.sdmx.json",
+      "bytes": 3112,
+      "content_type": "application/json",
+      "sha256": "0bbeb739d2cb768ec1399373abfe3e57ec797b84cf20c6373cac00f9a6bbdcf5",
+      "retrieved_at": "2026-11-08T11:36:31.816040+00:00"
+    }
+  ],
+  "measurements": {
+    "Live_Table_122.ods": {
+      "rows": 292,
+      "codes": 292,
+      "duplicate_codes": [],
+      "absent_codes": [
+        "E08000038",
+        "E08000039"
+      ],
+      "periods": [
+        {
+          "period": "2001-02",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2002-03",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2003-04",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2004-05 [note 1]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2005-06 [note 2]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2006-07 [note 3]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2007-08 [note 4]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2008-09 [note 5]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2009-10 [note 6]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2010-11 [note 7]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2011-12 [note 8]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2012-13 [note 9]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2013-14 [note 10]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2014-15 [note 11]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2015-16 [note 12]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2016-17 [note 13]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2017-18 [note 14]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2018-19",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2019-20",
+          "numeric": 285,
+          "missing_or_marked": {
+            "[x]": 7
+          }
+        },
+        {
+          "period": "2020-21",
+          "numeric": 286,
+          "missing_or_marked": {
+            "[x]": 6
+          }
+        },
+        {
+          "period": "2021-22 [note 15]",
+          "numeric": 288,
+          "missing_or_marked": {
+            "[x]": 4
+          }
+        },
+        {
+          "period": "2022-23 [note 16]",
+          "numeric": 288,
+          "missing_or_marked": {
+            "[x]": 4
+          }
+        },
+        {
+          "period": "2023-24 [r] [note 17]",
+          "numeric": 292,
+          "missing_or_marked": {}
+        },
+        {
+          "period": "2024-25 [p]",
+          "numeric": 292,
+          "missing_or_marked": {}
+        }
+      ]
+    },
+    "LiveTable125.ods": {
+      "rows": 292,
+      "codes": 292,
+      "duplicate_codes": [],
+      "absent_codes": [
+        "E08000038",
+        "E08000039"
+      ],
+      "periods": [
+        {
+          "period": "2001",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2002 [note 6]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2003 [note 6]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2004 [note 6]",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2005",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2006",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2007",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2008",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2009",
+          "numeric": 272,
+          "missing_or_marked": {
+            "[x]": 20
+          }
+        },
+        {
+          "period": "2010 [note 1]",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2011",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2012",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2013",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2014",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2015",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2016",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2017",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2018",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2019",
+          "numeric": 281,
+          "missing_or_marked": {
+            "[x]": 11
+          }
+        },
+        {
+          "period": "2020 [note 2]",
+          "numeric": 285,
+          "missing_or_marked": {
+            "[x]": 7
+          }
+        },
+        {
+          "period": "2021 [note 3]",
+          "numeric": 286,
+          "missing_or_marked": {
+            "[x]": 6
+          }
+        },
+        {
+          "period": "2022 [p] [note 4]",
+          "numeric": 288,
+          "missing_or_marked": {
+            "[x]": 4
+          }
+        },
+        {
+          "period": "2023 [p]",
+          "numeric": 288,
+          "missing_or_marked": {
+            "[x]": 4
+          }
+        },
+        {
+          "period": "2024 [r] [p]",
+          "numeric": 292,
+          "missing_or_marked": {}
+        },
+        {
+          "period": "2025 [p]",
+          "numeric": 292,
+          "missing_or_marked": {}
+        }
+      ]
+    },
+    "MYE3": {
+      "cohort_rows": 292,
+      "duplicate_codes": 0,
+      "absent_codes": [
+        "E08000038",
+        "E08000039"
+      ],
+      "numeric_counts": {
+        "D": 292,
+        "E": 292,
+        "F": 292,
+        "G": 292,
+        "H": 292,
+        "I": 292,
+        "J": 292,
+        "K": 292,
+        "L": 292,
+        "M": 292,
+        "N": 292,
+        "O": 292
+      },
+      "column_definitions": {
+        "A": "Code",
+        "B": "Name",
+        "C": "Geography",
+        "D": "Estimated Population mid-2024",
+        "E": "Births",
+        "F": "Deaths",
+        "G": "Births minus Deaths",
+        "H": "Internal Migration Inflow",
+        "I": "Internal Migration Outflow",
+        "J": "Internal Migration Net",
+        "K": "International Migration Inflow",
+        "L": "International Migration Outflow",
+        "M": "International Migration Net",
+        "N": "Other",
+        "O": "Estimated Population mid-2025"
+      }
+    },
+    "MYE4": {
+      "cohort_rows": 292,
+      "duplicate_codes": 0,
+      "absent_codes": [
+        "E08000038",
+        "E08000039"
+      ],
+      "numeric_counts": {
+        "D": 292,
+        "E": 292,
+        "F": 292,
+        "G": 292,
+        "H": 292,
+        "I": 292,
+        "J": 292,
+        "K": 292,
+        "L": 292,
+        "M": 292,
+        "N": 292,
+        "O": 292,
+        "P": 292,
+        "Q": 292,
+        "R": 292
+      },
+      "column_definitions": {
+        "A": "Code",
+        "B": "Name",
+        "C": "Geography",
+        "D": "Mid-2025",
+        "E": "Mid-2024",
+        "F": "Mid-2023",
+        "G": "Mid-2022",
+        "H": "Mid-2021",
+        "I": "Mid-2020",
+        "J": "Mid-2019",
+        "K": "Mid-2018",
+        "L": "Mid-2017",
+        "M": "Mid-2016",
+        "N": "Mid-2015",
+        "O": "Mid-2014",
+        "P": "Mid-2013",
+        "Q": "Mid-2012",
+        "R": "Mid-2011",
+        "U": "",
+        "V": ""
+      }
+    },
+    "MYE5": {
+      "cohort_rows": 292,
+      "duplicate_codes": 0,
+      "absent_codes": [
+        "E08000038",
+        "E08000039"
+      ],
+      "numeric_counts": {
+        "D": 292,
+        "E": 292,
+        "F": 292,
+        "G": 292,
+        "H": 292,
+        "I": 292,
+        "J": 292,
+        "K": 292,
+        "L": 292,
+        "M": 292,
+        "N": 292,
+        "O": 292,
+        "P": 292,
+        "Q": 292,
+        "R": 292,
+        "S": 292,
+        "T": 292,
+        "U": 292,
+        "V": 292,
+        "W": 292,
+        "X": 292,
+        "Y": 292,
+        "Z": 292,
+        "AA": 292,
+        "AB": 292,
+        "AC": 292,
+        "AD": 292,
+        "AE": 292,
+        "AF": 292,
+        "AG": 292,
+        "AH": 292
+      },
+      "column_definitions": {
+        "A": "Code",
+        "B": "Name",
+        "C": "Geography",
+        "D": "Area (sq km)",
+        "E": "Estimated Population mid-2025",
+        "F": "2025 people per sq. km",
+        "G": "Estimated Population mid-2024",
+        "H": "2024 people per sq. km",
+        "I": "Estimated Population mid-2023",
+        "J": "2023 people per sq. km",
+        "K": "Estimated Population mid-2022",
+        "L": "2022 people per sq. km",
+        "M": "Estimated Population mid-2021",
+        "N": "2021 people per sq. km",
+        "O": "Estimated Population mid-2020",
+        "P": "2020 people per sq. km",
+        "Q": "Estimated Population mid-2019",
+        "R": "2019 people per sq. km",
+        "S": "Estimated Population mid-2018",
+        "T": "2018 people per sq. km",
+        "U": "Estimated Population mid-2017",
+        "V": "2017 people per sq. km",
+        "W": "Estimated Population mid-2016",
+        "X": "2016 people per sq. km",
+        "Y": "Estimated Population mid-2015",
+        "Z": "2015 people per sq. km",
+        "AA": "Estimated Population mid-2014",
+        "AB": "2014 people per sq. km",
+        "AC": "Estimated Population mid-2013",
+        "AD": "2013 people per sq. km",
+        "AE": "Estimated Population mid-2012",
+        "AF": "2012 people per sq. km",
+        "AG": "Estimated Population mid-2011",
+        "AH": "2011 people per sq. km"
+      }
+    },
+    "IUMZID4": {
+      "rows": 178,
+      "first": {
+        "DATE": "31 Jan 2012",
+        "IUMZID4": "5.28"
+      },
+      "last": {
+        "DATE": "31 Oct 2026",
+        "IUMZID4": "4.52"
+      },
+      "duplicates": 0,
+      "missing_months": [],
+      "nonnumeric": 0
+    },
+    "Live_Table_123.ods": [
+      {
+        "year": "2012-13",
+        "matched_codes": 277,
+        "duplicate_codes": [],
+        "numeric_new_build": 277,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000057",
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000242",
+          "E07000243",
+          "E07000244",
+          "E07000245",
+          "E08000037",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2013-14",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2014-15",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2015-16",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2016-17",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2017-18",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2018-19",
+        "matched_codes": 281,
+        "duplicate_codes": [],
+        "numeric_new_build": 281,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000058",
+          "E06000059",
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E07000244",
+          "E07000245",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2019-20",
+        "matched_codes": 285,
+        "duplicate_codes": [],
+        "numeric_new_build": 285,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000060",
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2020-21",
+        "matched_codes": 286,
+        "duplicate_codes": [],
+        "numeric_new_build": 286,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000061",
+          "E06000062",
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2021-22",
+        "matched_codes": 288,
+        "duplicate_codes": [],
+        "numeric_new_build": 288,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2022-23",
+        "matched_codes": 288,
+        "duplicate_codes": [],
+        "numeric_new_build": 288,
+        "not_numeric": {},
+        "absent_codes": [
+          "E06000063",
+          "E06000064",
+          "E06000065",
+          "E06000066",
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2023-24",
+        "matched_codes": 292,
+        "duplicate_codes": [],
+        "numeric_new_build": 292,
+        "not_numeric": {},
+        "absent_codes": [
+          "E08000038",
+          "E08000039"
+        ]
+      },
+      {
+        "year": "2024-25",
+        "matched_codes": 292,
+        "duplicate_codes": [],
+        "numeric_new_build": 292,
+        "not_numeric": {},
+        "absent_codes": [
+          "E08000038",
+          "E08000039"
+        ]
+      }
+    ],
+    "PS2": {
+      "all_rows": 1240,
+      "quarters": [
+        {
+          "quarter": "2025 Q3",
+          "matched_codes": 294,
+          "duplicate_codes": [],
+          "absent_codes": [],
+          "residential_granted_fields": {
+            "Total granted; major dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            },
+            "Total granted; minor dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            }
+          }
+        },
+        {
+          "quarter": "2025 Q4",
+          "matched_codes": 294,
+          "duplicate_codes": [],
+          "absent_codes": [],
+          "residential_granted_fields": {
+            "Total granted; major dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            },
+            "Total granted; minor dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            }
+          }
+        },
+        {
+          "quarter": "2026 Q1",
+          "matched_codes": 294,
+          "duplicate_codes": [],
+          "absent_codes": [],
+          "residential_granted_fields": {
+            "Total granted; major dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            },
+            "Total granted; minor dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            }
+          }
+        },
+        {
+          "quarter": "2026 Q2",
+          "matched_codes": 294,
+          "duplicate_codes": [],
+          "absent_codes": [],
+          "residential_granted_fields": {
+            "Total granted; major dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            },
+            "Total granted; minor dwellings (all)": {
+              "numeric": 294,
+              "markers": {}
+            }
+          }
+        }
+      ],
+      "encoding": "cp1252",
+      "header_row": 3
+    }
+  },
+  "additional_observations": {
+    "Glenigan": "Table_3 contains 18 quarterly endpoints from 2022 Q1 to 2026 Q2 with annual_rolling_units and annual_rolling_permissions, no LA dimension. Last units=212492, last permissions=15005. Tables_3a/3b are applications, not grants.",
+    "source_code_names": {
+      "E08000016": "Barnsley",
+      "E08000019": "Sheffield"
+    },
+    "project_code_names": {
+      "E08000038": "Barnsley",
+      "E08000039": "Sheffield"
+    },
+    "Task_006_1": "No Task 006.1 file or findings found in repository; not inferred",
+    "ASHE": "2026 provisional ZIP request returned HTTP 403; file contents and 294-authority completeness not verified"
+  }
+}
