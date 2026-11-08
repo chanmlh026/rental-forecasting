@@ -30,6 +30,8 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Local datasets
+# Keep the restored original Word prompt local; its Markdown archive is tracked.
+/temp_prompts/006.1. Harden ONS PIPR Ingestion Reliability and Release Validation.docx
 *.csv
 *.tsv
 *.parquet
