@@ -56,8 +56,23 @@ register.
 | ISS-014 | Decision: operational forecast timezone and cutoff schedule | Methodology | Forecast generation and PIT feature assembly | Before implementing operational forecast/cutoff rules; not a prerequisite for recording source retrievals | Open | Obtain owner approval for issue/cutoff schedule and timezone. Retain precise timezone-aware cutoffs and distinguish them from origin month; do not infer availability at midnight from an edition date. | [Dictionary: target specification](data-architecture-and-dictionary.md#4-target-variable-specification), [time fields](data-architecture-and-dictionary.md#required-time-fields) |
 | ISS-015 | Decision: common-origin handling of delayed/missing target series | Methodology | Forecast cohort completeness and cross-area comparison | Before operational origin selection and comparable model evaluation | Open | Retain the approved cohort and no target imputation. Obtain owner approval for the common-origin completeness rule and missing-series behavior; do not silently choose thresholds or mix per-series horizons. Existing ingestion gates remain unchanged. | [Dictionary: origin and completeness rules](data-architecture-and-dictionary.md#4-target-variable-specification), [current ingestion validation](006-ons-pipr-ingestion.md#validation-behavior) |
 | ISS-016 | Decision: canonical target-label vintage for evaluation | Methodology | Training-label eligibility and evaluation truth | Before label construction / backtesting evaluation policy | Open | Owner must choose first-released versus settled/revised evaluation truth and document its distinction from information available at training cutoff. Preserve versions; current retrospective values cannot establish historical availability. | [Dictionary: historical forecast reconstruction](data-architecture-and-dictionary.md#4-target-variable-specification), [PIPR vintage differences](005.1-ons-pipr-workbook-coverage-audit.md#k-historical-vintage-findings) |
-| ISS-017 | Evidence gap and approval dependency: source rights and ingestion scope | Data Availability | Proposed Tasks 007-013; third-party permissions data | Before each production source onboarding or redistribution | Open | Obtain owner authorisation for the relevant proposed batch and confirm source-specific licence/access notices. Government aggregate availability does not establish microdata rights. No task approval is inferred from the roadmap or successful download. | [Dictionary: proposed batches](data-architecture-and-dictionary.md#7-proposed-production-ingestion-batches), [access/licences](data-architecture-and-dictionary.md#access-licences-and-reproducible-evidence) |
+| ISS-017 | Evidence gap: access and reuse rights for a potential Glenigan LA permissions extract | Data Availability | Third-party LA dwelling-units-granted data; related source availability in ISS-010 | Task 012 units-source component, before acquiring/using a local extract or redistributing its data | Open | Establish access terms and permitted use/redistribution for the specific extract, if available; published government aggregates do not establish microdata rights. Record evidence and obtain any necessary owner approval before resolution. Task 007 approval is unrelated and cannot close this issue. | [Dictionary: access/licences](data-architecture-and-dictionary.md#access-licences-and-reproducible-evidence), [planning units limitation](data-architecture-and-dictionary.md#dwelling-stock-denominators-and-supply-standardisation) |
 | ISS-018 | Known limitation: restored Task 006.1 instructions stop at Section 4 | Other | Historical task documentation | Before representing the archive as the complete original specification | Open | Recover the remainder if available; otherwise preserve and disclose the truncation. No historical execution times can be inferred from prompt restoration or Git dates. This does not reopen the implemented reliability work or block unrelated ingestion. | [Restored prompt](006.1-harden-ons-pipr-ingestion-reliability-and-release-validation.md), [documented limitation](data-architecture-and-dictionary.md#decisions-and-research-still-required) |
+
+### ISS-017 scope clarification - 8 November 2026
+
+Independent review narrowed the original "source rights and ingestion scope"
+entry without resolving it. Recurring approval for each ingestion task and
+dataset-specific access/licence checks now sit explicitly in
+[AGENTS.md](../AGENTS.md#project-issue-register-and-dependency-management).
+The original [proposed-batches reference](data-architecture-and-dictionary.md#7-proposed-production-ingestion-batches)
+remains governance context, not evidence of approval. The concrete third-party
+rights gap remains ISS-017; ASHE access remains ISS-002 and local units-source
+availability remains ISS-010. No access or licensing concern is dismissed, no ID
+is replaced, and no issue status changes. Close ISS-017 only after the specific
+source terms and necessary approval are evidenced; if no local extract can be
+established, record that finding and any approved scope disposition rather than
+treating an unrelated task approval as resolution.
 
 ## Lifecycle and decision record
 
@@ -82,6 +97,8 @@ data-substitution decisions require project-owner approval.
 **Proceed with documented limitations.** The register indexes ISS-001-ISS-018;
 none requires a methodological choice to create this documentation. No issue
 has been resolved or deferred by this task. In particular, potential Task 007
-dependencies ISS-004, ISS-005 and ISS-017 require source-contract review and
-owner task authorisation, not prior resolution of unrelated LA/household issues.
+dependencies ISS-004 and ISS-005 require source-contract review, alongside the
+recurring task-authorisation/dataset checks in AGENTS.md. ISS-017 concerns the
+later planning-units source, not Task 007. Neither requires prior resolution of
+unrelated LA/household issues.
 This task does not start Task 007 or approve any ingestion batch.

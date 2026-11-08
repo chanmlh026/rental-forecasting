@@ -127,6 +127,14 @@ silently changing approved project decisions.
   methodology, architecture, feature-definition and data-substitution decisions
   require project-owner approval. Known data-quality limitations are not
   automatically blockers or reasons to reject a dataset.
+- Confirm project-owner authorisation for each ingestion task within its actual
+  scope; approval of Task 007 does not authorise later ingestion tasks. Check
+  access and licensing requirements for every applicable dataset, recording the
+  evidence in that task's normal report/source documentation.
+- Treat recurring authorisation and routine dataset checks as workflow duties,
+  not permanent Open issues. Register concrete unresolved access/licensing
+  findings and retain them until evidence and any necessary approval support
+  resolution; task authorisation alone does not resolve a source-specific issue.
 - Include a brief final issue summary: relevant issues reviewed, new issues,
   issues resolved/updated, and remaining blockers or owner decisions. Use this
   single register; do not add per-dataset issue files, automated enforcement,
