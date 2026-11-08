@@ -155,8 +155,13 @@ thresholds, assess predictive usefulness, or implement ingestion or features.
 
 Repository review reused the [Task 005.1 audit](005.1-ons-pipr-workbook-coverage-audit.md),
 [Task 006 guide](006-ons-pipr-ingestion.md), README, storage configuration,
-pinned geography reference, and existing implementation/tests. **No Task 006.1
-artifact or findings were found**; its conclusions cannot be assumed. Earlier
+pinned geography reference, and existing implementation/tests. The [Task 006.1
+reliability-hardening prompt](006.1-harden-ons-pipr-ingestion-reliability-and-release-validation.md)
+has now been restored from its original Word document. It establishes the task's
+instructions, not an execution report; the source ends at "4. Improve Future
+Release", so later instructions and acceptance criteria are unavailable.
+Existing commit `dcde621` records completion of Tasks 006 and 006.1, while the
+Task 006 guide describes the implemented reliability behavior. Earlier
 audit recommendations awaiting cohort approval are historical; the 294-LA
 cohort is now approved in Task 006 and the current task.
 
@@ -640,8 +645,11 @@ No cloud deployment, dependency installation or modelling is authorised here.
 7. **Operating decisions retained:** confirm forecast timezone/schedule,
    common-origin missing-series policy and canonical target vintage in their
    later tasks. This assessment does not impose thresholds or change Option A.
-8. **Missing prior context:** supply or locate Task 006.1 findings if they
-   exist outside this checkout; none were available to incorporate here.
+8. **Task 006.1 source limitation:** the original prompt is restored and linked
+   above, and the implementation guide and existing completion commit provide
+   related context. The supplied Word document stops at its Section 4 heading;
+   recover the remainder if available. No historical execution timestamps or
+   duration are established by restoring instructions or inspecting a commit.
 9. **Roadmap approval:** review proposed Tasks 007-013 and any split/merge before
    implementation. No approval is inferred from successful source access.
 

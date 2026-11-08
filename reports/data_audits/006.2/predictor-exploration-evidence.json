@@ -956,7 +956,7 @@
       "E08000038": "Barnsley",
       "E08000039": "Sheffield"
     },
-    "Task_006_1": "No Task 006.1 file or findings found in repository; not inferred",
+    "Task_006_1": "Original prompt restored as docs/006.1-harden-ons-pipr-ingestion-reliability-and-release-validation.md from its Word source. Source stops at section 4 heading; later instructions/acceptance criteria unavailable. Prompt is not an execution report. Existing commit dcde621 records completion of Tasks 006 and 006.1; no execution timestamps or durations inferred.",
     "ASHE": "2026 provisional ZIP request returned HTTP 403; file contents and 294-authority completeness not verified"
   }
 }
