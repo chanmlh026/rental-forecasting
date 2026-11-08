@@ -57,3 +57,40 @@ silently changing approved project decisions.
   in chronological order, with dated entries. Never overwrite the original
   prompt or earlier instructions.
 - After completing each archived task, report the saved prompt file path.
+
+## Task Execution Time Tracking
+
+- Track each development task in the single version-controlled
+  `docs/task-execution-log.csv`. At the start of work, create or update its row
+  with the recorded start timestamp and `In Progress` status. Use ISO 8601
+  timestamps with timezone information, consistently in UTC (`+00:00`).
+- Maintain exactly one row per `task_id`, preserving task IDs as text (including
+  leading zeros and subtask numbers). Update that row when work resumes or the
+  task is revised; keep rows in chronological task order where practical.
+- At completion or when stopping work, record the measured end timestamp,
+  elapsed wall-clock duration in numeric minutes, and status. Allowed statuses
+  are `Completed`, `In Progress`, `Blocked`, and `Failed`. Keep paused or
+  incomplete work `In Progress` (or `Blocked` when applicable), and explain the
+  pause or stop in `timing_notes`; do not mark unfinished tasks completed.
+- Use actual recorded timestamps or reliable session logs. Calculate minutes
+  from measured elapsed seconds divided by 60, or a reliable logged millisecond
+  duration divided by 60,000. Record the evidence source, timing precision and
+  measurement cutoff in `timing_notes`; never invent or estimate missing times.
+  Leave unavailable timestamp/duration fields blank and explain limitations.
+- For multiple work sessions, retain the first recorded start and latest
+  recorded stop in the same row, but sum only measured work-session intervals
+  for `duration_minutes`; do not count gaps between sessions automatically.
+  Preserve session intervals, evidence and prior measured totals in
+  `timing_notes`. If the full total is unavailable, leave the total blank and
+  record any measured subtotal and missing intervals in the notes.
+- Where practical, record measured user-input/approval waits separately in
+  `timing_notes`. Wall-clock duration includes waits within a work session;
+  do not silently subtract them or estimate active execution time. Disclose
+  unmeasured waits and any final reporting/commit time outside the cutoff.
+- Update the same CSV after each development task, including stops/resumptions.
+  Preserve its agreed seven columns and standard CSV quoting. Historical rows
+  may be added only with reliable timing evidence; questions/discussions do not
+  require task rows. Keep tracking manual and lightweight without new tools,
+  dependencies, services or per-task execution logs.
+- Include task ID, start, end, duration in minutes, status and timing limitations
+  in the final task report, alongside the existing prompt archive path.
