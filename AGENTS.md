@@ -94,3 +94,48 @@ silently changing approved project decisions.
   dependencies, services or per-task execution logs.
 - Include task ID, start, end, duration in minutes, status and timing limitations
   in the final task report, alongside the existing prompt archive path.
+
+## Project Issue Register and Dependency Management
+
+- Before a development task, review [docs/issue-register.md](docs/issue-register.md).
+  Identify relevant unresolved issues by affected area and Required Before
+  checkpoint; inspect detailed supporting evidence only as needed. Keep checks
+  lightweight rather than rereading every historical task or research report.
+- Classify each relevant issue for the current scope: it does not block the task,
+  it can be investigated/handled safely within the authorised scope, or it needs
+  prerequisite resolution/project-owner approval. Record applicable issue IDs
+  and the dependency outcome in the task's normal report.
+- **Proceed** when no unresolved prerequisite prevents reliable execution.
+  **Proceed with documented limitations** when the issue can be preserved,
+  investigated or safely handled within scope; record limitations and follow-up
+  actions. Do not silently make methodological decisions to bypass issues.
+- **Blocked - Approval Required:** stop the affected implementation when a
+  material decision, unapproved data substitution or necessary prerequisite
+  prevents correct execution. Report the issue ID, why it blocks, required
+  decision/action and available alternatives. Continue independent unaffected
+  activities when safe; do not block unrelated work unnecessarily.
+- After each development task, review new findings, add material unresolved
+  issues, update existing statuses/evidence and avoid duplicate or overlapping
+  entries. Keep detailed measurements in source documentation and link them.
+  Maintain stable IDs and retain resolved issues as a historical decision record.
+- Use `Open`, `In Progress`, `Resolved` and `Deferred` consistently, as defined
+  in the register. A Deferred issue needs a future checkpoint and must not bypass
+  a current prerequisite. Mark Resolved only after the required action,
+  validation and any necessary owner approval are complete; record the outcome
+  and supporting approval/evidence, not merely an attempted or proposed solution.
+- Routine engineering issues may be resolved within an authorised task. Material
+  methodology, architecture, feature-definition and data-substitution decisions
+  require project-owner approval. Known data-quality limitations are not
+  automatically blockers or reasons to reject a dataset.
+- Confirm project-owner authorisation for each ingestion task within its actual
+  scope; approval of Task 007 does not authorise later ingestion tasks. Check
+  access and licensing requirements for every applicable dataset, recording the
+  evidence in that task's normal report/source documentation.
+- Treat recurring authorisation and routine dataset checks as workflow duties,
+  not permanent Open issues. Register concrete unresolved access/licensing
+  findings and retain them until evidence and any necessary approval support
+  resolution; task authorisation alone does not resolve a source-specific issue.
+- Include a brief final issue summary: relevant issues reviewed, new issues,
+  issues resolved/updated, and remaining blockers or owner decisions. Use this
+  single register; do not add per-dataset issue files, automated enforcement,
+  databases, services or dependencies solely for issue management.
