@@ -95,6 +95,50 @@ silently changing approved project decisions.
 - Include task ID, start, end, duration in minutes, status and timing limitations
   in the final task report, alongside the existing prompt archive path.
 
+## Development Process Journal
+
+- Maintain one Markdown journal per development stage in
+  [docs/development-journal/](docs/development-journal/). The current stage is
+  [data ingestion](docs/development-journal/01-data-ingestion.md). Identify the
+  relevant stage for each task; review its journal when needed for context or
+  to avoid duplicate entries. Create another stage journal only when that
+  stage begins; do not create empty future-stage journals.
+- Record significant human-initiated and AI-initiated development events in
+  the stage where they occurred. Keep entries concise and chronological,
+  using the same factual fields across journals: date and related task (with
+  date precision or uncertainty), event/trigger, initiated by (Human, AI or
+  Jointly where established), human actions, AI actions, decision and stated
+  rationale, outcome/status, and evidence references. Omit inapplicable or
+  unestablished fields; disclose material attribution gaps. Distinguish
+  ChatGPT advisory contributions from Codex implementation where known.
+- During or after each substantive task, record significant new events,
+  including explicitly supplied human requirements and decisions and events
+  outside numbered tasks. Do not require an entry for every prompt, code
+  change or minor interaction, or reading the entire journal for routine work.
+  Consult relevant entries selectively. Record human and AI actions separately
+  where evidence permits; never infer stated reasons when they are unavailable.
+- Update an existing entry when later actions materially change its status,
+  preserving previously recorded facts and chronological history through
+  dated updates. Clearly distinguish proposals from approved decisions and
+  record actual outcomes with supporting evidence.
+- Preserve links to relevant tasks, decisions, evidence and outcomes instead
+  of duplicating detailed technical documentation. Do not infer completed
+  work from a prompt alone or invent historical events, dates, motivations,
+  missing conversations or approvals. Identify reconstructed entries and
+  their evidence limitations.
+- Do not duplicate an event across stage journals. If an issue is addressed
+  in a later stage, record that new action there and reference the original
+  event or issue. Maintain cross-references for decisions and issues spanning
+  stages, using the existing issue register where applicable.
+- Record facts only: do not add interpretations, lessons learned or
+  conclusions about AI-assisted development. Keep maintenance manual and
+  lightweight, without additional journal-management infrastructure.
+- Use the journal for events, the issue register for outstanding dependencies
+  and resolutions, the shared execution CSV for measured task durations, task
+  archives for original instructions, and the dictionary/audits for technical
+  findings. Link between them; include timing in a journal only when relevant
+  to a significant event.
+
 ## Project Issue Register and Dependency Management
 
 - Before a development task, review [docs/issue-register.md](docs/issue-register.md).
