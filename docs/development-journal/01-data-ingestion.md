@@ -231,6 +231,8 @@ is stated explicitly. Detailed findings remain in their source documents.
   timestamp timezone remain unverified. ISS-004/ISS-005 remain Open; their evidence
   and remaining actions were updated. No published values were adjusted and no
   production ingestion, feature engineering or modelling was implemented.
+  Dated update, 20 November 2026: investigation completed and findings/evidence
+  pushed to feature/007-boe-ingestion for independent review; no PR or merge.
 - **Evidence/references:** [Owner instructions and investigation](../007.1-iumzid4-historical-revisions-and-publication-vintages.md),
   [retained source evidence](../../reports/data_audits/007.1/),
   [ISS-004/ISS-005](../issue-register.md#issues),
