@@ -209,3 +209,29 @@ is stated explicitly. Detailed findings remain in their source documents.
   after archive comparison. Prior incomplete status remains in the task report.
 - **Evidence/references:** [Instructions and prior report](../006.8-stage-specific-development-journals.md),
   [ISS-019](../issue-register.md#issues), [timing record](../task-execution-log.csv).
+
+
+## 20 November 2026 - IUMZID4 vintage investigation (Task 007.1)
+
+- **Event/trigger:** Owner requested evidence on IUMZID4 historical revisions
+  before finalising the Bank of England ingestion design.
+- **Initiated by:** Human, through the Task 007.1 instructions.
+- **Human actions:** Retained IUMZID4 without statistical correction, required
+  documentation of the February 2019 transition, deferred modelling treatment
+  and authorised source investigation only. No Task 007 implementation or PR.
+- **AI actions (Codex):** Checked official documentation and tested ten selected
+  months through XML, current CSV and HTML/Excel exports. Retained requests,
+  response metadata, parent-linked revision extracts and failed-method evidence.
+- **Decision and rationale:** Codex recommends considering XML history alongside
+  immutable current-source snapshots because actual historical value changes
+  were demonstrated; this recommendation is not an approved ingestion design.
+- **Outcome/status:** XML returns earlier and revised values, including provisional
+  states. HTML previous-value controls were not demonstrated; filter attempts
+  returned application errors. Complete first-publication coverage and source
+  timestamp timezone remain unverified. ISS-004/ISS-005 remain Open; their evidence
+  and remaining actions were updated. No published values were adjusted and no
+  production ingestion, feature engineering or modelling was implemented.
+- **Evidence/references:** [Owner instructions and investigation](../007.1-iumzid4-historical-revisions-and-publication-vintages.md),
+  [retained source evidence](../../reports/data_audits/007.1/),
+  [ISS-004/ISS-005](../issue-register.md#issues),
+  [timing record](../task-execution-log.csv).

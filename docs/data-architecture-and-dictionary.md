@@ -247,13 +247,25 @@ arithmetic, not publisher guarantees.
 **BTL history and release evidence.** The [BoE September 2016 paper](https://www.bankofengland.co.uk/-/media/boe/files/statistics/bankstats-articles/2016/forthcoming-improvements-to-interest-rate-statistics---bankstats-article.pdf?hash=09A713F2C36E4E882504CBD3EDB727F344F44513&la=en)
 identifies IUMZID4 as a new series backdated to January 2012: earlier observation
 history is not proof of contemporaneous publication. The [March 2019 changes](https://www.bankofengland.co.uk/-/media/boe/files/statistics/bankstats-articles/2019/introduction-of-new-quoted-rates-data.pdf)
-expanded sampling, changed weighting/product selection, changed end-month
-measurement to monthly average, and moved publication to fifth working day with
-next-month reweighting. The [general FAQ](https://www.bankofengland.co.uk/Statistics/faqs)
-still describes working days 5 and 21. These general/specific cadence descriptions
-conflict: verify actual relevant release calendars in Task 007 rather than assuming
-one lag throughout history. Do not silently splice measurement regimes or treat
-the latest CSV as a historical-vintage archive.
+expanded sampling and product selection, changed end-month measurement to monthly
+average, and moved publication to the fifth working day with next-month
+reweighting. The product-specific source table retains quarterly MLAR weighting
+for BTL on both sides of February 2019; do not apply the general PSD description
+to BTL without checking that distinction. The general FAQ's two-update cadence
+is historical/general context, not a basis for imposing that schedule after
+the dated change.
+
+[Task 007.1](007.1-iumzid4-historical-revisions-and-publication-vintages.md#investigation-report---20-november-2026)
+subsequently demonstrated IUMZID4 XML revision histories, including provisional
+values and intermediate updates, for selected months. The update-date filter
+selects changes since a date, not a historical as-of snapshot. Complete first
+publication coverage and the timezone/public-availability meaning of source
+timestamps remain unverified; the latest CSV alone is not a vintage archive.
+The limited -0.17pp BTL methodology comparison is illustrative, not a correction
+factor. The owner retains IUMZID4 without statistical adjustment, documents the
+break and defers modelling treatment; Task 007 implementation still requires
+authorisation. See the linked evidence for selected-month results, source
+requests, July 2018 population note and remaining ISS-004/ISS-005 limitations.
 
 **Existing household-income evidence retained.** The earlier investigation
 identified [regional GDHI](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomegdhi)

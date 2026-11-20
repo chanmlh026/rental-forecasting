@@ -1,0 +1,19 @@
+[
+  {
+    "id": "selection-filter",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=IUMZID4&From=Template&Travel=NIxSUx&Filter=Y"
+  },
+  {
+    "id": "html-normal-filter",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?html.x=yes&SeriesCodes=IUMZID4&UsingCodes=Y&DAT=RNG&FD=1&FM=Jan&FY=2019&TD=31&TM=Mar&TY=2019&VPD=Y&VFD=Y&CSVF=TN&Travel=NIxSUx&Filter=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "html-export-filter",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?html.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&Filter=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-no-user-agent",
+    "user_agent": "Python-urllib/3.12",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  }
+]
