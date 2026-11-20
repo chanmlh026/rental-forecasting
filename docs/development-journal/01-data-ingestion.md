@@ -187,7 +187,9 @@ is stated explicitly. Detailed findings remain in their source documents.
   amended its organisation to one file per stage. The stated record-coverage gap
   is owner-provided evidence; the earlier recognition date is unavailable.
 - **Outcome/status:** Current ingestion journal created; future-stage journals
-  are to begin only with those stages.
+  are to begin only with those stages. Dated update, 20 November 2026:
+  combined requirements checked and [Draft PR #3](https://github.com/chanmlh026/rental-forecasting/pull/3)
+  published for independent review; no merge performed.
 - **Evidence/references:** [Original prompt and amendment](../006.8-stage-specific-development-journals.md),
   [journal rules](../../AGENTS.md#development-process-journal).
 
