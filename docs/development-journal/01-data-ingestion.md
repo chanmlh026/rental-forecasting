@@ -381,3 +381,77 @@ is stated explicitly. Detailed findings remain in their source documents.
   passed. Approval/merge remain with the owner; no merge performed.
 - **Evidence/references:** [Task 007.4 prompt/report](../007.4-prepare-boe-ingestion-milestone-pull-request.md),
   [issue register](../issue-register.md#issues), [execution timing](../task-execution-log.csv).
+
+## 21 November 2026 - Approved inflation/HPI decisions and implementation (Task 008)
+
+- **Event/trigger:** Owner authorised Task 008 after the Bank of England milestone.
+  Codex observed remote main at merge commit `48bae0947f294d59631cb160e73b5a7aeeefc62a`;
+  this records the observed baseline, not an inferred merge actor or exact time.
+- **Initiated by:** Human.
+- **Human actions:** Approved both CPI and CPIH, their annual rates and index
+  levels, all-property HPI price/index for the existing 294-LA cohort, and
+  preservation of original vintages and available revisions. Required source
+  coverage/reconciliation, immutable provenance and no feature/model work.
+- **Owner decision 1 and stated rationale:** Retain both CPI and CPIH because
+  ingestion collects potentially relevant official predictors without deciding
+  usefulness early. Their concepts differ; usefulness, overlap with rent data
+  and possible correlation will be evaluated during later preprocessing/modelling.
+- **Owner decision 2 and stated rationale:** Retain published inflation rates
+  and underlying indices to allow later feature development without prematurely
+  fixing final model inputs.
+- **Owner decision 3 and stated rationale:** Retain all-property LA HPI measures
+  because local property-market conditions may inform rent forecasts; predictive
+  usefulness remains unestablished and will be evaluated later.
+- **Owner decision 4 and stated rationale:** Keep original snapshots and available
+  revision information so future preprocessing/backtests can distinguish reference
+  periods from information available at forecast cutoffs. No first-release policy
+  for these sources was approved by the IUMZID4 decision.
+- **AI actions (Codex):** Archived the task, created the dedicated branch from
+  merged main, checked official sources/licences and dependencies, reused existing
+  immutable/security primitives, and implemented the two independent source
+  contracts. Retained four current/prior ONS pairs and two HPI releases with
+  England revision matrices; produced full-source/cohort/coverage Parquet.
+- **Significant problems/interventions:** Sandbox access required approved
+  retrieval. HPI's visible publication date needed a validated text fallback;
+  independent attribute exports had different date/headings from the full file.
+  An audit-script syntax error was corrected before final validation. No missing
+  source data, values or geographic mappings were invented to bypass failures.
+- **Decision and rationale (Codex implementation):** Preserve each release rather
+  than select earliest values, matching the authorised vintage policy. Use exact
+  official codes for the cohort, with both source/approved names retained.
+  The release summary confirms HPI's Jan 2023 base; no re-reference is calculated.
+- **Outcome/status:** 117 tests passed. All 1,840 current inflation observations
+  and each of 152,730 HPI price/index rows reconciled with independent official
+  exports. The Sep HPI cohort has 294 x 381 complete months; 11 name differences
+  are flagged. Aug/Sep cohort revisions are retained (3,523 prices/2,843 indices).
+  Sixty snapshot files remained unchanged on offline reruns. ISS-003/004/012/013
+  were updated and remain Open; ISS-014 remains a future cutoff decision. No
+  feature engineering, source substitution or changes to earlier ingestion.
+  Dated update, 21 November 2026: Task 008 completed for independent review;
+  implementation commit `3865292416bac061bc98348297aafe87f2de84f1` pushed and
+  matched the remote development branch. Local/remote main unchanged; no PR,
+  merge or Task 009 work. Measured timing is recorded in the shared CSV.
+- **Evidence/references:** [Owner prompt and report](../008-ons-inflation-and-uk-hpi-ingestion.md),
+  [source/reconciliation evidence](../../reports/data_audits/008/validation-evidence.json),
+  [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+
+## 21 November 2026 - Task 008 review and stable-baseline merge (Task 008.1)
+
+- **Event/trigger:** Owner requested review and merge of completed Task 008
+  before further ingestion tasks, conditional on passing tests and no material
+  review finding or merge conflict.
+- **Initiated by:** Human.
+- **Human actions:** Authorised PR creation/reuse and conditional merge into
+  main. Prohibited methodological changes, history rewriting, force pushes and
+  beginning Tasks 009-013; unresolved issues must remain open.
+- **AI actions (Codex):** Verified clean matching local/remote feature heads,
+  inspected the expected 13-file diff, reviewed new code/tests and evidence,
+  refreshed the complete test suite (117 passed), and replayed source audit
+  checks (all comparisons pass; 60 snapshot files unchanged). Initial search
+  found no PR. No implementation or ingestion data changed.
+- **Outcome/status:** Pre-merge review passed with the existing documented
+  limitations. PR creation, checks and actual merge result are recorded in
+  the task report after the corresponding actions. No issue is closed by merge.
+- **Evidence/references:** [Task 008.1 prompt/report](../008.1-merge-task-008-and-establish-stable-baseline.md),
+  [Task 008 evidence](../../reports/data_audits/008/validation-evidence.json),
+  [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).

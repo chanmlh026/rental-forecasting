@@ -1,0 +1,1006 @@
+{
+  "task": "008",
+  "offline_reruns_unchanged": true,
+  "existing_snapshot_files_checked": 60,
+  "inflation": [
+    {
+      "series_id": "D7G7",
+      "observation_start": "1989-01",
+      "observation_end": "2026-10",
+      "observation_count": 454,
+      "missing_months": [],
+      "missing_values": 0,
+      "matched_csv_months": 454,
+      "prior_version": "v132",
+      "prior_release_date": "2026-10-20",
+      "prior_months": 453,
+      "overlapping_revised_values": 0,
+      "current_release_date": "2026-11-18",
+      "unit": "%",
+      "index_base_year": "2015",
+      "selected_examples": [
+        {
+          "observation_month": "1989-01",
+          "source_value_text": "4.9"
+        },
+        {
+          "observation_month": "2026-09",
+          "source_value_text": "3.5"
+        },
+        {
+          "observation_month": "2026-10",
+          "source_value_text": "3.6"
+        }
+      ]
+    },
+    {
+      "series_id": "D7BT",
+      "observation_start": "1988-01",
+      "observation_end": "2026-10",
+      "observation_count": 466,
+      "missing_months": [],
+      "missing_values": 0,
+      "matched_csv_months": 466,
+      "prior_version": "v133",
+      "prior_release_date": "2026-10-20",
+      "prior_months": 465,
+      "overlapping_revised_values": 0,
+      "current_release_date": "2026-11-18",
+      "unit": "Index, base year = 100",
+      "index_base_year": "2015",
+      "selected_examples": [
+        {
+          "observation_month": "1988-01",
+          "source_value_text": "48.4"
+        },
+        {
+          "observation_month": "2026-09",
+          "source_value_text": "144.1"
+        },
+        {
+          "observation_month": "2026-10",
+          "source_value_text": "144.9"
+        }
+      ]
+    },
+    {
+      "series_id": "L55O",
+      "observation_start": "1989-01",
+      "observation_end": "2026-10",
+      "observation_count": 454,
+      "missing_months": [],
+      "missing_values": 0,
+      "matched_csv_months": 454,
+      "prior_version": "v133",
+      "prior_release_date": "2026-10-20",
+      "prior_months": 453,
+      "overlapping_revised_values": 0,
+      "current_release_date": "2026-11-18",
+      "unit": "%",
+      "index_base_year": "2015",
+      "selected_examples": [
+        {
+          "observation_month": "1989-01",
+          "source_value_text": "5.7"
+        },
+        {
+          "observation_month": "2026-09",
+          "source_value_text": "3.6"
+        },
+        {
+          "observation_month": "2026-10",
+          "source_value_text": "3.7"
+        }
+      ]
+    },
+    {
+      "series_id": "L522",
+      "observation_start": "1988-01",
+      "observation_end": "2026-10",
+      "observation_count": 466,
+      "missing_months": [],
+      "missing_values": 0,
+      "matched_csv_months": 466,
+      "prior_version": "v134",
+      "prior_release_date": "2026-10-20",
+      "prior_months": 465,
+      "overlapping_revised_values": 0,
+      "current_release_date": "2026-11-18",
+      "unit": "Index, base year = 100",
+      "index_base_year": "2015",
+      "selected_examples": [
+        {
+          "observation_month": "1988-01",
+          "source_value_text": "46.9"
+        },
+        {
+          "observation_month": "2026-09",
+          "source_value_text": "144.0"
+        },
+        {
+          "observation_month": "2026-10",
+          "source_value_text": "144.6"
+        }
+      ]
+    }
+  ],
+  "comparison_sources": {
+    "D7G7": {
+      "checksums": {
+        "response.bin": "4ffe4b42bb060a8138d1c55fc1442343ca77aa687e4428415545bc297a15ec6f"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7G7-csv",
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7g7%2Fmm23"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7g7%2Fmm23",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/octet-stream;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 14:00:34 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"b183912596bd3720fb70e4a0e2df185756d8771b--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T14:00:32.913404+00:00",
+        "retrieved_at": "2026-11-21T14:00:33.139652+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7g7%2Fmm23"
+      },
+      "source_sha256": "4ffe4b42bb060a8138d1c55fc1442343ca77aa687e4428415545bc297a15ec6f"
+    },
+    "D7BT": {
+      "checksums": {
+        "response.bin": "fe1d758dfed5205f458062a27097983e266989c8a2d262642b80c4e827a3bfab"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7BT-csv",
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7bt%2Fmm23"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7bt%2Fmm23",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/octet-stream;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 14:00:34 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"60b95ac1ee951d975ade60b8a4922577a0c19116--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T14:00:33.175053+00:00",
+        "retrieved_at": "2026-11-21T14:00:33.313718+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fd7bt%2Fmm23"
+      },
+      "source_sha256": "fe1d758dfed5205f458062a27097983e266989c8a2d262642b80c4e827a3bfab"
+    },
+    "L55O": {
+      "checksums": {
+        "response.bin": "5be75a0500118a2446f2c7159c991364bda32c0ed0b627a8c2ab8714f1462bc6"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L55O-csv",
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl55o%2Fmm23"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl55o%2Fmm23",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/octet-stream;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 14:00:35 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"73d535b47cd8f89d323ea1f67f7724320a3178be--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T14:00:33.377878+00:00",
+        "retrieved_at": "2026-11-21T14:00:33.828992+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl55o%2Fmm23"
+      },
+      "source_sha256": "5be75a0500118a2446f2c7159c991364bda32c0ed0b627a8c2ab8714f1462bc6"
+    },
+    "L522": {
+      "checksums": {
+        "response.bin": "9d251036cc9f58b8e867dcc12a137c28dce1b3d27df0b5204331d931b6e25ce5"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L522-csv",
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl522%2Fmm23"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl522%2Fmm23",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/octet-stream;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 14:00:35 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"2ff39aa7416a9be823da9a7b891a0ce5477b0457--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T14:00:33.887028+00:00",
+        "retrieved_at": "2026-11-21T14:00:34.005462+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/generator?format=csv&uri=%2Feconomy%2Finflationandpriceindices%2Ftimeseries%2Fl522%2Fmm23"
+      },
+      "source_sha256": "9d251036cc9f58b8e867dcc12a137c28dce1b3d27df0b5204331d931b6e25ce5"
+    },
+    "AveragePrice": {
+      "checksums": {
+        "response.bin": "802e3db6822b08551fed907de37d2265732a9e4af35399aa5a0bd0464199fce9"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "AveragePrice",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Average-prices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=average_price&utm_term=9.30_18_11_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Average-prices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=average_price&utm_term=9.30_18_11_26",
+        "response_headers": {
+          "Content-Length": "7600567",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 10:00:35 GMT",
+          "ETag": "\"50fed38d688959fca3a23d3ccde66fb0\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:20:22 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T14:00:34.128035+00:00",
+        "retrieved_at": "2026-11-21T14:00:35.016014+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Average-prices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=average_price&utm_term=9.30_18_11_26"
+      },
+      "source_sha256": "802e3db6822b08551fed907de37d2265732a9e4af35399aa5a0bd0464199fce9"
+    },
+    "Index": {
+      "checksums": {
+        "response.bin": "72a1e16bca195d3210a4988d6c4e5034d8a61c19342215c3c4c75f8d73a91b4c"
+      },
+      "identity": {
+        "dataset": "task008_audit",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "Index",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Indices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=index&utm_term=9.30_18_11_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Indices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=index&utm_term=9.30_18_11_26",
+        "response_headers": {
+          "Content-Length": "5856827",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 05:00:03 GMT",
+          "ETag": "\"dd3b979bb73295ba129a8ca374f8f785\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:20:57 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T14:03:14.168558+00:00",
+        "retrieved_at": "2026-11-21T14:03:15.114391+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Indices-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=index&utm_term=9.30_18_11_26"
+      },
+      "source_sha256": "72a1e16bca195d3210a4988d6c4e5034d8a61c19342215c3c4c75f8d73a91b4c"
+    }
+  },
+  "AveragePrice_independent_rows_matched": 152730,
+  "Index_independent_rows_matched": 152730,
+  "hpi": {
+    "source_rows": 152730,
+    "source_columns": [
+      "Date",
+      "RegionName",
+      "AreaCode",
+      "AveragePrice",
+      "Index",
+      "IndexSA",
+      "1m%Change",
+      "12m%Change",
+      "AveragePriceSA",
+      "SalesVolume",
+      "DetachedPrice",
+      "DetachedIndex",
+      "Detached1m%Change",
+      "Detached12m%Change",
+      "SemiDetachedPrice",
+      "SemiDetachedIndex",
+      "SemiDetached1m%Change",
+      "SemiDetached12m%Change",
+      "TerracedPrice",
+      "TerracedIndex",
+      "Terraced1m%Change",
+      "Terraced12m%Change",
+      "FlatPrice",
+      "FlatIndex",
+      "Flat1m%Change",
+      "Flat12m%Change",
+      "CashPrice",
+      "CashIndex",
+      "Cash1m%Change",
+      "Cash12m%Change",
+      "CashSalesVolume",
+      "MortgagePrice",
+      "MortgageIndex",
+      "Mortgage1m%Change",
+      "Mortgage12m%Change",
+      "MortgageSalesVolume",
+      "FTBPrice",
+      "FTBIndex",
+      "FTB1m%Change",
+      "FTB12m%Change",
+      "FOOPrice",
+      "FOOIndex",
+      "FOO1m%Change",
+      "FOO12m%Change",
+      "NewPrice",
+      "NewIndex",
+      "New1m%Change",
+      "New12m%Change",
+      "NewSalesVolume",
+      "OldPrice",
+      "OldIndex",
+      "Old1m%Change",
+      "Old12m%Change",
+      "OldSalesVolume"
+    ],
+    "observation_start": "1968-04",
+    "observation_end": "2026-09",
+    "source_areas": 405,
+    "cohort_size": 294,
+    "cohort_codes_matched": 294,
+    "cohort_rows": 112014,
+    "unmatched_cohort_codes": [],
+    "missing_cohort_area_months": 0,
+    "incomplete_cohort_measure_cells": 0,
+    "source_missing_prices": 0,
+    "source_missing_indices": 0,
+    "index_base_month": "2023-01",
+    "source_name_differences": [
+      {
+        "area_code": "E06000010",
+        "source_area_name": "City of Kingston upon Hull",
+        "cohort_area_name": "Kingston upon Hull, City of"
+      },
+      {
+        "area_code": "E06000015",
+        "source_area_name": "City of Derby",
+        "cohort_area_name": "Derby"
+      },
+      {
+        "area_code": "E06000018",
+        "source_area_name": "City of Nottingham",
+        "cohort_area_name": "Nottingham"
+      },
+      {
+        "area_code": "E06000019",
+        "source_area_name": "Herefordshire",
+        "cohort_area_name": "Herefordshire, County of"
+      },
+      {
+        "area_code": "E06000023",
+        "source_area_name": "City of Bristol",
+        "cohort_area_name": "Bristol, City of"
+      },
+      {
+        "area_code": "E06000026",
+        "source_area_name": "City of Plymouth",
+        "cohort_area_name": "Plymouth"
+      },
+      {
+        "area_code": "E06000031",
+        "source_area_name": "City of Peterborough",
+        "cohort_area_name": "Peterborough"
+      },
+      {
+        "area_code": "E06000058",
+        "source_area_name": "Bournemouth Christchurch and Poole",
+        "cohort_area_name": "Bournemouth, Christchurch and Poole"
+      },
+      {
+        "area_code": "E07000146",
+        "source_area_name": "King's Lynn and West Norfolk ",
+        "cohort_area_name": "King's Lynn and West Norfolk"
+      },
+      {
+        "area_code": "E08000013",
+        "source_area_name": "St Helens",
+        "cohort_area_name": "St. Helens"
+      },
+      {
+        "area_code": "E09000033",
+        "source_area_name": "City of Westminster",
+        "cohort_area_name": "Westminster"
+      }
+    ],
+    "revision_cells": 22599,
+    "revision_nonmissing_cells": 12716,
+    "revision_scope": "England aggregate; does not establish Local Authority vintages",
+    "cohort_observation_start": "1995-01",
+    "cohort_observation_end": "2026-09",
+    "cohort_months": 381,
+    "source_series_with_calendar_gaps": [],
+    "area_codes_with_multiple_source_names": 0,
+    "codes_added_since_prior_release": [],
+    "codes_removed_since_prior_release": [],
+    "release_date": "2026-11-18",
+    "prior_release_reference": "2026-08",
+    "prior_cohort_rows": 111720,
+    "overlapping_cohort_rows": 111720,
+    "revised_price_rows": 3523,
+    "revised_index_rows": 2843,
+    "selected_examples": [
+      {
+        "area_code": "E06000001",
+        "source_area_name": "Hartlepool",
+        "observation_month": "1995-01",
+        "source_price_text": "38653",
+        "source_index_text": "30.2"
+      },
+      {
+        "area_code": "E06000001",
+        "source_area_name": "Hartlepool",
+        "observation_month": "2026-09",
+        "source_price_text": "139174",
+        "source_index_text": "108.9"
+      },
+      {
+        "area_code": "E08000038",
+        "source_area_name": "Barnsley",
+        "observation_month": "1995-01",
+        "source_price_text": "37385",
+        "source_index_text": "23.5"
+      },
+      {
+        "area_code": "E08000038",
+        "source_area_name": "Barnsley",
+        "observation_month": "2026-09",
+        "source_price_text": "175039",
+        "source_index_text": "110.2"
+      },
+      {
+        "area_code": "E09000033",
+        "source_area_name": "City of Westminster",
+        "observation_month": "1995-01",
+        "source_price_text": "141417",
+        "source_index_text": "11.5"
+      },
+      {
+        "area_code": "E09000033",
+        "source_area_name": "City of Westminster",
+        "observation_month": "2026-09",
+        "source_price_text": "861130",
+        "source_index_text": "70.3"
+      }
+    ]
+  },
+  "hpi_sources": {
+    "release_page": {
+      "checksums": {
+        "response.bin": "b45a66a45b2cbd19ea44067817dd0de7b30f0063a72671d072396e0262fe40ea"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "release-page",
+        "url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-september-2026"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-september-2026",
+        "response_headers": {
+          "Cache-Control": "max-age=300, public",
+          "Content-Length": "78391",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:55:13 GMT",
+          "Etag": "W/\"b45a66a45b2cbd19ea44067817dd0de7\"",
+          "Vary": "X-Requested-With, Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T13:55:11.932680+00:00",
+        "retrieved_at": "2026-11-21T13:55:12.203134+00:00",
+        "status": 200,
+        "url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-september-2026"
+      },
+      "source_sha256": "b45a66a45b2cbd19ea44067817dd0de7b30f0063a72671d072396e0262fe40ea"
+    },
+    "release_summary": {
+      "checksums": {
+        "response.bin": "3f3a83e3262650cc1aa32a24a41cac7ff972560bd0363a4313e44cfeb644bd3c"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "release-summary",
+        "url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-september-2026/uk-house-price-index-summary-september-2026"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-september-2026/uk-house-price-index-summary-september-2026",
+        "response_headers": {
+          "Cache-Control": "max-age=300, public",
+          "Content-Length": "191013",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:24 GMT",
+          "Etag": "W/\"3f3a83e3262650cc1aa32a24a41cac7f\"",
+          "Vary": "X-Requested-With, Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:23.011123+00:00",
+        "retrieved_at": "2026-11-21T13:56:23.227690+00:00",
+        "status": 200,
+        "url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-september-2026/uk-house-price-index-summary-september-2026"
+      },
+      "source_sha256": "3f3a83e3262650cc1aa32a24a41cac7ff972560bd0363a4313e44cfeb644bd3c"
+    },
+    "full": {
+      "checksums": {
+        "response.bin": "bce65a8a366038b1568affc7f94819e491d31a5faeebf280941d6cbb5ddf2dc9"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "full",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_18_11_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_18_11_26",
+        "response_headers": {
+          "Content-Length": "35237659",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 10:00:10 GMT",
+          "ETag": "\"1e194236412b979c164161426f9c2947-5\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:22:15 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:23.262180+00:00",
+        "retrieved_at": "2026-11-21T13:56:26.134222+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_18_11_26"
+      },
+      "source_sha256": "bce65a8a366038b1568affc7f94819e491d31a5faeebf280941d6cbb5ddf2dc9"
+    },
+    "revisions_england": {
+      "checksums": {
+        "response.bin": "9a9b9f8eb139eaa8d5a98679ccf0f456677b2428cab048e92bb34bb9250750e3"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "revisions-england",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_18_11_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_18_11_26",
+        "response_headers": {
+          "Content-Length": "88266",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 13:50:03 GMT",
+          "ETag": "\"5f506d6e426e8858c7028cbb59365302\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:21:15 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:26.458809+00:00",
+        "retrieved_at": "2026-11-21T13:56:26.561274+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-09.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_18_11_26"
+      },
+      "source_sha256": "9a9b9f8eb139eaa8d5a98679ccf0f456677b2428cab048e92bb34bb9250750e3"
+    }
+  },
+  "prior_hpi_sources": {
+    "release_page": {
+      "checksums": {
+        "response.bin": "1d9c5aba571b5ddda4a528a10e470a4923cfaf15e6244e9204f33cf059e6ea20"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008-hpi-2026-08",
+        "source": "release-page",
+        "url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-august-2026"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-august-2026--2",
+        "response_headers": {
+          "Cache-Control": "max-age=300, public",
+          "Content-Length": "77750",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:58:43 GMT",
+          "Etag": "W/\"1d9c5aba571b5ddda4a528a10e470a49\"",
+          "Vary": "X-Requested-With, Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T13:58:42.311680+00:00",
+        "retrieved_at": "2026-11-21T13:58:42.594920+00:00",
+        "status": 200,
+        "url": "https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-august-2026"
+      },
+      "source_sha256": "1d9c5aba571b5ddda4a528a10e470a4923cfaf15e6244e9204f33cf059e6ea20"
+    },
+    "release_summary": {
+      "checksums": {
+        "response.bin": "7c46e96370826511e60b7102fd75215168b72175482b600506a7c36715122ffe"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008-hpi-2026-08",
+        "source": "release-summary",
+        "url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-august-2026/uk-house-price-index-summary-august-2026"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-august-2026/uk-house-price-index-summary-august-2026",
+        "response_headers": {
+          "Cache-Control": "max-age=300, public",
+          "Content-Length": "148580",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:58:44 GMT",
+          "Etag": "W/\"7c46e96370826511e60b7102fd752151\"",
+          "Vary": "X-Requested-With, Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T13:58:42.611768+00:00",
+        "retrieved_at": "2026-11-21T13:58:42.762270+00:00",
+        "status": 200,
+        "url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-august-2026/uk-house-price-index-summary-august-2026"
+      },
+      "source_sha256": "7c46e96370826511e60b7102fd75215168b72175482b600506a7c36715122ffe"
+    },
+    "full": {
+      "checksums": {
+        "response.bin": "b00756d0c39f356d17fadf93c42af75ccc48f7123cd666e602c65260d081b6c9"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008-hpi-2026-08",
+        "source": "full",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_21_10_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_21_10_26",
+        "response_headers": {
+          "Content-Length": "35125643",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 07:16:02 GMT",
+          "ETag": "\"b594a44c5ccb66fcd073eb38e5609eb4-5\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:22:15 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T13:58:42.794707+00:00",
+        "retrieved_at": "2026-11-21T13:58:45.274375+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=full_fil&utm_term=9.30_21_10_26"
+      },
+      "source_sha256": "b00756d0c39f356d17fadf93c42af75ccc48f7123cd666e602c65260d081b6c9"
+    },
+    "revisions_england": {
+      "checksums": {
+        "response.bin": "d039f4e70e404c05109c416f2c22e839fc5f90f43e0d9da1ef90438ceb469c6b"
+      },
+      "identity": {
+        "dataset": "uk_hpi",
+        "snapshot_id": "2026-11-21-task008-hpi-2026-08",
+        "source": "revisions-england",
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_21_10_26"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_21_10_26",
+        "response_headers": {
+          "Content-Length": "86387",
+          "Content-Type": "text/csv",
+          "Date": "Sat, 21 Nov 2026 13:58:48 GMT",
+          "ETag": "\"db6a24e04752108ecbba732416e2646c\"",
+          "Last-Modified": "Wed, 18 Nov 2026 09:21:15 GMT"
+        },
+        "retrieval_started_at": "2026-11-21T13:58:45.875517+00:00",
+        "retrieved_at": "2026-11-21T13:58:45.994796+00:00",
+        "status": 200,
+        "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/Revisions-England-2026-08.csv?utm_medium=GOV.UK&utm_source=datadownload&utm_campaign=England_revisions&utm_term=9.30_21_10_26"
+      },
+      "source_sha256": "d039f4e70e404c05109c416f2c22e839fc5f90f43e0d9da1ef90438ceb469c6b"
+    }
+  },
+  "inflation_sources": {
+    "D7G7-current": {
+      "checksums": {
+        "response.bin": "f7fef6130d7c366b8cae1715254c7c3113b2d6a496a2e89cc2313c3c3efc0520"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7G7-current",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:04 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"84758b62e34b7b76393a4d1dab14536950a600a2--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:03.441778+00:00",
+        "retrieved_at": "2026-11-21T13:56:03.593609+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/data"
+      },
+      "source_sha256": "f7fef6130d7c366b8cae1715254c7c3113b2d6a496a2e89cc2313c3c3efc0520"
+    },
+    "D7G7-v132": {
+      "checksums": {
+        "response.bin": "61941f85761d6e3668370f26ddc9a987c5e9b696e02fb586488d53eab40b583b"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7G7-v132",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/previous/v132/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/previous/v132/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=14400, max-age=14400, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:04 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"4e15488f80b8768f39ad6d987ad124158d3f0b3e--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:03.625419+00:00",
+        "retrieved_at": "2026-11-21T13:56:03.694838+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23/previous/v132/data"
+      },
+      "source_sha256": "61941f85761d6e3668370f26ddc9a987c5e9b696e02fb586488d53eab40b583b"
+    },
+    "D7BT-current": {
+      "checksums": {
+        "response.bin": "b94a93c0ace504a2f355e116a2887df04476bcf4cf355dc66d1706b34544c0b4"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7BT-current",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"c86e2d25da5b9e5717ddfd59a1a9d8a0e20bc12b--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:03.727250+00:00",
+        "retrieved_at": "2026-11-21T13:56:03.812384+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/data"
+      },
+      "source_sha256": "b94a93c0ace504a2f355e116a2887df04476bcf4cf355dc66d1706b34544c0b4"
+    },
+    "D7BT-v133": {
+      "checksums": {
+        "response.bin": "baa79e9c8649371e971d4f6ed55b8603720c384017ec76a220e3d24651f0965d"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "D7BT-v133",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/previous/v133/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/previous/v133/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=14400, max-age=14400, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"7aa7b48e80f1fd482ad4916bd2989e8b95d42229--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:03.845158+00:00",
+        "retrieved_at": "2026-11-21T13:56:03.951448+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23/previous/v133/data"
+      },
+      "source_sha256": "baa79e9c8649371e971d4f6ed55b8603720c384017ec76a220e3d24651f0965d"
+    },
+    "L55O-current": {
+      "checksums": {
+        "response.bin": "0d215fccdaed00c27702a4504ab20c8d46a4465516ce40b40acef1460a79ec68"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L55O-current",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"700cb23894445e8e008fcb2fcc6aa032364ad7f0--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:03.980303+00:00",
+        "retrieved_at": "2026-11-21T13:56:04.084136+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/data"
+      },
+      "source_sha256": "0d215fccdaed00c27702a4504ab20c8d46a4465516ce40b40acef1460a79ec68"
+    },
+    "L55O-v133": {
+      "checksums": {
+        "response.bin": "8ccf5800dbed2ff5ffda52322140b897d2fce5ab12f5c3e2c23121047079f5dc"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L55O-v133",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/previous/v133/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/previous/v133/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=14400, max-age=14400, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"2956811b5ff1d49c1d4ed6ead3be4887321d9309--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:04.111667+00:00",
+        "retrieved_at": "2026-11-21T13:56:04.217670+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/previous/v133/data"
+      },
+      "source_sha256": "8ccf5800dbed2ff5ffda52322140b897d2fce5ab12f5c3e2c23121047079f5dc"
+    },
+    "L522-current": {
+      "checksums": {
+        "response.bin": "eeeb021ca514387a0a881f58079cb8a1dc1063bc51d7ffadd7a8b70770a48419"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L522-current",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"9070daaa68cb8129c175d3c0d7a5a77e0784ca85--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:04.244021+00:00",
+        "retrieved_at": "2026-11-21T13:56:04.338748+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/data"
+      },
+      "source_sha256": "eeeb021ca514387a0a881f58079cb8a1dc1063bc51d7ffadd7a8b70770a48419"
+    },
+    "L522-v134": {
+      "checksums": {
+        "response.bin": "3c16affd5cf12315e73f46628cd402cc42937fc3a9b9e782426b133d3d629c4a"
+      },
+      "identity": {
+        "dataset": "ons_inflation",
+        "snapshot_id": "2026-11-21-task008",
+        "source": "L522-v134",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/previous/v134/data"
+      },
+      "retrieval": {
+        "request_headers": {
+          "Accept-Encoding": "identity",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/previous/v134/data",
+        "response_headers": {
+          "Cache-Control": "public, s-maxage=14400, max-age=14400, stale-while-revalidate=10",
+          "Content-Type": "application/json;charset=utf-8",
+          "Date": "Sat, 21 Nov 2026 13:56:05 GMT",
+          "Transfer-Encoding": "chunked",
+          "etag": "W/\"a5908716eb149403917ba7a7762bd34e0f571370--gzip\"",
+          "vary": "Accept-Encoding, User-Agent"
+        },
+        "retrieval_started_at": "2026-11-21T13:56:04.360778+00:00",
+        "retrieved_at": "2026-11-21T13:56:04.470567+00:00",
+        "status": 200,
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23/previous/v134/data"
+      },
+      "source_sha256": "3c16affd5cf12315e73f46628cd402cc42937fc3a9b9e782426b133d3d629c4a"
+    }
+  },
+  "limitations": [
+    "Current and latest advertised prior ONS versions retained; full historical archive not reconstructed.",
+    "Two HPI release snapshots and England aggregate revision matrix do not establish complete LA publication histories.",
+    "Exact public release times, historical geography compatibility and forecast-cutoff eligibility are not inferred."
+  ]
+}
