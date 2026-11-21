@@ -498,3 +498,10 @@ is stated explicitly. Detailed findings remain in their source documents.
   [audit evidence](../../reports/data_audits/009.3/validation-evidence.json),
   [archive evidence](../../reports/data_audits/009.3/archive-evidence.json),
   [issues](../issue-register.md), [timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: research commit
+  `08efe81bef345f2fdb83b12e1bde3efe60e100a2` pushed and matched remote branch;
+  main/earnings branch heads unchanged. Two work sessions are recorded separately;
+  measured subtotal 18.016667 minutes excludes the interruption gap. Full total
+  remains unavailable because the first session's final tail was not timed.
+  Completion receipt and shared CSV disclose the measurement cutoffs. No Task 013.1.
