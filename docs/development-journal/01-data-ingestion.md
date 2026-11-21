@@ -455,3 +455,13 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Task 008.1 prompt/report](../008.1-merge-task-008-and-establish-stable-baseline.md),
   [Task 008 evidence](../../reports/data_audits/008/validation-evidence.json),
   [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+  Dated update, 21 November 2026: [PR #5](https://github.com/chanmlh026/rental-forecasting/pull/5)
+  was created after another duplicate check, then merged at 14:35:12 UTC under
+  the owner's conditional authorisation. GitHub reported a clean mergeable PR,
+  empty check rollup and no review threads/reviews. Local suite/audit passed;
+  hosted CI is not configured. Merge SHA
+  `a247a292971594ab7fde507b7fbff64b53d0292f` is the Task 008 implementation
+  baseline. Fetch and tree/ancestry checks verified the implementation on remote
+  main; local main fast-forwarded to it. No unresolved issue was closed. A
+  documentation-only completion receipt records actual results/timing on main
+  without changing the merged implementation. No Tasks 009-013 work began.
