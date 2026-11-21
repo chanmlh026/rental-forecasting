@@ -1,0 +1,93 @@
+{
+  "task": "009.5.7",
+  "private_repository": true,
+  "base_branch": "main",
+  "base_commit": "6d764a9fedf9717dafc7d61a0de8b19724b907b0",
+  "working_branch": "review/009-5-clean-recovery",
+  "verified_remote_and_local_heads": {
+    "feature/008-inflation-hpi-ingestion": "9190660eef31017a35f7ae7e842bcb11094a8f0c",
+    "feature/009-1-ashe-investigation": "dfb5d1db26a49730007c3c48ad6e5db61537faa5",
+    "feature/009-2-ashe-ingestion": "9a5fe3c177486d5930e1650986eeb9eb4a9556e5",
+    "feature/009-3-umb-investigation": "bd6dd4a3d914609d32f82f98f05bb5544d87d956",
+    "main": "6d764a9fedf9717dafc7d61a0de8b19724b907b0"
+  },
+  "recovered_task_009_5_changes": [
+    {
+      "path": "docs/009.5-merge-ashe-earnings-and-umb-investigation.md",
+      "mode": "whole-new-file-copy",
+      "source_sha256": "15a3cf28607e09d9066b592b60fadd849c20e9bef0742424a17baaa2f320605a",
+      "recovered_sha256": "15a3cf28607e09d9066b592b60fadd849c20e9bef0742424a17baaa2f320605a",
+      "protected_original_match": true
+    },
+    {
+      "path": "reports/data_audits/009.5/security-assessment-evidence.json",
+      "mode": "whole-new-file-copy",
+      "source_sha256": "81939314efb5519349381d38f2414d7b9f85e58ac90ad6f81420f8c3c7334312",
+      "recovered_sha256": "81939314efb5519349381d38f2414d7b9f85e58ac90ad6f81420f8c3c7334312",
+      "protected_original_match": true
+    },
+    {
+      "path": "docs/development-journal/01-data-ingestion.md",
+      "mode": "append-only-original-24-line-delta",
+      "recovered_delta_sha256": "a1ac4ea57b5c396e2225cf8ed0afd5cdcc19a2e22ed1b70874a8de6faaada5fb",
+      "protected_original_match": true,
+      "cleaned_main_prefix_preserved": true
+    },
+    {
+      "path": "docs/issue-register.md",
+      "mode": "replace-only-ISS-020-row",
+      "recovered_row_sha256": "0db3f4f33659463cc3626764454c2256aa3749cbcb559bc015b39b16e53957ed",
+      "protected_original_match": true,
+      "all_other_main_rows_preserved": true
+    },
+    {
+      "path": "docs/task-execution-log.csv",
+      "mode": "append-only-Task-009.5-row",
+      "recovered_row_sha256": "c241b3f468dc2bdf0e980a93a948d4f726828f139c770f05e762a0fe81432803",
+      "protected_original_match": true,
+      "original_status": "Blocked",
+      "prior_main_rows_preserved": true
+    }
+  ],
+  "fresh_objects": 381,
+  "git_integrity_pass": true,
+  "known_sensitive_identifier_matches": 0,
+  "gitleaks_history_pass": true,
+  "no_old_git_metadata_imported": true,
+  "no_datasets_or_sensitive_manifests_transferred": true,
+  "production_code_tests_configuration_unchanged": true,
+  "tasks_009_1_to_009_3_separate_and_unmerged": true,
+  "automated_tests": {
+    "cleaned_main": {
+      "passed": 117,
+      "seconds": 53.48
+    },
+    "separate_ashe_worktree": {
+      "passed": 154,
+      "seconds": 54.19
+    }
+  },
+  "umb_audit_scripts_syntax_checked": 3,
+  "live_research_audits_rerun": false,
+  "live_research_audit_limitation": "Ignored datasets were intentionally not copied. Later integration/source audits require controlled access to approved caches; originals and prior results remain unchanged.",
+  "original_checkout_and_protected_backups_preserved": true,
+  "issue_020": "Open",
+  "public_release_ready": false,
+  "no_commit_push_or_merge": true,
+  "result": "READY WITH CONDITIONS",
+  "private_development_ready": true,
+  "conditions": [
+    "Later authorised Task 009.5 work must validate its actual combined integration tree and use controlled approved source-cache access.",
+    "No commit, push or merge until separately authorised.",
+    "Public release remains blocked pending ISS-020/PR-reference handling and owner approval."
+  ],
+  "measured_execution": {
+    "start_utc": "2026-11-21T22:57:35+00:00",
+    "end_utc": "2026-11-21T23:06:45+00:00",
+    "seconds": 550,
+    "minutes": 9.166667,
+    "status": "Completed",
+    "precision": "whole second",
+    "cutoff_exclusions": "Final timing/readiness/checksum writes, read-back and response."
+  }
+}

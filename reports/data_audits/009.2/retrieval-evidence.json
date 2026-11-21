@@ -1,0 +1,25 @@
+{
+  "edition_id": "2026provisional",
+  "source_sha256": "35f86a3682ab3e7120011c4822dca47738eb00319d48f34f162111bbf1542253",
+  "matches_verified_investigation": true,
+  "retrieval": {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip",
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip",
+    "status": 200,
+    "request_headers": {
+      "User-Agent": "RentalForecasting-ASHE-Ingestion/1.0 (public statistical data)",
+      "Accept-Encoding": "identity"
+    },
+    "response_headers": {
+      "Date": "Sat, 21 Nov 2026 15:52:37 GMT",
+      "Content-Type": "application/zip;charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+      "etag": "\"aef67db634bfbd2da1c70ee4423f1cae48453248\"",
+      "Vary": "accept-encoding"
+    },
+    "retrieval_started_at": "2026-11-21T15:52:35.989269+00:00",
+    "retrieved_at": "2026-11-21T15:52:38.201522+00:00",
+    "prior_attempts": []
+  }
+}

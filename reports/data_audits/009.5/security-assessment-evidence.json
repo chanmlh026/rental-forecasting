@@ -1,0 +1,119 @@
+{
+  "historical_commits": [
+    {
+      "commit": "f73119a05b6eea046c61cac47954f19e9797da48",
+      "set_cookie_fields": 2,
+      "parsed_cookie_count": 2,
+      "attributes_only": [
+        {
+          "name": "ASPSESSIONIDSUDTSTBD",
+          "secure": true,
+          "http_only": false,
+          "same_site": "",
+          "host_only": true,
+          "path_is_root": true,
+          "expires_attribute": null,
+          "max_age_attribute": null,
+          "explicit_browser_expiry": false
+        },
+        {
+          "name": "ASPSESSIONIDSUDTSTBD",
+          "secure": true,
+          "http_only": false,
+          "same_site": "",
+          "host_only": true,
+          "path_is_root": true,
+          "expires_attribute": null,
+          "max_age_attribute": null,
+          "explicit_browser_expiry": false
+        }
+      ],
+      "ancestor_of_remote_main": true,
+      "containing_remote_refs": [
+        "refs/remotes/origin/feature/007-boe-ingestion",
+        "refs/remotes/origin/feature/008-inflation-hpi-ingestion",
+        "refs/remotes/origin/feature/009-1-ashe-investigation",
+        "refs/remotes/origin/feature/009-2-ashe-ingestion",
+        "refs/remotes/origin/feature/009-3-umb-investigation",
+        "refs/remotes/origin/main"
+      ]
+    },
+    {
+      "commit": "321962d0683a1e01953115e8b9f2e555cb8dd3b6",
+      "set_cookie_fields": 2,
+      "parsed_cookie_count": 2,
+      "attributes_only": [
+        {
+          "name": "ASPSESSIONIDSUDTSTBD",
+          "secure": true,
+          "http_only": false,
+          "same_site": "",
+          "host_only": true,
+          "path_is_root": true,
+          "expires_attribute": null,
+          "max_age_attribute": null,
+          "explicit_browser_expiry": false
+        },
+        {
+          "name": "ASPSESSIONIDSUDTSTBD",
+          "secure": true,
+          "http_only": false,
+          "same_site": "",
+          "host_only": true,
+          "path_is_root": true,
+          "expires_attribute": null,
+          "max_age_attribute": null,
+          "explicit_browser_expiry": false
+        }
+      ],
+      "ancestor_of_remote_main": true,
+      "containing_remote_refs": [
+        "refs/remotes/origin/feature/007-boe-ingestion",
+        "refs/remotes/origin/feature/008-inflation-hpi-ingestion",
+        "refs/remotes/origin/feature/009-1-ashe-investigation",
+        "refs/remotes/origin/feature/009-2-ashe-ingestion",
+        "refs/remotes/origin/feature/009-3-umb-investigation",
+        "refs/remotes/origin/main"
+      ]
+    }
+  ],
+  "unique_historical_evidence_blobs": 2,
+  "sensitive_historical_evidence_blobs": 1,
+  "unique_known_cookie_identifiers": 2,
+  "public_remote_tip_known_value_matches": {
+    "origin/main": [],
+    "origin/feature/007-boe-ingestion": [],
+    "origin/feature/008-inflation-hpi-ingestion": [],
+    "origin/feature/009-1-ashe-investigation": [],
+    "origin/feature/009-2-ashe-ingestion": [],
+    "origin/feature/009-3-umb-investigation": []
+  },
+  "current_tracked_paths_matching_known_cookie_values": [],
+  "known_cookie_values_emitted": false,
+  "session_replay_attempted": false,
+  "remediation_performed": false,
+  "repository_visibility": {
+    "connector": "public",
+    "gh_repo_view_visibility": "PUBLIC",
+    "gh_repo_view_isPrivate": false,
+    "visibility_change_date_and_actor": "not established"
+  },
+  "unauthenticated_historical_file_head_checks": [
+    {
+      "commit": "f73119a05b6eea046c61cac47954f19e9797da48",
+      "method": "HEAD",
+      "status": 200,
+      "body_downloaded": false
+    },
+    {
+      "commit": "321962d0683a1e01953115e8b9f2e555cb8dd3b6",
+      "method": "HEAD",
+      "status": 200,
+      "body_downloaded": false
+    }
+  ],
+  "owner_public_risk_acceptance": false,
+  "merge_hold": true,
+  "session_validity": "unverified; no replay or publisher confirmation",
+  "new_prs_or_merges": 0
+}
