@@ -545,6 +545,46 @@ is stated explicitly. Detailed findings remain in their source documents.
   and Task 009.1 remote heads unchanged. Measured timing and final receipt are in
   the shared CSV/task report. Completed for independent review; no PR or merge.
 
+## 21 November 2026 - UMB-first decision and source investigation (Task 009.3)
+
+- **Event/trigger:** Owner authorised a separate UMB source investigation while
+  earnings tasks remain unmerged; later explicitly requested resumption after
+  usage-limit interruption, preserving all prior work and excluding the wait gap.
+- **Initiated by:** Human.
+- **Human decision and rationale:** Prefer the ONS model-based published rate for
+  economically active residents aged 16+, because local APS samples of unemployed
+  people can be small/unreliable. APS is fallback only if UMB proves unsuitable.
+  Preserve deferral of cross-dataset geography harmonisation to preprocessing.
+- **AI actions (Codex):** Verified stable main and unchanged earnings branches;
+  created a separate research branch, retained safe immutable source evidence,
+  audited all 87 current-family annual periods, confidence values/flags and two
+  archived M01 editions. Did not modify earnings ingestion or derive new ratios.
+- **Significant findings/interventions:** Two cohort code mismatches, historical
+  rate gaps and 19 latest matched confidence gaps retained. Earlier M01 history
+  starts 1996/97 with a different reference-period structure. API placeholders,
+  inconsistent revision labels and incomplete vintage evidence documented.
+  Automatic approval review could not execute the formatting/test command at a
+  usage limit. On owner resumption, inspected scope/output state, preserved all
+  downloads and reran that command and offline checks; no Task 013.1 work found.
+- **Outcome/status:** 117 stable-baseline tests passed. Full CSV counts/keys and
+  independent official HTML/CSV and archived-confidence comparisons validate.
+  UMB is recommended for separately authorised source-level ingestion with limits;
+  no APS fallback, production ingestion, harmonisation or features implemented.
+  ISS-006 resolved for approved source/measure verification; ISS-003/004/011/012
+  updated and remain Open. Separate measured sessions and timing limitations are
+  retained in the shared CSV. No PR, merge or Task 013.1 started.
+- **Evidence/references:** [Prompt/report](../009.3-umb-unemployment-availability-and-quality-investigation.md),
+  [audit evidence](../../reports/data_audits/009.3/validation-evidence.json),
+  [archive evidence](../../reports/data_audits/009.3/archive-evidence.json),
+  [issues](../issue-register.md), [timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: research commit
+  `08efe81bef345f2fdb83b12e1bde3efe60e100a2` pushed and matched remote branch;
+  main/earnings branch heads unchanged. Two work sessions are recorded separately;
+  measured subtotal 18.016667 minutes excludes the interruption gap. Full total
+  remains unavailable because the first session's final tail was not timed.
+  Completion receipt and shared CSV disclose the measurement cutoffs. No Task 013.1.
+
 ## 21 November 2026 - Integration hold and public-history assessment (Task 009.5)
 
 - **Event/trigger:** Owner conditionally authorised earnings/UMB merges after

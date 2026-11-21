@@ -1,0 +1,32 @@
+{
+  "source_files_preserved_by_index_blob_identity": {
+    "9a5fe3c177486d5930e1650986eeb9eb4a9556e5": 37,
+    "bd6dd4a3d914609d32f82f98f05bb5544d87d956": 8
+  },
+  "ashe_dependency_files_unchanged": true,
+  "issue_statuses": {
+    "ISS-001": "Resolved",
+    "ISS-002": "Resolved",
+    "ISS-003": "Open",
+    "ISS-004": "Open",
+    "ISS-005": "Open",
+    "ISS-006": "Resolved",
+    "ISS-007": "Open",
+    "ISS-008": "Open",
+    "ISS-009": "Open",
+    "ISS-010": "Open",
+    "ISS-011": "Open",
+    "ISS-012": "Open",
+    "ISS-013": "Open",
+    "ISS-014": "Open",
+    "ISS-015": "Open",
+    "ISS-016": "Open",
+    "ISS-017": "Open",
+    "ISS-018": "Open",
+    "ISS-019": "Resolved",
+    "ISS-020": "Open"
+  },
+  "only_previously_approved_source_resolutions_and_iss_020_reopening_applied": true,
+  "unique_seven_column_timing_rows": 30,
+  "umb_missing_duration_preserved": true
+}

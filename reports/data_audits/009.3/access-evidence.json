@@ -1,0 +1,611 @@
+{
+  "dataset": {
+    "checksums": {
+      "response.bin": "fc975de384d6583a9affaa1472bfb3fbc0d02f169006f2ad9b61a9922a98232d"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/datasets/umb"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/datasets/umb",
+    "response_headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Sat, 21 Nov 2026 16:09:18 GMT",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:16.627063+00:00",
+    "retrieved_at": "2026-11-21T16:09:17.545510+00:00",
+    "status": 200
+  },
+  "definition": {
+    "checksums": {
+      "response.bin": "849badf3ae8e5c6df70209038b8d54ec83d5a14d58ca7b46e3f72c51d061194a"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "2554",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:20 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:19.056906+00:00",
+    "retrieved_at": "2026-11-21T16:09:19.203686+00:00",
+    "status": 200
+  },
+  "item": {
+    "checksums": {
+      "response.bin": "bb692d3f0b6f8d1feea4cd87b2a0f8e10e39b8346d813a5ace3ca37ea6bc85ff"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/item.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/item.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "1149",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:21 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:20.712121+00:00",
+    "retrieved_at": "2026-11-21T16:09:20.902717+00:00",
+    "status": 200
+  },
+  "measures": {
+    "checksums": {
+      "response.bin": "d494111a42b76d23483aeca3b0fad10c9a8bea7e31005da82c9149625e54fcf5"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/measures.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/measures.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "1367",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:23 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:22.417016+00:00",
+    "retrieved_at": "2026-11-21T16:09:22.589925+00:00",
+    "status": 200
+  },
+  "dates": {
+    "checksums": {
+      "response.bin": "a49243557410257913a5580064ceb4601ab3d987eec8abdb280d08c881de9154"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/time.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/time.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "41612",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:24 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:24.108277+00:00",
+    "retrieved_at": "2026-11-21T16:09:24.258808+00:00",
+    "status": 200
+  },
+  "geography": {
+    "checksums": {
+      "response.bin": "7958b5d72481434c0bb970a727b3629cfbe1f5b963103aeb1de41af9ead274b1"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "2183",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:27 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:25.767621+00:00",
+    "retrieved_at": "2026-11-21T16:09:26.080641+00:00",
+    "status": 200
+  },
+  "time_metadata": {
+    "checksums": {
+      "response.bin": "c435a19a38d4a7012a631780ec60a8ce13f6f4bf9532bea223b1705805c113ff"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/time.metadata.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/time.metadata.json",
+    "response_headers": {
+      "Content-Length": "32613",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:28 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:27.587527+00:00",
+    "retrieved_at": "2026-11-21T16:09:27.723550+00:00",
+    "status": 200
+  },
+  "geography_all": {
+    "checksums": {
+      "response.bin": "8be39db77cad4150c5a23af18c5486f5125ec9a0a977d0eca286de0048642eb3"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography.def.sdmx.json?search=*"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography.def.sdmx.json?search=*",
+    "response_headers": {
+      "Content-Length": "2183",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:09:53 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:09:52.715480+00:00",
+    "retrieved_at": "2026-11-21T16:09:53.052038+00:00",
+    "status": 200
+  },
+  "geography_england": {
+    "checksums": {
+      "response.bin": "3f7d334d4919fbc5f26279f825352a9c2511a3f7f55818ea685b3149167f4b95"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/2092957699.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/2092957699.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "5469",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:10:15 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:10:12.947065+00:00",
+    "retrieved_at": "2026-11-21T16:10:13.795479+00:00",
+    "status": 200
+  },
+  "geography_types": {
+    "checksums": {
+      "response.bin": "dee5741759a7402517ac27452e3fe69de0723551b21482d86029d436a6146521"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/TYPE464.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/TYPE464.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "138661",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:10:17 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:10:16.070692+00:00",
+    "retrieved_at": "2026-11-21T16:10:16.529641+00:00",
+    "status": 200
+  },
+  "overview": {
+    "checksums": {
+      "response.bin": "7c35b98a913af0bdcbcba105e2ba71ba3bcfa3da57fcfcc9ad6046be08c71035"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.overview.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.overview.json",
+    "response_headers": {
+      "Content-Length": "26345",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:10:45 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:10:44.373579+00:00",
+    "retrieved_at": "2026-11-21T16:10:44.658605+00:00",
+    "status": 200
+  },
+  "geography_current": {
+    "checksums": {
+      "response.bin": "2e59d5ed3df5e603f27b72d32cacff7699a4431b94a56e90cb6827669335cdaa"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/2092957699TYPE424.def.sdmx.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/geography/2092957699TYPE424.def.sdmx.json",
+    "response_headers": {
+      "Content-Length": "107281",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:10:48 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:10:46.960313+00:00",
+    "retrieved_at": "2026-11-21T16:10:47.647293+00:00",
+    "status": 200
+  },
+  "sample": {
+    "checksums": {
+      "response.bin": "d0ecc593d289014200fcea0e33a00975145d3094872c751cde16d83ecc68b90d"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=latest&item=2&measures=20100,20701&recordlimit=5"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=latest&item=2&measures=20100,20701&recordlimit=5",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:11:06 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:11:04.834630+00:00",
+    "retrieved_at": "2026-11-21T16:11:05.062183+00:00",
+    "status": 200
+  },
+  "history01": {
+    "checksums": {
+      "response.bin": "bf41c4f77d3a10b0d10b78491f78e8ce27dd4169163643bc21b74b7334510960"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2004-12%2C2005-03%2C2005-06%2C2005-09%2C2005-12%2C2006-03%2C2006-06%2C2006-09%2C2006-12%2C2007-03%2C2007-06%2C2007-09%2C2007-12%2C2008-03%2C2008-06%2C2008-09%2C2008-12%2C2009-03%2C2009-06%2C2009-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2004-12%2C2005-03%2C2005-06%2C2005-09%2C2005-12%2C2006-03%2C2006-06%2C2006-09%2C2006-12%2C2007-03%2C2007-06%2C2007-09%2C2007-12%2C2008-03%2C2008-06%2C2008-09%2C2008-12%2C2009-03%2C2009-06%2C2009-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:11:48 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:11:47.477060+00:00",
+    "retrieved_at": "2026-11-21T16:11:50.357113+00:00",
+    "status": 200
+  },
+  "history02": {
+    "checksums": {
+      "response.bin": "5c187cc5bbd2a8d8338d31768f4ddd5c7b53beda6015f47918aa340169c2cc17"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2009-12%2C2010-03%2C2010-06%2C2010-09%2C2010-12%2C2011-03%2C2011-06%2C2011-09%2C2011-12%2C2012-03%2C2012-06%2C2012-09%2C2012-12%2C2013-03%2C2013-06%2C2013-09%2C2013-12%2C2014-03%2C2014-06%2C2014-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2009-12%2C2010-03%2C2010-06%2C2010-09%2C2010-12%2C2011-03%2C2011-06%2C2011-09%2C2011-12%2C2012-03%2C2012-06%2C2012-09%2C2012-12%2C2013-03%2C2013-06%2C2013-09%2C2013-12%2C2014-03%2C2014-06%2C2014-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:11:52 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:11:51.889800+00:00",
+    "retrieved_at": "2026-11-21T16:11:54.406807+00:00",
+    "status": 200
+  },
+  "history03": {
+    "checksums": {
+      "response.bin": "b90105346bc194eef70bfb2f1f24088100137ce82a870def7f193d9ac7f94147"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2014-12%2C2015-03%2C2015-06%2C2015-09%2C2015-12%2C2016-03%2C2016-06%2C2016-09%2C2016-12%2C2017-03%2C2017-06%2C2017-09%2C2017-12%2C2018-03%2C2018-06%2C2018-09%2C2018-12%2C2019-03%2C2019-06%2C2019-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2014-12%2C2015-03%2C2015-06%2C2015-09%2C2015-12%2C2016-03%2C2016-06%2C2016-09%2C2016-12%2C2017-03%2C2017-06%2C2017-09%2C2017-12%2C2018-03%2C2018-06%2C2018-09%2C2018-12%2C2019-03%2C2019-06%2C2019-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:11:57 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:11:55.940444+00:00",
+    "retrieved_at": "2026-11-21T16:11:58.828715+00:00",
+    "status": 200
+  },
+  "history04": {
+    "checksums": {
+      "response.bin": "eebb0c6b8cbf7152376dc544cb323db4339e29142006ef55f1f922773149fd7a"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2019-12%2C2020-03%2C2020-06%2C2020-09%2C2020-12%2C2021-03%2C2021-06%2C2021-09%2C2021-12%2C2022-03%2C2022-06%2C2022-09%2C2022-12%2C2023-03%2C2023-06%2C2023-09%2C2023-12%2C2024-03%2C2024-06%2C2024-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2019-12%2C2020-03%2C2020-06%2C2020-09%2C2020-12%2C2021-03%2C2021-06%2C2021-09%2C2021-12%2C2022-03%2C2022-06%2C2022-09%2C2022-12%2C2023-03%2C2023-06%2C2023-09%2C2023-12%2C2024-03%2C2024-06%2C2024-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:12:01 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:12:00.362717+00:00",
+    "retrieved_at": "2026-11-21T16:12:03.008134+00:00",
+    "status": 200
+  },
+  "history05": {
+    "checksums": {
+      "response.bin": "cf23e79eb9890d97877e453cfb45688c035d80536b44566ca4af25a54ad61343"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2024-12%2C2025-03%2C2025-06%2C2025-09%2C2025-12%2C2026-03%2C2026-06&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2024-12%2C2025-03%2C2025-06%2C2025-09%2C2025-12%2C2026-03%2C2026-06&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:12:05 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:12:04.541933+00:00",
+    "retrieved_at": "2026-11-21T16:12:05.502381+00:00",
+    "status": 200
+  },
+  "latest_counts": {
+    "checksums": {
+      "response.bin": "d772e7584ce392f4b6bd4710f4f3c97bc1317485ea4149bf05b3d6522e9d5d2f"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2026-06&item=1,2&measures=20100,20701"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2026-06&item=1,2&measures=20100,20701",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:12:13 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:12:12.975557+00:00",
+    "retrieved_at": "2026-11-21T16:12:13.761965+00:00",
+    "status": 200
+  },
+  "legacy_sample": {
+    "checksums": {
+      "response.bin": "f74454ceb85c1e9698219d0a7e05c44790a0c265288410f7dc5dfb71c3fcd026"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE464&date=2004-12,2014-12,2026-06&item=2&measures=20100,20701"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE464&date=2004-12,2014-12,2026-06&item=2&measures=20100,20701",
+    "response_headers": {
+      "Content-Type": "text/csv",
+      "Date": "Sat, 21 Nov 2026 16:12:17 GMT",
+      "Transfer-Encoding": "chunked"
+    },
+    "retrieval_started_at": "2026-11-21T16:12:16.008935+00:00",
+    "retrieved_at": "2026-11-21T16:12:16.667614+00:00",
+    "status": 200
+  },
+  "copyright": {
+    "checksums": {
+      "response.bin": "2ac1486ab204b813202dae46fb063d3173978ce601169c3b2b9046a3cb1b70d8"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/home/copyright.asp"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/home/copyright.asp",
+    "response_headers": {
+      "Cache-Control": "no-cache",
+      "Content-Length": "27371",
+      "Content-Type": "text/html",
+      "Date": "Sat, 21 Nov 2026 16:12:20 GMT",
+      "Expires": "Sat, 21 Nov 2026 16:11:20 GMT"
+    },
+    "retrieval_started_at": "2026-11-21T16:12:18.933759+00:00",
+    "retrieved_at": "2026-11-21T16:12:19.175294+00:00",
+    "status": 200
+  },
+  "independent_table": {
+    "checksums": {
+      "response.bin": "e36e3d82a53687be44700c212db915ba3510cbb4add4e1d9b722575e2353aba4"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.htm?geography=1778384897&date=2026-06&item=1,2&measures=20100,20701&rows=item&cols=measures"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.htm?geography=1778384897&date=2026-06&item=1,2&measures=20100,20701&rows=item&cols=measures",
+    "response_headers": {
+      "Content-Type": "text/html",
+      "Date": "Sat, 21 Nov 2026 16:13:06 GMT",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:13:05.543157+00:00",
+    "retrieved_at": "2026-11-21T16:13:05.792276+00:00",
+    "status": 200
+  },
+  "item_metadata": {
+    "checksums": {
+      "response.bin": "55c0da6822687c29c1a8c3ceb944ba9023521165a653686065d6a8f68cc46869"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/item.metadata.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/item.metadata.json",
+    "response_headers": {
+      "Content-Length": "49",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:13:09 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:13:08.303639+00:00",
+    "retrieved_at": "2026-11-21T16:13:08.876259+00:00",
+    "status": 200
+  },
+  "measures_metadata": {
+    "checksums": {
+      "response.bin": "2b1427d7cef1449ed5cedadc74eca9995d2f3ba74c10dd47f5a7b9f7092af7e5"
+    },
+    "identity": {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/measures.metadata.json"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1/measures.metadata.json",
+    "response_headers": {
+      "Content-Length": "2116",
+      "Content-Type": "application/json",
+      "Date": "Sat, 21 Nov 2026 16:13:12 GMT",
+      "Vary": "Accept-Encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:13:11.143240+00:00",
+    "retrieved_at": "2026-11-21T16:13:11.327268+00:00",
+    "status": 200
+  },
+  "user_guide": {
+    "checksums": {
+      "response.bin": "e2df5a8a3529cad09ecf16e79d2bc4d7eb2b365b5b43829e5138738405c42c87"
+    },
+    "identity": {
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/subnationallabourmarket/modelbasedestimatesunemploymenttcm77252969.pdf"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/subnationallabourmarket/modelbasedestimatesunemploymenttcm77252969.pdf",
+    "response_headers": {
+      "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+      "Content-Type": "application/pdf;charset=utf-8",
+      "Date": "Sat, 21 Nov 2026 16:15:25 GMT",
+      "Transfer-Encoding": "chunked",
+      "etag": "\"1118b35aecf4af236ef998f92e746c724adfae42\"",
+      "vary": "Accept-Encoding, User-Agent"
+    },
+    "retrieval_started_at": "2026-11-21T16:15:24.012407+00:00",
+    "retrieved_at": "2026-11-21T16:15:24.514612+00:00",
+    "status": 200
+  },
+  "ons_indicator": {
+    "checksums": {
+      "response.bin": "3672dbf1b54deede7ace8b11743249a417885af37ca0ab3aa493d2495abcf286"
+    },
+    "identity": {
+      "url": "https://www.ons.gov.uk/explore-local-statistics/indicators/modelled-unemployment"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.ons.gov.uk/explore-local-statistics/indicators/modelled-unemployment",
+    "response_headers": {
+      "Content-Type": "text/html",
+      "Date": "Sat, 21 Nov 2026 16:15:28 GMT",
+      "Transfer-Encoding": "chunked",
+      "Vary": "accept-encoding"
+    },
+    "retrieval_started_at": "2026-11-21T16:15:26.805765+00:00",
+    "retrieved_at": "2026-11-21T16:15:26.966194+00:00",
+    "status": 200
+  },
+  "old_ons_archive": {
+    "checksums": {
+      "response.bin": "cd872000d097f46a39d360219edf891f232932978d4f572cc635421773c8fe8c"
+    },
+    "identity": {
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current",
+    "response_headers": {
+      "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+      "Content-Type": "text/html;charset=utf-8",
+      "Date": "Sat, 21 Nov 2026 16:15:30 GMT",
+      "Transfer-Encoding": "chunked",
+      "vary": "Accept-Encoding, User-Agent"
+    },
+    "retrieval_started_at": "2026-11-21T16:15:29.261479+00:00",
+    "retrieved_at": "2026-11-21T16:15:29.603221+00:00",
+    "status": 200
+  },
+  "m01_latest": {
+    "checksums": {
+      "response.bin": "6c41ef94c78a6910deb31e4e7c0d2914f41b096465a2ce232f663a9d16ff748b"
+    },
+    "identity": {
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current/modelbasedunemploymentdataaugust2022.xls"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current/modelbasedunemploymentdataaugust2022.xls",
+    "response_headers": {
+      "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+      "Content-Type": "application/vnd.ms-excel;charset=utf-8",
+      "Date": "Sat, 21 Nov 2026 16:16:19 GMT",
+      "Transfer-Encoding": "chunked",
+      "etag": "\"9f1c9959470a95665fb38b09849819df4fe45682\"",
+      "vary": "Accept-Encoding, User-Agent"
+    },
+    "retrieval_started_at": "2026-11-21T16:16:17.546674+00:00",
+    "retrieved_at": "2026-11-21T16:16:18.966452+00:00",
+    "status": 200
+  },
+  "m01_previous": {
+    "checksums": {
+      "response.bin": "0f19adc8f48e3ccffb5ceecac03fd383bd6c25cd9bd5d8ad0445c0b5fd2a60e0"
+    },
+    "identity": {
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current/previous/v32/modelbasedunemploymentdataapril2022.xls"
+    },
+    "request_headers": {
+      "User-Agent": "RentalForecasting-UMB-SourceAudit/0.1 (public statistical source investigation)"
+    },
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/modelledunemploymentforlocalandunitaryauthoritiesm01/current/previous/v32/modelbasedunemploymentdataapril2022.xls",
+    "response_headers": {
+      "Cache-Control": "public, s-maxage=14400, max-age=14400, stale-while-revalidate=10",
+      "Content-Type": "application/vnd.ms-excel;charset=utf-8",
+      "Date": "Sat, 21 Nov 2026 16:16:22 GMT",
+      "Transfer-Encoding": "chunked",
+      "etag": "\"d756e2580184ca7e602097d0f156a01db4106b4f\"",
+      "vary": "Accept-Encoding, User-Agent"
+    },
+    "retrieval_started_at": "2026-11-21T16:16:20.747288+00:00",
+    "retrieved_at": "2026-11-21T16:16:21.852780+00:00",
+    "status": 200
+  }
+}
