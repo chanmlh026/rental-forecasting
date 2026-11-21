@@ -333,3 +333,26 @@ is stated explicitly. Detailed findings remain in their source documents.
   `f8cb66d1ddcc9a4efc2374af2cf9b0833bd5fe06` pushed and matched the remote
   milestone branch; local/remote main unchanged. Task 007.2 completed for review
   with ISS-020 remaining Open; final timing is in the shared CSV.
+
+### 21 November 2026 update - owner acceptance of ISS-020 residual risk (Task 007.3)
+
+- **Event/trigger:** Owner reviewed the Task 007.2 findings and supplied an
+  explicit resolution instruction after the initial correction handoff.
+- **Initiated by:** Human.
+- **Human actions:** Accepted residual historical session-cookie exposure in
+  the private repository with the implemented preventive controls; expressly
+  prohibited history rewriting, force pushes and session invalidation.
+- **AI actions (Codex):** Archived the instruction verbatim and updated ISS-020
+  to Resolved, preserving earlier Open status and findings as dated history.
+  The owner subsequently formalised this documentation work as Task 007.3;
+  Codex retained the preliminary edits and tracked its measured intervals
+  separately from the completed Task 007.2 technical correction.
+- **Decision and stated rationale:** Explicit owner risk acceptance based on
+  private-repository context and preventive controls. Expiry/access scope have
+  not been independently verified and historical values remain accessible.
+- **Outcome/status:** Resolved through owner acceptance, not confirmed removal
+  or expiry. No code, ingestion data or methodology changes; no invalidation,
+  history rewrite, force push, PR or merge.
+- **Evidence/references:** [Verbatim owner decision](../007.2-harden-boe-http-metadata-and-validation-evidence.md#owner-resolution-instruction---21-november-2026-verbatim),
+  [Task 007.3 instructions and validation](../007.3-record-iss-020-owner-risk-acceptance.md),
+  [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
