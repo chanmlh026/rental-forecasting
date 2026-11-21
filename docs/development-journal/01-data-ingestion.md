@@ -538,3 +538,9 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Owner prompt/report](../009.2-ons-ashe-earnings-ingestion.md),
   [validation](../../reports/data_audits/009.2/validation-evidence.json),
   [issue register](../issue-register.md), [timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: implementation commit
+  `80048b2929b08c1bdaa5a96176033a66166b2fb0` pushed to the dedicated branch and
+  matched remote SHA. Reviewed investigation history remains its ancestor; main
+  and Task 009.1 remote heads unchanged. Measured timing and final receipt are in
+  the shared CSV/task report. Completed for independent review; no PR or merge.
