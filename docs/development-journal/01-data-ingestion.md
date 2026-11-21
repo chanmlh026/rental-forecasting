@@ -427,6 +427,10 @@ is stated explicitly. Detailed findings remain in their source documents.
   Sixty snapshot files remained unchanged on offline reruns. ISS-003/004/012/013
   were updated and remain Open; ISS-014 remains a future cutoff decision. No
   feature engineering, source substitution or changes to earlier ingestion.
+  Dated update, 21 November 2026: Task 008 completed for independent review;
+  implementation commit `3865292416bac061bc98348297aafe87f2de84f1` pushed and
+  matched the remote development branch. Local/remote main unchanged; no PR,
+  merge or Task 009 work. Measured timing is recorded in the shared CSV.
 - **Evidence/references:** [Owner prompt and report](../008-ons-inflation-and-uk-hpi-ingestion.md),
   [source/reconciliation evidence](../../reports/data_audits/008/validation-evidence.json),
   [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
