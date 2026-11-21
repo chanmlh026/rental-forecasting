@@ -329,6 +329,7 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Owner prompt and correction report](../007.2-harden-boe-http-metadata-and-validation-evidence.md),
   [verification outcomes](../../reports/data_audits/007.2/validation-evidence.json),
   [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+
   Dated update, 21 November 2026: correction commit
   `f8cb66d1ddcc9a4efc2374af2cf9b0833bd5fe06` pushed and matched the remote
   milestone branch; local/remote main unchanged. Task 007.2 completed for review
@@ -356,3 +357,24 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Verbatim owner decision](../007.2-harden-boe-http-metadata-and-validation-evidence.md#owner-resolution-instruction---21-november-2026-verbatim),
   [Task 007.3 instructions and validation](../007.3-record-iss-020-owner-risk-acceptance.md),
   [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+
+## 21 November 2026 - Bank of England milestone Draft PR preparation (Task 007.4)
+
+- **Event/trigger:** Owner requested one milestone Draft PR for Tasks 007.1,
+  007, 007.2 and 007.3, reporting an independent review result of Pass with
+  documented limitations. Reviewer identity and a separate formal GitHub review
+  are not established by that instruction.
+- **Initiated by:** Human.
+- **Human actions:** Authorised Draft PR creation into main if none existed,
+  retaining final approval/merge control and prohibiting methodology changes,
+  history rewriting, force pushes, merging and Task 008 work.
+- **AI actions (Codex):** Verified a clean branch matching remote at
+  `bbcda06f4b70948477fc11467a29ed80be0e2d5f`, fetched remote refs and searched
+  existing PRs without finding one for the milestone branch. Reviewed evidence
+  and issue dispositions; prepared a summary separating approved input policy,
+  source-evidence limits and owner-accepted historical cookie exposure.
+- **Outcome/status:** PR preparation in progress; publication and available
+  check results will be recorded in the Task 007.4 report. ISS-020 is Resolved
+  by owner acceptance; ISS-004/ISS-005 remain Open. No implementation changes.
+- **Evidence/references:** [Task 007.4 prompt/report](../007.4-prepare-boe-ingestion-milestone-pull-request.md),
+  [issue register](../issue-register.md#issues), [execution timing](../task-execution-log.csv).
