@@ -544,3 +544,49 @@ is stated explicitly. Detailed findings remain in their source documents.
   matched remote SHA. Reviewed investigation history remains its ancestor; main
   and Task 009.1 remote heads unchanged. Measured timing and final receipt are in
   the shared CSV/task report. Completed for independent review; no PR or merge.
+
+## 21 November 2026 - Integration hold and public-history assessment (Task 009.5)
+
+- **Event/trigger:** Owner conditionally authorised earnings/UMB merges after
+  validation. Repository checks exposed PUBLIC visibility inconsistent with the
+  private-repository premise in ISS-020's earlier risk acceptance.
+- **Initiated by:** Human merge task; Codex identified the visibility discrepancy.
+- **Human actions:** Explicitly refused public-exposure acceptance, held both
+  merges and requested a read-only assessment with no cookie values reproduced.
+  No history rewrite, visibility change, session invalidation or other remediation
+  authorised. Original private-context acceptance is preserved as history.
+- **AI actions (Codex):** Verified reviewed remote heads/ASHE ancestry and absent
+  PRs; ran fresh 154-test/ASHE source audits and previewed four doc conflicts.
+  Confirmed public visibility independently and historical accessibility with
+  unauthenticated HEAD only. Inspected cookie attributes in memory and scanned
+  current tip trees without emitting identifiers; consulted official guidance.
+- **Outcome/status:** Merges held. ISS-020 reopened locally: current validity and
+  scope are unknown; current-file controls do not purge public history. Prepared
+  containment, publisher-confirmation and targeted-cleanup options for owner
+  approval. No PR, merge, remote write or remediation occurred. Assessment and
+  required governance updates remain local pending owner review.
+- **Evidence/references:** [Task prompt, owner hold and assessment](../009.5-merge-ashe-earnings-and-umb-investigation.md),
+  [redacted findings](../../reports/data_audits/009.5/security-assessment-evidence.json),
+  [ISS-020](../issue-register.md), [timing](../task-execution-log.csv).
+
+
+## 21 November 2026 - Clean development checkout and recovery (Task 009.5.7)
+
+- **Event/trigger:** Following the owner-approved Task 009.5.6 atomic migration, the owner authorised a separate fresh development clone and recovery of unfinished Task 009.5 work, without any commit, push, merge, PR or public visibility change.
+- **Initiated by:** Human.
+- **Human actions:** Required preservation of the original checkout/backups, cleaned-main recovery of non-sensitive contents only, validation of separate task branches and a distinction between private development and public-release readiness.
+- **AI actions (Codex):** Verified private visibility and all migrated remote refs; cloned GitHub into a separate directory; created `review/009-5-clean-recovery` from cleaned main. Copied the two new Task 009.5 files exactly and recovered only the original journal delta, ISS-020 row and Task 009.5 timing row, preserving unrelated main contents. Created the current prompt/timing/evidence records. No original Git objects, refs, reflogs, datasets or sensitive manifests were transferred.
+- **Decision and stated rationale:** Recover working content rather than old Git metadata, preserving completed work while preventing reintroduction of the historical exposure. Separate ASHE/UMB branches retain their approved code, evidence and decisions; their documents were not imported as completed main integration.
+- **Outcome/status:** Fresh cleaned-main environment passed 117 tests; separate cleaned ASHE worktree passed 154 tests. Object/working-file known-identifier checks, Gitleaks and strict Git integrity checks passed. Task 009.5 remains unfinished/unmerged and its original Blocked timing record is preserved. Live cached-source audits were not rerun because no ignored datasets were migrated; the originals and prior validation evidence remain protected and unchanged.
+- **Security boundary:** Private development can resume under its authorised task scope. Public release still requires ISS-020's remaining GitHub PR/cache exposure to be handled and a separate owner decision. The original checkout and security backups retain sensitive history and must not be used as push sources. This task authorises no commit, push or merge.
+- **Evidence/references:** [Task 009.5.7 prompt and recovery report](../009.5.7-clean-development-environment-after-history-migration.md), [recovery/validation evidence](../../reports/data_audits/009.5.7/recovery-validation.json), [recovered Task 009.5 assessment](../009.5-merge-ashe-earnings-and-umb-investigation.md), [ISS-020](../issue-register.md), [execution timing](../task-execution-log.csv). Task 009.5.6's detailed execution receipt remains in the separate restricted security workspace.
+
+
+## 21 November 2026 - Approved clean-history integration (Task 009.5.8)
+
+- **Event/trigger:** Owner authorised completion of Task 009.5 through ASHE and UMB PR merges, conditional on validation, using only the fresh cleaned development environment.
+- **Initiated by:** Human.
+- **Human actions:** Required preservation of recovered governance/security records and source findings; explicitly retained private visibility, ISS-020 Open and the ban on further ingestion/Task 013.1.
+- **AI actions (Codex):** Verified migrated refs and recovered files, preserved the recovered work in a clean-history commit, and reconciled the ASHE branch's journal/timing changes without dropping either side. Reused only known-value-scanned ASHE/UMB cache directories; copied no BoE manifests or old Git metadata.
+- **Outcome/status:** ASHE candidate passed 154 tests and current offline source/cell audits; PR and UMB integration outcomes are recorded in the task report as execution proceeds. ASHE/UMB issue resolutions are carried only where supported by earlier approved source decisions.
+- **Evidence/references:** [Task 009.5.8 execution report](../009.5.8-ashe-and-umb-clean-history-integration.md), [current validation](../../reports/data_audits/009.5.8/), [ISS-020](../issue-register.md), [execution timing](../task-execution-log.csv).
