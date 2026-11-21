@@ -237,3 +237,66 @@ is stated explicitly. Detailed findings remain in their source documents.
   [retained source evidence](../../reports/data_audits/007.1/),
   [ISS-004/ISS-005](../issue-register.md#issues),
   [timing record](../task-execution-log.csv).
+
+## Pre-Task 007 discussions - owner methodological decisions (date not established)
+
+- **Event/trigger:** Financing-source policy decisions during methodological
+  discussions before Task 007; exact decision dates/times are not supplied.
+- **Initiated by:** Human project owner, as explicitly attributed in Task 007.
+- **Human actions:** Approved earliest retrievable published IUMZID4 values,
+  including provisional first states; accepted the February 2019 transition
+  without changing published rates; required preservation of available revisions
+  for audit rather than replacement of selected model inputs.
+- **Decision 1 and stated rationale:** Forecasts are generated when relevant new
+  data becomes available. Existing forecasts will not be regenerated solely
+  because the Bank later revises mortgage rates, so historical inputs should
+  reflect initially published information rather than retrospective revisions.
+- **Decision 2 and stated rationale:** IUMZID4 directly represents BTL financing
+  and supplies pre-2019 history not matched by later BTL categories. The owner
+  accepts the documented methodology limitation, preferring official unchanged
+  observations to an unsupported correction. The Bank's approximately -0.17pp
+  estimate is a limited illustrative August-September 2018 comparison, not an
+  effect for every historical observation or a universal adjustment factor.
+- **Decision 3 and stated rationale:** XML already carries historical revision
+  records. Retaining them supports traceability, reproducibility and independent
+  validation without a separate permanent download process; audit history does
+  not change the first-release input policy.
+- **AI actions / attribution:** Task 007.1 previously demonstrated selected XML
+  histories and recommended considering that interface. The supplied Task 007
+  instructions attribute these decisions and reasons to the owner. Separate
+  ChatGPT recommendations or discussion timestamps are not established here.
+- **Outcome/status:** Approved ingestion policy; earliest database events must
+  still be labelled uncertified when original-publication completeness is unknown.
+- **Evidence/references:** [Task 007 original instructions, sections 2 and 9.1](../007-boe-bank-rate-and-iumzid4-ingestion.md),
+  [Task 007.1 findings](../007.1-iumzid4-historical-revisions-and-publication-vintages.md#investigation-report---20-november-2026).
+
+## 21 November 2026 - Task 007 financing ingestion implementation
+
+- **Event/trigger:** Owner supplied the production ingestion task and authorised
+  committing/pushing to the existing milestone branch, without a PR or merge.
+- **Initiated by:** Human.
+- **Human actions:** Supplied the source contracts, approved policies and stated
+  rationale above; required immutable provenance, tests and independent checks.
+- **AI actions (Codex):** Verified clean Task 007.1 branch state, reviewed relevant
+  issues/standards/code, archived the prompt, implemented XML revision selection
+  and Bank Rate HTML extraction, immutable layer publication, reruns and recovery.
+  Retrieved both sources and an audit-only CSV; verified all 178 current mortgage
+  observations, ten earlier-record selections and all 259 Bank Rate rows.
+- **Significant problems/interventions:** Sandbox network access was refused;
+  approved external execution succeeded. Reads of externally written ignored
+  files needed approved execution. An initial test decorator syntax error was
+  corrected before tests passed. Optional Black executable was absent; no new
+  formatting dependency was introduced.
+- **Decision and stated rationale:** Codex used the demonstrated full-history XML
+  route because it supplied the complete current range and retained history in
+  one request. It kept source timestamp strings and explicit uncertified evidence
+  rather than inferring public availability. No statistical correction was made.
+- **Outcome/status:** Live snapshot contains 178 selected months and 336 retained
+  states; Bank Rate contains 259 change events. Offline reruns preserve hashes.
+  ISS-004/ISS-005 remain Open with approved ingestion choices distinguished from
+  remaining evidence and later feature decisions. Tests and Git handoff are
+  reported in the task's final validation record; no implementation of Task 008.
+- **Evidence/references:** [Task/report](../007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026),
+  [source and rerun evidence](../../reports/data_audits/007/validation-evidence.json),
+  [issue update](../issue-register.md#task-007-update---21-november-2026),
+  [execution timing](../task-execution-log.csv).

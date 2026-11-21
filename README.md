@@ -103,9 +103,33 @@ Run the automated tests with:
 uv run pytest
 ```
 
+## Bank of England financing ingestion
+
+Task 007 adds official Bank Rate effective-date events and IUMZID4 XML history.
+Run from the repository root:
+
+```powershell
+uv run python -m ingestion.boe --snapshot-id 2026-11-21-task007 --end-date 2026-11-21
+```
+
+Use a new snapshot identifier and an explicit end date for each new retrieval.
+Reuse the same arguments to verify and reprocess the saved source without a
+download. `--dataset bank_rate` or `--dataset iumzid4` selects one component;
+`--config` uses the existing storage TOML. The default end date is today's UTC
+date. Keep the end date explicit for reproducible reruns.
+
+Raw responses and provenance remain under `data/raw/bank_of_england/`.
+Validated source tables and processed selected/history/event Parquet outputs
+use the matching dataset/snapshot directories in the existing layers.
+IUMZID4 selects the earliest recorded value, including provisional values,
+with explicit uncertified-first-publication evidence status. It preserves all
+returned history. Bank Rate retains event dates without monthly aggregation.
+See [Task 007's implementation report](docs/007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026)
+for schemas, recovery, validation evidence and limitations.
+
 ## Next step
 
-Review the generated PIPR validation summary and manifest, then approve the
+Review the generated PIPR and Bank of England outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are
