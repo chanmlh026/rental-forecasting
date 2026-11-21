@@ -329,3 +329,7 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Owner prompt and correction report](../007.2-harden-boe-http-metadata-and-validation-evidence.md),
   [verification outcomes](../../reports/data_audits/007.2/validation-evidence.json),
   [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+  Dated update, 21 November 2026: correction commit
+  `f8cb66d1ddcc9a4efc2374af2cf9b0833bd5fe06` pushed and matched the remote
+  milestone branch; local/remote main unchanged. Task 007.2 completed for review
+  with ISS-020 remaining Open; final timing is in the shared CSV.
