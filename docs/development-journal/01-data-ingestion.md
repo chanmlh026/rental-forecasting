@@ -434,3 +434,24 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Owner prompt and report](../008-ons-inflation-and-uk-hpi-ingestion.md),
   [source/reconciliation evidence](../../reports/data_audits/008/validation-evidence.json),
   [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+
+## 21 November 2026 - Task 008 review and stable-baseline merge (Task 008.1)
+
+- **Event/trigger:** Owner requested review and merge of completed Task 008
+  before further ingestion tasks, conditional on passing tests and no material
+  review finding or merge conflict.
+- **Initiated by:** Human.
+- **Human actions:** Authorised PR creation/reuse and conditional merge into
+  main. Prohibited methodological changes, history rewriting, force pushes and
+  beginning Tasks 009-013; unresolved issues must remain open.
+- **AI actions (Codex):** Verified clean matching local/remote feature heads,
+  inspected the expected 13-file diff, reviewed new code/tests and evidence,
+  refreshed the complete test suite (117 passed), and replayed source audit
+  checks (all comparisons pass; 60 snapshot files unchanged). Initial search
+  found no PR. No implementation or ingestion data changed.
+- **Outcome/status:** Pre-merge review passed with the existing documented
+  limitations. PR creation, checks and actual merge result are recorded in
+  the task report after the corresponding actions. No issue is closed by merge.
+- **Evidence/references:** [Task 008.1 prompt/report](../008.1-merge-task-008-and-establish-stable-baseline.md),
+  [Task 008 evidence](../../reports/data_audits/008/validation-evidence.json),
+  [issue register](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
