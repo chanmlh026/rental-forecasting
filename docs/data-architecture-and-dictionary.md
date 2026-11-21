@@ -1,11 +1,12 @@
 # 004. Rental Forecasting Data Architecture & Data Dictionary
 
-**Status:** Living design and source assessment; updated for Task 006.2 on
-8 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
+**Status:** Living design and source assessment; source assessment updated for
+Task 007 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
 forecasting decisions; Section 3 records source evidence and its limits. The
 Section 7 ingestion batches are proposals for project-owner review, not approval
 to implement them. No production ingestion or feature functionality is added by
-this research.
+the research sections. Task 007 now implements Bank of England ingestion only;
+see the implemented contract below. Other proposed batches remain unapproved.
 
 ## 1. Existing project decisions
 
@@ -33,6 +34,49 @@ Source findings inform later decisions; they do not authorise additional
 implementation.
 
 ## 2. Proposed architecture
+
+### Implemented Bank of England source contract (Task 007, 21 November 2026)
+
+The owner authorised Bank Rate and IUMZID4 ingestion in
+[Task 007](007-boe-bank-rate-and-iumzid4-ingestion.md). The
+[implementation report](007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026)
+documents schemas, source definitions, validation, execution and recovery;
+[live evidence](../reports/data_audits/007/validation-evidence.json) records
+requests, checksums and measured counts. This implements those two sources only,
+not the remaining proposed architecture below.
+
+- `ingestion.boe` uses the official Bank Rate HTML effective-date history and
+  documented IUMZID4 XML revision interface, with the existing storage TOML.
+  Each existing raw/validated/processed layer contains
+  `bank_of_england/{dataset}/snapshot={snapshot_id}/`; the identifier denotes
+  retrieval, not a certified historical release edition. Immutable manifests
+  preserve exact requests, response metadata, UTC retrievals and checksums.
+- Bank Rate: 259 unadjusted change events, 20 January 1975-5 November 2026.
+  `events.parquet` has date `effective_date`, float `rate_percent`, exact source
+  date/value text and snapshot provenance. Monthly/forecast-cutoff semantics
+  remain deferred; effective dates are not announcement timestamps.
+- IUMZID4: 178 consecutive monthly observations, January 2012-October 2026;
+  336 retained value/status events in the inspected snapshot. Validated current
+  and history tables preserve source states; processed selected and history
+  tables distinguish model-input policy from audit revisions. Rates remain
+  percent, not seasonally adjusted. No monthly financing features are produced.
+- Selected keys are `observation_month` (`YYYY-MM`); history keys add integer
+  `event_order`. Values retain numeric and exact source-string representations,
+  provisional/final status, naive source update strings, source attributes,
+  observation date, snapshot/checksum/retrieval fields and source notes. Earliest
+  recorded provisional observations are eligible; subsequent revisions cannot
+  replace the selected observation. Every selection is explicitly labelled
+  `earliest_recorded_not_certified`; missing revisions are labelled
+  `current_update_only`. Pre-October-2016 observations are backfill flagged.
+- Owner accepts the February 2019 transition with published history unchanged;
+  the July 2018 population note is preserved. The illustrative -0.17pp comparison
+  is not a universal adjustment. Original publication completeness, timezone and
+  full release calendars remain unverified (ISS-004/ISS-005). Exact PIT joins
+  and operational cutoff decisions remain future work (ISS-014).
+- Both sources' database-data reuse was checked against the Bank's legal terms
+  on 21 November 2026: OGL, attribution to the Governor and Company of the Bank
+  of England; no selected-source exception found. Underlying third-party
+  microdata rights are not inferred. No licensed microdata is acquired.
 
 ### Directory layout
 
@@ -247,13 +291,25 @@ arithmetic, not publisher guarantees.
 **BTL history and release evidence.** The [BoE September 2016 paper](https://www.bankofengland.co.uk/-/media/boe/files/statistics/bankstats-articles/2016/forthcoming-improvements-to-interest-rate-statistics---bankstats-article.pdf?hash=09A713F2C36E4E882504CBD3EDB727F344F44513&la=en)
 identifies IUMZID4 as a new series backdated to January 2012: earlier observation
 history is not proof of contemporaneous publication. The [March 2019 changes](https://www.bankofengland.co.uk/-/media/boe/files/statistics/bankstats-articles/2019/introduction-of-new-quoted-rates-data.pdf)
-expanded sampling, changed weighting/product selection, changed end-month
-measurement to monthly average, and moved publication to fifth working day with
-next-month reweighting. The [general FAQ](https://www.bankofengland.co.uk/Statistics/faqs)
-still describes working days 5 and 21. These general/specific cadence descriptions
-conflict: verify actual relevant release calendars in Task 007 rather than assuming
-one lag throughout history. Do not silently splice measurement regimes or treat
-the latest CSV as a historical-vintage archive.
+expanded sampling and product selection, changed end-month measurement to monthly
+average, and moved publication to the fifth working day with next-month
+reweighting. The product-specific source table retains quarterly MLAR weighting
+for BTL on both sides of February 2019; do not apply the general PSD description
+to BTL without checking that distinction. The general FAQ's two-update cadence
+is historical/general context, not a basis for imposing that schedule after
+the dated change.
+
+[Task 007.1](007.1-iumzid4-historical-revisions-and-publication-vintages.md#investigation-report---20-november-2026)
+subsequently demonstrated IUMZID4 XML revision histories, including provisional
+values and intermediate updates, for selected months. The update-date filter
+selects changes since a date, not a historical as-of snapshot. Complete first
+publication coverage and the timezone/public-availability meaning of source
+timestamps remain unverified; the latest CSV alone is not a vintage archive.
+The limited -0.17pp BTL methodology comparison is illustrative, not a correction
+factor. The owner retains IUMZID4 without statistical adjustment, documents the
+break and defers modelling treatment; Task 007 implementation still requires
+authorisation. See the linked evidence for selected-month results, source
+requests, July 2018 population note and remaining ISS-004/ISS-005 limitations.
 
 **Existing household-income evidence retained.** The earlier investigation
 identified [regional GDHI](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomegdhi)

@@ -1,0 +1,273 @@
+{
+  "task": "007.1",
+  "series": "IUMZID4",
+  "units": "percent",
+  "source_attribution": "Bank of England Database; copyright Governor and Company of the Bank of England; data reused under the Open Government Licence v3.0",
+  "timestamp_policy": "Retain source timestamp strings without adding an unverified timezone. Retrieval timestamps are UTC. Earliest retained update is not necessarily initial public availability.",
+  "tests": [
+    {
+      "observation_month": "2019-01",
+      "current_published_value": "2.37",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.36",
+      "earliest_retained_value_status": "provisional",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2019-02-07 09:30:00",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2019-02-07 09:30:00",
+          "PROV_VALUE": "2.36"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-03-01 09:30:00",
+          "OBS_VALUE": "2.36"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-04-05 09:30:00",
+          "OBS_VALUE": "2.37"
+        }
+      ],
+      "latest_source_update_timestamp": "2019-04-05 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:23.821494+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:23.821494+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2019-updates",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2019-02",
+      "current_published_value": "2.22",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.17",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2019-03-07 09:30:00",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2019-03-07 09:30:00",
+          "OBS_VALUE": "2.17"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-04-05 09:30:00",
+          "OBS_VALUE": "2.23"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-05-08 09:30:00",
+          "OBS_VALUE": "2.2"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-06-07 09:30:00",
+          "OBS_VALUE": "2.22"
+        }
+      ],
+      "latest_source_update_timestamp": "2019-06-07 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:23.821494+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:23.821494+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2019-updates",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2019-03",
+      "current_published_value": "2.25",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.25",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2019-04-05 09:30:00",
+      "revision_records": [],
+      "latest_source_update_timestamp": "2019-04-05 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:23.821494+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:23.821494+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2019-updates",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value/update metadata; no Revision child returned, original-value inference inconclusive"
+    },
+    {
+      "observation_month": "2012-01",
+      "current_published_value": "5.28",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "5.28",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2016-10-31 15:42:54",
+      "revision_records": [],
+      "latest_source_update_timestamp": "2016-10-31 15:42:54",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:24.733432+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:24.733432+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2012-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2012&Dateto=31/Jan/2012&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value/update metadata; no Revision child returned, original-value inference inconclusive"
+    },
+    {
+      "observation_month": "2016-09",
+      "current_published_value": "2.97",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.84",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2016-10-31 15:42:54",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2016-10-31 15:42:54",
+          "OBS_VALUE": "2.84"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2017-01-04 09:30:00",
+          "OBS_VALUE": "2.97"
+        }
+      ],
+      "latest_source_update_timestamp": "2017-01-04 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:24.855933+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:24.855933+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2016-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2016&Dateto=31/Oct/2016&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2016-10",
+      "current_published_value": "2.98",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.83",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2016-11-29 09:30:00",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2016-11-29 09:30:00",
+          "OBS_VALUE": "2.83"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2017-01-04 09:30:00",
+          "OBS_VALUE": "2.96"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2017-03-29 09:30:00",
+          "OBS_VALUE": "2.98"
+        }
+      ],
+      "latest_source_update_timestamp": "2017-03-29 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:24.855933+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:24.855933+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2016-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2016&Dateto=31/Oct/2016&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2018-08",
+      "current_published_value": "2.24",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.27",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2018-10-01 09:30:00",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2018-10-01 09:30:00",
+          "OBS_VALUE": "2.27"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2018-10-29 11:03:17",
+          "OBS_VALUE": "2.23"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-01-04 09:30:00",
+          "OBS_VALUE": "2.24"
+        }
+      ],
+      "latest_source_update_timestamp": "2019-01-04 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:25.182125+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:25.182125+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2018-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Aug/2018&Dateto=30/Sep/2018&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2018-09",
+      "current_published_value": "2.33",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "2.31",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2018-10-29 11:03:17",
+      "revision_records": [
+        {
+          "UPDATE_TIMESTAMP": "2018-10-29 11:03:17",
+          "OBS_VALUE": "2.31"
+        },
+        {
+          "UPDATE_TIMESTAMP": "2019-01-04 09:30:00",
+          "OBS_VALUE": "2.33"
+        }
+      ],
+      "latest_source_update_timestamp": "2019-01-04 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:25.182125+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:25.182125+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2018-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Aug/2018&Dateto=30/Sep/2018&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value and retained history; initial-publication completeness unverified"
+    },
+    {
+      "observation_month": "2026-09",
+      "current_published_value": "4.34",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "4.34",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2026-10-07 09:30:00",
+      "revision_records": [],
+      "latest_source_update_timestamp": "2026-10-07 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:25.315648+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:25.315648+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2026-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2026&Dateto=31/Oct/2026&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value/update metadata; no Revision child returned, original-value inference inconclusive"
+    },
+    {
+      "observation_month": "2026-10",
+      "current_published_value": "4.52",
+      "original_published_value": null,
+      "original_value_limitation": "Earliest retained event is observed, but full first-publication completeness is not certified. See report for 2016 launch and provisional evidence.",
+      "earliest_retained_value": "4.52",
+      "earliest_retained_value_status": "observation",
+      "initial_publication_date": null,
+      "earliest_retained_update_timestamp": "2026-11-06 09:30:00",
+      "revision_records": [],
+      "latest_source_update_timestamp": "2026-11-06 09:30:00",
+      "source_timestamp_timezone": null,
+      "retrieval_timestamp_utc": "2026-11-20T13:47:25.315648+00:00",
+      "dataset_vintage": "Database response retrieved at 2026-11-20T13:47:25.315648+00:00; not a release edition",
+      "retrieval_method": "Documented XML, VUD=A, VUDdate=03/Jun/2007, VPD=Y, VFD=Y",
+      "evidence_request_id": "xml-2026-history",
+      "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2026&Dateto=31/Oct/2026&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007",
+      "outcome": "Confirmed current value/update metadata; no Revision child returned, original-value inference inconclusive"
+    }
+  ]
+}

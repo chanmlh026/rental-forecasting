@@ -209,3 +209,175 @@ is stated explicitly. Detailed findings remain in their source documents.
   after archive comparison. Prior incomplete status remains in the task report.
 - **Evidence/references:** [Instructions and prior report](../006.8-stage-specific-development-journals.md),
   [ISS-019](../issue-register.md#issues), [timing record](../task-execution-log.csv).
+
+
+## 20 November 2026 - IUMZID4 vintage investigation (Task 007.1)
+
+- **Event/trigger:** Owner requested evidence on IUMZID4 historical revisions
+  before finalising the Bank of England ingestion design.
+- **Initiated by:** Human, through the Task 007.1 instructions.
+- **Human actions:** Retained IUMZID4 without statistical correction, required
+  documentation of the February 2019 transition, deferred modelling treatment
+  and authorised source investigation only. No Task 007 implementation or PR.
+- **AI actions (Codex):** Checked official documentation and tested ten selected
+  months through XML, current CSV and HTML/Excel exports. Retained requests,
+  response metadata, parent-linked revision extracts and failed-method evidence.
+- **Decision and rationale:** Codex recommends considering XML history alongside
+  immutable current-source snapshots because actual historical value changes
+  were demonstrated; this recommendation is not an approved ingestion design.
+- **Outcome/status:** XML returns earlier and revised values, including provisional
+  states. HTML previous-value controls were not demonstrated; filter attempts
+  returned application errors. Complete first-publication coverage and source
+  timestamp timezone remain unverified. ISS-004/ISS-005 remain Open; their evidence
+  and remaining actions were updated. No published values were adjusted and no
+  production ingestion, feature engineering or modelling was implemented.
+  Dated update, 20 November 2026: investigation completed and findings/evidence
+  pushed to feature/007-boe-ingestion for independent review; no PR or merge.
+- **Evidence/references:** [Owner instructions and investigation](../007.1-iumzid4-historical-revisions-and-publication-vintages.md),
+  [retained source evidence](../../reports/data_audits/007.1/),
+  [ISS-004/ISS-005](../issue-register.md#issues),
+  [timing record](../task-execution-log.csv).
+
+## Pre-Task 007 discussions - owner methodological decisions (date not established)
+
+- **Event/trigger:** Financing-source policy decisions during methodological
+  discussions before Task 007; exact decision dates/times are not supplied.
+- **Initiated by:** Human project owner, as explicitly attributed in Task 007.
+- **Human actions:** Approved earliest retrievable published IUMZID4 values,
+  including provisional first states; accepted the February 2019 transition
+  without changing published rates; required preservation of available revisions
+  for audit rather than replacement of selected model inputs.
+- **Decision 1 and stated rationale:** Forecasts are generated when relevant new
+  data becomes available. Existing forecasts will not be regenerated solely
+  because the Bank later revises mortgage rates, so historical inputs should
+  reflect initially published information rather than retrospective revisions.
+- **Decision 2 and stated rationale:** IUMZID4 directly represents BTL financing
+  and supplies pre-2019 history not matched by later BTL categories. The owner
+  accepts the documented methodology limitation, preferring official unchanged
+  observations to an unsupported correction. The Bank's approximately -0.17pp
+  estimate is a limited illustrative August-September 2018 comparison, not an
+  effect for every historical observation or a universal adjustment factor.
+- **Decision 3 and stated rationale:** XML already carries historical revision
+  records. Retaining them supports traceability, reproducibility and independent
+  validation without a separate permanent download process; audit history does
+  not change the first-release input policy.
+- **AI actions / attribution:** Task 007.1 previously demonstrated selected XML
+  histories and recommended considering that interface. The supplied Task 007
+  instructions attribute these decisions and reasons to the owner. Separate
+  ChatGPT recommendations or discussion timestamps are not established here.
+- **Outcome/status:** Approved ingestion policy; earliest database events must
+  still be labelled uncertified when original-publication completeness is unknown.
+- **Evidence/references:** [Task 007 original instructions, sections 2 and 9.1](../007-boe-bank-rate-and-iumzid4-ingestion.md),
+  [Task 007.1 findings](../007.1-iumzid4-historical-revisions-and-publication-vintages.md#investigation-report---20-november-2026).
+
+## 21 November 2026 - Task 007 financing ingestion implementation
+
+- **Event/trigger:** Owner supplied the production ingestion task and authorised
+  committing/pushing to the existing milestone branch, without a PR or merge.
+- **Initiated by:** Human.
+- **Human actions:** Supplied the source contracts, approved policies and stated
+  rationale above; required immutable provenance, tests and independent checks.
+- **AI actions (Codex):** Verified clean Task 007.1 branch state, reviewed relevant
+  issues/standards/code, archived the prompt, implemented XML revision selection
+  and Bank Rate HTML extraction, immutable layer publication, reruns and recovery.
+  Retrieved both sources and an audit-only CSV; verified all 178 current mortgage
+  observations, ten earlier-record selections and all 259 Bank Rate rows.
+- **Significant problems/interventions:** Sandbox network access was refused;
+  approved external execution succeeded. Reads of externally written ignored
+  files needed approved execution. An initial test decorator syntax error was
+  corrected before tests passed. Optional Black executable was absent; no new
+  formatting dependency was introduced.
+- **Decision and stated rationale:** Codex used the demonstrated full-history XML
+  route because it supplied the complete current range and retained history in
+  one request. It kept source timestamp strings and explicit uncertified evidence
+  rather than inferring public availability. No statistical correction was made.
+- **Outcome/status:** Live snapshot contains 178 selected months and 336 retained
+  states; Bank Rate contains 259 change events. Offline reruns preserve hashes.
+  ISS-004/ISS-005 remain Open with approved ingestion choices distinguished from
+  remaining evidence and later feature decisions. Tests and Git handoff are
+  reported in the task's final validation record; no implementation of Task 008.
+  Dated update, 21 November 2026: all 70 tests passed; implementation commit
+  `f73119a05b6eea046c61cac47954f19e9797da48` pushed and matched the remote
+  milestone branch; local/remote main unchanged. Task 007 completed for review,
+  with no PR or merge. Measured timing is recorded in the shared CSV.
+- **Evidence/references:** [Task/report](../007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026),
+  [source and rerun evidence](../../reports/data_audits/007/validation-evidence.json),
+  [issue update](../issue-register.md#task-007-update---21-november-2026),
+  [execution timing](../task-execution-log.csv).
+
+## 21 November 2026 - Independent-review HTTP metadata correction (Task 007.2)
+
+- **Event/trigger:** Independent review identified session-cookie response headers
+  in committed Task 007 validation evidence; owner requested correction.
+- **Initiated by:** Human, through the supplied review finding and task.
+- **Human actions:** Authorised safe header handling, current-evidence cleanup,
+  tests and a history-remediation assessment. Required preserving immutable data
+  and expressly prohibited history rewriting without separate owner approval.
+- **AI actions (Codex):** Confirmed two exposed header fields, traced complete
+  header capture and legacy export paths, implemented provenance allowlisting at
+  capture/publication/read/export boundaries, and regenerated the current JSON.
+  Checked Task 007/007.1 artifacts without printing values; added regression tests.
+- **Decision and stated rationale:** Codex used an allowlist so unknown session,
+  auth or custom headers are excluded by default while keeping source provenance.
+  Existing manifests are filtered in memory to preserve immutable on-disk evidence.
+- **Outcome/status:** 76 tests passed. All 16 existing snapshot files, including
+  six Parquet files, remain byte-for-byte unchanged. Current evidence differs
+  only by excluded headers. No equivalent exposure found in Task 007.1 JSON.
+  Two pushed historical commits still contain the original fields; ISS-020
+  remains Open for an owner risk/remediation decision. Cookie validity/scope
+  has not been established; no session replay, PR, merge or history rewrite.
+- **Evidence/references:** [Owner prompt and correction report](../007.2-harden-boe-http-metadata-and-validation-evidence.md),
+  [verification outcomes](../../reports/data_audits/007.2/validation-evidence.json),
+  [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+  Dated update, 21 November 2026: correction commit
+  `f8cb66d1ddcc9a4efc2374af2cf9b0833bd5fe06` pushed and matched the remote
+  milestone branch; local/remote main unchanged. Task 007.2 completed for review
+  with ISS-020 remaining Open; final timing is in the shared CSV.
+
+### 21 November 2026 update - owner acceptance of ISS-020 residual risk (Task 007.3)
+
+- **Event/trigger:** Owner reviewed the Task 007.2 findings and supplied an
+  explicit resolution instruction after the initial correction handoff.
+- **Initiated by:** Human.
+- **Human actions:** Accepted residual historical session-cookie exposure in
+  the private repository with the implemented preventive controls; expressly
+  prohibited history rewriting, force pushes and session invalidation.
+- **AI actions (Codex):** Archived the instruction verbatim and updated ISS-020
+  to Resolved, preserving earlier Open status and findings as dated history.
+  The owner subsequently formalised this documentation work as Task 007.3;
+  Codex retained the preliminary edits and tracked its measured intervals
+  separately from the completed Task 007.2 technical correction.
+- **Decision and stated rationale:** Explicit owner risk acceptance based on
+  private-repository context and preventive controls. Expiry/access scope have
+  not been independently verified and historical values remain accessible.
+- **Outcome/status:** Resolved through owner acceptance, not confirmed removal
+  or expiry. No code, ingestion data or methodology changes; no invalidation,
+  history rewrite, force push, PR or merge.
+- **Evidence/references:** [Verbatim owner decision](../007.2-harden-boe-http-metadata-and-validation-evidence.md#owner-resolution-instruction---21-november-2026-verbatim),
+  [Task 007.3 instructions and validation](../007.3-record-iss-020-owner-risk-acceptance.md),
+  [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
+
+## 21 November 2026 - Bank of England milestone Draft PR preparation (Task 007.4)
+
+- **Event/trigger:** Owner requested one milestone Draft PR for Tasks 007.1,
+  007, 007.2 and 007.3, reporting an independent review result of Pass with
+  documented limitations. Reviewer identity and a separate formal GitHub review
+  are not established by that instruction.
+- **Initiated by:** Human.
+- **Human actions:** Authorised Draft PR creation into main if none existed,
+  retaining final approval/merge control and prohibiting methodology changes,
+  history rewriting, force pushes, merging and Task 008 work.
+- **AI actions (Codex):** Verified a clean branch matching remote at
+  `bbcda06f4b70948477fc11467a29ed80be0e2d5f`, fetched remote refs and searched
+  existing PRs without finding one for the milestone branch. Reviewed evidence
+  and issue dispositions; prepared a summary separating approved input policy,
+  source-evidence limits and owner-accepted historical cookie exposure.
+- **Outcome/status:** PR preparation in progress; publication and available
+  check results will be recorded in the Task 007.4 report. ISS-020 is Resolved
+  by owner acceptance; ISS-004/ISS-005 remain Open. No implementation changes.
+  Dated update, 21 November 2026: [Draft PR #4](https://github.com/chanmlh026/rental-forecasting/pull/4)
+  created; GitHub reports a clean, mergeable draft, zero status checks/workflow
+  runs and an empty check rollup. No CI workflow is configured; 76 local tests
+  passed. Approval/merge remain with the owner; no merge performed.
+- **Evidence/references:** [Task 007.4 prompt/report](../007.4-prepare-boe-ingestion-milestone-pull-request.md),
+  [issue register](../issue-register.md#issues), [execution timing](../task-execution-log.csv).

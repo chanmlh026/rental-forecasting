@@ -1,0 +1,328 @@
+{
+  "bank_rate": {
+    "manifest": {
+      "attribution": "Copyright Governor and Company of the Bank of England; OGL v3.0",
+      "checksums": {
+        "events.parquet": "04952194352bd1c89f4712c2751746312428dddfb98238f25f5daf3dac53018c"
+      },
+      "identity": {
+        "dataset": "bank_rate",
+        "snapshot_id": "2026-11-21-task007",
+        "url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp"
+      },
+      "legal_url": "https://www.bankofengland.co.uk/legal",
+      "retrieval": {
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
+        "response_headers": {
+          "Cache-Control": "private, max-age=33",
+          "Content-Type": "text/html",
+          "Date": "Sat, 21 Nov 2026 12:54:55 GMT",
+          "Expires": "Sat, 21 Nov 2026 12:55:28 GMT",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T12:54:54.409689+00:00",
+        "retrieved_at": "2026-11-21T12:54:54.729980+00:00",
+        "status": 200,
+        "url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp"
+      },
+      "source_name": "Bank of England Database",
+      "source_sha256": "818be7826a988e96825a18b9d1e7657f23691a8e32b8412610096df20bedc309",
+      "transformation_version": "boe-ingestion-v1",
+      "units": "percent",
+      "validation": {
+        "availability": "effective_dates_only_not_announcement_timestamps",
+        "observation_count": 259,
+        "observation_end": "2026-11-05",
+        "observation_start": "1975-01-20"
+      }
+    },
+    "offline_rerun_unchanged": true
+  },
+  "iumzid4": {
+    "manifest": {
+      "attribution": "Copyright Governor and Company of the Bank of England; OGL v3.0",
+      "checksums": {
+        "history.parquet": "9c34cb21d0506b8a7ae17d475258e33ddf7ec6ab97786f924f18725115b6ddf7",
+        "selected.parquet": "fe10c10a3d2200718558f9bc0a2ff1708d64e5392c7fd433d4e90a00afd27bf4"
+      },
+      "identity": {
+        "dataset": "iumzid4",
+        "snapshot_id": "2026-11-21-task007",
+        "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01%2FJan%2F2012&Dateto=21%2FNov%2F2026&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03%2FJun%2F2007"
+      },
+      "legal_url": "https://www.bankofengland.co.uk/legal",
+      "retrieval": {
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01%2FJan%2F2012&Dateto=21%2FNov%2F2026&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03%2FJun%2F2007",
+        "response_headers": {
+          "Cache-Control": "private, max-age=60",
+          "Content-Length": "47555",
+          "Content-Type": "text/xml",
+          "Date": "Sat, 21 Nov 2026 12:54:56 GMT",
+          "Expires": "Sat, 21 Nov 2026 12:55:56 GMT",
+          "Vary": "Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T12:54:54.774525+00:00",
+        "retrieved_at": "2026-11-21T12:54:55.467725+00:00",
+        "status": 200,
+        "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01%2FJan%2F2012&Dateto=21%2FNov%2F2026&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03%2FJun%2F2007"
+      },
+      "source_name": "Bank of England Database",
+      "source_sha256": "2cd75e849d8d02007491f4bec38f35df86e65346cf21b62376cde0772aee533b",
+      "transformation_version": "boe-ingestion-v1",
+      "units": "percent",
+      "validation": {
+        "history_count": 336,
+        "observation_count": 178,
+        "observation_end": "2026-10",
+        "observation_start": "2012-01",
+        "original_publication_complete": false,
+        "source_metadata": [
+          {
+            "attributes": {
+              "CONCAT": "NOT_AVAILABLE ",
+              "COUNTRY": "",
+              "DESC": "Monthly interest rate of UK monetary financial institutions (excl. Central Bank) sterling 2 year (75% LTV) buy to let fixed rate mortgage to households (in percent) not seasonally adjusted",
+              "SCODE": "IUMZID4"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": "\n\t\t\t\t\t\t"
+          },
+          {
+            "attributes": {
+              "FREQ_CODE": "M",
+              "FREQ_NAME": "Monthly",
+              "FREQ_ORD": "7"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "SEASONAL ADJUSTMENT",
+              "CAT_ORD": "1",
+              "CAT_VAL": "U",
+              "VAL_DESC": "Not seasonally adjusted"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "TYPE",
+              "CAT_ORD": "2",
+              "CAT_VAL": "R",
+              "VAL_DESC": "Interest rate"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "OUTPUT IN",
+              "CAT_ORD": "3",
+              "CAT_VAL": "%",
+              "VAL_DESC": "Percent"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "SECTOR",
+              "CAT_ORD": "4",
+              "CAT_VAL": "BKBS",
+              "VAL_DESC": "UK resident monetary financial institutions (excl. Central Bank)"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "OF SECTOR",
+              "CAT_ORD": "5",
+              "CAT_VAL": "HH",
+              "VAL_DESC": "Households"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "INSTRUMENT CURRENCY",
+              "CAT_ORD": "6",
+              "CAT_VAL": "\u00a3",
+              "VAL_DESC": "Sterling"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "CAT_NAME": "INSTRUMENTS",
+              "CAT_ORD": "7",
+              "CAT_VAL": "BTL275",
+              "VAL_DESC": "Fixed rate mortgage, 2 year 75% BTL"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "FIRST_OBS": "2012-01-31",
+              "LAST_OBS": "2026-10-31"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}Cube",
+            "text": null
+          },
+          {
+            "attributes": {
+              "OBS_END": "2018-07-31"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}OBS_COM",
+            "text": "Rates from July 2018 are affected by an increase in the population sample."
+          },
+          {
+            "attributes": {
+              "OBS_END": "2019-02-28"
+            },
+            "tag": "{https://web.prod.iadb.ext.az.cloud.bankofengland.co.uk/website/agg_series}OBS_COM",
+            "text": "Following a regular QR review, the methodology used to calculate series has been changed and there has been an expansion of the sample. See article `Forthcoming changes to quoted interest rates data 2019' in the November 2018 issuse of this publication."
+          }
+        ],
+        "source_timestamp_timezone": "unverified"
+      }
+    },
+    "offline_rerun_unchanged": true
+  },
+  "csv_reconciliation": {
+    "matched_current_rows": 178,
+    "source": {
+      "checksums": {
+        "comparison.csv": "4898f29acf50c5fee73cee2d8123873cca7108a56324c049c9ee62a9e9642630"
+      },
+      "identity": {
+        "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=21/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N"
+      },
+      "retrieval": {
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0"
+        },
+        "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=21/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+        "response_headers": {
+          "Cache-Control": "private, max-age=59",
+          "Content-Length": "3204",
+          "Content-Type": "application/csv",
+          "Date": "Sat, 21 Nov 2026 12:56:49 GMT",
+          "Expires": "Sat, 21 Nov 2026 12:57:48 GMT",
+          "Vary": "Accept-Encoding"
+        },
+        "retrieval_started_at": "2026-11-21T12:56:47.259693+00:00",
+        "retrieved_at": "2026-11-21T12:56:47.759828+00:00",
+        "status": 200,
+        "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=21/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N"
+      }
+    }
+  },
+  "selected_regressions": [
+    {
+      "observation_month": "2019-01",
+      "rate_percent": 2.36,
+      "observation_status": "provisional",
+      "source_updated_at": "2019-02-07 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2019-02",
+      "rate_percent": 2.17,
+      "observation_status": "final",
+      "source_updated_at": "2019-03-07 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2019-03",
+      "rate_percent": 2.25,
+      "observation_status": "final",
+      "source_updated_at": "2019-04-05 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2012-01",
+      "rate_percent": 5.28,
+      "observation_status": "final",
+      "source_updated_at": "2016-10-31 15:42:54",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2016-09",
+      "rate_percent": 2.84,
+      "observation_status": "final",
+      "source_updated_at": "2016-10-31 15:42:54",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2016-10",
+      "rate_percent": 2.83,
+      "observation_status": "final",
+      "source_updated_at": "2016-11-29 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2018-08",
+      "rate_percent": 2.27,
+      "observation_status": "final",
+      "source_updated_at": "2018-10-01 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2018-09",
+      "rate_percent": 2.31,
+      "observation_status": "final",
+      "source_updated_at": "2018-10-29 11:03:17",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2026-09",
+      "rate_percent": 4.34,
+      "observation_status": "final",
+      "source_updated_at": "2026-10-07 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    },
+    {
+      "observation_month": "2026-10",
+      "rate_percent": 4.52,
+      "observation_status": "final",
+      "source_updated_at": "2026-11-06 09:30:00",
+      "first_release_evidence_status": "earliest_recorded_not_certified"
+    }
+  ],
+  "prior_investigation_evidence": "reports/data_audits/007.1/observation-tests.json",
+  "bank_rate_independent_extraction": {
+    "matched_rows": 259,
+    "official_page_examples": [
+      {
+        "effective_date": "1975-01-20",
+        "rate_percent": 11.25
+      },
+      {
+        "effective_date": "2020-03-19",
+        "rate_percent": 0.1
+      },
+      {
+        "effective_date": "2026-11-05",
+        "rate_percent": 4.0
+      }
+    ]
+  },
+  "limitations": [
+    "Earliest retained database event is not certified original publication.",
+    "Source update timestamp timezone/public availability unverified.",
+    "Bank Rate page begins 20 January 1975; no earlier history claimed."
+  ]
+}

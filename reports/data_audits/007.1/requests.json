@@ -1,0 +1,66 @@
+[
+  {
+    "id": "selection",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=IUMZID4&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx"
+  },
+  {
+    "id": "csv-2019",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&CSVF=TN&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y"
+  },
+  {
+    "id": "xml-2019-current",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y"
+  },
+  {
+    "id": "xml-2019-updates",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "html-2019",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?html.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y"
+  },
+  {
+    "id": "excel-2019",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?excel97.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y"
+  },
+  {
+    "id": "html-normal",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?html.x=yes&SeriesCodes=IUMZID4&UsingCodes=Y&DAT=RNG&FD=1&FM=Jan&FY=2012&TD=20&TM=Nov&TY=2026&VPD=Y&VFD=Y&CSVF=TN&Travel=NIxSUx"
+  },
+  {
+    "id": "csv-2012-2026",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=20/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N"
+  },
+  {
+    "id": "html-2019-revisions",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?html.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "excel97-2019-revisions",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?excel97.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-2012-history",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2012&Dateto=31/Jan/2012&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-2016-history",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2016&Dateto=31/Oct/2016&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-2018-history",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Aug/2018&Dateto=30/Sep/2018&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-2026-history",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Sep/2026&Dateto=31/Oct/2026&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=03/Jun/2007"
+  },
+  {
+    "id": "xml-2019-filtered-apr",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=A&VUDdate=01/Apr/2019"
+  },
+  {
+    "id": "xml-2019-updates-jun",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01/Jan/2019&Dateto=31/Mar/2019&SeriesCodes=IUMZID4&VPD=Y&VFD=Y&VUD=B&VUDdate=01/Jun/2019"
+  }
+]
