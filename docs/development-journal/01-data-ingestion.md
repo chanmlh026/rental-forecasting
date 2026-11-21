@@ -296,6 +296,10 @@ is stated explicitly. Detailed findings remain in their source documents.
   ISS-004/ISS-005 remain Open with approved ingestion choices distinguished from
   remaining evidence and later feature decisions. Tests and Git handoff are
   reported in the task's final validation record; no implementation of Task 008.
+  Dated update, 21 November 2026: all 70 tests passed; implementation commit
+  `f73119a05b6eea046c61cac47954f19e9797da48` pushed and matched the remote
+  milestone branch; local/remote main unchanged. Task 007 completed for review,
+  with no PR or merge. Measured timing is recorded in the shared CSV.
 - **Evidence/references:** [Task/report](../007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026),
   [source and rerun evidence](../../reports/data_audits/007/validation-evidence.json),
   [issue update](../issue-register.md#task-007-update---21-november-2026),
