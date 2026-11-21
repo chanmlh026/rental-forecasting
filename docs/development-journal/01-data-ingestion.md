@@ -304,3 +304,28 @@ is stated explicitly. Detailed findings remain in their source documents.
   [source and rerun evidence](../../reports/data_audits/007/validation-evidence.json),
   [issue update](../issue-register.md#task-007-update---21-november-2026),
   [execution timing](../task-execution-log.csv).
+
+## 21 November 2026 - Independent-review HTTP metadata correction (Task 007.2)
+
+- **Event/trigger:** Independent review identified session-cookie response headers
+  in committed Task 007 validation evidence; owner requested correction.
+- **Initiated by:** Human, through the supplied review finding and task.
+- **Human actions:** Authorised safe header handling, current-evidence cleanup,
+  tests and a history-remediation assessment. Required preserving immutable data
+  and expressly prohibited history rewriting without separate owner approval.
+- **AI actions (Codex):** Confirmed two exposed header fields, traced complete
+  header capture and legacy export paths, implemented provenance allowlisting at
+  capture/publication/read/export boundaries, and regenerated the current JSON.
+  Checked Task 007/007.1 artifacts without printing values; added regression tests.
+- **Decision and stated rationale:** Codex used an allowlist so unknown session,
+  auth or custom headers are excluded by default while keeping source provenance.
+  Existing manifests are filtered in memory to preserve immutable on-disk evidence.
+- **Outcome/status:** 76 tests passed. All 16 existing snapshot files, including
+  six Parquet files, remain byte-for-byte unchanged. Current evidence differs
+  only by excluded headers. No equivalent exposure found in Task 007.1 JSON.
+  Two pushed historical commits still contain the original fields; ISS-020
+  remains Open for an owner risk/remediation decision. Cookie validity/scope
+  has not been established; no session replay, PR, merge or history rewrite.
+- **Evidence/references:** [Owner prompt and correction report](../007.2-harden-boe-http-metadata-and-validation-evidence.md),
+  [verification outcomes](../../reports/data_audits/007.2/validation-evidence.json),
+  [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).

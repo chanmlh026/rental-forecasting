@@ -18,17 +18,11 @@
         "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
         "response_headers": {
           "Cache-Control": "private, max-age=33",
-          "Connection": "close",
           "Content-Type": "text/html",
           "Date": "Sat, 21 Nov 2026 12:54:55 GMT",
           "Expires": "Sat, 21 Nov 2026 12:55:28 GMT",
-          "Server": "Microsoft-IIS/10.0",
-          "Server-Timing": "cdn-cache; desc=HIT",
           "Transfer-Encoding": "chunked",
-          "Vary": "Accept-Encoding",
-          "X-Akam-SW-Version": "0.5.0",
-          "X-Akamai-Transformed": "9 8134 0 pmb=mRUM,2",
-          "X-Powered-By": "ASP.NET"
+          "Vary": "Accept-Encoding"
         },
         "retrieval_started_at": "2026-11-21T12:54:54.409689+00:00",
         "retrieved_at": "2026-11-21T12:54:54.729980+00:00",
@@ -68,15 +62,11 @@
         "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?CodeVer=new&xml.x=yes&Datefrom=01%2FJan%2F2012&Dateto=21%2FNov%2F2026&SeriesCodes=IUMZID4&UsingCodes=Y&VPD=Y&VFD=Y&VUD=A&VUDdate=03%2FJun%2F2007",
         "response_headers": {
           "Cache-Control": "private, max-age=60",
-          "Connection": "close",
           "Content-Length": "47555",
           "Content-Type": "text/xml",
           "Date": "Sat, 21 Nov 2026 12:54:56 GMT",
           "Expires": "Sat, 21 Nov 2026 12:55:56 GMT",
-          "Server": "Microsoft-IIS/10.0",
-          "Server-Timing": "cdn-cache; desc=MISS",
-          "Vary": "Accept-Encoding",
-          "X-Powered-By": "ASP.NET"
+          "Vary": "Accept-Encoding"
         },
         "retrieval_started_at": "2026-11-21T12:54:54.774525+00:00",
         "retrieved_at": "2026-11-21T12:54:55.467725+00:00",
@@ -227,16 +217,11 @@
         "resolved_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2012&Dateto=21/Nov/2026&SeriesCodes=IUMZID4&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
         "response_headers": {
           "Cache-Control": "private, max-age=59",
-          "Connection": "close",
           "Content-Length": "3204",
           "Content-Type": "application/csv",
           "Date": "Sat, 21 Nov 2026 12:56:49 GMT",
           "Expires": "Sat, 21 Nov 2026 12:57:48 GMT",
-          "Server": "Microsoft-IIS/10.0",
-          "Server-Timing": "cdn-cache; desc=MISS",
-          "Vary": "Accept-Encoding",
-          "X-Powered-By": "ASP.NET",
-          "content-disposition": "attachment;filename=results.csv"
+          "Vary": "Accept-Encoding"
         },
         "retrieval_started_at": "2026-11-21T12:56:47.259693+00:00",
         "retrieved_at": "2026-11-21T12:56:47.759828+00:00",

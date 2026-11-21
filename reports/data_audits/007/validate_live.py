@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from ingestion.boe import BASE, fetch, ingest, publish, sha, verify_bundle
+from ingestion.boe import BASE, fetch, ingest, publish, safe_http_metadata, sha, verify_bundle
 
 
 def main():
@@ -74,7 +74,7 @@ def main():
     results["limitations"] = ["Earliest retained database event is not certified original publication.",
         "Source update timestamp timezone/public availability unverified.",
         "Bank Rate page begins 20 January 1975; no earlier history claimed."]
-    Path("reports/data_audits/007/validation-evidence.json").write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
+    Path("reports/data_audits/007/validation-evidence.json").write_text(json.dumps(safe_http_metadata(results), indent=2) + "\n", encoding="utf-8")
     print("CSV: 178 current rows reconciled; ten earliest-value regressions passed; Bank Rate: 259 events matched; both offline reruns unchanged.")
 
 
