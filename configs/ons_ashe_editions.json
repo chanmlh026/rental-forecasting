@@ -1,0 +1,339 @@
+{
+  "contract": "Task 009.1 verified official editions; add future editions only after source verification",
+  "investigation_commit": "659339c090451d7681283832a14731eacb2f3e10",
+  "editions": [
+    {
+      "edition_id": "2002",
+      "observation_year": 2002,
+      "label": "2002 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2002/2002-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2003",
+      "observation_year": 2003,
+      "label": "2003 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2003/2003-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2004",
+      "observation_year": 2004,
+      "label": "2004 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2004/2004-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2005",
+      "observation_year": 2005,
+      "label": "2005 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2005/2005-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2006consistentw_005methodology",
+      "observation_year": 2006,
+      "label": "2006 (consistent with 2005 methodology) edition of this dataset",
+      "status": "methodological",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_005methodology/2006-table-8%20%281%29.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2006consistentw_007methodology",
+      "observation_year": 2006,
+      "label": "2006 (consistent with 2007 methodology) edition of this dataset",
+      "status": "methodological",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_007methodology/2006-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2007",
+      "observation_year": 2007,
+      "label": "2007 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2007/2007-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2008",
+      "observation_year": 2008,
+      "label": "2008 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2008/2008-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2009",
+      "observation_year": 2009,
+      "label": "2009 edition of this dataset",
+      "status": "other",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2010revised",
+      "observation_year": 2010,
+      "label": "2010 (revised) edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2011",
+      "observation_year": 2011,
+      "label": "2011 edition of this dataset provisional, based on SOC 2000",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2011revisedbasedonsoc2010",
+      "observation_year": 2011,
+      "label": "2011 (revised, based on SOC 2010) edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2012revised",
+      "observation_year": 2012,
+      "label": "2012 (revised) edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2013revised",
+      "observation_year": 2013,
+      "label": "2013 (revised) edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2014revised",
+      "observation_year": 2014,
+      "label": "2014 (revised) edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2015",
+      "observation_year": 2015,
+      "label": "2015 edition of this dataset revised",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2016",
+      "observation_year": 2016,
+      "label": "2016 edition of this dataset provisional",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2016revised",
+      "observation_year": 2016,
+      "label": "2016 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2017provisional",
+      "observation_year": 2017,
+      "label": "2017 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2017revised",
+      "observation_year": 2017,
+      "label": "2017 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2018provisional",
+      "observation_year": 2018,
+      "label": "2018 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2018revised",
+      "observation_year": 2018,
+      "label": "2018 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2019provisional",
+      "observation_year": 2019,
+      "label": "2019 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2019revised",
+      "observation_year": 2019,
+      "label": "2019 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2020provisional",
+      "observation_year": 2020,
+      "label": "2020 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2020revised",
+      "observation_year": 2020,
+      "label": "2020 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2021provisional",
+      "observation_year": 2021,
+      "label": "2021 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2021revised",
+      "observation_year": 2021,
+      "label": "2021 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2022provisional",
+      "observation_year": 2022,
+      "label": "2022 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2022revised",
+      "observation_year": 2022,
+      "label": "2022 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2023provisional",
+      "observation_year": 2023,
+      "label": "2023 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2023revised",
+      "observation_year": 2023,
+      "label": "2023 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2024provisional",
+      "observation_year": 2024,
+      "label": "2024 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2024revised",
+      "observation_year": 2024,
+      "label": "2024 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2025provisional",
+      "observation_year": 2025,
+      "label": "2025 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip",
+      "publication_date": null,
+      "publication_evidence_url": null
+    },
+    {
+      "edition_id": "2025revised",
+      "observation_year": 2025,
+      "label": "2025 revised edition of this dataset",
+      "status": "revised",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised/ashetable82025revised.zip",
+      "publication_date": "2026-10-22",
+      "publication_evidence_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026"
+    },
+    {
+      "edition_id": "2026provisional",
+      "observation_year": 2026,
+      "label": "2026 provisional edition of this dataset",
+      "status": "provisional",
+      "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip",
+      "publication_date": "2026-10-22",
+      "publication_evidence_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026"
+    }
+  ]
+}

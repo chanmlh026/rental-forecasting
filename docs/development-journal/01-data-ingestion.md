@@ -507,3 +507,34 @@ is stated explicitly. Detailed findings remain in their source documents.
   branch and matched the remote SHA; main remained at `85dd087`. Final repository
   checks passed; optional Black was unavailable. Timing cutoff and handoff are
   recorded in the shared CSV and archived task. No PR or merge created.
+
+## 21 November 2026 - ASHE ingestion and deferred geography harmonisation (Task 009.2)
+
+- **Event/trigger:** Owner authorised earnings-only production ingestion using
+  independently reviewed Task 009.1 evidence; required all editions and source
+  quality/provenance preservation.
+- **Initiated by:** Human.
+- **Human actions/decision:** Approved original geographic data ingestion now;
+  investigate and resolve harmonisation across datasets together in preprocessing.
+  Approved retaining provisional/revised/methodological editions without choosing
+  a final modelling vintage. Prohibited unemployment, features, PR and main merge.
+- **AI actions (Codex):** Verified remote main, created the dedicated branch and
+  incorporated reviewed investigation commits by fast-forward without changing
+  either prior branch. Reused immutable/safe storage helpers, added locked Excel
+  readers, implemented source contracts and automated failure/recovery tests.
+  Ingested 37 verified official ZIPs and independently reconciled all selected
+  pay/CV cells. Recorded original geography, uncertainty, notes and availability.
+- **Significant findings/interventions:** Full-history parsing exposed two split
+  titles lacking currency/CV/year and conflicting eligibility footnotes (2022
+  revised, 2023 provisional). Inspected official XLS cells/Notes, retained both
+  conflicting texts and flagged affected observations; applied no absence filter
+  or silent correction. Initial schema failures published no derived output.
+- **Outcome/status:** 154 automated tests passed; 31,930 source cells reconcile,
+  15,965 observations across 2002–2026. All 171 checked files remained unchanged
+  on offline rerun, including 89 earlier production files. Fresh production ZIP
+  retrieval returned HTTP 200 with the verified checksum. ISS-003/004/011/012
+  updated and remain Open; source-note conflict needs later review. No geographic
+  harmonisation, feature engineering, unemployment, PR or merge performed.
+- **Evidence/references:** [Owner prompt/report](../009.2-ons-ashe-earnings-ingestion.md),
+  [validation](../../reports/data_audits/009.2/validation-evidence.json),
+  [issue register](../issue-register.md), [timing](../task-execution-log.csv).
