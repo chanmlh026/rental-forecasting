@@ -1,0 +1,51 @@
+{
+  "tested_integrated_main": "e89f1f12d1dd69cdaac9e3821a5b597e4e0eb436",
+  "prs": [
+    {
+      "number": 6,
+      "merge_commit": "1763f087bbd99469a6fd7198e64d780cfd244a1a"
+    },
+    {
+      "number": 7,
+      "merge_commit": "e89f1f12d1dd69cdaac9e3821a5b597e4e0eb436"
+    }
+  ],
+  "postmerge_tests": {
+    "passed": 154,
+    "seconds": 27.17
+  },
+  "all_four_postmerge_offline_audits": "pass",
+  "ashe_independent_cell_comparisons": 31930,
+  "ashe_unchanged_output_files": 82,
+  "umb_records": 51504,
+  "umb_periods": 87,
+  "umb_bundles_verified": 29,
+  "umb_archive_numeric_pairs": 28200,
+  "umb_archive_changed_cells": 2876,
+  "copied_cache_and_output_files_unchanged": 287,
+  "historical_source_files_preserved_by_blob_identity": {
+    "9a5fe3c177486d5930e1650986eeb9eb4a9556e5": 37,
+    "bd6dd4a3d914609d32f82f98f05bb5544d87d956": 8
+  },
+  "all_three_task_heads_ancestors_of_remote_main": true,
+  "known_sensitive_identifiers_found": 0,
+  "gitleaks_pass": true,
+  "git_fsck_pass": true,
+  "known_exposed_objects_absent_from_local_store": true,
+  "no_boe_manifests_imported": true,
+  "iss_020": "Open",
+  "github_ci_check_runs": 0,
+  "public_release_ready": false,
+  "no_further_ingestion_or_task_013_1": true,
+  "measured_execution": {
+    "task_id": "009.5.8",
+    "start_utc": "2026-11-21T23:08:42+00:00",
+    "end_utc": "2026-11-21T23:28:09+00:00",
+    "seconds": 1167,
+    "minutes": 19.45,
+    "status": "Completed",
+    "parent_009_5_aggregate_seconds": 1630,
+    "parent_aggregate_overlaps_child": true,
+    "excluded": "Initial commentary; final timing/receipt writes, documentation commit/push, remote read-back and response."
+  }
+}
