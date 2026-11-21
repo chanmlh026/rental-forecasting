@@ -127,9 +127,32 @@ returned history. Bank Rate retains event dates without monthly aggregation.
 See [Task 007's implementation report](docs/007-boe-bank-rate-and-iumzid4-ingestion.md#implementation-report---21-november-2026)
 for schemas, recovery, validation evidence and limitations.
 
-## Next step
+## CPI/CPIH and UK HPI ingestion
 
-Review the generated PIPR and Bank of England outputs, then approve the
+Task 008 retains all four approved ONS inflation series by source vintage, and
+all-property UK HPI prices/indices with a separate exact-code cohort view.
+
+```powershell
+uv run python -m ingestion.ons_inflation --snapshot-id 2026-11-21-task008
+uv run python -m ingestion.uk_hpi --snapshot-id 2026-11-21-task008 --reference-month 2026-09
+```
+
+Use a new snapshot ID for each retrieval. Identical arguments reuse verified
+raw responses without downloading; `--config` selects the existing storage
+TOML. HPI also accepts `--geography-reference` for the pinned approved reference.
+The inflation command retains current and latest advertised prior versions;
+the HPI command retains the specified release and its England revision matrix.
+Each retained vintage is separate; no first-release input policy is applied.
+
+Outputs use the existing raw/validated/processed layers under `ons_inflation/`
+and `uk_hpi/`. Source HTTP metadata is allowlisted. The HPI coverage tables
+report every approved authority/month, preserving source geography and missing
+cells without recoding or imputation. See [Task 008's report](docs/008-ons-inflation-and-uk-hpi-ingestion.md#implementation-report---21-november-2026)
+for schemas, current measured coverage, source limitations and recovery.
+
+## Review and next source
+
+Review the generated PIPR, Bank of England, inflation and HPI outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are
