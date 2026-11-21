@@ -1,12 +1,13 @@
 # 004. Rental Forecasting Data Architecture & Data Dictionary
 
 **Status:** Living design and source assessment; source assessment updated for
-Task 007 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
+Task 008 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
 forecasting decisions; Section 3 records source evidence and its limits. The
 Section 7 ingestion batches are proposals for project-owner review, not approval
 to implement them. No production ingestion or feature functionality is added by
-the research sections. Task 007 now implements Bank of England ingestion only;
-see the implemented contract below. Other proposed batches remain unapproved.
+the research sections. Tasks 007 and 008 implement Bank of England, inflation
+and UK HPI ingestion; see their implemented contracts below. Other proposed
+batches remain unapproved.
 
 ## 1. Existing project decisions
 
@@ -78,7 +79,58 @@ not the remaining proposed architecture below.
   of England; no selected-source exception found. Underlying third-party
   microdata rights are not inferred. No licensed microdata is acquired.
 
-### Directory layout
+### Implemented inflation and UK HPI contract (Task 008, 21 November 2026)
+
+The owner approved CPI and CPIH annual rates **and** index levels, plus UK HPI
+all-property average prices and indices. This is source ingestion, not final
+feature selection. [Task 008](008-ons-inflation-and-uk-hpi-ingestion.md#implementation-report---21-november-2026)
+documents source definitions, schema, validation/recovery and source limits;
+[live evidence](../reports/data_audits/008/validation-evidence.json) records
+independent downloads, counts, revisions and provenance.
+
+| Implemented source | Selected fields and units | Measured current coverage |
+| --- | --- | --- |
+| ONS D7G7 / L55O, MM23 | CPI / CPIH published all-items annual inflation, percent | 454 monthly values each, Jan 1989-Oct 2026 |
+| ONS D7BT / L522, MM23 | CPI / CPIH all-items index levels, 2015=100 | 466 monthly values each, Jan 1988-Oct 2026 |
+| HM Land Registry / ONS UK HPI, Sep 2026 release | All-property standardised average price GBP and index, Jan 2023=100 | 152,730 rows / 405 source areas; 112,014 cohort rows, 294 LAs x 381 months, Jan 1995-Sep 2026 |
+
+`ingestion.ons_inflation` retains 1,840 current and 1,836 latest-advertised-prior
+monthly observations, keyed by series/version/month, with exact source value,
+release/update/reference strings, units/base, snapshot/checksum/retrieval fields
+and metadata. Full version inventories/correction notices remain available; the
+whole historical archive is not reconstructed. No rates are recomputed and no
+first-release selection policy is inherited from IUMZID4.
+
+`ingestion.uk_hpi` retains the complete source table and standardised observations
+for all source areas, a separate exact-code cohort table and authority/month
+coverage reports. All 294 cohort codes match; there are zero missing selected
+cohort values or authority-month rows in the inspected releases. Eleven name
+variants are flagged with both source and approved names preserved. No names
+or historical codes are used for automatic remapping. Geography inventory and
+raw files preserve source scope beyond the cohort. The pre-1995 regional/national
+derived series does not extend LA coverage before January 1995.
+
+Both September and August 2026 HPI releases are retained independently, with
+their England publication-label revision matrices. Across 111,720 overlapping
+cohort rows, 3,523 prices and 2,843 indices differ. No canonical input vintage
+is selected. Current HPI's Jan 2023 base and the publisher's 2025 re-reference
+are documented without adjusting data. Aggregate revision matrices do not
+establish complete LA publication histories. Source publication-month labels
+and ONS metadata timestamps are not certified exact public-availability times.
+
+Existing raw/validated/processed layers use `ons_inflation/snapshot={id}/` and
+`uk_hpi/snapshot={id}/`. Original responses are immutable per-source bundles;
+derived Parquet/manifests retain source hashes, safe HTTP metadata, release
+identification, validation and licences. ONS/HPI OGL reuse and attribution were
+checked on 21 November 2026. All current inflation values and both HPI measures
+reconcile with independent official CSV exports; 60 snapshot files retained
+identical hashes on offline reruns. Detailed evidence is in the linked report.
+
+ISS-003/004/012/013/014 remain Open for their broader or future checkpoints.
+The approved source contract can proceed with these documented limits, without
+implementing geographic mappings, forecast-cutoff rules or model features.
+
+### Proposed directory layout
 
 ```text
 data/
