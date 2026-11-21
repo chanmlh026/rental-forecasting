@@ -1,13 +1,20 @@
 # 004. Rental Forecasting Data Architecture & Data Dictionary
 
-**Status:** Living design and source assessment; source assessment updated for
-Task 008 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
+**Status:** Living design and source assessment; current modelling-scope decisions
+updated for Task 013.1 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
 forecasting decisions; Section 3 records source evidence and its limits. The
 Section 7 ingestion batches are proposals for project-owner review, not approval
 to implement them. No production ingestion or feature functionality is added by
 the research sections. Tasks 007, 008 and 009.2 implement Bank of England, inflation,
 UK HPI and approved ASHE earnings ingestion; see their implemented contracts below. Other proposed
 batches remain unapproved.
+
+**Current modelling scope (Task 013.1, 21 November 2026):** Household Growth
+and Student Population Share are **Excluded from Current Modelling Scope** by
+explicit owner decision. Their proposed definitions and source findings remain
+below as research history, not approved modelling inputs. Reconsideration needs
+new evidence and owner approval. Other predictor statuses, the approved 294-LA
+cohort and the 12-calendar-month forecast horizon are unchanged.
 
 ## 1. Existing project decisions
 
@@ -297,10 +304,10 @@ open questions. Coverage means observations, not historical availability.
 | Unemployment Rate | U1; owner-approved UMB-first published model-based rate, ITEM 2 / MEASURES 20100; percent of economically active residents 16+ | LA residence; native source geography preserved | API: 87 rolling annual periods, Jan–Dec 2004 to Jul 2025–Jun 2026; separate M01 archive 1996/97–2003/04 verified | Research verified in Task 009.3; no production ingestion. Latest 292 exact cohort matches, 292 numeric rates/273 confidence margins; two code discrepancies |
 | Population Density | D1 MYE5; population per square kilometre, supplied area denominator | LA | Inspected workbook mid-2011-mid-2025 | V; 292/294 direct-code matches, no mapping applied |
 | Population Growth | D1 MYE4; proposed percentage change between comparable annual mid-year populations | LA | Population mid-2011-mid-2025; annual pairs possible from 2012 on matched codes | D; revised population vintage and boundary policy required |
-| Household Growth | H1/H2; proposed change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | D/P; estimate/projection concepts differ, no single series approved |
+| Household Growth | H1/H2; historical proposal: change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | **Excluded from Current Modelling Scope** (Task 013.1); consistent, timely observed annual 2015?2026 coverage for the required LA population not established. Estimate/projection concepts remain distinct; future reconsideration requires evidence and owner approval |
 | Net Internal Migration | D1 MYE3; internal inflow minus outflow, persons in year to mid-year | LA | Components inspected for year to mid-2025 only; older detailed editions identified, not exhaustively parsed | V for latest variable; P for continuous history |
 | Net International Migration | D1 MYE3; international inflow minus outflow, persons in year to mid-year | LA | Same latest extract and history limitation as internal migration | V for latest variable; P for historical methods and vintages |
-| Student Population Share | S1; possible Census TS068 student count / compatible population denominator, percent | LA residence / term-time residence | 21 March 2021 snapshot verified; no annual panel established | D/P; TS068 includes schoolchildren aged 5+, not specifically higher-education students |
+| Student Population Share | S1; historical proposal: possible Census TS068 student count / compatible population denominator, percent | LA residence / term-time residence | 21 March 2021 snapshot verified; no annual panel established | **Excluded from Current Modelling Scope** (Task 013.1); annual LA panel for the modelling period not established. TS068 includes schoolchildren aged 5+, not a direct higher-education concentration measure; future reconsideration requires evidence and owner approval |
 | Average House Price / HPI | M1; UK HPI average price in GBP or index (retain series base) | LA, also regional/national | Publisher documents England/Wales transactions from Jan 1995; current inspected release describes Aug 2026 | P for exact 294-LA history; dataset/measure V |
 | 12-month House-price Growth | M1; published annual change or proposed same-vintage index ratio, percent | LA | Earliest usable LA year-on-year pair unmeasured; no complete history inferred from 1995 source start | D/P; do not mix property definitions or vintages |
 | Housing Completions | M2 Table 123 `New build`, dwellings completed in financial year | English LA district | Inspected sheets 2012-13 through 2024-25 | V; annual net-supply component, distinct from quarterly housebuilding return |
@@ -316,12 +323,79 @@ audit or claim historical rent values were publicly available in 2015. The two
 rent-growth starting dates are calendar-endpoint deductions from that panel,
 not historical point-in-time completeness measurements.
 
+### Owner-approved current-scope exclusions - Task 013.1, 21 November 2026
+
+The [owner instruction](013.1-predictor-exclusions-and-security-status.md)
+excludes both predictors from the current modelling scope. This is a scope and
+data-availability decision, not a correlation result or a permanent judgement
+about predictive usefulness. It does not approve alternative measures, synthetic
+annual observations, feature construction or additional research.
+
+**Household Growth ? Excluded from Current Modelling Scope.** The existing
+[source assessment](#underlying-source-characteristics-and-evidence), recorded
+for Task 006.2, identified H1 APS household estimates for 2020?2022 (released
+12 March 2024), H1 administrative-data-based estimates for 2021?2023 (released
+8 September 2026), and H2 household projections based on 2022 through 2047
+(released 28 October 2025); older 2018-/2016-based projection editions were also
+identified. These are identified products, not a verified 294-LA annual panel:
+the household workbooks were not parsed and completeness/comparability was not
+measured. The observation years and release dates do not establish consistent,
+timely historical availability across the required 2015?2026 period.
+
+APS estimates are survey-based; administrative-data-based estimates use a
+different estimation method, have revised methods and lack uncertainty measures
+in the recorded assessment. The latter were published as development estimates
+for comparison, with an explicit warning against decision-making use. Nominal
+annual reference years do not establish a comparable observed annual history.
+Projection years instead describe future households under demographic/scenario
+assumptions; they are not realised observations and cannot fill historical gaps
+without an approved methodology. The recorded projection geography differs
+between the principal April 2022 geography and a migration variant on April 2023
+geography. Historical LA boundaries, the target cohort, scenarios, reference
+periods and release vintages have not been reconciled. Household counts must
+also remain distinct from dwelling-stock counts. No sufficiently consistent,
+timely observed annual series for the required population and period has been
+established, so Household Growth is not approved as a current modelling input.
+This does not establish that no suitable dataset can exist. Future reconsideration
+requires new coverage/methodology evidence and explicit owner approval; estimates
+and projections must not be spliced silently.
+
+**Student Population Share ? Excluded from Current Modelling Scope.** S1 in the
+[existing source assessment](#underlying-source-characteristics-and-evidence)
+identifies Census TS068, its Nomis definition and bulk-file route. The recorded
+Census day is 21 March 2021, with first release on 10 January 2023. A Census
+snapshot does not establish an annual LA series over 2015?2026 and was not
+information available in 2015. Repeating or backfilling a snapshot would not
+create observed annual history. TS068 covers usual residents aged five and over
+in full-time education, including schoolchildren, and must not be presented as a
+direct measure of higher-education student concentration. Away-from-home
+students use term-time addresses; numerator/denominator populations, residence
+concepts and compatible geography require separate definition. The recorded
+assessment also notes disclosure perturbation, a changed age definition for
+comparison with 2011, and unmeasured reconciliation from Census to current LA
+boundaries. These temporal, definitional and geographic gaps prevent approval
+of this proposed measure for the current modelling scope. They do not show that
+all alternative student datasets are unavailable. Provider enrolments are a
+different concept, not an approved substitute; any future reconsideration needs
+new evidence and owner approval.
+
+Original official-source links and earlier observations remain in H1/H2/S1
+below; the exploration evidence and previous task reports are unchanged.
+ISS-007/ISS-008 are resolved only for the current exclusion decisions. Broader
+geography, source-quality and point-in-time issues remain open where they affect
+other predictors. No new data acquisition or empirical feature selection was
+performed for this decision record.
+
 ### Underlying source characteristics and evidence
 
 New external findings below were checked on 8 November 2026; explicitly labelled
 earlier evidence is retained without re-audit. Release labels and dates are those
 observed, not forecasts of future updates. Lags labelled estimates are calendar
 arithmetic, not publisher guarantees.
+
+H1/H2/S1 retain the historical source assessment, including research questions
+that preceded Task 013.1. They are not active ingestion approvals or current
+modelling inputs: the owner exclusions above now govern those two predictors.
 
 | Key and official source | LA completeness / quality evidence | Publication timing and revisions | Accessibility / remaining questions |
 |---|---|---|---|
@@ -689,16 +763,18 @@ publication checkpoints even when implemented within one batch.
 | **010. ONS population, area and migration** | MYE3/MYE4/MYE5 and necessary older component editions; same workbook family and code-vintage issues | Investigate Barnsley/Sheffield codes and older authority changes; approve mapping before use. Retain area units, year-ending migration definitions, revised population components and source vintages. Density/growth construction remains a later feature task. | Reproduce the measured 292 exact-code result, explain additional matches only through approved evidence, and report historical component coverage and vintage revisions. |
 | **011. MHCLG housing supply and dwelling stock** | Tables 122, 123 and 125; annual dwelling accounting with numerator/denominator dependencies | Retain sheet-specific components, source imputation/style/footnotes, Census adjustments and stock dates. Agree common geography and proposed denominator timing before any ratio implementation. | Reconcile selected source rows/components and report per-year code coverage separately for all three files; demonstrate preservation of previous validated releases on failure. Review compatibility without constructing features. |
 | **012. MHCLG planning decisions and permission-unit investigation** | PS1/PS2 residential approvals; same publisher and quarter-based returns. Treat local units as a separate conditional source investigation within the batch. | Preserve decision counts versus dwelling units, LPA/LAD differences, category changes, cp1252/preamble parsing and corrections. A local units source and rights must be established before its ingestion is approved. Do not replace units with application counts. | Reproduce 294 codes per quarter in the inspected sample, extend reported history checks, reconcile categories, and present a separate evidence/approval checkpoint for any LA units source. |
-| **013. ONS household and student context** | Selected household estimate/projection source and Census student table; shared unresolved residence, population-universe and static/vintage interpretation | Define household growth and student numerator/denominator first. Investigate earlier APS extracts, admin-based development restrictions and comparable Census geography. Keep projection scenarios separate from estimates; no HESA substitution. | Review source/definition decisions before coding; then quantify selected source coverage and show dated vintages, boundary treatment and uncertainty. If definition remains unresolved, record that component without inventing a substitute. |
+| **013. ONS household and student context (historical proposal)** | Selected household estimate/projection source and Census student table; shared unresolved residence, population-universe and static/vintage interpretation | **Excluded from Current Modelling Scope** by Task 013.1. Historical proposal, not current work: Define household growth and student numerator/denominator first. Investigate earlier APS extracts, admin-based development restrictions and comparable Census geography. Keep projection scenarios separate from estimates; no HESA substitution. | No ingestion for these currently excluded predictors. Reconsideration requires new evidence and owner approval. Historical proposed checks: Review source/definition decisions before coding; then quantify selected source coverage and show dated vintages, boundary treatment and uncertainty. If definition remains unresolved, record that component without inventing a substitute. |
 
 The batches can share research conventions, but a finding in one does not
 approve another. The sequence puts verified, small national financing exports
 first, follows with monthly price data, then survey and demographic families,
-then compatible annual dwelling flows/stock and planning, with less settled
-household/student definitions reserved for a review checkpoint. Definition and
-geography research can precede these implementation tasks without changing the
-approved objective. No source's place in this sequence is a usefulness ranking
-or quality-based exclusion.
+then compatible annual dwelling flows/stock and planning. The original proposal
+reserved household/student definitions for a review checkpoint; Task 013.1 now
+excludes both predictors from current modelling scope. Other batches remain
+subject to their own approval. Definition and geography research can precede
+authorised implementation tasks without changing the approved objective. Sequence
+order alone is not a usefulness ranking or exclusion decision; Task 013.1 is a
+separate explicit owner scope decision.
 
 After ingestion review, propose separate tasks for PIT feature construction,
 preprocessing and chronological model evaluation. Preserve raw vintages,
@@ -735,10 +811,11 @@ No cloud deployment, dependency installation or modelling is authorised here.
    Task 009.3 verifies the owner-approved UMB-first unemployment definition;
    later unemployment vintage/feature policies remain open.
    The prior regional GDHI finding is retained, not relabelled LA income.
-3. **Household/student definitions:** choose observed estimate growth or a
-   clearly identified released projection; determine appropriate student ages,
-   denominator and residence concept. Schoolchildren/full-time students are
-   not synonymous with university students. No annual student history was verified.
+3. **Household/student reconsideration only:** both predictors are excluded
+   from current modelling scope by Task 013.1. Any future proposal needs new
+   annual LA coverage, compatible definitions/geography and owner approval.
+   Keep observed estimates distinct from projection scenarios and schoolchildren
+   distinct from higher-education students; no annual student panel is established.
 4. **Supply standardisation:** approve start-year/end-year/other denominator
    timing and treatment of revised/Census-adjusted inputs. Find an accessible,
    licensed LA dwelling-units-granted measure if available; retain the candidate
@@ -751,8 +828,9 @@ No cloud deployment, dependency installation or modelling is authorised here.
 6. **Coverage:** Task 009.1 quantified ASHE editions and exact-code cohort
    missingness; legacy geography still prevents a harmonised historical panel.
    Task 009.3 quantifies selected UMB current-family history; geography and
-   complete historical vintages remain unresolved. Quantify household and Census
-   histories when authorised;
+   complete historical vintages remain unresolved. Household/student coverage
+   work is now a future-reconsideration prerequisite under Task 013.1, not current
+   ingestion work;
    Task 008 HPI coverage does not establish historical availability. Inspect
    older migration components and metadata before asserting a continuous panel.
    Small samples and published ranges must not become invented completeness statistics.
