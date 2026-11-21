@@ -150,9 +150,28 @@ report every approved authority/month, preserving source geography and missing
 cells without recoding or imputation. See [Task 008's report](docs/008-ons-inflation-and-uk-hpi-ingestion.md#implementation-report---21-november-2026)
 for schemas, current measured coverage, source limitations and recovery.
 
+## ASHE residence earnings ingestion
+
+Task 009.2 preserves all 37 verified editions (2002–2026) of annual gross median
+employee-job earnings, Table 8.7a `All` D, with paired 8.7b CVs, source markers,
+styles, notes and original geography. It does not select modelling vintages or
+harmonise historical authorities.
+
+```powershell
+uv run python -m ingestion.ons_ashe --snapshot-id YOUR-NEW-SNAPSHOT-ID
+```
+
+The pinned source inventory is `configs/ons_ashe_editions.json`. Optional
+`--source-cache PATH` imports verified official response bundles, including the
+Task 009.1 cache if explicitly supplied; it is not required for online retrieval.
+Same-argument reruns reuse immutable snapshots without network access. Existing
+storage TOML and geography-reference options apply. See the
+[Task 009.2 report](docs/009.2-ons-ashe-earnings-ingestion.md#implementation-report---21-november-2026)
+for outputs, recovery and source-note/publication limitations.
+
 ## Review and next source
 
-Review the generated PIPR, Bank of England, inflation and HPI outputs, then approve the
+Review the generated PIPR, Bank of England, inflation, HPI and ASHE outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are

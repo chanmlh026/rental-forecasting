@@ -1,0 +1,2631 @@
+[
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2002/2002-table-8.zip",
+    "edition": "2002 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "0fb40b35f4bce524daac571511637a500b81d7d99c741a9c980408c790c98b56"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2002/2002-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2002/2002-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:01:04 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"6d24e42658d78f1056afbfee5a73023c96c74b0c\""
+      },
+      "retrieval_started_at": "2026-11-21T15:01:03.201429+00:00",
+      "retrieved_at": "2026-11-21T15:01:04.987764+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.11b   Hours worked - Overtime 2002 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2002.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2002 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2002.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2002 CV.xls",
+      "Home Geography Table 8.3a   Weekly pay - Basic 2002.xls",
+      "Home Geography Table 8.3b   Weekly pay - Basic 2002 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2002.xls",
+      "Home Geography Table 8.4b   Overtime pay 2002 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2002.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2002 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2002.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2002 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2002.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2002 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2002.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2002 CV.xls",
+      "Home Geography Table 8.9a   Hours worked - Total 2002.xls",
+      "Home Geography Table 8.9b   Hours worked - Total 2002 CV.xls",
+      "Home Geography Table 8.10a   Hours worked - Basic 2002.xls",
+      "Home Geography Table 8.10b   Hours worked - Basic 2002 CV.xls",
+      "Home Geography Table 8.11a   Hours worked - Overtime 2002.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2003/2003-table-8.zip",
+    "edition": "2003 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "a03da3c1a6f9002614d294e59e10d1bd2b0085a15f7cf360d391a959ffc891c2"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2003/2003-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2003/2003-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:24 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"75e8b50ac1d961ecf0bbc6e351915d9d1dcbee96\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:23.267977+00:00",
+      "retrieved_at": "2026-11-21T15:04:25.616200+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.11b   Hours worked - Overtime 2003 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2003.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2003 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2003.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2003 CV.xls",
+      "Home Geography Table 8.3a   Weekly pay - Basic 2003.xls",
+      "Home Geography Table 8.3b   Weekly pay - Basic 2003 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2003.xls",
+      "Home Geography Table 8.4b   Overtime pay 2003 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2003.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2003 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2003.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2003 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2003.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2003 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2003.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2003 CV.xls",
+      "Home Geography Table 8.9a   Hours worked - Total 2003.xls",
+      "Home Geography Table 8.9b   Hours worked - Total 2003 CV.xls",
+      "Home Geography Table 8.10a   Hours worked - Basic 2003.xls",
+      "Home Geography Table 8.10b   Hours worked - Basic 2003 CV.xls",
+      "Home Geography Table 8.11a   Hours worked - Overtime 2003.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2004/2004-table-8.zip",
+    "edition": "2004 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "e17a1afec33b497abb78feaa1ef889011c027fb432b1b875a5a13f35aa714cfb"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2004/2004-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2004/2004-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:24 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"775985c9093e551aa891f1fad55038a1a85976a4\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:23.334563+00:00",
+      "retrieved_at": "2026-11-21T15:04:26.021935+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2004.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2004 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2004.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2004 CV.xls",
+      "Home Geography Table 8.3a   Basic pay - Including other pay 2004.xls",
+      "Home Geography Table 8.3b   Basic pay - Including other pay 2004 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2004.xls",
+      "Home Geography Table 8.4b   Overtime pay 2004 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2004.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2004 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2004.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2004 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2004.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2004 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2004.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2004 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2004.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2004 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2004.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2004 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2004.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2004 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2005/2005-table-8.zip",
+    "edition": "2005 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "47e1b771796127e2532175bea5dce2e4dc03357b407b6c3f0e14129078be07d0"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2005/2005-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2005/2005-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:27 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"9bba8e63a698470d8093972056175d2bd43ab76a\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:25.669358+00:00",
+      "retrieved_at": "2026-11-21T15:04:28.069688+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2005.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2005 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2005.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2005 CV.xls",
+      "Home Geography Table 8.3a   Basic pay - Including other pay 2005.xls",
+      "Home Geography Table 8.3b   Basic pay - Including other pay 2005 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2005.xls",
+      "Home Geography Table 8.4b   Overtime pay 2005 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2005.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2005 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2005.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2005 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2005.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2005 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2005.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2005 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2005.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2005 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2005.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2005 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2005.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2005 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_005methodology/2006-table-8%20%281%29.zip",
+    "edition": "2006 (consistent with 2005 methodology) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "5ec924d5f3caf3b4f057c891799d2347361240fde79b1f05bf2e62f5906e5714"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_005methodology/2006-table-8%20%281%29.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_005methodology/2006-table-8%20%281%29.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:27 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"a0d7aabc20e661092591f3c26c5a2585e7ab4cd8\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:26.079241+00:00",
+      "retrieved_at": "2026-11-21T15:04:28.494516+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2006.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2006.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2006 CV.xls",
+      "Home Geography Table 8.3a   Basic pay - Including other pay 2006.xls",
+      "Home Geography Table 8.3b   Basic pay - Including other pay 2006 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2006.xls",
+      "Home Geography Table 8.4b   Overtime pay 2006 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2006.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2006.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2006 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2006.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2006.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2006 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2006.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2006 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2006.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2006 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2006.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2006 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_007methodology/2006-table-8.zip",
+    "edition": "2006 (consistent with 2007 methodology) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "cd9e42f6f2214102a6937094d415b06f772fb3ea28e5b203b4ba151b7d30263a"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_007methodology/2006-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2006consistentw_007methodology/2006-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:29 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"de3d852572e55a2eb4527211de9ba87f78adf3d3\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:28.117593+00:00",
+      "retrieved_at": "2026-11-21T15:04:30.684564+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2006.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2006.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2006 CV.xls",
+      "Home Geography Table 8.3a   Basic pay - Including other pay 2006.xls",
+      "Home Geography Table 8.3b   Basic pay - Including other pay 2006 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2006.xls",
+      "Home Geography Table 8.4b   Overtime pay 2006 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2006.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2006.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2006 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2006.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2006 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2006.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2006 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2006.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2006 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2006.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2006 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2006.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2006 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2007/2007-table-8.zip",
+    "edition": "2007 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "f782821b7e1f4a67c4d3fe833a1c90242a415b032281a03735bf936a80a12f18"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2007/2007-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2007/2007-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:30 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"240b261800efce9f449d14029a8afd9f1194c86e\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:28.544036+00:00",
+      "retrieved_at": "2026-11-21T15:04:31.514718+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2007.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2007 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2007.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2007 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2007.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2007 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2007.xls",
+      "Home Geography Table 8.4b   Overtime pay 2007 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2007.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2007 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2007.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2007 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2007.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2007 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2007.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2007 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2007.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2007 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2007.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2007 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2007.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2007 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2008/2008-table-8.zip",
+    "edition": "2008 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "e4a7c68f5c689ee16ac6b646d797a40fd0796ee71d781347e80475d1e0530423"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2008/2008-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2008/2008-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:04:32 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"eef149b04df8e610cc7ea626aa8dcc94671ba282\""
+      },
+      "retrieval_started_at": "2026-11-21T15:04:30.784578+00:00",
+      "retrieved_at": "2026-11-21T15:04:34.057979+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2008.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2008 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2008.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2008 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2008.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2008 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2008.xls",
+      "Home Geography Table 8.4b   Overtime pay 2008 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2008.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2008 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2008.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2008 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2008.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2008 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2008.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2008 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2008.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2008 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2008.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2008 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2008.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2008 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip",
+    "edition": "2009 edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "b75ca4b97725c9c7753a04bed265223eead4d8c3b9a6f840b2a3ba8226e2f422"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:22 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"8606962211931a04de11612fcb646332190cd071\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:20.422040+00:00",
+      "retrieved_at": "2026-11-21T15:08:22.432503+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2009/2009-table-8.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:31.753863+00:00",
+        "retrieved_at": "2026-11-21T15:04:31.830002+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2009-table-8.zip.retry1",
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2009.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2009 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2009.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2009 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2009.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2009 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2009.xls",
+      "Home Geography Table 8.4b   Overtime pay 2009 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2009.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2009 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2009.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2009 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2009.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2009 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2009.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2009 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2009.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2009 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2009.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2009 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2009.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2009 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip",
+    "edition": "2010 (revised) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "8891a962f2fa51205f258ea48cd8a0a626b4b1ee7b15d6456c7bcdc265040797"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:25 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"531d9929e54b2c3b4f2df948655ef178058566d8\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:23.972868+00:00",
+      "retrieved_at": "2026-11-21T15:08:25.443518+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2010revised/2010-revised-table-8.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:31.843184+00:00",
+        "retrieved_at": "2026-11-21T15:04:31.913970+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2010-revised-table-8.zip.retry1",
+    "files": [
+      "REVISED - Home Geography Table 8.1a   Weekly pay - Gross 2010.xls",
+      "REVISED - Home Geography Table 8.1b   Weekly pay - Gross 2010 CV.xls",
+      "REVISED - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2010.xls",
+      "REVISED - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2010 CV.xls",
+      "REVISED - Home Geography Table 8.3a   Basic Pay - Including other pay 2010.xls",
+      "REVISED - Home Geography Table 8.3b   Basic Pay - Including other pay 2010 CV.xls",
+      "REVISED - Home Geography Table 8.4a   Overtime pay 2010.xls",
+      "REVISED - Home Geography Table 8.4b   Overtime pay 2010 CV.xls",
+      "REVISED - Home Geography Table 8.5a   Hourly pay - Gross 2010.xls",
+      "REVISED - Home Geography Table 8.5b   Hourly pay - Gross 2010 CV.xls",
+      "REVISED - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2010.xls",
+      "REVISED - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2010 CV.xls",
+      "REVISED - Home Geography Table 8.7a   Annual pay - Gross 2010.xls",
+      "REVISED - Home Geography Table 8.7b   Annual pay - Gross 2010 CV.xls",
+      "REVISED - Home Geography Table 8.8a   Annual pay - Incentive 2010.xls",
+      "REVISED - Home Geography Table 8.8b   Annual pay - Incentive 2010 CV.xls",
+      "REVISED - Home Geography Table 8.9a   Paid hours worked - Total 2010.xls",
+      "REVISED - Home Geography Table 8.9b   Paid hours worked - Total 2010 CV.xls",
+      "REVISED - Home Geography Table 8.10a   Paid hours worked - Basic 2010.xls",
+      "REVISED - Home Geography Table 8.10b   Paid hours worked - Basic 2010 CV.xls",
+      "REVISED - Home Geography Table 8.11a   Paid hours worked - Overtime 2010.xls",
+      "REVISED - Home Geography Table 8.11b   Paid hours worked - Overtime 2010 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip",
+    "edition": "2011 edition of this dataset provisional, based on SOC 2000",
+    "metadata": {
+      "checksums": {
+        "response.bin": "754927c104902e441e0cb594c621bfcdca25f243717ea48ca8ba61d05963bb03"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:28 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"f25576aa89d75daa847b132dfaab65afadeb966c\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:26.987138+00:00",
+      "retrieved_at": "2026-11-21T15:08:28.301110+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011/2011provisionaltable81.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:31.922547+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.001218+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2011provisionaltable81.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2011.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2011 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2011.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2011 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2011.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2011 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2011.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2011 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2011.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2011 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2011.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2011 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2011.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2011 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2011.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2011 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2011.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2011 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2011.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2011 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2011.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2011 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip",
+    "edition": "2011 (revised, based on SOC 2010) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "f85f0a61b0e22bdc4f70612f5aa5e7e255a3e1a9f0d03c8cdc16edbf33bce956"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:31 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"26251566b31f42b0aec36fcaade4d608d47cc64f\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:29.843971+00:00",
+      "retrieved_at": "2026-11-21T15:08:31.256476+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2011revisedbasedonsoc2010/2011-provisional-table-8.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.013092+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.090307+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2011-provisional-table-8.zip.retry1",
+    "files": [
+      "REVISED - Home Geography Table 8.1a   Weekly pay - Gross 2011.xls",
+      "REVISED - Home Geography Table 8.1b   Weekly pay - Gross 2011 CV.xls",
+      "REVISED - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2011.xls",
+      "REVISED - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2011 CV.xls",
+      "REVISED - Home Geography Table 8.3a   Basic Pay - Including other pay 2011.xls",
+      "REVISED - Home Geography Table 8.3b   Basic Pay - Including other pay 2011 CV.xls",
+      "REVISED - Home Geography Table 8.4a   Overtime pay 2011.xls",
+      "REVISED - Home Geography Table 8.4b   Overtime pay 2011 CV.xls",
+      "REVISED - Home Geography Table 8.5a   Hourly pay - Gross 2011.xls",
+      "REVISED - Home Geography Table 8.5b   Hourly pay - Gross 2011 CV.xls",
+      "REVISED - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2011.xls",
+      "REVISED - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2011 CV.xls",
+      "REVISED - Home Geography Table 8.7a   Annual pay - Gross 2011.xls",
+      "REVISED - Home Geography Table 8.7b   Annual pay - Gross 2011 CV.xls",
+      "REVISED - Home Geography Table 8.8a   Annual pay - Incentive 2011.xls",
+      "REVISED - Home Geography Table 8.8b   Annual pay - Incentive 2011 CV.xls",
+      "REVISED - Home Geography Table 8.9a   Paid hours worked - Total 2011.xls",
+      "REVISED - Home Geography Table 8.9b   Paid hours worked - Total 2011 CV.xls",
+      "REVISED - Home Geography Table 8.10a   Paid hours worked - Basic 2011.xls",
+      "REVISED - Home Geography Table 8.10b   Paid hours worked - Basic 2011 CV.xls",
+      "REVISED - Home Geography Table 8.11a   Paid hours worked - Overtime 2011.xls",
+      "REVISED - Home Geography Table 8.11b   Paid hours worked - Overtime 2011 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip",
+    "edition": "2012 (revised) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "d3217771fee4a25fee9d39fd375f6d2143bc221b199d3dcc99f07e3f0520e9b5"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:34 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"f605d5c7bf2985a33f5f35e7adaa9dc707075d7d\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:32.805103+00:00",
+      "retrieved_at": "2026-11-21T15:08:34.106018+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2012revised/2012-revised-table-8.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.102876+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.167671+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2012-revised-table-8.zip.retry1",
+    "files": [
+      "Home Geography Table 8.8b   Annual pay - Incentive 2012 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2012.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2012 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2012.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2012 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2012.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2012 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2012.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2012 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2012.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2012 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2012.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2012 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2012.xls",
+      "Home Geography Table 8.4b   Overtime pay 2012 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2012.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2012 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2012.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2012 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2012.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2012 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2012.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip",
+    "edition": "2013 (revised) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "3d9cbf83e520403bb74c3e65697a63d8c9824a9fcd08973d5f0411ce16cd6c77"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:37 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"3d29e4b54669dbb260bc80af8f8384e9d674f5fa\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:35.656220+00:00",
+      "retrieved_at": "2026-11-21T15:08:36.991541+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2013revised/2013-revised-table-8.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.178403+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.253412+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "2013-revised-table-8.zip.retry1",
+    "files": [
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2013 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2013.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2013 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2013.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2013 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2013.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2013 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2013.xls",
+      "Home Geography Table 8.4b   Overtime pay 2013 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2013.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2013 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2013.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2013 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2013.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2013 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2013.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2013 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2013.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2013 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2013.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2013 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2013.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip",
+    "edition": "2014 (revised) edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "4ff2909b4213b7781b7bf15e61299b4d67c08ba1f7f2e4b94f214403eb627e80"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:40 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"f39745ae5befc2e043b0a5a2bec83f6aa3ab1129\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:38.530557+00:00",
+      "retrieved_at": "2026-11-21T15:08:39.879309+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2014revised/rft-8%281%29.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.264666+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.361004+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "rft-8_281_29.zip.retry1",
+    "files": [
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2014 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2014.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2014 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2014.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2014 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2014.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2014 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2014.xls",
+      "Home Geography Table 8.4b   Overtime pay 2014 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2014.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2014 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2014.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2014 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2014.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2014 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2014.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2014 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2014.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2014 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2014.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2014 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2014.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip",
+    "edition": "2015 edition of this dataset revised",
+    "metadata": {
+      "checksums": {
+        "response.bin": "629e47fd684b7e8af6a12c9fb021eeb38f16f39deb437b076a7cf29a0a74531d"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:42 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"830ad3c897cae149526528d11abd1074a0194aeb\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:41.417037+00:00",
+      "retrieved_at": "2026-11-21T15:08:42.777745+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.374110+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.463523+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82015revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2015 CV.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2015.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2015 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2015.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2015 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2015.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2015 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2015.xls",
+      "Home Geography Table 8.4b   Overtime pay 2015 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2015.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2015 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2015.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2015 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2015.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2015 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2015.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2015 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2015.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2015 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2015.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2015 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2015.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip",
+    "edition": "2016 edition of this dataset provisional",
+    "metadata": {
+      "checksums": {
+        "response.bin": "650a920cbcf39c8d5aa4cc50693f356be26510cd5fa056e112df71c62dde4f42"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:45 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"49aa2402a83df6a932edf77e8950acf15cc2c6fd\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:44.316616+00:00",
+      "retrieved_at": "2026-11-21T15:08:45.911696+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016/table82016provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.478463+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.553274+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82016provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2016 CV.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2016.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2016 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2016.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2016 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2016.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2016 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2016.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2016 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2016.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2016 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2016.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2016 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2016.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2016 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2016.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2016 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2016.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2016 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2016.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2016 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2016.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip",
+    "edition": "2016 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "c02abae1a93c654bd107e588d25436318c4e479cbac90bed31dfd3e9e45aa130"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:48 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"a3a13de9ff525c7237819d12b3b2d3cfd9834b00\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:47.469045+00:00",
+      "retrieved_at": "2026-11-21T15:08:49.080880+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2016revised/table82016revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:33 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "10",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.564197+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.665005+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82016revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2016.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2016 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2016.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2016 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2016.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2016 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2016.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2016 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2016.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2016 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2016.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2016 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2016.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2016 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2016.xls",
+      "Home Geography Table 8.4b   Overtime pay 2016 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2016.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2016 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2016.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2016 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2016.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2016 CV.xls",
+      "Home Geography Table 8.12  Gender pay gap 2016.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip",
+    "edition": "2017 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "e2cfa3db7d4ef047f853912ba5d112d1ead378efb7bda0c44b26697268ee83d7"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:52 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"6bcc13deca534baff69c7e6cf7da19d100571257\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:50.640295+00:00",
+      "retrieved_at": "2026-11-21T15:08:52.056490+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017provisional/table82017provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.675646+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.757236+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82017provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2017 CV.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2017.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2017 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2017.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2017 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2017.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2017 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2017.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2017 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2017.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2017 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2017.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2017 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2017.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2017 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2017.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2017 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2017.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2017 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2017.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2017 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2017.xls",
+      "PROV - Home Geography Table 8.12  Gender pay gap 2017.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip",
+    "edition": "2017 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "f324aaa029b35b190022a27f5e563eaaf4327771c79b8088441d0933729b8cd0"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:55 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"9696cbab9318771c0d7458962bd1da3c1af5a2c6\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:53.630822+00:00",
+      "retrieved_at": "2026-11-21T15:08:55.177396+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2017revised/table82017revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.768522+00:00",
+        "retrieved_at": "2026-11-21T15:04:32.847636+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82017revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.1a   Weekly pay - Gross 2017.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2017 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2017.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2017 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2017.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2017 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2017.xls",
+      "Home Geography Table 8.4b   Overtime pay 2017 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2017.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2017 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2017.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2017 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2017.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2017 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2017.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2017 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2017.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2017 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2017.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2017 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2017.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2017 CV.xls",
+      "Home Geography Table 8.12  Gender pay gap 2017.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip",
+    "edition": "2018 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "2e2bb59dede274e5ddbee73cc406f2f6a25bb5e0f09c5cfc300a997538477d5a"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:08:58 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"fee35fc0f2a9182f04d58562441ada806092615c\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:56.718564+00:00",
+      "retrieved_at": "2026-11-21T15:08:58.329069+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018provisional/table82018provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:32.865581+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.009163+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82018provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.4b   Overtime pay 2018 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2018.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2018 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2018.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2018 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2018.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2018 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2018.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2018 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2018.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2018 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2018.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2018 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2018.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2018 CV.xls",
+      "PROV - Home Geography Table 8.12  Gender pay gap 2018.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2018.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2018 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2018.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2018 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2018.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2018 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2018.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip",
+    "edition": "2018 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "2b06cf710947adb8c1ebd9d5bb0c26aa35acd4d104b62583333873339828c0ff"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:01 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"47b95426b8678f3daa0bef34973d6c2ca38875ea\""
+      },
+      "retrieval_started_at": "2026-11-21T15:08:59.907748+00:00",
+      "retrieved_at": "2026-11-21T15:09:01.522594+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2018revised/table82018revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.026199+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.100543+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82018revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.12  Gender pay gap 2018.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2018.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2018 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2018.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2018 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2018.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2018 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2018.xls",
+      "Home Geography Table 8.4b   Overtime pay 2018 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2018.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2018 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2018.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2018 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2018.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2018 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2018.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2018 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2018.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2018 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2018.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2018 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2018.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2018 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip",
+    "edition": "2019 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "c1dcbc59d5e43bdc04f76bbce9165070e99e963f05d879d408978ca2c81397da"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:04 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"628e86dcdc46661941b4e496bb01147da5521e2f\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:03.067317+00:00",
+      "retrieved_at": "2026-11-21T15:09:04.322602+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019provisional/table82019provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.112865+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.178230+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82019provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2019.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2019 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2019.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2019 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2019.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2019 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2019.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2019 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2019.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2019 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2019.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2019 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2019.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2019 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2019.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2019 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2019.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2019 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2019.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2019 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2019.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2019 CV.xls",
+      "PROV - Home Geography Table 8.12  Gender pay gap 2019.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip",
+    "edition": "2019 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "a2c8fd525a57c7dc8c712de4a8d2ef06b18f4874ea3aeed1eb40352303b77983"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:07 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"2ddb89158102030c74794a5cb0adc0157a9a5fba\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:05.870209+00:00",
+      "retrieved_at": "2026-11-21T15:09:07.122698+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2019revised/table82019revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.191256+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.267330+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82019revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2019.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2019 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2019.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2019 CV.xls",
+      "Home Geography Table 8.12  Gender pay gap 2019.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2019.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2019 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2019.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2019 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2019.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2019 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2019.xls",
+      "Home Geography Table 8.4b   Overtime pay 2019 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2019.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2019 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2019.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2019 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2019.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2019 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2019.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2019 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2019.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2019 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip",
+    "edition": "2020 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "66b0a8f861da0ea102250c4a2fac1092844606add0bb1fdbafaf36f624fbed1e"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:10 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"19274bc1f86537c974cf46a3f99167a839682362\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:08.660700+00:00",
+      "retrieved_at": "2026-11-21T15:09:09.940773+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020provisional/table82020provisional01112020223641.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.277956+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.341752+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82020provisional01112020223641.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2020.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2020 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2020.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2020 CV.xls",
+      "PROV - Home Geography Table 8.12  Gender pay gap 2020.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2020.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2020 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2020.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2020 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2020.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2020 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2020.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2020 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2020.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2020 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2020.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2020 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2020.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2020 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2020.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2020 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2020.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2020 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip",
+    "edition": "2020 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "993af05b0fdcb42a1920f3293fe36cf0a12d059cb8783799eb3fef416ca4ff32"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:13 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"5cc099fa0a92ef364225ab69d6ebb695e58d9871\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:11.482590+00:00",
+      "retrieved_at": "2026-11-21T15:09:12.816832+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2020revised/table82020revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.350594+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.415842+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82020revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2020.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2020 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2020.xls",
+      "Home Geography Table 8.4b   Overtime pay 2020 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2020.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2020 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2020.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2020 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2020.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2020 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2020.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2020 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2020.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2020 CV.xls",
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2020.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2020 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2020.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2020 CV.xls",
+      "Home Geography Table 8.12  Gender pay gap 2020.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2020.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2020 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2020.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2020 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip",
+    "edition": "2021 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "f3f1624344a8279e604a4c04cbeac3eadde3c8d04e02a15b85e52b101efd3dfb"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:15 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"23b67411a1059d89f4600b007a3fab22b937314c\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:14.352625+00:00",
+      "retrieved_at": "2026-11-21T15:09:15.694356+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021provisional/table82021provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.424792+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.484960+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "table82021provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.12  Gender pay gap 2021.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2021.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2021 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2021.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2021 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2021.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2021 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2021.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2021 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2021.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2021 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2021.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2021 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2021.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2021 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2021.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2021 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2021.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2021 CV.xls",
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2021.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2021 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2021.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2021 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip",
+    "edition": "2021 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "254aca113b88599386a4c46847ba3eb94bf077f678ebfb71ba5f71f5fa9f7f7a"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:18 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"7ba4cc7a9712b89035469db9da05f74e0ca22a22\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:17.239963+00:00",
+      "retrieved_at": "2026-11-21T15:09:18.456195+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2021revised/ashetable82021revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.490387+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.551313+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82021revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2021.xls",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2021 CV.xls",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2021.xls",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2021 CV.xls",
+      "Home Geography Table 8.12  Gender pay gap 2021.xls",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2021.xls",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2021 CV.xls",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2021.xls",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2021 CV.xls",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2021.xls",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2021 CV.xls",
+      "Home Geography Table 8.4a   Overtime pay 2021.xls",
+      "Home Geography Table 8.4b   Overtime pay 2021 CV.xls",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2021.xls",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2021 CV.xls",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2021.xls",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2021 CV.xls",
+      "Home Geography Table 8.7a   Annual pay - Gross 2021.xls",
+      "Home Geography Table 8.7b   Annual pay - Gross 2021 CV.xls",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2021.xls",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2021 CV.xls",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2021.xls",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2021 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip",
+    "edition": "2022 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "0cc296041ded6c1a3806a6d775e0580c52c18bcf6aefb8c525d791b10711c762"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:21 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"d2fd8dc53b45368bbb901cbd9515eaef670d7ac7\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:20.006114+00:00",
+      "retrieved_at": "2026-11-21T15:09:21.339576+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022provisional/ashetable82022provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.559477+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.612123+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82022provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2022.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2022 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2022.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2022 CV.xls",
+      "PROV - Home Geography Table 8.12  Gender pay gap 2022.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2022.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2022 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2022.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2022 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2022.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2022 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2022.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2022 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2022.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2022 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2022.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2022 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2022.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2022 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2022.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2022 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2022.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2022 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip",
+    "edition": "2022 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "c9b823b2e6baf36a372dfc058b2bc7095caad9d577a35a5f413e4b6f89adf8db"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:24 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"c7f9ff68e301add8087d5c0820ea65ca5ef11622\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:22.906085+00:00",
+      "retrieved_at": "2026-11-21T15:09:24.306393+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2022revised/ashetable82022revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:34 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "9",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.623697+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.692399+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82022revised.zip.retry1",
+    "files": [
+      "For Publishing/",
+      "For Publishing/Home Geography Table 8.10a   Paid hours worked - Basic 2022.xls",
+      "For Publishing/Home Geography Table 8.10b   Paid hours worked - Basic 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.11a   Paid hours worked - Overtime 2022.xls",
+      "For Publishing/Home Geography Table 8.11b   Paid hours worked - Overtime 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.1a   Weekly pay - Gross 2022.xls",
+      "For Publishing/Home Geography Table 8.1b   Weekly pay - Gross 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.2a   Weekly pay - Excluding overtime 2022.xls",
+      "For Publishing/Home Geography Table 8.2b   Weekly pay - Excluding overtime 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.3a   Basic Pay - Including other pay 2022.xls",
+      "For Publishing/Home Geography Table 8.3b   Basic Pay - Including other pay 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.4a   Overtime pay 2022.xls",
+      "For Publishing/Home Geography Table 8.4b   Overtime pay 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.5a   Hourly pay - Gross 2022.xls",
+      "For Publishing/Home Geography Table 8.5b   Hourly pay - Gross 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.6a   Hourly pay - Excluding overtime 2022.xls",
+      "For Publishing/Home Geography Table 8.6b   Hourly pay - Excluding overtime 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.7a   Annual pay - Gross 2022.xls",
+      "For Publishing/Home Geography Table 8.7b   Annual pay - Gross 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.8a   Annual pay - Incentive 2022.xls",
+      "For Publishing/Home Geography Table 8.8b   Annual pay - Incentive 2022 CV.xls",
+      "For Publishing/Home Geography Table 8.9a   Paid hours worked - Total 2022.xls",
+      "For Publishing/Home Geography Table 8.9b   Paid hours worked - Total 2022 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip",
+    "edition": "2023 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "8c810055416c32e73944b30f4d6e89509d5afff475919474b608fcf6552c7b5f"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:27 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"65c47768637a9d7668a1f35ec97f6cbea2fe174c\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:25.842746+00:00",
+      "retrieved_at": "2026-11-21T15:09:27.105570+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023provisional/ashetable82023provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:35 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "8",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.699924+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.747160+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82023provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2023.xls",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2023 CV.xls",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2023.xls",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2023 CV.xls",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2023.xls",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2023 CV.xls",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2023.xls",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2023 CV.xls",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2023.xls",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2023 CV.xls",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2023.xls",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2023 CV.xls",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2023.xls",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2023 CV.xls",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2023.xls",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2023 CV.xls",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2023.xls",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2023 CV.xls",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2023.xls",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2023 CV.xls",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2023.xls",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2023 CV.xls"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip",
+    "edition": "2023 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "e70cd07f7339e7187b62b86090699b81577fae9887a88ffc35cdb6e2edc3b878"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:30 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"236e130b0b2e98d6e9c26f128c34dca375117e83\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:28.642458+00:00",
+      "retrieved_at": "2026-11-21T15:09:31.056473+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2023revised/ashetable82023revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:35 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "8",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.757458+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.809082+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82023revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2023.xlsx",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2023 CV.xlsx",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2023.xlsx",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2023 CV.xlsx",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2023.xlsx",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2023 CV.xlsx",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2023.xlsx",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2023 CV.xlsx",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2023.xlsx",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2023 CV.xlsx",
+      "Home Geography Table 8.4a   Overtime pay 2023.xlsx",
+      "Home Geography Table 8.4b   Overtime pay 2023 CV.xlsx",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2023.xlsx",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2023 CV.xlsx",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2023.xlsx",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2023 CV.xlsx",
+      "Home Geography Table 8.7a   Annual pay - Gross 2023.xlsx",
+      "Home Geography Table 8.7b   Annual pay - Gross 2023 CV.xlsx",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2023.xlsx",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2023 CV.xlsx",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2023.xlsx",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2023 CV.xlsx"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip",
+    "edition": "2024 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "3f982c4e8792b953d2bb7b968fc04ecf51f8e6bfdb2d99eaed662091c65e6702"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:34 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"cd8f5e9c4259dcebac4ec543b934555f6e04e798\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:32.606214+00:00",
+      "retrieved_at": "2026-11-21T15:09:35.076936+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024provisional/ashetable82024provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:35 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "8",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.823405+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.898301+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82024provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2024.xlsx",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2024.xlsx",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2024.xlsx",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2024.xlsx",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2024.xlsx",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2024.xlsx",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2024.xlsx",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2024.xlsx",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2024.xlsx",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2024.xlsx",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2024 CV.xlsx",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2024.xlsx",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2024 CV.xlsx"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip",
+    "edition": "2024 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "3e0702c4060c8cd3a5802f809af893b198003570dfc86d201b0bbc88fd9e85a4"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:38 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"5e3e8fb583ca8ccb1adb140e209c56fb97701f96\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:36.625165+00:00",
+      "retrieved_at": "2026-11-21T15:09:38.725626+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2024revised/ashetable82024revised.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:35 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "8",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.906895+00:00",
+        "retrieved_at": "2026-11-21T15:04:33.978000+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82024revised.zip.retry1",
+    "files": [
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2024.xlsx",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2024 CV.xlsx",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2024.xlsx",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2024 CV.xlsx",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2024.xlsx",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2024 CV.xlsx",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2024.xlsx",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2024 CV.xlsx",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2024.xlsx",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2024 CV.xlsx",
+      "Home Geography Table 8.4a   Overtime pay 2024.xlsx",
+      "Home Geography Table 8.4b   Overtime pay 2024 CV.xlsx",
+      "Home Geography Table 8.5a   Hourly pay - Gross 2024.xlsx",
+      "Home Geography Table 8.5b   Hourly pay - Gross 2024 CV.xlsx",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2024.xlsx",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2024 CV.xlsx",
+      "Home Geography Table 8.7a   Annual pay - Gross 2024.xlsx",
+      "Home Geography Table 8.7b   Annual pay - Gross 2024 CV.xlsx",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2024.xlsx",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2024 CV.xlsx",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2024.xlsx",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2024 CV.xlsx"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip",
+    "edition": "2025 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "6dfb21ac2a0ec3fa24d35681f074b4f12d2778b7997f279401f67308a9220505"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:09:41 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"4fbbca0efbac25a2d163e92fbf1272692d9aafd7\""
+      },
+      "retrieval_started_at": "2026-11-21T15:09:40.282752+00:00",
+      "retrieved_at": "2026-11-21T15:09:43.046893+00:00",
+      "status": 200
+    },
+    "previous_attempts": [
+      {
+        "checksums": {
+          "response.bin": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602"
+        },
+        "identity": {
+          "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip"
+        },
+        "request_headers": {
+          "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+        },
+        "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip",
+        "response_headers": {
+          "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "Content-Length": "17",
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Date": "Sat, 21 Nov 2026 15:04:35 GMT",
+          "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "Retry-After": "8",
+          "Vary": "accept-encoding"
+        },
+        "retrieval_started_at": "2026-11-21T15:04:33.986296+00:00",
+        "retrieved_at": "2026-11-21T15:04:34.090977+00:00",
+        "status": 429
+      }
+    ],
+    "raw_directory": "ashetable82025provisional.zip.retry1",
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2025.xlsx",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2025.xlsx",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2025.xlsx",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2025.xlsx",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2025.xlsx",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2025.xlsx",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.5a   Hourly pay - Gross 2025.xlsx",
+      "PROV - Home Geography Table 8.5b   Hourly pay - Gross 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2025.xlsx",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2025.xlsx",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2025.xlsx",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2025 CV.xlsx",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2025.xlsx",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2025 CV.xlsx"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised/ashetable82025revised.zip",
+    "edition": "2025 revised edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "bb7d01146f926364867a4f33d635b267dd10e40e2450020445b1a79cf7ef3c85"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised/ashetable82025revised.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised/ashetable82025revised.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:01:06 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"f5757895aa84002d6cfe2b2ebc1134e4987ea255\""
+      },
+      "retrieval_started_at": "2026-11-21T15:01:05.033826+00:00",
+      "retrieved_at": "2026-11-21T15:01:07.213792+00:00",
+      "status": 200
+    },
+    "files": [
+      "Home Geography Table 8.10a   Paid hours worked - Basic 2025.xlsx",
+      "Home Geography Table 8.10b   Paid hours worked - Basic 2025 CV.xlsx",
+      "Home Geography Table 8.11a   Paid hours worked - Overtime 2025.xlsx",
+      "Home Geography Table 8.11b   Paid hours worked - Overtime 2025 CV.xlsx",
+      "Home Geography Table 8.1a   Weekly pay - Gross 2025.xlsx",
+      "Home Geography Table 8.1b   Weekly pay - Gross 2025 CV.xlsx",
+      "Home Geography Table 8.2a   Weekly pay - Excluding overtime 2025.xlsx",
+      "Home Geography Table 8.2b   Weekly pay - Excluding overtime 2025 CV.xlsx",
+      "Home Geography Table 8.3a   Basic Pay - Including other pay 2025.xlsx",
+      "Home Geography Table 8.3b   Basic Pay - Including other pay 2025 CV.xlsx",
+      "Home Geography Table 8.4a   Overtime pay 2025.xlsx",
+      "Home Geography Table 8.4b   Overtime pay 2025 CV.xlsx",
+      "Home Geography Table 8.5a   Hourly Pay - Gross 2025.xlsx",
+      "Home Geography Table 8.5b   Hourly Pay - Gross 2025 CV.xlsx",
+      "Home Geography Table 8.6a   Hourly pay - Excluding overtime 2025.xlsx",
+      "Home Geography Table 8.6b   Hourly pay - Excluding overtime 2025 CV.xlsx",
+      "Home Geography Table 8.7a   Annual pay - Gross 2025.xlsx",
+      "Home Geography Table 8.7b   Annual pay - Gross 2025 CV.xlsx",
+      "Home Geography Table 8.8a   Annual pay - Incentive 2025.xlsx",
+      "Home Geography Table 8.8b   Annual pay - Incentive 2025 CV.xlsx",
+      "Home Geography Table 8.9a   Paid hours worked - Total 2025.xlsx",
+      "Home Geography Table 8.9b   Paid hours worked - Total 2025 CV.xlsx"
+    ]
+  },
+  {
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip",
+    "edition": "2026 provisional edition of this dataset",
+    "metadata": {
+      "checksums": {
+        "response.bin": "35f86a3682ab3e7120011c4822dca47738eb00319d48f34f162111bbf1542253"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "application/zip;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:01:08 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "accept-encoding",
+        "etag": "\"aef67db634bfbd2da1c70ee4423f1cae48453248\""
+      },
+      "retrieval_started_at": "2026-11-21T15:01:07.247116+00:00",
+      "retrieved_at": "2026-11-21T15:01:09.356739+00:00",
+      "status": 200
+    },
+    "files": [
+      "PROV - Home Geography Table 8.10a   Paid hours worked - Basic 2026.xlsx",
+      "PROV - Home Geography Table 8.10b   Paid hours worked - Basic 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.11a   Paid hours worked - Overtime 2026.xlsx",
+      "PROV - Home Geography Table 8.11b   Paid hours worked - Overtime 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.1a   Weekly pay - Gross 2026.xlsx",
+      "PROV - Home Geography Table 8.1b   Weekly pay - Gross 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.2a   Weekly pay - Excluding overtime 2026.xlsx",
+      "PROV - Home Geography Table 8.2b   Weekly pay - Excluding overtime 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.3a   Basic Pay - Including other pay 2026.xlsx",
+      "PROV - Home Geography Table 8.3b   Basic Pay - Including other pay 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.4a   Overtime pay 2026.xlsx",
+      "PROV - Home Geography Table 8.4b   Overtime pay 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.5a   Hourly Pay - Gross 2026.xlsx",
+      "PROV - Home Geography Table 8.5b   Hourly Pay - Gross 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.6a   Hourly pay - Excluding overtime 2026.xlsx",
+      "PROV - Home Geography Table 8.6b   Hourly pay - Excluding overtime 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.7a   Annual pay - Gross 2026.xlsx",
+      "PROV - Home Geography Table 8.7b   Annual pay - Gross 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.8a   Annual pay - Incentive 2026.xlsx",
+      "PROV - Home Geography Table 8.8b   Annual pay - Incentive 2026 CV.xlsx",
+      "PROV - Home Geography Table 8.9a   Paid hours worked - Total 2026.xlsx",
+      "PROV - Home Geography Table 8.9b   Paid hours worked - Total 2026 CV.xlsx"
+    ]
+  }
+]

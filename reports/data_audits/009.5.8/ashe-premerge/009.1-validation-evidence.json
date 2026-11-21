@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "editions": 37,
+  "observation_years": 25,
+  "immutable_raw_bundles_verified": 73,
+  "paired_pay_cv_code_sets_identical": true,
+  "duplicate_source_row_identities": 0,
+  "editions_with_legacy_code_collisions": 10,
+  "modern_gss_code_duplicates": 0,
+  "cohort_and_cv_counts_reconcile": true,
+  "safe_header_allowlist_verified": true,
+  "production_outputs_written": false,
+  "revision_comparison_scope": "All source-coded geographies, including counties; exact codes within paired editions only; no model-input vintage selection",
+  "successful_zip_status_counts": {
+    "200": 37
+  },
+  "preserved_prior_attempt_status_counts": {
+    "429": 27
+  }
+}

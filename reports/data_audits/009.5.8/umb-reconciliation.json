@@ -1,0 +1,19 @@
+{
+  "conflicts_resolved": [
+    "docs/data-architecture-and-dictionary.md",
+    "docs/development-journal/01-data-ingestion.md",
+    "docs/issue-register.md",
+    "docs/task-execution-log.csv"
+  ],
+  "combined_issue_rows": [
+    "ISS-003",
+    "ISS-004",
+    "ISS-011",
+    "ISS-012"
+  ],
+  "all_original_umb_dictionary_edits_accounted_for": true,
+  "ashe_and_umb_definitions_retained": true,
+  "csv_009_3_blank_duration_and_original_notes_preserved": true,
+  "both_journal_histories_preserved": true,
+  "no_new_methodology": true
+}

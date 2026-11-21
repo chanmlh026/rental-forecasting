@@ -466,6 +466,85 @@ is stated explicitly. Detailed findings remain in their source documents.
   documentation-only completion receipt records actual results/timing on main
   without changing the merged implementation. No Tasks 009-013 work began.
 
+## 21 November 2026 - Approved earnings definition and ASHE investigation (Task 009.1)
+
+- **Event/trigger:** Owner requested focused ASHE investigation after Task 008
+  merge; supplied decisions/rationale in the archived prompt. Dates of earlier
+  discussions are not established by this record.
+- **Initiated by:** Human.
+- **Human decision 1 and rationale:** Annual gross pay represents residents'
+  earning capacity through rates and employment undertaken; high hourly pay with
+  few hours can still mean limited annual rental resources.
+- **Human decision 2 and rationale:** Median rather than mean reduces sensitivity
+  to high-earner skew and represents typical employees.
+- **Human decision 3 and rationale:** Include full-/part-time and both sexes to
+  reflect overall employee earnings capacity, deliberately retaining lower annual
+  resources from fewer hours. Separate subgroup predictors are not required.
+- **Human decision 4 and limitation:** Individual employee earnings are not
+  household resources (for example two earners versus one). Owner accepts this
+  at ingestion; usefulness, retention and interpretation await later modelling.
+- **AI actions (Codex):** Verified merged main and created a separate research
+  branch; checked 37 official ZIPs, exact annual gross median All field, paired
+  CVs, cohort history, markers/styles, source revisions, publication and licensing.
+  Retained ignored immutable source bundles and lightweight committed evidence.
+- **Significant findings/interventions:** Earlier 403 not reproduced or explained.
+  Initial concurrency received 27 HTTP 429 responses; attempts retained and paced
+  retries succeeded. Inspected split headers and legacy 68/69 collisions across
+  aggregate/LA rows; validation preserves row identity. Temporary Excel readers
+  used system certificate trust after default TLS trust failed.
+- **Outcome/status:** Field verified in advertised years 2002–2026. Latest cohort
+  294 exact matches, 293 numeric and one x; pre-2012 legacy geography unjoined.
+  Offline audit checks paired rows/counts and 73 raw bundles. ISS-001/002 resolved
+  for definition/access verification; ISS-003/004/011/012 remain Open. No production
+  ingestion, mappings, features, unemployment, PR or merge. Independent review
+  precedes any separately authorised next task.
+- **Evidence/references:** [Prompt](../009.1-ashe-earnings-access-coverage-and-quality-investigation.md),
+  [audit](../../reports/data_audits/009.1/README.md), [issues](../issue-register.md),
+  [measured timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: investigation commit
+  `6924529dab9f819f68be869725892684ecaf262f` pushed to the dedicated feature
+  branch and matched the remote SHA; main remained at `85dd087`. Final repository
+  checks passed; optional Black was unavailable. Timing cutoff and handoff are
+  recorded in the shared CSV and archived task. No PR or merge created.
+
+## 21 November 2026 - ASHE ingestion and deferred geography harmonisation (Task 009.2)
+
+- **Event/trigger:** Owner authorised earnings-only production ingestion using
+  independently reviewed Task 009.1 evidence; required all editions and source
+  quality/provenance preservation.
+- **Initiated by:** Human.
+- **Human actions/decision:** Approved original geographic data ingestion now;
+  investigate and resolve harmonisation across datasets together in preprocessing.
+  Approved retaining provisional/revised/methodological editions without choosing
+  a final modelling vintage. Prohibited unemployment, features, PR and main merge.
+- **AI actions (Codex):** Verified remote main, created the dedicated branch and
+  incorporated reviewed investigation commits by fast-forward without changing
+  either prior branch. Reused immutable/safe storage helpers, added locked Excel
+  readers, implemented source contracts and automated failure/recovery tests.
+  Ingested 37 verified official ZIPs and independently reconciled all selected
+  pay/CV cells. Recorded original geography, uncertainty, notes and availability.
+- **Significant findings/interventions:** Full-history parsing exposed two split
+  titles lacking currency/CV/year and conflicting eligibility footnotes (2022
+  revised, 2023 provisional). Inspected official XLS cells/Notes, retained both
+  conflicting texts and flagged affected observations; applied no absence filter
+  or silent correction. Initial schema failures published no derived output.
+- **Outcome/status:** 154 automated tests passed; 31,930 source cells reconcile,
+  15,965 observations across 2002–2026. All 171 checked files remained unchanged
+  on offline rerun, including 89 earlier production files. Fresh production ZIP
+  retrieval returned HTTP 200 with the verified checksum. ISS-003/004/011/012
+  updated and remain Open; source-note conflict needs later review. No geographic
+  harmonisation, feature engineering, unemployment, PR or merge performed.
+- **Evidence/references:** [Owner prompt/report](../009.2-ons-ashe-earnings-ingestion.md),
+  [validation](../../reports/data_audits/009.2/validation-evidence.json),
+  [issue register](../issue-register.md), [timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: implementation commit
+  `80048b2929b08c1bdaa5a96176033a66166b2fb0` pushed to the dedicated branch and
+  matched remote SHA. Reviewed investigation history remains its ancestor; main
+  and Task 009.1 remote heads unchanged. Measured timing and final receipt are in
+  the shared CSV/task report. Completed for independent review; no PR or merge.
+
 ## 21 November 2026 - UMB-first decision and source investigation (Task 009.3)
 
 - **Event/trigger:** Owner authorised a separate UMB source investigation while
@@ -505,3 +584,49 @@ is stated explicitly. Detailed findings remain in their source documents.
   measured subtotal 18.016667 minutes excludes the interruption gap. Full total
   remains unavailable because the first session's final tail was not timed.
   Completion receipt and shared CSV disclose the measurement cutoffs. No Task 013.1.
+
+## 21 November 2026 - Integration hold and public-history assessment (Task 009.5)
+
+- **Event/trigger:** Owner conditionally authorised earnings/UMB merges after
+  validation. Repository checks exposed PUBLIC visibility inconsistent with the
+  private-repository premise in ISS-020's earlier risk acceptance.
+- **Initiated by:** Human merge task; Codex identified the visibility discrepancy.
+- **Human actions:** Explicitly refused public-exposure acceptance, held both
+  merges and requested a read-only assessment with no cookie values reproduced.
+  No history rewrite, visibility change, session invalidation or other remediation
+  authorised. Original private-context acceptance is preserved as history.
+- **AI actions (Codex):** Verified reviewed remote heads/ASHE ancestry and absent
+  PRs; ran fresh 154-test/ASHE source audits and previewed four doc conflicts.
+  Confirmed public visibility independently and historical accessibility with
+  unauthenticated HEAD only. Inspected cookie attributes in memory and scanned
+  current tip trees without emitting identifiers; consulted official guidance.
+- **Outcome/status:** Merges held. ISS-020 reopened locally: current validity and
+  scope are unknown; current-file controls do not purge public history. Prepared
+  containment, publisher-confirmation and targeted-cleanup options for owner
+  approval. No PR, merge, remote write or remediation occurred. Assessment and
+  required governance updates remain local pending owner review.
+- **Evidence/references:** [Task prompt, owner hold and assessment](../009.5-merge-ashe-earnings-and-umb-investigation.md),
+  [redacted findings](../../reports/data_audits/009.5/security-assessment-evidence.json),
+  [ISS-020](../issue-register.md), [timing](../task-execution-log.csv).
+
+
+## 21 November 2026 - Clean development checkout and recovery (Task 009.5.7)
+
+- **Event/trigger:** Following the owner-approved Task 009.5.6 atomic migration, the owner authorised a separate fresh development clone and recovery of unfinished Task 009.5 work, without any commit, push, merge, PR or public visibility change.
+- **Initiated by:** Human.
+- **Human actions:** Required preservation of the original checkout/backups, cleaned-main recovery of non-sensitive contents only, validation of separate task branches and a distinction between private development and public-release readiness.
+- **AI actions (Codex):** Verified private visibility and all migrated remote refs; cloned GitHub into a separate directory; created `review/009-5-clean-recovery` from cleaned main. Copied the two new Task 009.5 files exactly and recovered only the original journal delta, ISS-020 row and Task 009.5 timing row, preserving unrelated main contents. Created the current prompt/timing/evidence records. No original Git objects, refs, reflogs, datasets or sensitive manifests were transferred.
+- **Decision and stated rationale:** Recover working content rather than old Git metadata, preserving completed work while preventing reintroduction of the historical exposure. Separate ASHE/UMB branches retain their approved code, evidence and decisions; their documents were not imported as completed main integration.
+- **Outcome/status:** Fresh cleaned-main environment passed 117 tests; separate cleaned ASHE worktree passed 154 tests. Object/working-file known-identifier checks, Gitleaks and strict Git integrity checks passed. Task 009.5 remains unfinished/unmerged and its original Blocked timing record is preserved. Live cached-source audits were not rerun because no ignored datasets were migrated; the originals and prior validation evidence remain protected and unchanged.
+- **Security boundary:** Private development can resume under its authorised task scope. Public release still requires ISS-020's remaining GitHub PR/cache exposure to be handled and a separate owner decision. The original checkout and security backups retain sensitive history and must not be used as push sources. This task authorises no commit, push or merge.
+- **Evidence/references:** [Task 009.5.7 prompt and recovery report](../009.5.7-clean-development-environment-after-history-migration.md), [recovery/validation evidence](../../reports/data_audits/009.5.7/recovery-validation.json), [recovered Task 009.5 assessment](../009.5-merge-ashe-earnings-and-umb-investigation.md), [ISS-020](../issue-register.md), [execution timing](../task-execution-log.csv). Task 009.5.6's detailed execution receipt remains in the separate restricted security workspace.
+
+
+## 21 November 2026 - Approved clean-history integration (Task 009.5.8)
+
+- **Event/trigger:** Owner authorised completion of Task 009.5 through ASHE and UMB PR merges, conditional on validation, using only the fresh cleaned development environment.
+- **Initiated by:** Human.
+- **Human actions:** Required preservation of recovered governance/security records and source findings; explicitly retained private visibility, ISS-020 Open and the ban on further ingestion/Task 013.1.
+- **AI actions (Codex):** Verified migrated refs and recovered files, preserved the recovered work in a clean-history commit, and reconciled the ASHE branch's journal/timing changes without dropping either side. Reused only known-value-scanned ASHE/UMB cache directories; copied no BoE manifests or old Git metadata.
+- **Outcome/status:** ASHE candidate passed 154 tests and current offline source/cell audits; PR and UMB integration outcomes are recorded in the task report as execution proceeds. ASHE/UMB issue resolutions are carried only where supported by earlier approved source decisions.
+- **Evidence/references:** [Task 009.5.8 execution report](../009.5.8-ashe-and-umb-clean-history-integration.md), [current validation](../../reports/data_audits/009.5.8/), [ISS-020](../issue-register.md), [execution timing](../task-execution-log.csv).

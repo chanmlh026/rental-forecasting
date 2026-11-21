@@ -1,0 +1,262 @@
+[
+  {
+    "id": "edition-2026-provisional",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional",
+    "metadata": {
+      "checksums": {
+        "response.bin": "eb108d70f979eaafac1999a4a56e14ed2f8404ba5f25196a83d5859e09c45c1c"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:17 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:16.327238+00:00",
+      "retrieved_at": "2026-11-21T15:13:16.573343+00:00",
+      "status": 200
+    },
+    "release_date_labels": [
+      "22 October 2026"
+    ],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2026provisional/ashetable82026provisional.zip"
+    ],
+    "correction_mentioned": true
+  },
+  {
+    "id": "edition-2025-provisional",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional",
+    "metadata": {
+      "checksums": {
+        "response.bin": "3790e943491e81db0c8d978ed4eb70cdb015eb1511962636d398dab739720c6f"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:19 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:18.096174+00:00",
+      "retrieved_at": "2026-11-21T15:13:18.279046+00:00",
+      "status": 200
+    },
+    "release_date_labels": [
+      "22 October 2026"
+    ],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025provisional/ashetable82025provisional.zip"
+    ],
+    "correction_mentioned": true
+  },
+  {
+    "id": "edition-2025-revised",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised",
+    "metadata": {
+      "checksums": {
+        "response.bin": "ea41f47eb24c2b5f92b8702c34ec70bd9ef009ec1d6058e4976c8bfe58f87ece"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:21 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:19.801684+00:00",
+      "retrieved_at": "2026-11-21T15:13:19.997305+00:00",
+      "status": 200
+    },
+    "release_date_labels": [
+      "22 October 2026"
+    ],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2025revised/ashetable82025revised.zip"
+    ],
+    "correction_mentioned": true
+  },
+  {
+    "id": "edition-2015-versions",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015",
+    "metadata": {
+      "checksums": {
+        "response.bin": "6c2c14ece7adee2858ac6dcc0a6c9d714602c1c95e7b779b5091732c8e72f6c3"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:22 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:21.514662+00:00",
+      "retrieved_at": "2026-11-21T15:13:21.693730+00:00",
+      "status": 200
+    },
+    "release_date_labels": [
+      "22 October 2026"
+    ],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/table82015revised.zip",
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8/2015/previous/v1/rft-8.zip"
+    ],
+    "correction_mentioned": true
+  },
+  {
+    "id": "qmi",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/methodologies/annualsurveyofhoursandearningslowpayandannualsurveyofhoursandearningspensionresultsqmi",
+    "metadata": {
+      "checksums": {
+        "response.bin": "23e290442203a279078e072f83d67d13b9908365de67b40c2097c4a47007464a"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/methodologies/annualsurveyofhoursandearningslowpayandannualsurveyofhoursandearningspensionresultsqmi"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/methodologies/annualsurveyofhoursandearningslowpayandannualsurveyofhoursandearningspensionresultsqmi",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:24 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:23.219936+00:00",
+      "retrieved_at": "2026-11-21T15:13:23.483936+00:00",
+      "status": 200
+    },
+    "release_date_labels": [],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [],
+    "correction_mentioned": true
+  },
+  {
+    "id": "bulletin-2026",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026",
+    "metadata": {
+      "checksums": {
+        "response.bin": "e747d5510f18aa798294293548ac9fabaf3e33d311c9766db9d560985c7653ed"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:26 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:25.037062+00:00",
+      "retrieved_at": "2026-11-21T15:13:25.139747+00:00",
+      "status": 200
+    },
+    "release_date_labels": [
+      "22 October 2026"
+    ],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [],
+    "correction_mentioned": false
+  },
+  {
+    "id": "questionnaire-guide",
+    "url": "https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/additionalguidancefortheannualsurveyofhoursandearningspaperquestionnaire",
+    "metadata": {
+      "checksums": {
+        "response.bin": "284e0649e1102ca8cc893a8f0c997f3a4182de19427f6018acdb342674cc333f"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/additionalguidancefortheannualsurveyofhoursandearningspaperquestionnaire"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/additionalguidancefortheannualsurveyofhoursandearningspaperquestionnaire",
+      "response_headers": {
+        "Cache-Control": "public, s-maxage=900, max-age=900, stale-while-revalidate=10",
+        "Content-Type": "text/html;charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:28 GMT",
+        "Transfer-Encoding": "chunked",
+        "vary": "Accept-Encoding, User-Agent"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:26.683316+00:00",
+      "retrieved_at": "2026-11-21T15:13:26.902025+00:00",
+      "status": 200
+    },
+    "release_date_labels": [],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [],
+    "correction_mentioned": false
+  },
+  {
+    "id": "licence",
+    "url": "https://www.ons.gov.uk/help/terms-conditions",
+    "metadata": {
+      "checksums": {
+        "response.bin": "11721749d2b20c2c15dafa6899280ca8aed405acb6926b0d4022b22cf78ff2c9"
+      },
+      "identity": {
+        "url": "https://www.ons.gov.uk/help/terms-conditions"
+      },
+      "request_headers": {
+        "User-Agent": "RentalForecasting-ASHE-SourceAudit/0.1 (public statistical source investigation)"
+      },
+      "resolved_url": "https://www.ons.gov.uk/help/terms-conditions",
+      "response_headers": {
+        "Cache-Control": "public, max-age=60, stale-while-revalidate=0, stale-if-error=300",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Sat, 21 Nov 2026 15:13:29 GMT",
+        "Transfer-Encoding": "chunked",
+        "last-modified": "Tue, 17 Nov 2026 10:40:15 GMT",
+        "vary": "Accept-Language, accept-encoding"
+      },
+      "retrieval_started_at": "2026-11-21T15:13:28.503399+00:00",
+      "retrieved_at": "2026-11-21T15:13:28.635890+00:00",
+      "status": 200
+    },
+    "release_date_labels": [],
+    "open_government_licence_mentioned": true,
+    "previous_download_links": [],
+    "correction_mentioned": false
+  }
+]

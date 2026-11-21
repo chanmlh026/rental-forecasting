@@ -1,0 +1,21 @@
+{
+  "phase": "umb-premerge",
+  "scripts": [
+    "reports/data_audits/009.1/validate_audit.py",
+    "reports/data_audits/009.2/validate_live.py",
+    "reports/data_audits/009.3/analyse_umb.py",
+    "reports/data_audits/009.3/inspect_archives.py"
+  ],
+  "status": "pass",
+  "copied_source_and_output_files_unchanged": 287,
+  "network_access_blocked": true,
+  "original_task_evidence_not_overwritten": true,
+  "current_evidence": [
+    "reports\\data_audits\\009.5.8\\umb-premerge\\009.1-revision-evidence.json",
+    "reports\\data_audits\\009.5.8\\umb-premerge\\009.1-validation-evidence.json",
+    "reports\\data_audits\\009.5.8\\umb-premerge\\009.2-validation-evidence.json",
+    "reports\\data_audits\\009.5.8\\umb-premerge\\009.3-validation-evidence.json",
+    "reports\\data_audits\\009.5.8\\umb-premerge\\009.3-archive-evidence.json"
+  ],
+  "earlier_non_ASHE_production_data_not_copied": true
+}

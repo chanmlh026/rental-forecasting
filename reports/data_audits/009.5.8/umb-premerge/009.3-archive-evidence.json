@@ -1,0 +1,610 @@
+{
+  "archives": [
+    {
+      "source": "m01_latest",
+      "reader_version": "2.0.2",
+      "sheet": "LA,UA Rates",
+      "source_notes": [
+        "This spreadsheet was first published on 16 August 2022",
+        "This is the final edition of this dataset. The latest local authority estimates will still be available in dataset LI01 and timeseries is available on Nomis; latest parliamentary constituencies will be available in dataset LI02.",
+        "IMPORTANT NOTE:",
+        "",
+        "From 14 June 2022, Labour Force Survey (LFS) responses in this table were reweighted for periods from January to March 2020 to January to March 2022, using updated HM Revenue and Customs (HMRC) Real Time Information (RTI) data. Our Impact of reweighting on Labour Force Survey key indicators: 2022 article gives more information on the reweighting exercise."
+      ],
+      "table_footnotes": [
+        "1. The figures are based on a model which utilises Annual Population Survey estimates of unemployment along with the Claimant Count averaged over 12 months. A user guide provides further information.",
+        "2. These figures represent '95% confidence intervals'. If a large number of samples were taken, and a 95% confidence interval was calculated for each sample, it is expected that in 95% of samples the range would contain the true value."
+      ],
+      "hartlepool_row": 8,
+      "hartlepool_examples": [
+        {
+          "source_column": 4,
+          "reference_period": "1996/97",
+          "value": 11.0,
+          "confidence": 2.5,
+          "confidence_header": "+/- (%)2"
+        },
+        {
+          "source_column": 28,
+          "reference_period": "Jan 2004 to Dec 2004",
+          "value": 7.7,
+          "confidence": 1.3,
+          "confidence_header": "+/- (%)2"
+        },
+        {
+          "source_column": 208,
+          "reference_period": "Jan 2019 to Dec 2019",
+          "value": 7.5252107299999995,
+          "confidence": 1.5365897652,
+          "confidence_header": "+/- (%)2"
+        },
+        {
+          "source_column": 235,
+          "reference_period": "Apr 2021 to Mar 2022",
+          "value": 6.7716239400000005,
+          "confidence": 1.4031907932,
+          "confidence_header": "+/- (%)2"
+        }
+      ],
+      "early_history": [
+        {
+          "reference_period": "1996/97",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1997/98",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1998/99",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1999/2000",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2000/01",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2001/02",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2002/03",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2003/04",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        }
+      ],
+      "latest_archive_rate_and_confidence_match_nomis_rounding": true
+    },
+    {
+      "source": "m01_previous",
+      "reader_version": "2.0.2",
+      "sheet": "LA,UA Rates",
+      "source_notes": [
+        "This spreadsheet was first published on 12 April 2022",
+        "This is the final edition of this dataset. The latest local authority estimates will still be available in dataset LI01 and timeseries is available on Nomis; latest parliamentary constituencies will be available in dataset LI02."
+      ],
+      "table_footnotes": [
+        "1. The figures are based on a model which utilises Annual Population Survey estimates of unemployment along with the Claimant Count averaged over 12 months. A user guide provides further information.",
+        "2. These figures represent '95% confidence intervals'. If a large number of samples were taken, and a 95% confidence interval was calculated for each sample, it is expected that in 95% of samples the range would contain the true value."
+      ],
+      "hartlepool_row": 8,
+      "hartlepool_examples": [
+        {
+          "source_column": 4,
+          "reference_period": "1996/97",
+          "value": 11.0,
+          "confidence": 2.5,
+          "confidence_header": "+/- (%)2"
+        },
+        {
+          "source_column": 28,
+          "reference_period": "Jan 2004 to Dec 2004",
+          "value": 7.7,
+          "confidence": 1.3,
+          "confidence_header": "+/- (%)2"
+        },
+        {
+          "source_column": 208,
+          "reference_period": "Jan 2019 to Dec 2019",
+          "value": 7.5252107299999995,
+          "confidence": 1.5365897652,
+          "confidence_header": "+/- (%)2"
+        }
+      ],
+      "early_history": [
+        {
+          "reference_period": "1996/97",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1997/98",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1998/99",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "1999/2000",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2000/01",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2001/02",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2002/03",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        },
+        {
+          "reference_period": "2003/04",
+          "reference_definition": "March to February (2006 guide); not a calendar-year label",
+          "source_english_la_rows": 318,
+          "exact_cohort_rows": 288,
+          "numeric_cohort_rates": 273,
+          "missing_cohort_value_codes": [
+            "E06000047",
+            "E06000057",
+            "E06000049",
+            "E06000050",
+            "E06000051",
+            "E06000056",
+            "E07000244",
+            "E07000245",
+            "E06000060",
+            "E06000058",
+            "E06000052",
+            "E06000059",
+            "E06000054",
+            "E06000061",
+            "E06000062"
+          ],
+          "unmatched_cohort_codes": [
+            "E06000063",
+            "E06000064",
+            "E06000065",
+            "E06000066",
+            "E08000038",
+            "E08000039"
+          ]
+        }
+      ],
+      "latest_archive_rate_and_confidence_match_nomis_rounding": false
+    }
+  ],
+  "common_code_period_cells": 28644,
+  "numeric_in_both": 28200,
+  "changed_numeric_rate_cells": 2876,
+  "comparison_scope": "All coded LA/UA source rows, no geography mapping, no source edition preferred"
+}
