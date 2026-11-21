@@ -329,7 +329,6 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Owner prompt and correction report](../007.2-harden-boe-http-metadata-and-validation-evidence.md),
   [verification outcomes](../../reports/data_audits/007.2/validation-evidence.json),
   [ISS-020](../issue-register.md#issues), [timing CSV](../task-execution-log.csv).
-
   Dated update, 21 November 2026: correction commit
   `f8cb66d1ddcc9a4efc2374af2cf9b0833bd5fe06` pushed and matched the remote
   milestone branch; local/remote main unchanged. Task 007.2 completed for review
@@ -376,5 +375,9 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Outcome/status:** PR preparation in progress; publication and available
   check results will be recorded in the Task 007.4 report. ISS-020 is Resolved
   by owner acceptance; ISS-004/ISS-005 remain Open. No implementation changes.
+  Dated update, 21 November 2026: [Draft PR #4](https://github.com/chanmlh026/rental-forecasting/pull/4)
+  created; GitHub reports a clean, mergeable draft, zero status checks/workflow
+  runs and an empty check rollup. No CI workflow is configured; 76 local tests
+  passed. Approval/merge remain with the owner; no merge performed.
 - **Evidence/references:** [Task 007.4 prompt/report](../007.4-prepare-boe-ingestion-milestone-pull-request.md),
   [issue register](../issue-register.md#issues), [execution timing](../task-execution-log.csv).
