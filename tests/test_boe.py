@@ -1,6 +1,8 @@
 """Offline source-contract and immutable publication tests."""
 
 from datetime import date
+from email.message import Message
+import json
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from xml.etree import ElementTree as ET
@@ -215,3 +217,99 @@ def test_changed_bank_event_preserves_previous_output(tmp_path):
     with pytest.raises(boe.IngestionError, match="Bank Rate event changed"):
         boe.ingest(tmp_path, "bank_rate", "two", date(2026, 11, 21), download(bank().replace(b"4.00", b"4.01")))
     assert (Path(result["processed_path"]) / "events.parquet").read_bytes() == original
+
+
+def synthetic_headers():
+    headers = Message()
+    for name, value in [
+        ("sEt-CoOkIe", "SYNTHETIC_SESSION=unit-test-only"),
+        ("Set-Cookie", "SYNTHETIC_SECOND=unit-test-only"),
+        ("COOKIE", "SYNTHETIC_SESSION=unit-test-only"),
+        ("Authorization", "Bearer SYNTHETIC_TEST_ONLY"),
+        ("Proxy-Authorization", "SYNTHETIC_PROXY"),
+        ("X-Api-Key", "SYNTHETIC_KEY"),
+        ("X-Session-ID", "SYNTHETIC_ID"),
+        ("X-New-Unknown-Header", "SYNTHETIC_UNKNOWN"),
+        ("Content-Type", "text/html"), ("Content-Length", "6"),
+        ("Date", "Sat, 21 Nov 2026 12:00:00 GMT"),
+        ("ETag", '"source-version"'),
+        ("Last-Modified", "Fri, 20 Nov 2026 12:00:00 GMT"),
+        ("User-Agent", "Mozilla/5.0"),
+    ]:
+        headers[name] = value
+    return headers
+
+
+def test_fetch_excludes_sensitive_and_unknown_headers(monkeypatch):
+    class Response:
+        url = boe.BANK_URL
+        status = 200
+        headers = synthetic_headers()
+        def __enter__(self):
+            return self
+        def __exit__(self, *args):
+            pass
+        def read(self, size):
+            return b"source"
+    monkeypatch.setattr(boe, "urlopen", lambda *args, **kwargs: Response())
+    body, metadata = boe.fetch(boe.BANK_URL)
+    assert body == b"source"
+    assert "SYNTHETIC" not in json.dumps(metadata)
+    assert set(metadata["response_headers"]) == {
+        "Content-Type", "Content-Length", "Date", "ETag", "Last-Modified", "User-Agent"}
+    assert metadata["response_headers"]["ETag"] == '"source-version"'
+    assert metadata["request_headers"] == boe.HEADERS
+    assert metadata["url"] == boe.BANK_URL
+    assert metadata["status"] == 200
+    assert metadata["retrieved_at"].endswith("+00:00")
+
+
+def test_nested_legacy_metadata_copy_and_idempotence():
+    legacy = {"manifest": {"retrieval": {
+        "request_headers": dict(synthetic_headers()),
+        "response_headers": dict(synthetic_headers()),
+        "url": boe.BANK_URL, "retrieved_at": "2026-11-21T12:00:00+00:00"}},
+        "other_records": [{"headers": dict(synthetic_headers())}],
+        "source_sha256": "unchanged"}
+    original = json.dumps(legacy)
+    safe = boe.safe_http_metadata(legacy)
+    assert "SYNTHETIC" not in json.dumps(safe)
+    assert json.dumps(legacy) == original
+    assert boe.safe_http_metadata(safe) == safe
+    assert safe["source_sha256"] == "unchanged"
+    assert safe["manifest"]["retrieval"]["url"] == boe.BANK_URL
+
+
+@pytest.mark.parametrize("dataset,body", [("bank_rate", bank()), ("iumzid4", xml())])
+def test_legacy_rerun_filters_exports_without_overwriting_snapshots(tmp_path, dataset, body):
+    result = boe.ingest(tmp_path, dataset, "legacy", date(2026, 11, 21), download(body))
+    for layer in ("raw_path", "validated_path", "processed_path"):
+        manifest_path = Path(result[layer]) / "manifest.json"
+        info = json.loads(manifest_path.read_text(encoding="utf-8"))
+        info["retrieval"]["response_headers"] = dict(synthetic_headers())
+        manifest_path.write_text(json.dumps(info), encoding="utf-8")
+    before = {p: p.read_bytes() for p in tmp_path.rglob("*") if p.is_file()}
+    def offline(url):
+        raise AssertionError("Legacy replay must not download")
+    replay = boe.ingest(tmp_path, dataset, "legacy", date(2026, 11, 21), offline)
+    assert "SYNTHETIC" not in json.dumps(replay)
+    assert {p: p.read_bytes() for p in before} == before
+    assert "SYNTHETIC" not in json.dumps(boe.verify_bundle(Path(replay["raw_path"])))
+
+
+def test_publication_filters_injected_downloader_metadata(tmp_path):
+    def injected(url):
+        return bank(), {"retrieved_at": "2026-11-21T12:00:00+00:00",
+            "request_headers": dict(synthetic_headers()), "response_headers": dict(synthetic_headers())}
+    result = boe.ingest(tmp_path, "bank_rate", "new", date(2026, 11, 21), injected)
+    assert "SYNTHETIC" not in json.dumps(result)
+    for path in tmp_path.rglob("manifest.json"):
+        info = path.read_text(encoding="utf-8")
+        assert "SYNTHETIC" not in info
+        assert '"Content-Type"' in info
+
+
+def test_committed_evidence_contains_only_provenance_headers():
+    path = Path(__file__).resolve().parents[1] / "reports/data_audits/007/validation-evidence.json"
+    evidence = json.loads(path.read_text(encoding="utf-8"))
+    assert boe.safe_http_metadata(evidence) == evidence

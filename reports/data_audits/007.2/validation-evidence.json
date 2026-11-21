@@ -1,0 +1,27 @@
+{
+  "task": "007.2",
+  "baseline_commit": "321962d0683a1e01953115e8b9f2e555cb8dd3b6",
+  "baseline_sensitive_header_fields": 2,
+  "current_sensitive_header_fields": 0,
+  "evidence_unchanged_except_header_exclusion": true,
+  "existing_snapshot_files_checked": 16,
+  "all_existing_snapshot_file_hashes_unchanged": true,
+  "parquet_files_unchanged": 6,
+  "json_evidence_scanned": {
+    "reports/data_audits/007.1/followup-http-evidence.json": 0,
+    "reports/data_audits/007.1/followup-requests.json": 0,
+    "reports/data_audits/007.1/http-evidence.json": 0,
+    "reports/data_audits/007.1/observation-tests.json": 0,
+    "reports/data_audits/007.1/requests.json": 0,
+    "reports/data_audits/007/validation-evidence.json": 0
+  },
+  "task_artifact_files_checked_for_known_cookie_values": 12,
+  "known_cookie_value_matches_in_current_task_artifacts": 0,
+  "reachable_commits_with_original_header_fields": [
+    "321962d0683a1e01953115e8b9f2e555cb8dd3b6",
+    "f73119a05b6eea046c61cac47954f19e9797da48"
+  ],
+  "history_rewritten": false,
+  "legacy_local_manifests": "Preserved unchanged; filtered in memory before reuse/export.",
+  "limitation": "Cookie validity, expiry and access scope are not verified; no session replay attempted."
+}

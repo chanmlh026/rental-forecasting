@@ -29,6 +29,35 @@ BASE = "https://www.bankofengland.co.uk/boeapps/database/"
 BANK_URL = BASE + "Bank-Rate.asp"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 LOG = logging.getLogger(__name__)
+# Explicit provenance allowlist: unknown headers are excluded by default.
+# Cookies, authentication, API keys and tracing/session identifiers are not
+# needed to reproduce the public statistical requests.
+PROVENANCE_HEADERS = frozenset({
+    "accept", "accept-encoding", "user-agent", "content-type", "content-length",
+    "content-encoding", "date", "last-modified", "etag", "cache-control",
+    "expires", "retry-after", "transfer-encoding", "vary",
+})
+
+
+def safe_http_headers(headers) -> dict:
+    """Keep only known provenance headers, matching names case-insensitively."""
+    return {name: value for name, value in headers.items()
+            if name.lower() in PROVENANCE_HEADERS}
+
+
+def safe_http_metadata(value):
+    """Copy metadata for storage/export without propagating legacy headers.
+
+    Existing snapshot files remain unchanged. Apply this at capture, publication
+    and export boundaries so replaying an old manifest cannot re-expose cookies.
+    """
+    if isinstance(value, dict):
+        return {key: safe_http_headers(item)
+                if key.lower() in {"headers", "request_headers", "response_headers"}
+                else safe_http_metadata(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [safe_http_metadata(item) for item in value]
+    return value
 
 
 class IngestionError(RuntimeError):
@@ -63,7 +92,8 @@ def fetch(url: str) -> tuple[bytes, dict]:
                 if length and int(length) != len(body):
                     raise IngestionError("Incomplete source response")
                 return body, dict(url=url, resolved_url=response.url,
-                    request_headers=HEADERS, response_headers=dict(response.headers),
+                    request_headers=safe_http_headers(HEADERS),
+                    response_headers=safe_http_headers(response.headers),
                     status=response.status, retrieval_started_at=started,
                     retrieved_at=datetime.now(timezone.utc).isoformat())
         except (OSError, URLError, http.client.HTTPException) as exc:
@@ -253,13 +283,14 @@ def verify_bundle(directory: Path) -> dict:
         for name, checksum in manifest["checksums"].items():
             if sha((directory / name).read_bytes()) != checksum:
                 raise IngestionError(f"Stored checksum conflict: {directory / name}")
-        return manifest
+        return safe_http_metadata(manifest)
     except (OSError, ValueError, KeyError) as exc:
         raise IngestionError(f"Incomplete/corrupt snapshot: {directory}") from exc
 
 
 def publish(directory: Path, files: dict[str, bytes], info: dict):
     """Publish a complete immutable directory; interrupted staging is never read."""
+    info = safe_http_metadata(info)
     directory.parent.mkdir(parents=True, exist_ok=True)
     checksums = {name: sha(body) for name, body in files.items()}
     if directory.exists():
@@ -344,8 +375,8 @@ def ingest(root: Path, dataset: str, snapshot_id: str, end: date,
     publish(validated, {k + ".parquet": v.to_parquet(index=False) for k, v in source_frames.items()}, info)
     outputs = {k: v for k, v in frames.items() if k in {"selected", "history", "events"}}
     publish(processed, {k + ".parquet": v.to_parquet(index=False) for k, v in outputs.items()}, info)
-    return {**info, "raw_path": str(raw), "validated_path": str(validated),
-            "processed_path": str(processed)}
+    return safe_http_metadata({**info, "raw_path": str(raw), "validated_path": str(validated),
+            "processed_path": str(processed)})
 
 
 def main():
