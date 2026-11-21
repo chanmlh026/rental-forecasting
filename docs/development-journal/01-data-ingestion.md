@@ -465,3 +465,39 @@ is stated explicitly. Detailed findings remain in their source documents.
   main; local main fast-forwarded to it. No unresolved issue was closed. A
   documentation-only completion receipt records actual results/timing on main
   without changing the merged implementation. No Tasks 009-013 work began.
+
+## 21 November 2026 - Approved earnings definition and ASHE investigation (Task 009.1)
+
+- **Event/trigger:** Owner requested focused ASHE investigation after Task 008
+  merge; supplied decisions/rationale in the archived prompt. Dates of earlier
+  discussions are not established by this record.
+- **Initiated by:** Human.
+- **Human decision 1 and rationale:** Annual gross pay represents residents'
+  earning capacity through rates and employment undertaken; high hourly pay with
+  few hours can still mean limited annual rental resources.
+- **Human decision 2 and rationale:** Median rather than mean reduces sensitivity
+  to high-earner skew and represents typical employees.
+- **Human decision 3 and rationale:** Include full-/part-time and both sexes to
+  reflect overall employee earnings capacity, deliberately retaining lower annual
+  resources from fewer hours. Separate subgroup predictors are not required.
+- **Human decision 4 and limitation:** Individual employee earnings are not
+  household resources (for example two earners versus one). Owner accepts this
+  at ingestion; usefulness, retention and interpretation await later modelling.
+- **AI actions (Codex):** Verified merged main and created a separate research
+  branch; checked 37 official ZIPs, exact annual gross median All field, paired
+  CVs, cohort history, markers/styles, source revisions, publication and licensing.
+  Retained ignored immutable source bundles and lightweight committed evidence.
+- **Significant findings/interventions:** Earlier 403 not reproduced or explained.
+  Initial concurrency received 27 HTTP 429 responses; attempts retained and paced
+  retries succeeded. Inspected split headers and legacy 68/69 collisions across
+  aggregate/LA rows; validation preserves row identity. Temporary Excel readers
+  used system certificate trust after default TLS trust failed.
+- **Outcome/status:** Field verified in advertised years 2002–2026. Latest cohort
+  294 exact matches, 293 numeric and one x; pre-2012 legacy geography unjoined.
+  Offline audit checks paired rows/counts and 73 raw bundles. ISS-001/002 resolved
+  for definition/access verification; ISS-003/004/011/012 remain Open. No production
+  ingestion, mappings, features, unemployment, PR or merge. Independent review
+  precedes any separately authorised next task.
+- **Evidence/references:** [Prompt](../009.1-ashe-earnings-access-coverage-and-quality-investigation.md),
+  [audit](../../reports/data_audits/009.1/README.md), [issues](../issue-register.md),
+  [measured timing](../task-execution-log.csv).
