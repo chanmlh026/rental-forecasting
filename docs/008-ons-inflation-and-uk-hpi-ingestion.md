@@ -606,3 +606,21 @@ No geography codes were added/removed between the two inspected HPI vintages.
 This does not establish historic boundary equivalence for future joins.
 Application tests and the final audit passed with the limitations above.
 Git publication and measured timing follow after the implementation push.
+
+Task 008 is **Completed** for independent review with the source/vintage limits
+above. Implementation commit `3865292416bac061bc98348297aafe87f2de84f1` was
+pushed to `feature/008-inflation-hpi-ingestion` and matched the remote branch.
+Remote main remained `48bae0947f294d59631cb160e73b5a7aeeefc62a`; local main
+remained `a28323e4c70b5afa551de619a19d87087ec329ae`. No PR, merge, history
+rewrite, force push or Task 009 work occurred. The final timing/handoff commit
+follows this measurement cutoff and is also pushed; its exact SHA is supplied
+in the final user report.
+
+Measured start **2026-11-21T13:47:36+00:00**; end
+**2026-11-21T14:09:24+00:00**; **1,308 seconds / 60 = 21.8 minutes**.
+Evidence is the UTC clock tool at whole-second precision. Initial commentary
+before the first reading is excluded. In-session tool/network/approval waits
+are included, not separately measured. Final timing/handoff write, commit/push,
+read-back and response are outside the cutoff. One measured session; no gaps
+or inferred active-execution estimate are included. The shared CSV retains
+one row for Task 008 and all earlier task records.
