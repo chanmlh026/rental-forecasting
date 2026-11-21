@@ -501,3 +501,9 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **Evidence/references:** [Prompt](../009.1-ashe-earnings-access-coverage-and-quality-investigation.md),
   [audit](../../reports/data_audits/009.1/README.md), [issues](../issue-register.md),
   [measured timing](../task-execution-log.csv).
+
+  Dated completion update, 21 November 2026: investigation commit
+  `6924529dab9f819f68be869725892684ecaf262f` pushed to the dedicated feature
+  branch and matched the remote SHA; main remained at `85dd087`. Final repository
+  checks passed; optional Black was unavailable. Timing cutoff and handoff are
+  recorded in the shared CSV and archived task. No PR or merge created.
