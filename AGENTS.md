@@ -29,9 +29,9 @@ silently changing approved project decisions.
   `notebooks/`, non-secret configuration in `configs/`, and deployment resources
   in `infra/`. Reuse `configs/storage.toml` for storage settings.
 - Consult [the data architecture and dictionary](docs/data-architecture-and-dictionary.md)
-  for design context and the confirmed Option A forecast horizon. Distinguish
-  proposals and historical descriptions from approved decisions and implemented
-  behavior; the proposal is not blanket approval for new architecture.
+  for design context and the approved Option B execution-month forecast horizon.
+  Distinguish proposals and historical descriptions from approved decisions and
+  implemented behavior; the proposal is not blanket approval for new architecture.
 - For existing PIPR ingestion, consult [the Task 006 guide](docs/006-ons-pipr-ingestion.md)
   and [the Task 005.1 audit](docs/005.1-ons-pipr-workbook-coverage-audit.md).
   Preserve the approved cohort, immutable release handling, validation gates,

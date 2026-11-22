@@ -263,3 +263,39 @@ dependencies and measured timing remain in their existing shared records.
   review; PR #16 description cross-references the later scope decisions. Review
   order is #16, then retarget/recheck #17 against main under separate merge
   authorisation. No PR merged; measured receipt is in the Task 014.7 archive/CSV.
+
+
+### Approved methodological baseline consolidation - 22 November 2026 (Task 014.10)
+
+- **Event/trigger:** Owner requested documentation-only consolidation after merged
+  PR #16/#17, establishing the baseline for future temporal alignment/dataset construction.
+- **Initiated by:** Human.
+- **Human actions:** Confirmed PIPR reference/294 LAs, modern statistical-code
+  compatibility assumption with contrary-evidence exceptions and existing A/B1/
+  Issue E; approved variable-specific ASHE mean, baseline regional UMB imputation,
+  official-first population/density/migration and compatible stock/supply count
+  treatment. Retained planning exclusions/deferral and prohibited implementation.
+  Explicitly replaced Option A with Option B and approved monthly adaptive
+  execution/latest-eligible information principles, preserving timing/vintage limits
+  and excluding predictor-age features. No fallback months or maximum ages selected.
+- **Decision and stated rationale:** Option B targets the same calendar month in
+  the next year from execution so publication delays do not shift the target.
+  Code compatibility is a modelling assumption, not proof of historical geography;
+  predecessor ASHE means are flagged estimates, not exact combined medians.
+- **AI actions (Codex):** Based a focused branch on merged main `85e60e4`;
+  updated current dictionary target/alignment descriptions and cross-references,
+  README/AGENTS horizon pointers, PIPR ingestion-guide context, a dated historical
+  note on the prior audit, issue actions/checkpoints and this journal. Preserved
+  earlier dated decisions/research and original audit figures as history. Checked the retained
+  Task 014.3 evidence for the approved 24-year scope: eight lack a complete
+  retained edition, recorded as an input-validation limitation without new source
+  investigation or estimates. No code/configuration/data/test changes.
+- **Outcome/status:** Approved policy documented; preprocessing/validation remains
+  future work. Option A's original approval is retained under an explicit
+  superseded heading and in historical archives/journals. Monthly reporting lags
+  are expectations, not fixed selection rules. Specific operating/PIT assumptions
+  remain unresolved. ISS-003/004/009/011/012/013/014/015/016/022 Open;
+  planning ISS-010/017 Deferred unchanged. No source or model outputs changed.
+- **Evidence/references:** [Verbatim prompt and receipt](../014.10-consolidate-approved-methodology-and-forecasting-decisions.md),
+  [current baseline](../data-architecture-and-dictionary.md#task-01410-approved-methodological-baseline---22-november-2026),
+  [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).

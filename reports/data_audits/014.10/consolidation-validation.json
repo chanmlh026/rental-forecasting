@@ -1,0 +1,65 @@
+{
+  "status": "pass with retained input/operational limitations",
+  "base_main": "85e60e449a44ff4e9b7074e9dfbde1123feed6da",
+  "scope": "Nine documentation files plus this lightweight validation receipt; no production implementation",
+  "policies": "All specified geography, variable, planning, Option B, temporal and interpretability decisions present",
+  "historical_Option_A": "Original approval/formula/example retained under explicit superseded heading; historical archives/journals preserved",
+  "new_Option_B_example": "November 2026 execution -> November 2027 target; October observation -> 13 months effective horizon; delays do not move target",
+  "fallbacks_and_max_age": "No fixed months/thresholds approved",
+  "predictor_age_features": "Excluded; audit metadata permitted",
+  "ASHE_scope_LA_years": 24,
+  "ASHE_complete_edition_in_retained_Task0143": 16,
+  "ASHE_no_complete_retained_edition": [
+    {
+      "code": "E06000062",
+      "year": 2016
+    },
+    {
+      "code": "E06000062",
+      "year": 2019
+    },
+    {
+      "code": "E06000063",
+      "year": 2016
+    },
+    {
+      "code": "E06000063",
+      "year": 2017
+    },
+    {
+      "code": "E06000063",
+      "year": 2018
+    },
+    {
+      "code": "E06000063",
+      "year": 2020
+    },
+    {
+      "code": "E06000064",
+      "year": 2017
+    },
+    {
+      "code": "E06000064",
+      "year": 2018
+    }
+  ],
+  "ASHE_note": "Existing audit cross-check only; no means calculated or new source investigated. Complete verified inputs remain required.",
+  "issue_records": 22,
+  "issue_statuses": "All unchanged; planning ISS-010/017 Deferred, relevant broad issues Open",
+  "prior_journal_and_timing": "Preserved; seven columns, unique text task IDs",
+  "research_and_production_files": "Unchanged relative to merged main",
+  "links_and_anchors": "pass",
+  "security_patterns_and_conflict_markers": "pass; pattern scan is not proof of absence",
+  "git_whitespace_connectivity": "pass; existing dangling objects retained",
+  "production_tests": "Not run: documentation-only changes; no source snapshots accessed/modified, no new source-data validation claimed",
+  "ASHE_scope_evidence": {
+    "path": "reports/data_audits/014.4/coverage-evidence.json",
+    "git_blob": "7e30e035204f5596a96f4e3ba8906ce4296423dc",
+    "filter": "matrix rows where variable == 'ashe' and status == 'Predecessor-only'"
+  },
+  "ASHE_completeness_evidence": {
+    "path": "reports/data_audits/014.3/range-evidence.json",
+    "git_blob": "9c6ef591926914a3561a38ff23ec167e17a0fbf3",
+    "filter": "For each scoped authority/year, any range with role == 'calendar_date_roster' and complete == true"
+  }
+}

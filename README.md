@@ -1,10 +1,18 @@
 # Rental Forecasting
 
 An end-to-end data science and machine learning project to forecast average
-monthly private rental prices 12 months ahead for each Local Authority in
-England, initially for 1-, 2-, and 3-bedroom properties. The first planned data
+monthly private rental prices for the same calendar month in the following year,
+12 calendar months after forecast execution, for each approved Local Authority
+in England, initially for 1-, 2-, and 3-bedroom properties. The first planned data
 source is the ONS Price Index of Private Rents (PIPR); other economic,
 demographic, housing supply, and rental demand data may be added later.
+
+The approved methodology is consolidated in the
+[Data Dictionary](docs/data-architecture-and-dictionary.md#task-01410-approved-methodological-baseline---22-november-2026).
+The execution month fixes the target month; publication delays change the latest
+eligible input observations, not that target. Monthly execution follows the
+relevant official publication calendar and successful ingestion/validation.
+This policy is documented; preprocessing and modelling are not implemented.
 
 ## Project layout
 

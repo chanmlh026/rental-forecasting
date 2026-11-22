@@ -1,7 +1,7 @@
 # 004. Rental Forecasting Data Architecture & Data Dictionary
 
 **Status:** Living design and source assessment; current modelling-scope decisions
-updated through Task 014.7 on 22 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
+updated through Task 014.10 on 22 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
 forecasting decisions; Section 3 records source evidence and its limits. The
 Section 7 ingestion batches are proposals for project-owner review, not approval
 to implement them. No production ingestion or feature functionality is added by
@@ -26,6 +26,15 @@ and potential future use. New-build completions and net additional dwellings
 remain in scope under their existing approved treatment. See the
 [planning decision record](#task-0147-approved-planning-variable-decisions---22-november-2026).
 
+**Current methodological baseline (Task 014.10, 22 November 2026):**
+[Approved geography, missing-value and alignment policies](#task-01410-approved-methodological-baseline---22-november-2026)
+apply to future preprocessing. **Option B supersedes Option A:** target the same
+calendar month in the following year from the forecast execution month. Approved
+modern LA-code compatibility is a modelling assumption with explicit contrary-evidence
+exceptions. No predictor-age features, fixed fallback months or maximum-age thresholds
+are approved. Earlier dated research/decision records remain historical; none
+establishes that these policies have been implemented.
+
 ## 1. Existing project decisions
 
 The project already provides a useful foundation:
@@ -43,7 +52,7 @@ The project already provides a useful foundation:
   packages remain scaffolds.
 - The approved target cohort is 294 English LAs, excluding City of London and
   Isles of Scilly, with separate 1-, 2-, and 3-bedroom rent levels. Preserve the
-  confirmed Option A origin and 12-calendar-month horizon in Section 4.
+  approved Option B execution-month anchor and 12-calendar-month horizon in Section 4.
 - Python 3.12, pandas, pyarrow, NumPy, scikit-learn, and pytest are already
   declared. This proposal does not require new packages.
 
@@ -454,7 +463,7 @@ open questions. Coverage means observations, not historical availability.
 | Current Rent | P0; average monthly private rent, GBP/month | LA by bedroom | Jan 2015-Sep 2026 | V; establish eligibility at each cutoff |
 | 3-month Rental Growth | P0; proposed `100 * (rent[t] / rent[t-3] - 1)`, percent | LA by bedroom | Endpoints structurally possible Apr 2015-Sep 2026 in audited vintage | D; definition proposed, same-vintage eligible observations required |
 | 12-month Rental Growth | P0; proposed `100 * (rent[t] / rent[t-12] - 1)`, percent | LA by bedroom | Endpoints structurally possible Jan 2016-Sep 2026 | D; no growth feature generated |
-| BoE Bank Rate | B1; official policy rate, percent | UK national | Inspected change-date page spans 20 Jan 1975-5 Nov 2026; earlier history not established | V; cutoff rate/monthly-summary choice open |
+| BoE Bank Rate | B1; official policy rate, percent | UK national | Inspected change-date page spans 20 Jan 1975-5 Nov 2026; earlier history not established | V; Task 014.10 approves latest publicly announced and effective cutoff rate, carried until change; no artificial monthly lag |
 | 2-year 75% LTV BTL Mortgage Rate (IUMZID4) | B2; quoted sterling mortgage rate, percent, not seasonally adjusted | UK national | Measured Jan 2012-Oct 2026, 178 consecutive months | V; historical release vintages remain P |
 | Median Earnings | E1; approved gross annual median employee-job earnings, Table 8.7a All D; GBP/year; all sexes and full-/part-time | LA residence | Verified in 37 advertised editions, 2002–2026; historical cohort varies | Task 009.2 ingestion implemented; all editions/source rows retained. Annual guide: adult-rate jobs held over a year; tax year ending 5 April. Two source-note conflicts flagged |
 | Earnings Growth | E1; proposed percentage change in consistent annual median earnings | LA residence | First usable pair unresolved; no continuous 2002-2026 LA panel assumed | D/P; annual pay definition approved in Task 009.1; growth unimplemented, geography and vintages must agree |
@@ -713,7 +722,82 @@ model experiment was introduced.
 
 ## 4. Target variable specification
 
-### Definition
+### Definition - current approved Option B
+
+**Owner-approved replacement, Task 014.10 (22 November 2026):** forecast the rental
+price for the same calendar month in the following year, measured from the
+forecast execution month. Option B replaces the previously approved Option A;
+it does not change the rent-level target, approved 294-LA cohort or bedroom definitions.
+
+For each monthly forecast, record:
+
+```text
+forecast_issue_date       = actual execution date
+forecast_execution_month  = calendar month containing forecast_issue_date
+forecast_cutoff_at        = exact timezone-aware information cutoff
+origin_month              = latest eligible PIPR observation month (reference metadata)
+target_month              = forecast_execution_month + 12 calendar months
+forecast_horizon_months   = 12, measured from forecast_execution_month
+```
+
+For LA, bedroom b in {1, 2, 3}, and execution month e:
+
+```text
+y(LA, b, e) = Rent(LA, b, e + 12 calendar months)
+```
+
+The outcome remains the future rent level in GBP per month. All forecasts for
+the same execution month have the same target month; a delayed PIPR publication
+must not move it. `origin_month` records the latest eligible rental observation,
+not the forecast-horizon anchor. The effective distance from that observation to
+the target may exceed 12 months and may vary with available information.
+
+| Illustrative field | Value |
+|---|---|
+| Execution month | November 2026 |
+| Latest eligible PIPR month | October 2026, assuming publication by cutoff |
+| Target rental month | November 2027 |
+| Horizon from execution month | 12 calendar months |
+| Effective horizon from latest rental observation | 13 months |
+
+If October PIPR is delayed and September remains the latest eligible observation,
+the target is still November 2027. These are conditional examples, not claims of
+actual publication dates. No fixed-day execution or delay-exception policy is
+selected by the example.
+
+Proposed target/audit grain, not an implemented schema:
+
+```text
+(forecast_issue_date, forecast_execution_month, forecast_cutoff_at,
+ geography_code, geography_vintage, bedroom_category, origin_month,
+ target_month, target_rent_gbp, target_source_series_id, target_vintage)
+```
+
+- Run once per calendar month on an adaptive schedule based on the relevant
+  official monthly publication calendar, after required releases and successful
+  ingestion/validation. Record the exact timezone-aware cutoff. Detailed operating
+  timezone, release-delay exceptions and cutoff conventions remain unresolved.
+- Use only observations published and eligible at that cutoff. Preserve each
+  series' actual observation month; do not shift target dates to match delayed inputs.
+- Keep GSS identifiers, native codes/names, source/geography vintages and provenance.
+  Apply the approved geography policy below during future preprocessing only.
+- Bedroom categories remain 1, 2 and 3. Do not mix all-properties, studios or other
+  source definitions into these targets. PIPR is an estimate, with source quality,
+  provisional/revised and availability limitations retained.
+- Missing/discontinued target observations remain missing and flagged. Do not
+  interpolate or forward-fill target labels. Detailed common-run completeness and
+  missing-series handling remain under ISS-015; no threshold or per-series target
+  shift is approved here. Latest eligible input/reference months may differ, but
+  the common execution month still fixes the target month.
+- A target label is eligible for training only after publication by that historical
+  training cutoff. Evaluation target-vintage policy remains separate (ISS-016).
+
+### Historical Option A - superseded on 22 November 2026
+
+The following is the former approved definition, retained as history. It is not
+the current target construction rule; Task 014.10 replaces its observation-month
+anchor with the execution-month anchor to keep target dates stable when releases
+are delayed. Its original wording and example were:
 
 **Confirmed decision (Option A):** the 12-calendar-month horizon is anchored
 to the latest eligible published rent observation month, not the forecast
@@ -736,64 +820,20 @@ origin month 2026-09 and target month 2027-09, if the September rent observation
 is confirmed published and eligible by that forecast's cutoff. The example is
 not evidence of a specific ONS publication date or cutoff time.
 
-For Local Authority `LA`, bedroom category `b ∈ {1, 2, 3}`, and origin month `t`:
-
-```text
-y(LA, b, t) = Rent(LA, b, t + 12 calendar months)
-```
-
-The outcome is the **future rent level in GBP per month**, not the 12-month
-percentage growth rate. A growth-rate target can be derived later as a separate
-experiment; it is not interchangeable with this target.
-
-Recommended target-table grain:
-
-```text
-(forecast_issue_date, forecast_cutoff_at, geography_code, geography_vintage,
- bedroom_category, origin_month, target_month, target_rent_gbp,
- target_source_series_id, target_vintage)
-```
-
-- `forecast_cutoff_at` must include an explicit timezone/offset. The actual
-  forecast issue date and cutoff timestamp are recorded per run; the operational
-  timezone and scheduled cutoff convention remain to be chosen.
-- Select the latest rent observation month that was genuinely published and
-  available by `forecast_cutoff_at`; a month is not eligible merely because it
-  has ended. `target_month` is exactly 12 calendar months after this
-  `origin_month`.
-- Store LA identifiers as official GSS geography codes, not names. Keep the
-  source's own geography code and a dated crosswalk to canonical codes.
-- Represent bedroom categories with controlled values `1`, `2`, and `3`.
-  Do not include “all properties”, studios, or other categories in these
-  series.
-- Represent months as calendar-month periods. `target_month` is exactly 12
-  calendar months after `origin_month`; it is not a 365-day duration.
-- The forecast issue date, cutoff timestamp, and origin month are separate
-  fields. `origin_month` identifies the latest eligible published rent month
-  at the cutoff; it can precede the issue month. A particular observation must
-  not be used to define the origin unless it was published by that cutoff.
-- PIPR is a statistical estimate of average market rents, not a census of
-  tenancy contracts. It may have sampling/administrative coverage limitations,
-  small-sample effects, delayed publication, provisional values, and revisions.
-  The released series definition and uncertainty notes should be retained.
-- Missing or discontinued LA/bedroom observations stay missing and are
-  explicitly flagged. Do not interpolate target labels or combine different
-  source definitions to make a continuous-looking target.
-- Latest eligible rent months can differ by LA or bedroom if source coverage,
-  publication, or series continuity differs. For cross-area comparisons,
-  recommend one common `origin_month` per forecast run: the latest rent month
-  published by `forecast_cutoff_at` that meets a predeclared completeness rule
-  across the fixed comparison cohort of LA-by-bedroom series. Do not let each
-  row silently pick a different origin, since that would compare different
-  target months.
-  Confirm the cohort and completeness threshold after auditing official PIPR
-  tables. If a series is missing or delayed at the common origin, keep its
-  target unavailable, flag/exclude that row for that forecast, and report
-  coverage; do not impute target values. A per-series latest-origin policy
-  could be retained for separate operational forecasts, but must be labelled
-  and not mixed into common-origin evaluation.
+Under that former rule, `y(LA, b, t) = Rent(LA, b, t + 12 calendar months)`
+used the latest eligible observation month t. Historical archives and journal
+entries recording Option A retain their original dates and meaning. Historical
+backtests of the current model must simulate Option B at each historical execution
+month rather than silently continuing the superseded rule.
 
 ### Boundary and series continuity policy
+
+The current approved modelling policy is in the
+[Task 014.10 baseline](#task-01410-approved-methodological-baseline---22-november-2026).
+Matching approved modern statistical LA codes are assumed compatible unless
+specific contrary evidence exists; this is not independent historical boundary
+proof. Do not reopen boundary investigations without new contrary evidence.
+The controls below preserve series identity and prohibit unapproved target reconstruction.
 
 Maintain a versioned geography dimension with code, name, nation, valid-from /
 valid-to dates, and source boundary version. For a boundary change:
@@ -810,7 +850,8 @@ valid-to dates, and source boundary version. For a boundary change:
 
 Historical backtests must reconstruct for every forecast row its historical
 `forecast_issue_date`, timezone-aware `forecast_cutoff_at`, latest eligible
-published rent `origin_month`, corresponding 12-month-ahead `target_month`,
+published rent `origin_month` as reference metadata, execution month, the target
+12 calendar months after execution,
 and the feature values/vintages available at that cutoff. A label is eligible
 for model training only if its target observation was published by the
 historical model-training cutoff; do not use a label merely because its target
@@ -818,6 +859,12 @@ month has elapsed. For evaluation, score against a selected reference target
 vintage, separate from the vintage available at the forecast cutoff.
 
 ## 5. Data validation strategy
+
+The following are validation design categories, not approval of specific
+thresholds. Task 014.10 approves the alignment principles but no fixed fallback
+months or maximum-age thresholds. Any detailed freshness cutoff or missingness
+threshold below remains a future evidence/owner decision; audit ages/flags are
+not automatically modelling predictors.
 
 Run checks at each layer and write structured outcomes to the run manifest.
 Validation failures should identify dataset, partition, rule, and offending
@@ -861,56 +908,67 @@ labour estimate released in January is not available to a forecast issued in
 December. A rent, house-price, or labour series later revised is not
 automatically the value a historical model could have observed.
 
-### As-of feature selection
+### As-of feature selection - approved principles
 
-For a forecast cutoff timestamp `c`, only select records with
-`available_at <= c`. This applies to the rent observation used to establish
-`origin_month` as well as every explanatory feature. Among records for the
-same natural key, select the newest source vintage available by `c`, not the
-latest vintage currently on disk. A feature's observation period may be
-earlier than, equal to, or later than the rent origin month if its information
-was genuinely available by `c`; never infer availability from observation
-period alone. Store each feature's observation period, availability timestamp,
-source vintage, and retrieval metadata so the as-of join can be audited.
+For a forecast cutoff c, select only observations publicly available and eligible
+by c. Record observation period, publication/availability time, retrieval time,
+source vintage and relevant assumptions. Use the latest published eligible
+observation while respecting existing source-specific numerical-vintage policies;
+this is not a blanket choice of today's latest revised history. In particular,
+Task 007's implemented IUMZID4 recorded-vintage policy is not silently replaced.
+Training/backtesting must reproduce the same eligibility principle at each
+historical execution/cutoff, with target month fixed by Option B.
 
-If a publisher does not provide release timestamps or archived vintages:
+Prefer verified historical publication dates and original numerical vintages.
+When timing cannot be verified, use only conservative, evidence-supported
+assumptions, retaining their evidence and uncertainty flags. Detailed fallback
+months and maximum ages have not been approved. Mark reconstruction as exact
+point-in-time only when publication and vintage evidence support that claim;
+otherwise distinguish approximate retrospective reconstruction. Do not assume
+today's revised values were available at earlier cutoffs.
 
-1. Define and document a conservative availability lag based on the source's
-   actual publication calendar.
-2. Do not claim exact historical point-in-time reconstruction.
-3. Prefer archived snapshots collected prospectively. Mark backtests as
-   **exact point-in-time reconstruction** only when historical publication
-   timestamps and source vintages support reconstruction of what was available
-   at each cutoff. Otherwise label them **approximate retrospective
-   backtests**, identify the lag/vintage assumptions, and disclose unavailable
-   historical release snapshots.
+### Frequency, ordinary reporting patterns and carry-forward
 
-### Frequency, lags, and carry-forward
+The following owner-approved expectations describe ordinary reporting patterns,
+not unconditional fixed-lag rules or newly verified publication calendars:
 
-- Monthly series may be joined only when the observation has been released by
-  the cutoff, whether its observation period is before or after `origin_month`.
-  A one-month observation lag is not inherently enough; use the actual
-  publication date or a conservative source-specific lag.
-- For quarterly and annual data, retain the quarter/year and publication date.
-  Use the latest released value and carry it forward only until a declared
-  maximum age; add `feature_age_months` and stale/missing flags.
-- Forward-filling is a representation of “latest known value”, not new
-  measurement. It must not fill backward, cross a source-definition break, or
-  persist indefinitely. Do not forward-fill the target.
-- For irregular policy rates, construct month-level summaries from only
-  changes effective/known by the cutoff. State whether the feature is
-  month-start, cutoff rate, or monthly average; a full-month average is
-  unavailable before month-end.
-- Never use a future-available observation, revised future vintage, centered
-  rolling window, or a feature engineered using information not published by
-  `forecast_cutoff_at`. The origin month is a target-horizon anchor, not the
-  feature availability cutoff.
+| Monthly variable | Typical reporting lag |
+|---|---|
+| PIPR rental prices | 1 month |
+| CPI / CPIH | 1 month |
+| HPI house prices | 2 months |
+| BTL mortgage rate (IUMZID4) | 1 month |
 
-Modeling splits should be chronological, with each forecast row materialized
-as-of its own historical cutoff and with the common origin/target-month policy
-applied consistently. Fit scalers, imputers, feature selection, and any other
-learned transformations on training data only. Recreate the same
-feature-availability rules in backtests as in production.
+Actual historical publication availability takes precedence. Monthly execution
+is adaptive to relevant official releases and successful ingestion/validation;
+no fixed fallback month, calendar day, maximum-age limit or release-delay
+exception is introduced here. Exact operational choices remain under ISS-014.
+
+For Bank of England Bank Rate, use the latest rate both publicly announced and
+effective by the forecast cutoff. Carry that effective rate forward until it
+changes. Apply the same rule to historical training/backtests, without an
+artificial monthly lag. Do not substitute a full-month average or future-effective
+announced rate for this approved cutoff-effective rate.
+
+For annual and quarterly predictors, use the latest published eligible observation
+and carry it forward until a newer eligible release is available, in production
+and historical training alike. This represents latest known information, not a
+new measurement. Preserve native periods and definition breaks; do not fill
+backward, use future releases or forward-fill target labels. No maximum-age
+threshold is approved in this task. Any detailed stale-data handling or fallback
+requires the remaining evidence review/owner decision.
+
+**Interpretability decision:** do not introduce predictor-age variables such as
+`feature_age_months` into the modelling feature set. Publication dates, observation
+ages and availability-assumption flags may be retained as audit/validation
+metadata; they must not automatically become predictors. The prior proposal to
+add age features and impose maximum ages is superseded by Task 014.10.
+
+Model splits remain chronological. Materialise each forecast row at its historical
+execution/cutoff with a target 12 calendar months after execution. Fit learned
+transformations on training data only and retain the approved preprocessing
+method's provenance/flags. No feature assembly, imputation or model fitting is
+implemented by these documented principles.
 
 ## 7. Proposed production ingestion batches
 
@@ -949,6 +1007,11 @@ No cloud deployment, dependency installation or modelling is authorised here.
 
 ## 8. Findings and decisions for project-owner review
 
+The source findings retain their historical research context. The current
+Task 014.10 baseline and its dated approvals take precedence over older generic
+requests to approve policies already settled. Unresolved publication/vintage,
+completeness and implementation evidence remain distinct from approved methods.
+
 ### Established findings
 
 - Existing PIPR evidence supports structural controls and the underlying rent
@@ -967,10 +1030,12 @@ No cloud deployment, dependency installation or modelling is authorised here.
 
 ### Decisions and research still required
 
-1. **Geography policy:** approve effective-dated code/boundary mappings,
-   including Barnsley/Sheffield and predecessor authorities. Distinguish pure
-   code changes from boundary changes; do not aggregate average rents or
-   reweight index series without a justified, approved method.
+1. **Geography implementation/validation:** the Task 014.10 modern-code
+   compatibility assumption and existing A/B1/Issue E mappings are approved.
+   Implement/validate them only in an authorised preprocessing task, preserving
+   contrary evidence and variable-specific rules. Do not reopen boundary
+   investigations without new contradictory evidence; no unapproved rent/index
+   reconstruction is authorised.
 2. **Labour/income definitions:** Task 009.1 verified the owner-approved residence
    annual gross median, all employees/all sexes (Table 8.7a All D), and measured
    coverage/access. Historical geography and PIT policy remain unresolved;
@@ -984,8 +1049,9 @@ No cloud deployment, dependency installation or modelling is authorised here.
    distinct from higher-education students; no annual student panel is established.
 4. **Supply standardisation:** approve start-year/end-year/other denominator
    timing and treatment of revised/Census-adjusted inputs. Find an accessible,
-   licensed LA dwelling-units-granted measure if available; retain the candidate
-   as unresolved if not. Application counts cannot silently substitute for it.
+   licensed LA dwelling-units-granted measure only on future owner-authorised
+   reconsideration: Task 014.7 defers that predictor and excludes application
+   counts. No initial-phase source investigation or substitution is authorised.
 5. **Publication and vintage evidence:** verify actual historical release
    dates/times and archived values for every selected source. Reconcile BoE
    cadence descriptions, stale series-page date versus newer CSV content, and
@@ -1000,9 +1066,10 @@ No cloud deployment, dependency installation or modelling is authorised here.
    Task 008 HPI coverage does not establish historical availability. Inspect
    older migration components and metadata before asserting a continuous panel.
    Small samples and published ranges must not become invented completeness statistics.
-7. **Operating decisions retained:** confirm forecast timezone/schedule,
-   common-origin missing-series policy and canonical target vintage in their
-   later tasks. This assessment does not impose thresholds or change Option A.
+7. **Remaining operating detail:** monthly adaptive execution and Option B
+   are approved in Task 014.10. Specific timezone/cutoff conventions, release-delay
+   handling, common-run completeness and canonical target vintage still need
+   evidence/owner decisions. No fixed fallback month or maximum age is approved.
 8. **Task 006.1 source limitation:** the original prompt is restored and linked
    above, and the implementation guide and existing completion commit provide
    related context. The supplied Word document stops at its Section 4 heading;
@@ -1426,3 +1493,118 @@ hold continue for affected in-scope work. Geography A/B1, Issue E, PIPR referenc
 policy, historical PIPR verification limits, other modelling definitions, the
 294-LA cohort and Option A horizon are unchanged. No production features or
 preprocessing are implemented by this documentation.
+
+
+## Task 014.10 approved methodological baseline - 22 November 2026
+
+This task consolidates the owner's explicit approvals for future temporal
+alignment and modelling-dataset construction. Earlier advisory discussions/dates
+are not independently available; the Task 014.10 owner instruction confirms
+these policies. It is not approval to implement preprocessing or modelling now.
+The [verbatim prompt and receipt](014.10-consolidate-approved-methodology-and-forecasting-decisions.md)
+record the authority and scope. PR #16/#17 research and planning decisions remain
+intact; the latter's then-current Option A statement is historical and is
+superseded by the current Option B definition in Section 4.
+
+### Geography: approved modelling assumption, distinct from proof
+
+PIPR remains the reference geography for the approved 294 English LAs. For
+LA-level statistical datasets, **matching approved modern LA codes are assumed
+geographically compatible unless specific contradictory evidence exists**.
+This is an explicit initial-modelling assumption, not independent proof of
+historical boundary equivalence. Research labels such as Unverified remain
+accurate statements about evidence and are not silently rewritten as certifications.
+A documented lack of formal certification alone does not require further boundary
+investigation; reopen historical boundary research only on new contradictory evidence.
+
+Apply the already approved identifier treatments during future preprocessing:
+[geography Decision A](#decision-a-barnsley-and-sheffield-historical-boundary-harmonisation),
+[B1](#decision-b1-minor-2013-boundary-changes) and
+[Issue E](#approved-overarching-geographical-policy-and-issue-e---22-november-2026).
+Preserve source codes/names, geography and publication vintages, original values
+and mapping provenance. HPI joins use verified LA codes; retain native names and
+use reference names in modelling outputs. These are approved methods awaiting
+implementation, not transformations performed by this task.
+
+Known contrary evidence remains an exception: Task 014.2's Dorset current-family
+2015-2017 ASHE candidate matches old Dorset county, whose footprint includes
+Christchurch. A modern-code label does not override that evidence. Where a
+predecessor geography is needed, apply only the approved variable-specific method
+below. Planning authority geography remains a separate case with the Task
+014.6/014.7 limitations; application counts are excluded and units permitted deferred.
+
+### Variable-specific transformations and missing values
+
+| Variable | Approved policy for future preprocessing | Required preservation/validation |
+|---|---|---|
+| ASHE earnings | Arithmetic mean of complete, verified predecessor-area medians for the 24 identified predecessor-only LA-years | Flag as an estimate, not a mathematically exact combined-area median; preserve all native medians/markers/CVs, roster, period and publication vintage |
+| UMB unemployment | Initial baseline: estimate identified missing quarterly rates with the same-quarter mean of other available LAs in the same region | Preserve original missing state, donors, region/period provenance and imputation flags; validate before use; no new alternative fallback selected |
+| Population | Prefer compatible official retrospective observations | Preserve original definitions, geography and publication vintages and historical availability limits |
+| Population density | Prefer official published values; only if genuinely missing derive from geographically compatible population and land area | Preserve population/area sources, units, geography and reference periods; no unapproved denominator vintage chosen |
+| Migration | Prefer official retrospective LA observations | Do not automatically aggregate predecessor gross inflows/outflows; retain genuinely missing values for evidence-based assessment |
+| Dwelling stock | Prefer compatible official values; where necessary sum complete, non-overlapping predecessor counts | Verify complete/disjoint membership, compatible stock concept/reference date and provenance; keep imputation/revision flags |
+| Housing supply | Approved compatible predecessor-count aggregation for new-build completions and net additional dwellings | Preserve complete/disjoint rosters and native financial years; Table 123 remains exclusive modelling flow source, Table 122 audit-only |
+
+Transform only during a separately authorised preprocessing task. This table
+approves no new source acquisition, donor fallback, automatic exclusion threshold,
+source-vintage substitution or model training. The UMB quarter label must preserve
+its existing published rate definition and rolling-period basis; it must not be
+silently reinterpreted as a different unemployment statistic. Donor eligibility,
+regional completeness/empty-pool handling and implementation validation must be
+made explicit without inventing a new fallback policy. Donor observations must
+also be eligible at the relevant forecast cutoff; later-published values must
+not leak into historical imputation.
+
+The approved ASHE scope is identified by the existing Task 014.4 predecessor-only
+index, not by expanding the cohort or averaging all historical reorganisations:
+
+| Authority | Identified years | LA-years |
+|---|---|---:|
+| North Northamptonshire | 2015-2019 | 5 |
+| West Northamptonshire | 2015-2019 | 5 |
+| Cumberland | 2015-2021 | 7 |
+| Westmorland and Furness | 2015-2021 | 7 |
+| Total | | 24 |
+
+**Eligibility limitation:** complete verified inputs remain a prerequisite.
+[Retained Task 014.3 ranges](../reports/data_audits/014.3/range-evidence.json)
+contain at least one complete retained edition for 16 of these 24 cases, but not
+for West Northamptonshire 2016/2019; Cumberland 2016/2017/2018/2020; and Westmorland
+and Furness 2017/2018. This is a check of existing research evidence, not a new
+source investigation or a finding of absence from every possible official source.
+Do not calculate a partial-roster mean, impute missing predecessor medians or
+claim all 24 are currently constructible. Preserve these eight input-evidence
+gaps for preprocessing validation/owner assessment under ISS-012. No estimate is
+calculated here and no publication edition is selected.
+
+### Planning decisions retained without duplication
+
+The [Task 014.7 decision record](#task-0147-approved-planning-variable-decisions---22-november-2026)
+remains authoritative: residential planning application counts excluded from
+initial modelling; all-residential homes permitted deferred to a future phase;
+new-build completions and net additional dwellings remain in scope. PS1/PS2
+snapshots and research evidence stay unchanged. ISS-010/017 remain Deferred,
+with future-phase checkpoints and unresolved availability/rights evidence.
+No further initial-phase planning geography or units-source investigation is authorised.
+
+### Forecast execution, availability and audit metadata
+
+[Section 4](#4-target-variable-specification) is the canonical current target
+specification: Option B replaces Option A, fixing the target month from execution
+rather than the latest available rent observation. It retains the historical
+Option A approval and the conditional November 2026/November 2027 example.
+
+[Section 6](#6-point-in-time-data-and-leakage-prevention) is the canonical alignment
+record: monthly adaptive execution and timezone-aware cutoffs, expected ordinary
+reporting patterns subject to actual availability, cutoff-effective Bank Rate,
+latest-eligible annual/quarterly carry-forward, and exact-versus-approximate
+historical reconstruction. It excludes predictor-age features and explicitly
+leaves fixed fallback months, maximum-age thresholds and specific operational
+exceptions unapproved. These source/audit metadata must not automatically become
+model predictors. Current and historical training use the same approved principles.
+
+ISS-003/004/009/011/012/013/014/015/016/022 remain Open for their outstanding
+implementation, quality, provenance or operating details. Existing source and
+access restrictions remain. Policy approval is distinct from implementation,
+source completeness and validation; this documentation changes no original data,
+production code, configuration, tests, feature generation or model outputs.
