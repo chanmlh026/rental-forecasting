@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "source_snapshot_files_unchanged": 4,
+  "source_editions_verified": 17,
+  "independent_raw_pay_cv_cells": 1066,
+  "source_observation_records": 533,
+  "range_records": 142,
+  "range_statuses": {
+    "complete": 62,
+    "partial_observed_subset": 41,
+    "unassessable_fewer_than_two": 39
+  },
+  "no_network_code": true,
+  "no_production_outputs": true,
+  "independent_pandas_range_reconciliation": "pass: all 142 records, including numeric counts, missing/suppressed identities and arithmetic",
+  "source_observation_fields_reconciled": "pass: original pay/CV markers, styles, source identities and population flags",
+  "comparator_pairing_and_interval_checks": "pass",
+  "source_manifest_and_snapshot_rechecked": "pass: all 4 files unchanged",
+  "deterministic_offline_replay": "pass: all three generated numerical/table/validation artifacts byte-identical",
+  "repository_checks": {
+    "JSON_Python_syntax": "pass",
+    "Markdown_files_anchors": "pass",
+    "timing_unique_seven_columns": "pass",
+    "original_decisions_prior_issue_records_journal_and_evidence": "preserved",
+    "ISS-003": "Open",
+    "production_files_dependencies_prior_audits": "unchanged",
+    "credential_pattern_scan": "no findings; not a proof of absence",
+    "git_whitespace_connectivity": "pass",
+    "production_tests": "not run: offline descriptive research only"
+  }
+}

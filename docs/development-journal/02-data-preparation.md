@@ -105,3 +105,36 @@ dependencies and measured timing remain in their existing shared records.
   unmerged. PR description updated to retain evidence gaps/access incident and
   record the resolution. ISS-003 Open, Decisions A/B1 unchanged; no implementation
   or acquisition. Final measured intervals retained in the same execution row.
+
+## 22 November 2026 - Predecessor median earnings range research (Task 014.3)
+
+- **Event/trigger:** Owner requested numerical historical earnings-range evidence
+  for the 11 reorganised authorities, retaining the approved ASHE definition and
+  forbidding production reconstruction, methodology decisions and new ONS downloads.
+- **Initiated by:** Human.
+- **Human actions:** Specified yearly min/max/GBP/percentage spans, numeric and
+  missing/suppressed counts, dated predecessor history, uncertainty limitations,
+  official comparator assessment and independent review before merge.
+- **AI actions (Codex):** Created a separate branch from merged Task 014.2 main;
+  checked statutory membership and Somerset's intermediate merger. Read retained
+  ingestion and verified raw pay/CV cells offline; preserved all editions and
+  supplied complete/partial/unassessable ranges plus comparator qualifications.
+  Independently reconciled every range to source observations and confirmed
+  existing processed snapshot files unchanged. No statistical source acquisition.
+- **Outcome/status:** Across 65 pre-reorganisation authority-years, 37 have a
+  complete retained edition and 28 do not. Complete ranges differ substantially;
+  partial narrow ranges cannot establish similar full-area earnings. Official
+  comparator overlaps offer qualified future research opportunities; no candidate
+  combined median or approximation accuracy calculated. Research supports only
+  selective further investigation, with owner decision/independent review pending.
+  Decisions A/B1 preserved, ISS-003 and related source limitations remain Open;
+  no production implementation or geography harmonisation.
+- **Evidence/references:** [Research, roster and numerical evidence](../../reports/data_audits/014.3/README.md),
+  [original task prompt and handoff](../014.3-ashe-predecessor-median-earnings-ranges.md),
+  [shared timing](../task-execution-log.csv), [ISS-003](../issue-register.md).
+
+- **Dated review update, 22 November 2026:** Research commit `cce7f2c` pushed;
+  [PR #15](https://github.com/chanmlh026/rental-forecasting/pull/15) opened for
+  independent review against merged Task 014.2 main and confirmed mergeable,
+  open and unmerged. Final timing and review receipt recorded in the same task
+  archive/CSV row. No model or methodology approval inferred from submission.
