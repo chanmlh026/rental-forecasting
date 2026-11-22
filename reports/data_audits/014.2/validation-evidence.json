@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "raw_bodies_hash_verified": 30,
+  "initial_cells": 15,
+  "current_district_cells": 121,
+  "statuses": {
+    "Q": 45,
+    "A": 76
+  },
+  "older_family_cells": 121,
+  "special_pay_cells": 12,
+  "special_cv_cells": 12,
+  "existing_ons_editions": 22,
+  "exact_identity_comparisons": 258,
+  "comparison_equal": 142,
+  "comparison_different": 116,
+  "raw_source_data_modified": false,
+  "repository_checks": {
+    "json_and_python_syntax": "pass",
+    "original_prompt_verbatim_prefix": "pass",
+    "timing_csv_seven_columns_unique_ids": "pass",
+    "markdown_local_links_and_anchors": "pass",
+    "decision_a_unchanged": "pass",
+    "other_issue_rows_unchanged": "pass",
+    "production_scope_unchanged": "pass",
+    "git_diff_check": "pass",
+    "git_connectivity": "pass",
+    "production_tests": "not run: research-only change",
+    "baseline": "c242af94b3e2be21889eac4092dd4ffc185ad788"
+  },
+  "review_submission_checks": {
+    "research_commit": "66513e8b3e7d5a0a5e34cc2099ba44cb7484b93d",
+    "remote_main_at_check": "0d24e70be44781d8d102b4a8d4b6fdc1664474b6",
+    "committed_research_files": 11,
+    "raw_response_hashes_reverified": 30,
+    "safe_header_allowlist": "pass",
+    "credential_private_key_patterns_in_research_changes": "no findings; pattern scan is not proof of absence",
+    "json_python_syntax_markdown_targets_anchors_csv_uniqueness": "pass",
+    "ISS-003": "Open",
+    "decisions_A_B1": "preserved",
+    "git_connectivity_and_whitespace": "pass",
+    "production_changes_in_PR_scope": 0,
+    "production_tests": "not run: documentation/research handoff only",
+    "merge_preview": "conflicts in docs/data-architecture-and-dictionary.md and docs/issue-register.md after Task 012 main advance; no index/worktree/branch merge performed",
+    "repository_visibility": "private",
+    "source_acquisition": "none in submission session"
+  }
+}

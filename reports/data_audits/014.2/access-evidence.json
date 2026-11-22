@@ -1,0 +1,393 @@
+[
+  {
+    "name": "definition.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/ASHER/def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/ASHER/def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:18.030725+00:00",
+    "retrieved_at": "2026-11-22T13:46:18.252120+00:00",
+    "sha256": "3c255e267df3079337abc8b0a2fb570eac4993888321d9c7d2aaff31a29d181f",
+    "bytes": 137184,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "name": "structure.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:38.260242+00:00",
+    "retrieved_at": "2026-11-22T13:46:38.478885+00:00",
+    "sha256": "b528bfcd14ea4b5e4a26eff650dd4cbad96e554987e4573874ca2d921c26dad4",
+    "bytes": 2798,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "sex.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/sex.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/sex.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:39.485761+00:00",
+    "retrieved_at": "2026-11-22T13:46:39.688616+00:00",
+    "sha256": "f946c7c2a250d86e9245b552b4ec868a1e30c4211ee2380578eb59d918b228ad",
+    "bytes": 2861,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "pay.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/pay.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/pay.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:40.696313+00:00",
+    "retrieved_at": "2026-11-22T13:46:40.829525+00:00",
+    "sha256": "0a570b2f836e6a99c148f3b17492a4b1a685653f08f90c30bcd3168418d120cf",
+    "bytes": 3118,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "item.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/item.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/item.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:41.833536+00:00",
+    "retrieved_at": "2026-11-22T13:46:41.955544+00:00",
+    "sha256": "791bd34fa81d536a7b329d452bbd3c19344db752d201ca856bb446eaf38147eb",
+    "bytes": 3907,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "measures.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/measures.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/measures.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:42.961474+00:00",
+    "retrieved_at": "2026-11-22T13:46:43.105132+00:00",
+    "sha256": "164cd370c18f3e18bf5e2b3c542b8c25dba4cc710a9e0ef30b4acb18c0eae304",
+    "bytes": 1653,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "geography.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:46:44.109524+00:00",
+    "retrieved_at": "2026-11-22T13:46:44.416605+00:00",
+    "sha256": "1dbdf3da42c264230dda8feae6bb840bbb8120cf1c66cf8292e06e39f0e6e525",
+    "bytes": 2802,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "initial-geography.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000060,E06000061,E06000065.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000060,E06000061,E06000065.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:04.556942+00:00",
+    "retrieved_at": "2026-11-22T13:47:04.991321+00:00",
+    "sha256": "42b6f20c639dd811878cd29140f99d8959f4da0d6a2876f759505ba976106367",
+    "bytes": 9747,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "time.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/time.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/time.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:05.995074+00:00",
+    "retrieved_at": "2026-11-22T13:47:06.108338+00:00",
+    "sha256": "0a4dc7487a2a83e13c7d7d4cd6423028174ed457c96cfd42c7061c1bb3a51370",
+    "bytes": 13394,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "initial.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=E06000060,E06000061,E06000065&date=2015,2016,2017,2018,2019&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=E06000060,E06000061,E06000065&date=2015,2016,2017,2018,2019&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:07.115253+00:00",
+    "retrieved_at": "2026-11-22T13:47:07.339065+00:00",
+    "sha256": "3c12c8f10842c8ee6cdc693480af812a53db103a3c6dfddfe3dbc4abc73b1452",
+    "bytes": 5897,
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "special-residence.zip",
+    "url": "https://www.ons.gov.uk/file?uri=%2Femploymentandlabourmarket%2Fpeopleinwork%2Fearningsandworkinghours%2Fadhocs%2F11165annualsurveyofhoursandearningsasheestimatesofannualandweeklyearningsbylocalauthorityusingapril2019localauthorityboundariesforplaceofworkandresidence2003to2017%2Fk54bresidence1.zip",
+    "resolved_url": "https://www.ons.gov.uk/file?uri=%2Femploymentandlabourmarket%2Fpeopleinwork%2Fearningsandworkinghours%2Fadhocs%2F11165annualsurveyofhoursandearningsasheestimatesofannualandweeklyearningsbylocalauthorityusingapril2019localauthorityboundariesforplaceofworkandresidence2003to2017%2Fk54bresidence1.zip",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:08.346896+00:00",
+    "retrieved_at": "2026-11-22T13:47:11.497986+00:00",
+    "sha256": "5bd381e586a5a7df754f830c2f2d8580a8f16f6f515414a44904d7895cf640b1",
+    "bytes": 14294759,
+    "headers": {
+      "Content-Type": "application/zip;charset=utf-8",
+      "etag": "\"7151cdb3c1a93e5b18c598ebfa0e8b08e2b0a53f\""
+    }
+  },
+  {
+    "name": "all-authorities.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=E06000058,E06000059,E06000060,E06000061,E06000062,E06000063,E06000064,E06000065,E06000066,E07000244,E07000245&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=E06000058,E06000059,E06000060,E06000061,E06000062,E06000063,E06000064,E06000065,E06000066,E07000244,E07000245&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:45.855924+00:00",
+    "retrieved_at": "2026-11-22T13:47:46.203040+00:00",
+    "sha256": "4a3b7ef1a8da7b158244fb22ac237612768d5700a9f8411161cc2a38895c44e6",
+    "bytes": 44002,
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "all-geography.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000058,E06000059,E06000060,E06000061,E06000062,E06000063,E06000064,E06000065,E06000066,E07000244,E07000245.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000058,E06000059,E06000060,E06000061,E06000062,E06000063,E06000064,E06000065,E06000066,E07000244,E07000245.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:47.206744+00:00",
+    "retrieved_at": "2026-11-22T13:47:47.730220+00:00",
+    "sha256": "a907c0daaa09e472c9cad814bcf8171012a57668e768a4afe43f067fb6242da5",
+    "bytes": 32731,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "geography-metadata.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000060,E06000061,E06000065.metadata.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/E06000060,E06000061,E06000065.metadata.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:48.735314+00:00",
+    "retrieved_at": "2026-11-22T13:47:48.996482+00:00",
+    "sha256": "e4727cb5ad5467b927be21cd96287498a4318a98be9f9c79070d987cdd79ec17",
+    "bytes": 134,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "source-metadata.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/def.meta.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/def.meta.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:49.999882+00:00",
+    "retrieved_at": "2026-11-22T13:47:50.156249+00:00",
+    "sha256": "0a91431a17a97814755e4b8f9dba5f7ec92344025bdb5ba0c81d4ec88d2088c8",
+    "bytes": 25273,
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  },
+  {
+    "name": "api-help.html",
+    "url": "https://www.nomisweb.co.uk/api/v01/help",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/help",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:51.159773+00:00",
+    "retrieved_at": "2026-11-22T13:47:51.322792+00:00",
+    "sha256": "3c255e267df3079337abc8b0a2fb570eac4993888321d9c7d2aaff31a29d181f",
+    "bytes": 137184,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "name": "nomis-licence.html",
+    "url": "https://www.nomisweb.co.uk/home/copyright.asp",
+    "resolved_url": "https://www.nomisweb.co.uk/home/copyright.asp",
+    "status": 200,
+    "started_at": "2026-11-22T13:47:52.325873+00:00",
+    "retrieved_at": "2026-11-22T13:47:52.411027+00:00",
+    "sha256": "2ac1486ab204b813202dae46fb063d3173978ce601169c3b2b9046a3cb1b70d8",
+    "bytes": 27371,
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  },
+  {
+    "name": "district-geography.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE424.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE424.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:51:15.589936+00:00",
+    "retrieved_at": "2026-11-22T13:51:16.397531+00:00",
+    "sha256": "ee7ba7f9ae1817a9c8b4d8223fe6fbff2d408ba8c592b5fae89049a7ebaaf0b5",
+    "bytes": 107291,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "district-authorities.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1778384956,1778384957,1778384958,1778384954,1778384955,1778385122,1778385123,1778384953,1778384951,1778384952,1778384959&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1778384956,1778384957,1778384958,1778384954,1778384955,1778385122,1778385123,1778384953,1778384951,1778384952,1778384959&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "status": 200,
+    "started_at": "2026-11-22T13:51:17.404776+00:00",
+    "retrieved_at": "2026-11-22T13:51:17.737319+00:00",
+    "sha256": "09889013353467fc38b35b2e0b65b1cdb5eb1bc887d66b2533677bb868f65574",
+    "bytes": 44321,
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "overview.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/overview.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/overview.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:51:18.744200+00:00",
+    "retrieved_at": "2026-11-22T13:51:18.863132+00:00",
+    "sha256": "6ae113c066946a58ff95d435dd2e73566178080296dcaf6c69304e63167538cd",
+    "bytes": 24324,
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  },
+  {
+    "name": "ashe-source.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/contenttype/sources/id/ashe.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/contenttype/sources/id/ashe.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:51:19.869267+00:00",
+    "retrieved_at": "2026-11-22T13:51:19.989309+00:00",
+    "sha256": "b9fb670a6b799f8784cacd0c264b8f741c7865f87dc54a23455258953ff03f16",
+    "bytes": 562,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "overview-correct.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.overview.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.overview.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:17.342744+00:00",
+    "retrieved_at": "2026-11-22T13:52:17.524377+00:00",
+    "sha256": "e5a352cb14b9d85588c328ed36dcede4931532bafbb4ae176f0947b96eded4e2",
+    "bytes": 11674,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "dataset-metadata.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.metadata.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.metadata.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:18.530213+00:00",
+    "retrieved_at": "2026-11-22T13:52:18.703354+00:00",
+    "sha256": "7c0c529cc59077c46ff25422355ec435130b17c8f80c8ccd04648c5b288f7396",
+    "bytes": 2798,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "pay-metadata.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/pay/7.metadata.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/pay/7.metadata.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:19.707493+00:00",
+    "retrieved_at": "2026-11-22T13:52:19.901455+00:00",
+    "sha256": "9da9a1ea8ad0e032759cd0c299fcde284e36c5b7c91e9586bd1fdcf6e52d748c",
+    "bytes": 47,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "time-metadata.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/time/2015,2019,2022,2025.metadata.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/time/2015,2019,2022,2025.metadata.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:20.906281+00:00",
+    "retrieved_at": "2026-11-22T13:52:21.002129+00:00",
+    "sha256": "43b78468347391a0185cfde008e762aea4084d1ad27924adc0ae2237721fa107",
+    "bytes": 1398,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "release-2025.html",
+    "url": "https://www.nomisweb.co.uk/articles/1449.aspx",
+    "resolved_url": "https://www.nomisweb.co.uk/articles/1449.aspx",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:22.007407+00:00",
+    "retrieved_at": "2026-11-22T13:52:22.136903+00:00",
+    "sha256": "bb7a8d84db443f11a7c6d1afd5239719ee2b69b9035e7ad8707696d916e0d6b7",
+    "bytes": 26538,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "name": "district-432.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE432.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE432.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:48.604447+00:00",
+    "retrieved_at": "2026-11-22T13:52:49.675090+00:00",
+    "sha256": "65bf90fb7bb3c1f5f5ccccd06e728bde93d0ac924b69236884bb5dba48e50e0d",
+    "bytes": 111946,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "authorities-432.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1811939768,1811939769,1811939524,1811939525,1811939575,1811939649,1811939655&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1811939768,1811939769,1811939524,1811939525,1811939575,1811939649,1811939655&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:50.679908+00:00",
+    "retrieved_at": "2026-11-22T13:52:51.006318+00:00",
+    "sha256": "0180c99b1e678c41cbed024d2bc4251d1276fbc42bb8fd315843111a9d44ed54",
+    "bytes": 28310,
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "district-434.json",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE434.def.sdmx.json",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1/geography/2092957699TYPE434.def.sdmx.json",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:52.011865+00:00",
+    "retrieved_at": "2026-11-22T13:52:52.473623+00:00",
+    "sha256": "ed2c5a3895c6ddaa98d87dad2bad42565fa9af6238a9b60bf4cd4b1ffbcd7d30",
+    "bytes": 114810,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "name": "authorities-434.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1820328121,1820328123,1820328225,1820328243&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "resolved_url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1820328121,1820328123,1820328225,1820328243&date=2015-2025&sex=7&pay=7&item=2&measures=20100&ExcludeMissingValues=false",
+    "status": 200,
+    "started_at": "2026-11-22T13:52:53.478498+00:00",
+    "retrieved_at": "2026-11-22T13:52:53.688167+00:00",
+    "sha256": "173da98ff047170aac153c0aa7383eac30d2e2ede5b28a4ea70d5c6a04736622",
+    "bytes": 16353,
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  }
+]

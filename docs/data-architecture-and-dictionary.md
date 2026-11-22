@@ -172,6 +172,22 @@ in Phase 2; Decision A does not resolve them. Retain this original approval and
 rationale; any subsequent amendment must record its date, reason and evidence
 without extending this approval to other transformations.
 
+### Decision B1: minor 2013 boundary changes
+
+**Status:** Owner-confirmed approved methodology; implementation deferred.
+On 22 November 2026, during Task 014.2, the owner confirmed approval in a prior
+ChatGPT methodology discussion for Gateshead (`E08000020` to `E08000037`),
+Northumberland (`E06000048` to `E06000057`), East Hertfordshire (`E07000097` to
+`E07000242`) and Stevenage (`E07000101` to `E07000243`). Historical observations
+are accepted as sufficiently comparable without statistical adjustment because,
+in the owner's stated rationale, the changes affected very small numbers of
+properties and electors. Preserve original codes and geographic vintages.
+This is an owner-approved approximation, not a newly measured zero effect.
+The earlier discussion/date and supporting numerical evidence were not independently
+available; the [verbatim owner confirmation](014.2-investigate-historical-ashe-current-boundaries.md#owner-continuation-instructions---22-november-2026-verbatim)
+is the approval evidence. This record implements no mapping and extends neither
+Decision A nor B1 to other authorities. ISS-003 stays Open.
+
 ## 2. Proposed architecture
 
 ### Implemented Bank of England source contract (Task 007, 21 November 2026)
@@ -1206,7 +1222,6 @@ to Phase 2 methodological approval under ISS-009. No preprocessing or modelling
 is implemented by this documentation decision. The dated owner instructions are
 retained in the [Task 011 report](011-mhclg-housing-supply-and-dwelling-stock-ingestion.md#task-0111-owner-approved-source-decision---22-november-2026).
 
-
 ### Task 012 planning statistics production ingestion - Phase 1, 22 November 2026
 
 [Task 012](012-mhclg-planning-applications-ingestion.md) implements immutable
@@ -1236,3 +1251,20 @@ Table 3b, not a verified CSV correction. Complete historical PIT availability
 is not claimed. Phase 1 journal activity is recorded only in
 [01-data-ingestion](development-journal/01-data-ingestion.md); Phase 2 journal,
 approved geography/source policies and all 423 pre-task data files are unchanged.
+
+### Task 014.2 historical ASHE source evidence - 22 November 2026
+
+The [research report and coverage evidence](../reports/data_audits/014.2/README.md)
+verify the approved annual gross median All field in Nomis `NM_30_1` and in
+ONS ad hoc 11165's residence annual tables. The special extract explicitly uses
+April 2019 boundaries and provides 12 numeric pay/CV pairs for BCP, Dorset,
+East Suffolk and West Suffolk in 2015-2017. Nomis geography families differ in
+availability; numeric current identifiers do not establish retrospective geography.
+Dorset's 2015-2017 current-family values match the old county and differ from
+the verified special extract. County-footprint continuity for Buckinghamshire,
+North Yorkshire and Somerset has statutory support, but Nomis's historical
+assignment/recalculation remains unverified. No source/vintage selection,
+reconstruction or geography implementation is approved by these findings.
+ISS-003/004/011/012 remain Open. The previously undiscovered ISS-022 ONS
+acquisition hold was identified through current-main review after one new
+residence ZIP download; no further automated ONS acquisition followed.

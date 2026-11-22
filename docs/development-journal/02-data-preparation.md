@@ -37,3 +37,71 @@ dependencies and measured timing remain in their existing shared records.
 - **Evidence/references:** [Decision A, complete evidence and future requirements](../data-architecture-and-dictionary.md#decision-a-barnsley-and-sheffield-historical-boundary-harmonisation),
   [original/revised/resumption instructions](../014.1-barnsley-sheffield-geography-decision-a.md),
   [ISS-003](../issue-register.md), [shared execution timing](../task-execution-log.csv).
+
+## 22 November 2026 - Historical ASHE availability and B1 confirmation (Task 014.2)
+
+- **Event/trigger:** Owner requested research into earnings before 11 authorities'
+  creation, preserving the annual gross median All residence definition and
+  prohibiting harmonisation or source selection.
+- **Initiated by:** Human.
+- **Human actions:** Supplied test authorities and source/coverage requirements;
+  identified merged PR #12 and confirmed prior B1 approval, its four code changes,
+  rationale and deferred implementation. Earlier ChatGPT discussion is not available;
+  the owner's confirmation establishes the recorded approval.
+- **AI actions (Codex):** Read official Nomis metadata and focused observations;
+  inspected the residence historical extract and retained ONS editions offline.
+  Current-main review through the GitHub connector exposed the stale checkout
+  and ISS-022 after one ONS ZIP acquisition. Stopped further automated ONS downloads.
+  Preserved original dirty Task 009.5 work and moved only new Task 014.2 work
+  to an isolated branch at merged PR #12, using the clean checkout's local commit.
+  Recorded B1 in the existing dictionary and source findings in one audit report.
+- **Decision and stated rationale:** B1 retains unadjusted history for the four
+  minor 2013 changes because the owner considers affected property/elector counts
+  very small. No new ASHE source, vintage or reconstruction treatment selected.
+- **Outcome/status:** Research delivered with explicit geography/evidence gaps;
+  12 special-extract 2015-2017 pay/CV pairs verified on April 2019 boundaries.
+  Nomis family-specific missingness and Dorset's old-county values prevent a
+  blanket comparable-history conclusion. Decisions A/B1 preserved, implementation
+  deferred; ISS-003 and related issues remain Open. Owner review pending.
+- **Evidence/references:** [Task instructions and owner confirmation](../014.2-investigate-historical-ashe-current-boundaries.md),
+  [research and reproducible coverage](../../reports/data_audits/014.2/README.md),
+  [B1 decision record](../data-architecture-and-dictionary.md#decision-b1-minor-2013-boundary-changes),
+  [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+### Submission update - 22 November 2026 (Task 014.2)
+
+- **Event/trigger and human action:** Owner requested pushing the completed
+  research branch and creating a PR against main for independent review.
+- **AI actions (Codex):** Verified committed scope, 30 retained response hashes,
+  documentation, safe evidence headers, credential patterns and Git integrity;
+  preserved A/B1, ISS-003 Open and unrelated dirty work. No source acquisition.
+- **Outcome/status:** Submission authorised; main's Task 012 advance introduces
+  two shared-document merge-preview conflicts, recorded for independent review.
+  No merge or harmonisation authorised; final PR receipt is in the
+  [Task 014.2 archive](../014.2-investigate-historical-ashe-current-boundaries.md).
+
+- **Dated outcome update, 22 November 2026:** [PR #14](https://github.com/chanmlh026/rental-forecasting/pull/14)
+  created open/non-draft against main for independent review. Research and
+  submission-check commits pushed; final timing/PR receipt recorded in the same
+  task archive and CSV row. Dictionary/register merge conflicts remain disclosed;
+  no merge, production change, acquisition or methodological implementation.
+
+### Conflict-resolution update - 22 November 2026 (Task 014.2)
+
+- **Event/trigger and human action:** Owner authorised the latest-main update
+  and reconciliation of PR #14's two documentation conflicts, retaining both
+  tasks and all approved decisions; PR merge remains unauthorised.
+- **AI actions (Codex):** Combined both dictionary sections and dated ISS-003
+  additions; verified all 22 issue records, existing timing rows and original
+  research evidence. Preservation checks caught and corrected adjacent ISS-004
+  omission before commit. All 30 research response hashes and final doc/Git
+  checks passed. Task 012 implementation/config/tests/evidence match main.
+- **Outcome/status:** Conflicts reconciled locally; ISS-003 Open, A/B1 unchanged;
+  source acquisition, production edits and mapping absent. Remote confirmation
+  and timing receipt are recorded in the [same task archive](../014.2-investigate-historical-ashe-current-boundaries.md).
+
+- **Dated outcome update, 22 November 2026:** Main update and both doc conflicts
+  committed/pushed as `1859d94`; GitHub confirms PR #14 mergeable, open and
+  unmerged. PR description updated to retain evidence gaps/access incident and
+  record the resolution. ISS-003 Open, Decisions A/B1 unchanged; no implementation
+  or acquisition. Final measured intervals retained in the same execution row.
