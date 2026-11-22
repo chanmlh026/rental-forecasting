@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "tool": "Gitleaks 8.30.1; existing checksum-verified official binary",
+  "current_source_files": 204,
+  "current_source_findings": 0,
+  "clean_git_history_commits": 45,
+  "clean_history_findings": 0,
+  "raw_bundles_verified": 11,
+  "raw_http_headers": "Allowlisted request/response headers only; checksums/status verified",
+  "full_regression": "343 passed in 67.23 seconds",
+  "focused": "39 passed in 1.20 seconds",
+  "lock_check": "PASS offline",
+  "format_check": "PASS; audit JSON writer formatting finalised without production changes",
+  "git_integrity": "PASS; informational dangling blobs/trees only",
+  "limitations": "Does not certify removal of retained old remote PR/history/caches or external copies. ISS-020 remains Open; repository private; no session replay, publisher contact or public release.",
+  "final_staged_files": 19,
+  "final_staged_secret_findings": 0,
+  "documentation_checks": "PASS: original prompt bytes, Markdown/UTF-8/links/anchors, strict JSON, seven-column CSV/unique task row, historical record preservation",
+  "protected_phase2": "Journal and pinned reference hashes unchanged; Decision A and approved Table 123 policy unchanged",
+  "repository": "Private; auto-merge disabled; PR #13 open/unmerged/mergeable at timing cutoff",
+  "ci": "No commit statuses and no configured workflow; local validation only"
+}

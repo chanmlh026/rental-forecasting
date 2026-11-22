@@ -85,3 +85,17 @@ dependencies and measured timing remain in their existing shared records.
   submission-check commits pushed; final timing/PR receipt recorded in the same
   task archive and CSV row. Dictionary/register merge conflicts remain disclosed;
   no merge, production change, acquisition or methodological implementation.
+
+### Conflict-resolution update - 22 November 2026 (Task 014.2)
+
+- **Event/trigger and human action:** Owner authorised the latest-main update
+  and reconciliation of PR #14's two documentation conflicts, retaining both
+  tasks and all approved decisions; PR merge remains unauthorised.
+- **AI actions (Codex):** Combined both dictionary sections and dated ISS-003
+  additions; verified all 22 issue records, existing timing rows and original
+  research evidence. Preservation checks caught and corrected adjacent ISS-004
+  omission before commit. All 30 research response hashes and final doc/Git
+  checks passed. Task 012 implementation/config/tests/evidence match main.
+- **Outcome/status:** Conflicts reconciled locally; ISS-003 Open, A/B1 unchanged;
+  source acquisition, production edits and mapping absent. Remote confirmation
+  and timing receipt are recorded in the [same task archive](../014.2-investigate-historical-ashe-current-boundaries.md).

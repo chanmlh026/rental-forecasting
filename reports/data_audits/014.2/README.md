@@ -336,3 +336,15 @@ conflicts require reconciliation before any later merge, independently of the
 unresolved geography/methodology review. This submission preserves the original
 research commit, original dirty checkout and clean-history ancestry. No production
 code/data, source acquisition, mappings or merge is included in this handoff.
+
+### Owner-authorised conflict reconciliation - 22 November 2026
+
+The owner subsequently authorised updating the research branch from latest main
+and resolving the two documentation conflicts. Both complete task sections,
+all 22 main issue records, dated ISS-003 additions and evidence links are now
+preserved; Decisions A/B1 and original research evidence are unchanged. Main's
+Task 012 implementation enters unchanged through the baseline update. The
+previous conflict status above is historical. Preservation, 30 raw response
+hashes, documentation/syntax/security-pattern and Git checks passed; no new
+production changes, data acquisition, mapping or methodological decisions.
+PR #14 remains for independent review; it is not merged by this update.

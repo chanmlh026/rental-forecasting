@@ -459,7 +459,7 @@ open questions. Coverage means observations, not historical availability.
 | 12-month House-price Growth | M1; published annual change or proposed same-vintage index ratio, percent | LA | Earliest usable LA year-on-year pair unmeasured; no complete history inferred from 1995 source start | D/P; do not mix property definitions or vintages |
 | Housing Completions | M2 Table 123 `New build`, dwellings completed in financial year | English LA district | Inspected sheets 2012-13 through 2024-25 | Task 011 source ingestion validated; annual net-supply component, distinct from quarterly housebuilding return |
 | Net Additional Dwellings | M2 Table 123; net stock flow, dwellings per financial year | English LA district | Inspected 2012-13 through 2024-25; modelling history begins in 2015 | Task 011.1 approved exclusive modelling flow source; Table 122 retained only for reconciliation/auditing; negative net additions preserved |
-| Planning Approvals | M3 PS2; granted major/minor residential application decisions, counts | Local planning authority (LPA) | Measured 2025 Q3-2026 Q2; publisher describes PS2 history from Q2 1979 | V for application counts; historical definition continuity unverified |
+| Planning Approvals | M3 PS2; granted major/minor residential application decisions, counts | Local planning authority (LPA) | Task 012 verified PS2 1979 Q2-2026 Q2; PS1 1996 Q2-2026 Q2 | Phase 1 application-count ingestion validated; local all-residential units source and historical definition continuity remain unresolved |
 | CPI Inflation | C1 D7G7; all-items 12-month percentage change | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; longer modelled history is distinct |
 | CPIH Inflation | C1 L55O; all-items 12-month percentage change including owner-occupier housing costs, percent | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; keep distinct from CPI |
 | Dwelling Stock (supply denominator) | M4 Table 125 unrounded; all dwellings including vacants, count at 31 March | English LA district | Inspected 2001-2025 | Task 011 source ingestion validated; unrounded/rounded source sheets separate, not households or private rented stock |
@@ -1221,6 +1221,36 @@ timing, supply-to-stock ratios and other compatibility decisions remain subject
 to Phase 2 methodological approval under ISS-009. No preprocessing or modelling
 is implemented by this documentation decision. The dated owner instructions are
 retained in the [Task 011 report](011-mhclg-housing-supply-and-dwelling-stock-ingestion.md#task-0111-owner-approved-source-decision---22-november-2026).
+
+### Task 012 planning statistics production ingestion - Phase 1, 22 November 2026
+
+[Task 012](012-mhclg-planning-applications-ingestion.md) implements immutable
+MHCLG PS1/PS2 ingestion, with [source findings and reproduction](../reports/data_audits/012/README.md).
+All 88 PS1 and 329 PS2 count fields and original source strings, LPA identities,
+quarter/financial-year labels and source metadata are retained. Full histories
+cover 1996 Q2-2026 Q2 (PS1, 42,861 rows) and 1979 Q2-2026 Q2 (PS2, 68,583 rows).
+Two 1,240-row recent assets are separate audit tables, not appended observations.
+
+Independent reconciliation passes for 27,422,275 native fields and 318 quarterly
+coverage rows; all 12 validated/processed tables agree. The 26,852,655 count cells
+include 12,036,069 literal `..` markers. Exact cohort codes from 2015 Q1 range
+283-294; the latest four quarters have 294 with numeric major/minor residential
+granted-application counts. LPA responsibilities need not equal whole LAD areas.
+Historical duplicate rows, missing/legacy identifiers and category/imputation/
+revision limitations remain explicit under ISS-003/004/011/012. No rows are
+deduplicated, mapped, filled or joined. Phase 2 Decision A is unchanged and
+unimplemented here.
+
+Application/decision counts remain distinct from permitted dwelling units.
+Current sources do not establish an all-residential LA units series. Annual
+LAHS affordable-housing permissions are a partial candidate, not a substitute;
+no candidate data were acquired and separate approval is required before
+ingestion. ISS-010/017 remain Open. Publisher notes/first/public/internal document
+dates are preserved separately; the 29 October correction concerns release
+Table 3b, not a verified CSV correction. Complete historical PIT availability
+is not claimed. Phase 1 journal activity is recorded only in
+[01-data-ingestion](development-journal/01-data-ingestion.md); Phase 2 journal,
+approved geography/source policies and all 423 pre-task data files are unchanged.
 
 ### Task 014.2 historical ASHE source evidence - 22 November 2026
 
