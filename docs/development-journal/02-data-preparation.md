@@ -132,3 +132,9 @@ dependencies and measured timing remain in their existing shared records.
 - **Evidence/references:** [Research, roster and numerical evidence](../../reports/data_audits/014.3/README.md),
   [original task prompt and handoff](../014.3-ashe-predecessor-median-earnings-ranges.md),
   [shared timing](../task-execution-log.csv), [ISS-003](../issue-register.md).
+
+- **Dated review update, 22 November 2026:** Research commit `cce7f2c` pushed;
+  [PR #15](https://github.com/chanmlh026/rental-forecasting/pull/15) opened for
+  independent review against merged Task 014.2 main and confirmed mergeable,
+  open and unmerged. Final timing and review receipt recorded in the same task
+  archive/CSV row. No model or methodology approval inferred from submission.
