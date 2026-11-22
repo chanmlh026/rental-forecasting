@@ -127,3 +127,7 @@ dependencies and measured timing remain in their existing shared records.
   [findings and validation](../../reports/data_audits/014.4/README.md),
   [dictionary](../data-architecture-and-dictionary.md#task-0144-cross-dataset-historical-geography-research---22-november-2026),
   [register](../issue-register.md), [measured timing](../task-execution-log.csv).
+
+- **Submission update, 22 November 2026:** [PR #16](https://github.com/chanmlh026/rental-forecasting/pull/16)
+  is open/non-draft/mergeable and unmerged; independent review pending. The same
+  task archive and execution row retain measured cutoff and submission evidence.
