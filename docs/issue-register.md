@@ -190,3 +190,20 @@ and offline ONS inspection continued. No contact, bypass or licence exception
 was invented. [Task 014.2](../reports/data_audits/014.2/README.md) records the
 access evidence and remaining geography uncertainty. No issue was closed and
 no new overlapping issue was created. Historical issue/decision entries remain.
+
+
+### Task 014.4 dependency review - 22 November 2026
+
+**Proceed with documented limitations for research only.** ISS-003 remains Open;
+[the cross-dataset assessment](../reports/data_audits/014.4/README.md) distinguishes
+official geography declarations from current-code matches for all 11 authorities.
+Population/migration backcasts offer official-source candidates; HPI/PIPR historical
+footprints, UMB families, ASHE gaps and stock/planning geography still require
+verification or later owner decisions. Decisions A/B1 remain unchanged.
+ISS-004/009/011/012 remain Open for availability, denominator and quality policies.
+ISS-010/017 remain Open: application counts and affordable-only permissions cannot
+replace an all-residential units source or establish extract rights. ISS-020 remains
+Open in the private repository context. ISS-022 remains Open and no automated
+ONS-host downloads occurred; only retained files, official documentation and
+three focused public Nomis queries were used. No new overlapping issue, closure,
+source substitution, reconstructed statistic or production mapping is introduced.

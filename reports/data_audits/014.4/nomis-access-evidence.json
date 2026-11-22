@@ -1,0 +1,44 @@
+[
+  {
+    "name": "umb-432.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=1811939768,1811939769,1811939524,1811939525,1811939575,1811939649,1811939655&date=2015-12,2016-12,2017-12,2018-12,2019-12,2020-12,2021-12,2022-12,2023-12,2024-12,2025-12,2026-06&item=2&measures=20100,20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "status": 200,
+    "retrieved_at": "2026-11-22T15:02:50.314691+00:00",
+    "started_at": "2026-11-22T15:02:49.885827+00:00",
+    "sha256": "cc7465b21b8f6c0ac7f023470e0f8f787944645e502e28c258fef94f2d21d706",
+    "bytes": 57837,
+    "geography_metadata_sha256": "65bf90fb7bb3c1f5f5ccccd06e728bde93d0ac924b69236884bb5dba48e50e0d",
+    "retained_geography_evidence": "Task 014.2 district-432.json",
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "umb-434.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=1820328121,1820328123,1820328225,1820328243&date=2015-12,2016-12,2017-12,2018-12,2019-12,2020-12,2021-12,2022-12,2023-12,2024-12,2025-12,2026-06&item=2&measures=20100,20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "status": 200,
+    "retrieved_at": "2026-11-22T15:02:51.656194+00:00",
+    "started_at": "2026-11-22T15:02:51.325601+00:00",
+    "sha256": "b58a7ebba35811876af053b18fefa349a8f916efb57caccd93a617de13d11965",
+    "bytes": 32870,
+    "geography_metadata_sha256": "ed2c5a3895c6ddaa98d87dad2bad42565fa9af6238a9b60bf4cd4b1ffbcd7d30",
+    "retained_geography_evidence": "Task 014.2 district-434.json",
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  },
+  {
+    "name": "umb-predecessors-464.csv",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=1946157075,1946157076,1946157077,1946157078,1946157079,1946157080,1946157113,1946157114,1946157115,1946157116,1946157117,1946157118,1946157119,1946157155,1946157156,1946157157,1946157158,1946157159,1946157160,1946157161,1946157240,1946157243,1946157244,1946157245,1946157291,1946157292,1946157293,1946157294,1946157347,1946157353,1946157366,1946157367,1946157368,1946157369,1946157370,1946157371,1946157378,1946157379,1946157380,1946157381,1946157382&date=2015-12,2016-12,2017-12,2018-12,2019-12,2020-12,2021-12,2022-12,2023-12,2024-12,2025-12,2026-06&item=2&measures=20100,20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+    "status": 200,
+    "retrieved_at": "2026-11-22T15:03:44.659973+00:00",
+    "started_at": "2026-11-22T15:03:44.160154+00:00",
+    "sha256": "4a259d954d8146cbaed0914c303dec79d448b864c92df88473271d8303a7f928",
+    "bytes": 330642,
+    "geography_metadata_sha256": "dee5741759a7402517ac27452e3fe69de0723551b21482d86029d436a6146521",
+    "retained_geography_evidence": "Task 009.3 geography_types",
+    "headers": {
+      "Content-Type": "text/csv"
+    }
+  }
+]

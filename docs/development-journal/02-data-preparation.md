@@ -105,3 +105,25 @@ dependencies and measured timing remain in their existing shared records.
   unmerged. PR description updated to retain evidence gaps/access incident and
   record the resolution. ISS-003 Open, Decisions A/B1 unchanged; no implementation
   or acquisition. Final measured intervals retained in the same execution row.
+
+
+### Cross-dataset official historical geography investigation - 22 November 2026 (Task 014.4)
+
+- **Event/trigger:** Owner requested official historical geography research for the
+  exact 11 reorganised authorities across current LA predictors and PIPR targets.
+- **Initiated by:** Human.
+- **Human actions:** Specified research-only scope, source priority, five evidence
+  classifications, preservation of A/B1 and ISS-003 Open, and the ISS-022 acquisition hold.
+- **AI actions (Codex):** Checked current main and unmerged Task 014.3; used an isolated
+  main-based worktree to preserve unrelated dirty work and PR #15. Inspected retained
+  source parquets, manifests and geography notes; consulted official documentation;
+  retained three focused public Nomis responses. Created an offline coverage audit
+  and independent source-period checks; no automated ONS download or reconstruction.
+- **Outcome/status:** 11 authorities, 27 audited fields and 2015?2026 assessed. Official
+  population/migration backcasts identified; HPI/PIPR historical footprint verification,
+  non-additive series and planning units remain review priorities. No methodology
+  selected; A/B1 and all issue statuses preserved. Independent review pending.
+- **Evidence/references:** [Prompt](../014.4-cross-dataset-historical-geography-and-official-sources.md),
+  [findings and validation](../../reports/data_audits/014.4/README.md),
+  [dictionary](../data-architecture-and-dictionary.md#task-0144-cross-dataset-historical-geography-research---22-november-2026),
+  [register](../issue-register.md), [measured timing](../task-execution-log.csv).

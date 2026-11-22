@@ -1268,3 +1268,21 @@ reconstruction or geography implementation is approved by these findings.
 ISS-003/004/011/012 remain Open. The previously undiscovered ISS-022 ONS
 acquisition hold was identified through current-main review after one new
 residence ZIP download; no further automated ONS acquisition followed.
+
+
+## Task 014.4 cross-dataset historical geography research - 22 November 2026
+
+[Research and coverage evidence](../reports/data_audits/014.4/README.md) assesses
+27 fields across the exact 11 reorganised authorities and 2015?2026. Official
+population/migration backcasts declare successor geography; density notes and
+publication vintages remain explicit. Existing numeric HPI/PIPR histories require
+historical-footprint verification. ASHE/UMB family gaps, stock/supply reporting
+changes and LPA territory limitations remain distinct. Planning applications do
+not fill the dwelling-units gap. Matching codes do not certify comparability.
+
+The report separates documented geography, unverified numeric candidates,
+predecessor-only evidence, missing observations and source gaps. It identifies
+priorities for owner review; no source/vintage, reconstruction, mapping or PIT
+policy is approved. Table 123 remains the modelling flow source; Table 122 is
+audit-only. Decisions A/B1 are preserved, ISS-003 remains Open and ISS-022 still
+blocks further affected ONS acquisition. No production data or implementation changed.
