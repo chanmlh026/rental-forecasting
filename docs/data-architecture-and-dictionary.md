@@ -1268,3 +1268,14 @@ reconstruction or geography implementation is approved by these findings.
 ISS-003/004/011/012 remain Open. The previously undiscovered ISS-022 ONS
 acquisition hold was identified through current-main review after one new
 residence ZIP download; no further automated ONS acquisition followed.
+
+### Task 014.3 predecessor median range evidence - 22 November 2026
+
+[Offline research](../reports/data_audits/014.3/README.md) retains all inspected
+ASHE editions, dated statutory predecessor rosters and Somerset's intermediate
+merger. Complete, partial and unassessable ranges are explicitly distinguished;
+28 of 65 pre-reorganisation authority-years lack a complete retained edition.
+Published combined-area comparator overlaps are qualified by geography/vintage
+and survey uncertainty. No reconstructed combined median, approximation method,
+model-input vintage or harmonisation is selected or implemented. Decisions A/B1
+and ISS-003 Open are preserved; ISS-022's ONS acquisition hold was respected.
