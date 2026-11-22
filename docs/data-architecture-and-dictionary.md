@@ -302,11 +302,11 @@ open questions. Coverage means observations, not historical availability.
 | Median Earnings | E1; approved gross annual median employee-job earnings, Table 8.7a All D; GBP/year; all sexes and full-/part-time | LA residence | Verified in 37 advertised editions, 2002–2026; historical cohort varies | Task 009.2 ingestion implemented; all editions/source rows retained. Annual guide: adult-rate jobs held over a year; tax year ending 5 April. Two source-note conflicts flagged |
 | Earnings Growth | E1; proposed percentage change in consistent annual median earnings | LA residence | First usable pair unresolved; no continuous 2002-2026 LA panel assumed | D/P; annual pay definition approved in Task 009.1; growth unimplemented, geography and vintages must agree |
 | Unemployment Rate | U1; owner-approved UMB-first published model-based rate, ITEM 2 / MEASURES 20100; percent of economically active residents 16+ | LA residence; native source geography preserved | API: 87 rolling annual periods, Jan–Dec 2004 to Jul 2025–Jun 2026; separate M01 archive 1996/97–2003/04 verified | Production ingestion validated in Task 009.4; original geography and rolling-year semantics retained. Latest 292 exact cohort matches, 292 numeric rates/273 confidence margins; two code discrepancies |
-| Population Density | D1 MYE5; population per square kilometre, supplied area denominator | LA | Inspected workbook mid-2011-mid-2025 | V; 292/294 direct-code matches, no mapping applied |
+| Population Density | D1 MYE5; population per square kilometre, supplied area denominator | LA | Inspected workbook mid-2011-mid-2025 | Task 010: source ingestion validated offline; 292/294 on 2023 geography, 288 on 2021 geography; no density calculation or mapping |
 | Population Growth | D1 MYE4; proposed percentage change between comparable annual mid-year populations | LA | Population mid-2011-mid-2025; annual pairs possible from 2012 on matched codes | D; revised population vintage and boundary policy required |
 | Household Growth | H1/H2; historical proposal: change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | **Excluded from Current Modelling Scope** (Task 013.1); consistent, timely observed annual 2015–2026 coverage for the required LA population not established. Estimate/projection concepts remain distinct; future reconsideration requires evidence and owner approval |
-| Net Internal Migration | D1 MYE3; internal inflow minus outflow, persons in year to mid-year | LA | Components inspected for year to mid-2025 only; older detailed editions identified, not exhaustively parsed | V for latest variable; P for continuous history |
-| Net International Migration | D1 MYE3; international inflow minus outflow, persons in year to mid-year | LA | Same latest extract and history limitation as internal migration | V for latest variable; P for historical methods and vintages |
+| Net Internal Migration | D1 MYE3; internal inflow minus outflow, persons in year to mid-year | LA | Task 010: verified detailed editions cover years to mid-2012 through mid-2025 separately by vintage | Task 010 source-level history validated offline; no ratio/feature or model-input vintage selected |
+| Net International Migration | D1 MYE3; international inflow minus outflow, persons in year to mid-year | LA | Task 010: same verified detailed 2012-2025 history and native vintage/geography preservation as internal migration | Task 010 source-level inputs validated; complete historical vintages/PIT remain unresolved |
 | Student Population Share | S1; historical proposal: possible Census TS068 student count / compatible population denominator, percent | LA residence / term-time residence | 21 March 2021 snapshot verified; no annual panel established | **Excluded from Current Modelling Scope** (Task 013.1); annual LA panel for the modelling period not established. TS068 includes schoolchildren aged 5+, not a direct higher-education concentration measure; future reconsideration requires evidence and owner approval |
 | Average House Price / HPI | M1; UK HPI average price in GBP or index (retain series base) | LA, also regional/national | Publisher documents England/Wales transactions from Jan 1995; current inspected release describes Aug 2026 | P for exact 294-LA history; dataset/measure V |
 | 12-month House-price Growth | M1; published annual change or proposed same-vintage index ratio, percent | LA | Earliest usable LA year-on-year pair unmeasured; no complete history inferred from 1995 source start | D/P; do not mix property definitions or vintages |
@@ -947,3 +947,45 @@ missingness treatment, complete first-publication availability, vintage selectio
 and later feature policies remain future decisions under ISS-003/004/011/012.
 ISS-006 stays Resolved for source selection; ISS-020 remains Open. Task 013.1's
 Household Growth and Student Population Share exclusions remain unchanged.
+
+
+### Task 010 offline production ingestion update - 22 November 2026
+
+The [Task 010 report](010-ons-population-area-and-migration-ingestion.md) and
+[reproducible source audit](../reports/data_audits/010/README.md) supersede the
+research-only status of the inspected D1 inputs. The owner authorised population,
+area/published density and migration source ingestion, then explicitly restricted
+continuation to existing verified files after ONS bot-contact guidance review.
+No further automated ONS downloads took place after that instruction.
+
+Nine official workbooks are ingested separately: 2022-2025 summaries (2022 on both
+2021/2023 geography) and detailed 2011-to-2022/2023/2024/2025 files; detailed 2022
+also retains both native geography sheets. There are 198505 selected source cells
+across 20 sheets. Latest population and published density cover 2011-2025;
+six published migration components cover years ending mid-2012 through mid-2025.
+Area is retained once per source area/edition with no separately stated reference
+year, in square kilometres; it is not broadcast or used to derive density.
+National/county/regional source rows remain separate and are not substituted for LA
+observations. No vintages are stitched or selected for modelling.
+
+Independent XML reconciliation passes for every selected cell and all 599 coverage
+rows. 24804 equivalent same-vintage observations agree across summary/detail files.
+292 target codes match exactly on 2023 geography, 288 on 2021 geography; all such
+selected values are numeric. The 76 `No data` markers in summary2023 internal
+in/outflow aggregate rows are preserved. Barnsley/Sheffield have present numeric
+observations at source E08000016/E08000019 versus reference E08000038/E08000039;
+retained notes do not explain the code changes. Name agreement is not a mapping.
+Some 2025 notes use 2024 geography wording whereas edition/detailed headers identify
+2023; both statements and review flags remain. Historic revision differences are
+measured, not repaired. Raw publication strings, notes, styles and source numeric
+literals are retained; a complete historical availability timeline is not claimed.
+
+Five advertised 2022 superseded files remain unacquired; this limits vintage/
+correction coverage rather than creating a missing year in the latest migration
+history. Source files before 2011 and national/regional-only datasets were identified
+but are outside this forecasting-history LA source contract. ISS-022 records the
+non-personal project contact prerequisite for affected future automated retrieval.
+This does not block the owner-approved offline component. ISS-003/004/011/012/020
+remain Open. No population growth, density calculation, migration ratio, geographic
+harmonisation, imputation, target join or model was introduced; Household Growth
+and Student Population Share exclusions remain unchanged. Full suite: 266 tests.

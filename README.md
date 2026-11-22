@@ -195,9 +195,40 @@ See the [Task 009.4 report](docs/009.4-nomis-umb-unemployment-ingestion.md#imple
 and [reproducible audit](reports/data_audits/009.4/README.md). Future historical or
 geography extensions require separate approval of the pinned contract.
 
+## ONS population, published area/density and migration ingestion
+
+Task 010 implements the approved offline scope from nine verified ONS workbooks.
+The pinned `configs/ons_population_sources.json` retains each source edition,
+geography sheet and checksum separately. Population/density cover 2011-2025;
+detailed migration components cover years ending mid-2012 through mid-2025.
+
+```powershell
+uv run python -m ingestion.ons_population --snapshot-id 2026-11-22-task010
+uv run python reports/data_audits/010/validate_ingestion.py
+```
+
+These commands require the retained ignored source bundles. The production CLI
+is offline-only: missing sources stop without downloading. Further automated ONS
+acquisition requires owner approval of a suitable non-personal project contact;
+five advertised superseded files remain unacquired. Do not use a placeholder,
+personal contact or substitute data. Existing raw responses retain their original
+request/retrieval provenance.
+
+Outputs use existing raw/validated/processed `ons_population/snapshot={id}/`
+layers. The six tables retain original values/precision, markers, notes/styles,
+source geography, release evidence and measured coverage. Area remains a source
+cell without an invented reference year. No growth, density or migration ratio
+is calculated. `--config`, `--inventory` and `--geography-reference` reuse the
+existing project settings; completed snapshots cannot be overwritten. Rerun the
+same arguments to verify/recover from saved requests without network access.
+
+See [Task 010](docs/010-ons-population-area-and-migration-ingestion.md) and the
+[offline audit/evidence](reports/data_audits/010/README.md) for validated coverage,
+remaining geography/publication limitations and the blocked acquisition follow-up.
+
 ## Review and next source
 
-Review the generated PIPR, Bank of England, inflation, HPI, ASHE and UMB outputs, then approve the
+Review the generated PIPR, Bank of England, inflation, HPI, ASHE, UMB and population/migration outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are

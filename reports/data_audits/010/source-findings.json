@@ -1,0 +1,570 @@
+{
+  "coverage_summary": [
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2021 Geography)",
+      "source_areas": [
+        331
+      ],
+      "exact_cohort_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2023 Geography)",
+      "source_areas": [
+        318
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "detail2023",
+      "source_sheet": "MYEB3",
+      "source_areas": [
+        318
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "detail2024",
+      "source_sheet": "MYEB3",
+      "source_areas": [
+        318
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "detail2025",
+      "source_sheet": "MYEB3",
+      "source_areas": [
+        318
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE3",
+      "source_areas": [
+        373
+      ],
+      "exact_cohort_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE4",
+      "source_areas": [
+        373
+      ],
+      "exact_cohort_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE5",
+      "source_areas": [
+        373
+      ],
+      "exact_cohort_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE3",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE4",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE5",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE3",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE4",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE5",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE3",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE4",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE5",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE3",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE4",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE5",
+      "source_areas": [
+        357
+      ],
+      "exact_cohort_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    }
+  ],
+  "measure_counts": {
+    "population": 44898,
+    "published_density": 23754,
+    "internal_inflow": 21342,
+    "internal_outflow": 21342,
+    "internal_net": 21342,
+    "international_inflow": 21342,
+    "international_outflow": 21342,
+    "international_net": 21342,
+    "land_area": 1801
+  },
+  "source_markers": [
+    {
+      "edition_id": "summary2023",
+      "sheet": "MYE3",
+      "measure": "internal_inflow",
+      "marker": "No data",
+      "cells": 38
+    },
+    {
+      "edition_id": "summary2023",
+      "sheet": "MYE3",
+      "measure": "internal_outflow",
+      "marker": "No data",
+      "cells": 38
+    }
+  ],
+  "revisions": [
+    {
+      "older": "detail2022",
+      "newer": "detail2023",
+      "equivalent_source_cells": 24804,
+      "numeric_values_changed": 0,
+      "changed_by_measure_year": []
+    },
+    {
+      "older": "detail2023",
+      "newer": "detail2024",
+      "equivalent_source_cells": 27030,
+      "numeric_values_changed": 4440,
+      "changed_by_measure_year": [
+        {
+          "measure": "internal_inflow",
+          "reference_year": 2022,
+          "source_cells": 317
+        },
+        {
+          "measure": "internal_inflow",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "internal_net",
+          "reference_year": 2022,
+          "source_cells": 317
+        },
+        {
+          "measure": "internal_net",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "internal_outflow",
+          "reference_year": 2022,
+          "source_cells": 318
+        },
+        {
+          "measure": "internal_outflow",
+          "reference_year": 2023,
+          "source_cells": 317
+        },
+        {
+          "measure": "international_inflow",
+          "reference_year": 2022,
+          "source_cells": 316
+        },
+        {
+          "measure": "international_inflow",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_net",
+          "reference_year": 2022,
+          "source_cells": 314
+        },
+        {
+          "measure": "international_net",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_outflow",
+          "reference_year": 2022,
+          "source_cells": 317
+        },
+        {
+          "measure": "international_outflow",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "population",
+          "reference_year": 2022,
+          "source_cells": 316
+        },
+        {
+          "measure": "population",
+          "reference_year": 2023,
+          "source_cells": 318
+        }
+      ]
+    },
+    {
+      "older": "detail2024",
+      "newer": "detail2025",
+      "equivalent_source_cells": 29256,
+      "numeric_values_changed": 3810,
+      "changed_by_measure_year": [
+        {
+          "measure": "international_inflow",
+          "reference_year": 2022,
+          "source_cells": 317
+        },
+        {
+          "measure": "international_inflow",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_inflow",
+          "reference_year": 2024,
+          "source_cells": 317
+        },
+        {
+          "measure": "international_net",
+          "reference_year": 2022,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_net",
+          "reference_year": 2023,
+          "source_cells": 316
+        },
+        {
+          "measure": "international_net",
+          "reference_year": 2024,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_outflow",
+          "reference_year": 2022,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_outflow",
+          "reference_year": 2023,
+          "source_cells": 318
+        },
+        {
+          "measure": "international_outflow",
+          "reference_year": 2024,
+          "source_cells": 318
+        },
+        {
+          "measure": "population",
+          "reference_year": 2022,
+          "source_cells": 318
+        },
+        {
+          "measure": "population",
+          "reference_year": 2023,
+          "source_cells": 317
+        },
+        {
+          "measure": "population",
+          "reference_year": 2024,
+          "source_cells": 317
+        }
+      ]
+    }
+  ],
+  "barnsley_sheffield_investigation": [
+    {
+      "source_code": "E08000016",
+      "source_names": [
+        "Barnsley"
+      ],
+      "source_types": [
+        "Metropolitan District"
+      ],
+      "numeric_source_cells": 37,
+      "source_reference_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_mye4_rows": [
+        72
+      ],
+      "source_current_cohort_code": "E08000038",
+      "published_explanation_in_retained_notes": []
+    },
+    {
+      "source_code": "E08000019",
+      "source_names": [
+        "Sheffield"
+      ],
+      "source_types": [
+        "Metropolitan District"
+      ],
+      "numeric_source_cells": 37,
+      "source_reference_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_mye4_rows": [
+        75
+      ],
+      "source_current_cohort_code": "E08000039",
+      "published_explanation_in_retained_notes": []
+    }
+  ],
+  "geography_vintage_note_limitation": "Edition/sheet geography labels retained; summary2025 notes refer to April 2024/2024 authorities while edition/header identifies 2023. No mapping, retrospective equivalence or cause of code changes inferred.",
+  "unacquired_previous_versions": [
+    {
+      "edition_id": "summary2022_2023_previous_v2",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2023geogsv2.xlsx",
+      "edition_slug": "mid20222023localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2023"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2023_previous_v1",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2023geogs.xlsx",
+      "edition_slug": "mid20222023localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2023"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2021_previous_v2",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2021geogsv2.xlsx",
+      "edition_slug": "mid20222021localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2021"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2021_previous_v1",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2021geogs.xlsx",
+      "edition_slug": "mid20222021localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2021"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "detail2022_previous_v1",
+      "kind": "detail",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid2011tomid2022detailedtimeseries%2Fprevious%2Fv1%2Fmyebtablesenglandwales20112022v2.xlsx",
+      "edition_slug": "mid2011tomid2022detailedtimeseries",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_detail2022"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    }
+  ]
+}
