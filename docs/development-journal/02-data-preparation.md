@@ -67,3 +67,15 @@ dependencies and measured timing remain in their existing shared records.
   [research and reproducible coverage](../../reports/data_audits/014.2/README.md),
   [B1 decision record](../data-architecture-and-dictionary.md#decision-b1-minor-2013-boundary-changes),
   [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+### Submission update - 22 November 2026 (Task 014.2)
+
+- **Event/trigger and human action:** Owner requested pushing the completed
+  research branch and creating a PR against main for independent review.
+- **AI actions (Codex):** Verified committed scope, 30 retained response hashes,
+  documentation, safe evidence headers, credential patterns and Git integrity;
+  preserved A/B1, ISS-003 Open and unrelated dirty work. No source acquisition.
+- **Outcome/status:** Submission authorised; main's Task 012 advance introduces
+  two shared-document merge-preview conflicts, recorded for independent review.
+  No merge or harmonisation authorised; final PR receipt is in the
+  [Task 014.2 archive](../014.2-investigate-historical-ashe-current-boundaries.md).

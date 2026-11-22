@@ -321,3 +321,18 @@ research-only change. No formatter or new test/dependency framework introduced.
 Review status: submitted as local research deliverables for owner consideration;
 no PR, push, merge, mapping or harmonisation implementation. Git commit and
 measured timing receipt are appended to the task archive/shared CSV at cutoff.
+
+### Owner-authorised submission update - 22 November 2026
+
+The owner subsequently requested pushing this existing branch and opening a PR
+against main for independent review; the earlier local-only status above is
+historical. All 11 research files were committed at `66513e8`, and all 30 retained
+response hashes plus documentation, header/security and Git checks were rechecked
+without source acquisition. ISS-003 remains Open and Decisions A/B1 are preserved.
+Main has advanced through Task 012 to `0d24e70be44781d8d102b4a8d4b6fdc1664474b6`.
+A merge-tree preview reports conflicts in the dictionary and issue register;
+no index, working-tree or branch merge was performed. These documentation
+conflicts require reconciliation before any later merge, independently of the
+unresolved geography/methodology review. This submission preserves the original
+research commit, original dirty checkout and clean-history ancestry. No production
+code/data, source acquisition, mappings or merge is included in this handoff.
