@@ -508,3 +508,39 @@ full-suite interval overlaps the ongoing source audit and is not added again.
 Earlier focused tests and owner-input/tool/network/access-review waits are included
 within Stage A, not separately timed or silently subtracted. Stage C independent
 review has not begun. Final total/cutoff and actual PR handoff will be appended.
+
+
+## Independent-review handoff and final timing - 22 November 2026
+
+**PASS WITH CONDITIONS; Completed for the owner-approved offline scope.**
+Implementation commit **824c36c9a00a43b684d5d6b19bede98b4da1930d** is pushed on
+`feature/010-ons-population-ingestion`. [PR #10](https://github.com/chanmlh026/rental-forecasting/pull/10)
+targets unchanged cleaned main **a269f7226a89adf5d968217ca26600abd18dba84**. GitHub
+confirms OPEN, unmerged and mergeable, private visibility and auto-merge disabled.
+There are 17 authorised files, no committed datasets or unrelated ingestion/
+dependency changes. Local test/audit evidence is final for the unchanged code and
+contract; no full-suite/ingestion reruns were performed solely for documentation
+or PR preparation. The status API reports no commit statuses and no CI workflow
+is configured; local validation is not represented as a CI result.
+
+The five previous-version downloads remain unacquired, blocked pending compliant
+contact approval under ISS-022. That outstanding acquisition is not counted as
+completed work. The approved offline component, documentation and one review PR
+are complete. Broader geography/PIT/quality dependencies and ISS-020 remain Open;
+no source discrepancy or current material methodology decision was identified.
+Stage C is independent owner review; no merge or visibility change occurred.
+
+| Measured stage (UTC) | Recorded interval | Minutes |
+|---|---|---:|
+| A: investigation/implementation/tests/offline audit/security | 2026-11-22T09:35:31+00:00 to 2026-11-22T09:58:00+00:00 | 22.483333 |
+| B: documentation and PR preparation | 2026-11-22T09:58:00+00:00 to 2026-11-22T10:05:48+00:00 | 7.800000 |
+| Total measured session | 1817 seconds divided by 60 | 30.283333 |
+
+Whole-second UTC clock-tool precision. The full suite's pytest-reported 66.56
+seconds overlap the source audit and are not added again. Earlier focused tests,
+owner-input waits and tool/network/access-review waits are included within the
+continuous session and were not measured separately or subtracted. No active-CPU
+time is inferred. Cutoff follows implementation push, PR creation and metadata/
+privacy checks. This final receipt/timing write, documentation-only commit/push,
+remote read-back and response are outside the cutoff. Independent review has not
+been timed. The single Task 010 CSV row retains this start/end/duration and status.
