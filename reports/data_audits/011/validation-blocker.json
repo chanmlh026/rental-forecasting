@@ -1,0 +1,69 @@
+{
+  "status": "Historical stopped-gate receipt; superseded by diagnosed compatibility assessment, not rewritten as a source-data PASS",
+  "gate": "Equivalent published net-additions comparison between Tables 122 and 123",
+  "source_observations_reconciled_before_gate": 102000,
+  "source_cells": 102000,
+  "differences": 2925,
+  "numeric_source_pairs": 4530,
+  "policy": "No values changed; no equality enforced with stock changes; further validation/publication/PR preparation stopped pending investigation/owner decision. Raw and existing production outputs preserved.",
+  "offline_rerun_completed": false,
+  "differing_source_rows": [
+    {
+      "source_code": "E92000001",
+      "period": "2012-2013",
+      "source_name_122": "England",
+      "source_name_123": "England",
+      "value_122": 130611.0,
+      "value_123": 130611.1096323843,
+      "source_row_122": 6,
+      "source_column_122": 16,
+      "source_sheet_123": "2012-13",
+      "source_row_123": 4,
+      "source_column_123": 11,
+      "source_markers_json_122": "[\"[note 9]\"]",
+      "source_markers_json_123": "[]",
+      "related_note_text_json_122": "{\"[note 9]\": \"Figures for the following local authorities were not submitted in 2012-13 so were imputed: Halton, Herefordshire, Stoke on Trent, Swindon, Bolton, Manchester, Tameside, Wolverhampton, Kirklees, Copeland, Cotswold, Hyndburn, Preston, Daventry, West Somerset, Newcastle under Lyme and Warwick.\"}",
+      "related_note_text_json_123": "{}"
+    },
+    {
+      "source_code": "E92000001",
+      "period": "2013-2014",
+      "source_name_122": "England",
+      "source_name_123": "England",
+      "value_122": 142494.0,
+      "value_123": 142494.10963238432,
+      "source_row_122": 6,
+      "source_column_122": 17,
+      "source_sheet_123": "2013-14",
+      "source_row_123": 4,
+      "source_column_123": 11,
+      "source_markers_json_122": "[\"[note 10]\"]",
+      "source_markers_json_123": "[]",
+      "related_note_text_json_122": "{\"[note 10]\": \"Figures for the following local authorities were not submitted in 2013-14 so were imputed: Cheshire East, Halton, Herefordshire, Luton, Milton Keynes, Shropshire, Southend-on-Sea, Stoke on Trent, Torbay, Tameside, Copeland, Shepway, Tonbridge and Malling, Preston, Daventry, Newcastle under Lyme, Stafford, Tamworth and Warwick.\"}",
+      "related_note_text_json_123": "{}"
+    },
+    {
+      "source_code": "E92000001",
+      "period": "2014-2015",
+      "source_name_122": "England",
+      "source_name_123": "England",
+      "value_122": 176582.0,
+      "value_123": 176582.10963238432,
+      "source_row_122": 6,
+      "source_column_122": 18,
+      "source_sheet_123": "2014-15",
+      "source_row_123": 4,
+      "source_column_123": 11,
+      "source_markers_json_122": "[\"[note 11]\"]",
+      "source_markers_json_123": "[]",
+      "related_note_text_json_122": "{\"[note 11]\": \"Figures for the following local authorities were not submitted in 2014-15 so were imputed: Blackpool, Herefordshire, Luton, Slough, Southend-on-Sea,  Stoke on Trent, Kirklees, Barrow-in-Furness, Rochford, Maidstone, Wyre, Daventry, Craven and Newcastle-under-Lyme.\"}",
+      "related_note_text_json_123": "{}"
+    }
+  ],
+  "full_original_failure_evidence": {
+    "path": "data\\validation_reports\\mhclg_housing\\snapshot=2026-11-22-task011\\cross-table-initial-failure.json",
+    "sha256": "66d77f354ccd63c2c7aa3fa1149462b3f33f433668ca9501c16e3e2be311fef1",
+    "rows": 2925
+  },
+  "read_only_diagnosis": "The cross-table raw equality gate is an unsupported assumption: integer Table 122 versus fractional unrounded Table 123 values. All individual ingested source cells matched original XML. Task requires reporting compatibility inconsistencies without transforms. Exact differences retained; no rounding/tolerance/source selection introduced."
+}

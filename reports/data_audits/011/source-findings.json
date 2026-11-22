@@ -1,0 +1,1030 @@
+{
+  "coverage": [
+    {
+      "edition_id": "table122",
+      "sheet": "LT_122",
+      "measure": "net_additional_dwellings",
+      "periods": 24,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        272,
+        281,
+        285,
+        286,
+        288,
+        292
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2012-13",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        277
+      ],
+      "numeric_cohort_values": [
+        277
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2012-13",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        277
+      ],
+      "numeric_cohort_values": [
+        277
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2013-14",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2013-14",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2014-15",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2014-15",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2015-16",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2015-16",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2016-17",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2016-17",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2017-18",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2017-18",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2018-19",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2018-19",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        281
+      ],
+      "numeric_cohort_values": [
+        281
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2019-20",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        285
+      ],
+      "numeric_cohort_values": [
+        285
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2019-20",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        285
+      ],
+      "numeric_cohort_values": [
+        285
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2020-21",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        286
+      ],
+      "numeric_cohort_values": [
+        286
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2020-21",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        286
+      ],
+      "numeric_cohort_values": [
+        286
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2021-22",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2021-22",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2022-23",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2022-23",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        288
+      ],
+      "numeric_cohort_values": [
+        288
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2023-24",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2023-24",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2024-25",
+      "measure": "net_additional_dwellings",
+      "periods": 1,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "table123",
+      "sheet": "2024-25",
+      "measure": "new_build_completions",
+      "periods": 1,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        292
+      ]
+    },
+    {
+      "edition_id": "table125",
+      "sheet": "LT_125_rounded",
+      "measure": "dwelling_stock_rounded",
+      "periods": 25,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        272,
+        281,
+        285,
+        286,
+        288,
+        292
+      ]
+    },
+    {
+      "edition_id": "table125",
+      "sheet": "LT_125_unrounded",
+      "measure": "dwelling_stock_unrounded",
+      "periods": 25,
+      "exact_code_matches": [
+        292
+      ],
+      "numeric_cohort_values": [
+        272,
+        281,
+        285,
+        286,
+        288,
+        292
+      ]
+    }
+  ],
+  "measure_counts": [
+    {
+      "table_id": "122",
+      "measure": "net_additional_dwellings",
+      "source_cells": 10104
+    },
+    {
+      "table_id": "123",
+      "measure": "census_2021_adjustment",
+      "source_cells": 3252
+    },
+    {
+      "table_id": "123",
+      "measure": "demolitions",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "net_additional_dwellings",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "net_change_of_use",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "net_conversions",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "net_other_gains_and_losses",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "new_build_completions",
+      "source_cells": 4596
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_agricultural_to_residential",
+      "source_cells": 3504
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_any_other_to_residential",
+      "source_cells": 3504
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_building_upwards_to_create_dwelling_houses_on_commercial_or_mixed_use_buildings_in_a_terrace",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_building_upwards_to_create_dwelling_houses_on_detached_blocks_of_flats",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_building_upwards_to_create_dwelling_houses_on_detached_commercial_or_mixed_use_buildings",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_building_upwards_to_create_dwelling_houses_on_detached_dwelling_houses",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_building_upwards_to_create_dwelling_houses_on_dwelling_houses_in_a_terrace",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_commercial_business_and_service_to_residential",
+      "source_cells": 1000
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_demolition_of_buildings_and_construction_of_dwelling_houses",
+      "source_cells": 1694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_demolitions",
+      "source_cells": 1000
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_light_industrial_use_to_residential",
+      "source_cells": 2776
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_office_to_residential",
+      "source_cells": 3504
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_storage_to_residential",
+      "source_cells": 3176
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_total",
+      "source_cells": 694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_total_new_build",
+      "source_cells": 1000
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_total_to_residential",
+      "source_cells": 3504
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_unspecified",
+      "source_cells": 694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_unspecified_new_build",
+      "source_cells": 1000
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_unspecified_source_label",
+      "source_cells": 694
+    },
+    {
+      "table_id": "123",
+      "measure": "of_which_under_pdr_unspecified_to_residential",
+      "source_cells": 3504
+    },
+    {
+      "table_id": "125",
+      "measure": "dwelling_stock_rounded",
+      "source_cells": 10675
+    },
+    {
+      "table_id": "125",
+      "measure": "dwelling_stock_unrounded",
+      "source_cells": 10675
+    }
+  ],
+  "value_markers": [
+    {
+      "edition_id": "table122",
+      "source_value_text": "[x]",
+      "cells": 1224
+    },
+    {
+      "edition_id": "table125",
+      "source_value_text": "[x]",
+      "cells": 2410
+    }
+  ],
+  "geography_code_examples": [
+    {
+      "source_code": "E08000016",
+      "source_names": [
+        "Barnsley"
+      ],
+      "sheets": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "LT_122",
+        "LT_125_rounded",
+        "LT_125_unrounded"
+      ]
+    },
+    {
+      "source_code": "E08000019",
+      "source_names": [
+        "Sheffield"
+      ],
+      "sheets": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "LT_122",
+        "LT_125_rounded",
+        "LT_125_unrounded"
+      ]
+    },
+    {
+      "source_code": "E08000020",
+      "source_names": [
+        "Gateshead"
+      ],
+      "sheets": [
+        "2012-13"
+      ]
+    },
+    {
+      "source_code": "E08000037",
+      "source_names": [
+        "Gateshead"
+      ],
+      "sheets": [
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "LT_122",
+        "LT_125_rounded",
+        "LT_125_unrounded"
+      ]
+    }
+  ],
+  "quality_flag_counts": {
+    "publisher_provisional_note_year_differs_from_sheet": 7216,
+    "publisher_revised_note_year_differs_from_sheet": 7544,
+    "unrounded_sheet_carries_rounded_wording": 10675
+  },
+  "cross_table_precision": {
+    "exact_numeric_differences": 2925,
+    "displayed_differences": 98,
+    "observed_max_absolute_difference": 0.5,
+    "examples": [
+      {
+        "source_code": "E92000001",
+        "period": "2012-2013",
+        "value_122": 130611.0,
+        "source_display_text_122": "130,611",
+        "value_123": 130611.1096323843,
+        "source_display_text_123": "130,611"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2013-2014",
+        "value_122": 142494.0,
+        "source_display_text_122": "142,494",
+        "value_123": 142494.10963238432,
+        "source_display_text_123": "142,494"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2014-2015",
+        "value_122": 176582.0,
+        "source_display_text_122": "176,582",
+        "value_123": 176582.10963238432,
+        "source_display_text_123": "176,582"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2015-2016",
+        "value_122": 195534.0,
+        "source_display_text_122": "195,534",
+        "value_123": 195534.10963238435,
+        "source_display_text_123": "195,534"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2016-2017",
+        "value_122": 223234.0,
+        "source_display_text_122": "223,234",
+        "value_123": 223234.10963238435,
+        "source_display_text_123": "223,234"
+      }
+    ],
+    "interpretation": "Native source stored precision differs. Census-adjustment context retained; no universal cause/rounding policy certified, no tolerance or source choice applied. Both numeric literals and display strings preserved."
+  },
+  "publication_evidence": [
+    {
+      "edition_id": "table122",
+      "source_row": 1,
+      "text": "Table 122: Net additional dwellings by local authority district, England 2001-02 to 2024-25"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 2,
+      "text": "Date of publication"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 3,
+      "text": "20 November 2025\nNext update: November 2026 (provisional)"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 4,
+      "text": "Background"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 5,
+      "text": "The housing supply: net additional dwellings statistics, also known as 'net additions', measure the absolute change in stock between one year and the next, including losses and gains from new builds, conversions, changes of use (for example a residential house to an office) and demolitions. Net additions are comprised of 'new build completions' plus 'conversions' plus 'change of use' plus 'other net gains' minus 'demolitions'. Table 122 gives a breakdown at local authority level."
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 6,
+      "text": "New Local Authority Geographies"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 7,
+      "text": "On 1st April 2009 nine new unitary authorities (UAs) were formed from the combination of 37 former district councils: Cheshire West UA from Chester, Ellesmere Port & Neston and Vale Royal; Cheshire East UA was formed from Congleton, Crewe & Nantwich and Macclesfield; Bedford UA from Bedford; and Central Bedfordshire UA from Mid Bedfordshire and South Bedfordshire. The remaining five new UAs were each formed from all former districts of the county concerned.\n\n On 1st April 2019 five new unitary authorities (UAs) were formed from the combination of 15 former district councils: Bournemouth, Christchurch and Poole UA from Bournemouth UA, Christchurch and Poole UA; Somerset West and Taunton from West Somerset and Taunton Deane; East Suffolk from Suffolk Coastal and Waveney; West Suffolk from Forest Heath and St. Edmundsbury; and Dorset UA from East Dorset, North Dorset, Purbeck, West Dorset, Weymouth and Portland.\n\n On 1st April 2020 one new unitary authority (UA) was formed from the combination of 4 former district councils: Buckinghamshire UA from Alyesbury Vale, South Bucks, Chiltern and Wycombe.\n\n On 1st April 2021 two new unitary authorities (UAs) were formed from the combination of 7 former district councils: North Northamptonshire from Corby, East Northamptonshire, Kettering and Wellingborough; and West Northamptonshire from Daventry, Northampton and South Northamptonshire.\n\n On 1st April 2023, four new unitary authorities (UAs) were formed from the combination of 17 former district councils: Cumberland from Allerdale, Carlisle and Copeland; Westmorland and Furness from Barrow-in-Furness, Eden and South Lakeland; North Yorkshire from Craven, Hambleton, Harrogate, Richmondshire, Ryedale, Scarborough and Selby; and Somerset from Mendip, Sedgemoor, Somerset West and Taunton, and South Somerset.\n\n Figures are no longer collected on the previous geographic basis."
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 8,
+      "text": "Sources and data collection"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 9,
+      "text": "The sources of the net additions data are the Housing Flows Reconciliation (HFR), the Greater London Authority and Regional Assembly joint returns. From 2000-01 to 2003-04, all local authorities submitted data to CLG through the Housing Flows Reconcilation (HFR) form. Between 2004-05 and 2008-09 CLG worked jointly with Regional Planning bodies in the south and midlands on joint data returns in an attempt to ensure consistency between the net housing supply figures reported in regional Annual Monitoring Reports (AMRs) and those published by central government. Following the abolition of the Regional Planning Bodies in 2010, Local authorities in all regions except London have returned to submitting data via the HFR from 2009-10. Data for London are supplied by the GLA. More detail can be found in the 'data collection' section in our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 10,
+      "text": "Technical notes"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 11,
+      "text": "Census adjustments"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 12,
+      "text": "These statistics are compared against the census on its release every 10 years to ensure that the sum of net additions over that period matches the difference between the latest census dwelling count and the previous one. The net additions figures are then adjusted, with any difference spread evenly across the 10 years since the previous census.The dwelling counts from the 2011 Census have been used to revise the net supply estimates from 2001-02 to 2010-11, and the dwelling counts from the 2021 Census have been used to revise the net supply estimates from 2011-12 to 2020-21. More detail can be found in the 'scheduled revisions' section of our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 13,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 14,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 15,
+      "text": "Local authorities are able to revise the data they supply for these statistics after the original deadline for submission. In collecting the data for the 2019-20 publication, we allowed local authorities to revise data for the previous two years' published figures. In the statistical releases following, the revisions period covers the previous years' figures only. More detail can be found in the 'scheduled revisions' section of our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 16,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 17,
+      "text": "Response rate and imputation"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 18,
+      "text": "The 2024-25 data in this table is derived from valid HFR 2024-25 returns submitted by 291 of 296 local authorities in England. Imputation is used for any authorities that do not supply data through the HFR form. This year, data was imputed for Telford and Wrekin, North Somerset, Thurrock, Stockport and Hinckley and Bosworth. More detail can be found in the 'data quality' section in our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 19,
+      "text": "Data quality"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 20,
+      "text": "Contact details"
+    },
+    {
+      "edition_id": "table122",
+      "source_row": 21,
+      "text": "Telephone: 0303 44 41864 \nEmail: housing.statistics@communities.gov.uk"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 1,
+      "text": "Net Additional Dwellings, Table 123: net additional dwellings, component flows of, by local authority district, England, 2012-13 to 2024-25"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 2,
+      "text": "Back to contents"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 3,
+      "text": "Date of publication"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 4,
+      "text": "20 November 2025\nNext update: November 2026 (provisional)"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 5,
+      "text": "Background"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 6,
+      "text": "The housing supply: net additional dwellings statistics, also known as \u2018net additions\u2019, measure the absolute change in stock between one year and the next, including losses and gains from new builds, conversions, changes of use (for example a residential house to an office) and demolitions. Net additions are comprised of 'new build completions' plus 'conversions' plus 'change of use' plus 'other net gains' minus 'demolitions'. New build figures from the net supply of housing data may not correspond to new build data from the quarterly housebuilding series, as data collected for the net supply of housing is over a longer period and may pick up some elements missing from the quarterly P2 collections. Table 123 gives a breakdown by component at local authority level. Figures are unrounded."
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 7,
+      "text": "Sources and data collection"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 8,
+      "text": "The sources of the net additions data are the Housing Flows Reconciliation (HFR), the Greater London Authority and Regional Assembly joint returns. From 2000-01 to 2003-04, all local authorities submitted data to CLG through the Housing Flows Reconcilation (HFR) form. Between 2004-05 and 2008-09 CLG worked jointly with Regional Planning bodies in the south and midlands on joint data returns in an attempt to ensure consistency between the net housing supply figures reported in regional Annual Monitoring Reports (AMRs) and those published by central government. Following the abolition of the Regional Planning Bodies in 2010, Local authorities in all regions except London have returned to submitting data via the HFR from 2009-10. Data for London are supplied by the GLA. More detail can be found in the 'data collection' section in our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 9,
+      "text": "Technical notes"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 10,
+      "text": "New Local Authority Geographies"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 11,
+      "text": "On 1st April 2009 nine new unitary authorities (UAs) were formed from the combination of 37 former district councils: Cheshire West UA from Chester, Ellesmere Port & Neston and Vale Royal;  Cheshire East UA was formed from Congleton, Crewe & Nantwich and Macclesfield; Bedford UA from Bedford; and Central Bedfordshire UA from Mid Bedfordshire and South Bedfordshire. The remaining five new UAs were each formed from all former districts of the county concerned. \n\nOn 1st April 2019 five new unitary authorities (UAs) were formed from the combination of 15 former district councils: Bournemouth, Christchurch and Poole UA from Bournemouth UA, Christchurch and Poole UA; Somerset West and Taunton from West Somerset and Taunton Deane; East Suffolk from Suffolk Coastal and Waveney; West Suffolk from Forest Heath and St. Edmundsbury; and Dorset UA from East Dorset, North Dorset, Purbeck, West Dorset, Weymouth and Portland. \n\nOn 1st April 2020 one new unitary authority (UA) was formed from the combination of 4 former district councils: Buckinghamshire UA from Alyesbury Vale, South Bucks, Chiltern and Wycombe. \n\nOn 1st April 2021 two new unitary authorities (UAs) was formed from the combination of 7 former district councils: North Northamptonshire from Corby, East Northamptonshire, Kettering and Wellingborough; and West Northamptonshire from Daventry, Northampton and South Northamptonshire. \n\nOn 1st April 2023, four new unitary authorities (UAs) were formed from the combination of 17 former district councils: Cumberland from Allerdale, Carlisle and Copeland; Westmorland and Furness from Barrow-in-Furness, Eden and South Lakeland; North Yorkshire from Craven, Hambleton, Harrogate, Richmondshire, Ryedale, Scarborough and Selby; and Somerset from Mendip, Sedgemoor, Somerset West and Taunton, and South Somerset.\n\nFigures are no longer collected on the previous geographic basis.  "
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 12,
+      "text": "Revisions"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 13,
+      "text": "Census adjustments"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 14,
+      "text": "These statistics are compared against the census on its release every 10 years to ensure that the sum of net additions over that period matches the difference between the latest census dwelling count and the previous one. The net additions figures are then adjusted, with any difference spread evenly across the 10 years since the previous census.The dwelling counts from the 2011 Census have been used to revise the net supply estimates from 2001-02 to 2010-11, and the dwelling counts from the 2021 Census have been used to revise the net supply estimates from 2011-12 to 2020-21. More detail can be found in the 'scheduled revisions' section of our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 15,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 16,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 17,
+      "text": "Local authorities are able to revise the data they supply for these statistics after the original deadline for submission. In collecting the data for the 2019-20 publication, we allowed local authorities to revise data for the previous two years' published figures. In the statistical releases following, the revisions period covers the previous years' figures only. More detail can be found in the 'scheduled revisions' section of our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 18,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 19,
+      "text": "Response rate and imputation"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 20,
+      "text": "The 2024-25 data in this table is derived from valid HFR 2024-25 returns submitted by 291 of 296 local authorities in England. Imputation is used for any authorities that do not supply data through the HFR form. This year, data was imputed for Telford and Wrekin, North Somerset, Thurrock, Stockport and Hinckley and Bosworth. More detail can be found in the 'data quality' section in our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 21,
+      "text": "Data quality"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 22,
+      "text": "Contact details"
+    },
+    {
+      "edition_id": "table123",
+      "source_row": 23,
+      "text": "Telephone: 0303 44 41864 \nEmail: housing.statistics@communities.gov.uk"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 1,
+      "text": "Table 125: Dwelling stock estimates by local authority district, England, 2001 - 2025"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 2,
+      "text": "Date of publication"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 3,
+      "text": "21 May 2026\nNext update: May 2027"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 4,
+      "text": "Background"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 5,
+      "text": "The dwelling stock statistical release presents National Statistics on estimates of the number of dwellings in England and in each local authority district. The statistics use the Census as a baseline and apply annual net changes to the dwelling stock as measured by the related Housing supply: net additional dwellings statistics. Table 125 gives dwelling stock estimates as at 31 March by English local authority district from 2001 to 2025."
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 6,
+      "text": "Sources and data collection"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 7,
+      "text": "No data is collected directly for this statistical release. Instead, it draws on information from a range of data sources to compile a coherent set of statistics on the total number of dwellings and the tenure profile of the stock. The statistical sources used are linked below:"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 8,
+      "text": "Census 2001 (Office for National Statistics)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 9,
+      "text": "Census 2011 (Office for National Statistics)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 10,
+      "text": "Census 2021 (Office for National Statistics)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 11,
+      "text": "Housing Supply: Net Additional Dwellings (Ministry of Housing, Communities and Local Government)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 12,
+      "text": "Local Authority Housing Statistics (Ministry of Housing, Communities and Local Government)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 13,
+      "text": "Statistical Data Return (Regulator of Social Housing)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 14,
+      "text": "Labour Force Survey (Office for National Statistics)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 15,
+      "text": "English Housing Survey (Ministry of Housing, Communities and Local Government)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 16,
+      "text": "Standard Area Measurements (Office for National Statistics)"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 17,
+      "text": "Methodology"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 18,
+      "text": "The Office for National Statistics (ONS) has recommended that the most suitable method for producing estimates of total dwelling stock at the national and regional levels is to use the census count as a baseline and project this forward using information on annual net supply of housing. The ONS also recommends that, to maintain consistency, the same methodology should be used to produce estimates at the district level."
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 19,
+      "text": "Tenure methodology"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 20,
+      "text": "The total dwelling stock equals the previous year's dwelling stock figure plus the net additional dwellings figure for the current financial year. Local authority and other public sector housing stock, which include non-permanent dwellings, are taken from the Local Authority Housing Statistics return (from 2012), and  private registered provider stock is taken from the Regulator of Social Housing's Statistical Data Return (from 2012). The Private Rented Sector estimated are taken from the Labour Force Survey and smoothed, and owner occupied stock is the total minus the other components. For further details on the methodology, see the methodology section of our technical notes, linked below:"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 21,
+      "text": "Methodology"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 22,
+      "text": "Census adjustments"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 23,
+      "text": "The dwelling stock estimates are calibrated against the census dwelling count on its release every 10 years. Following the 2001 census, the annual figures from 1992 to 2001 were adjusted, with any difference spread evenly across the 10 years since the previous census. The same process was applied to figures for 2002 to 2011 from the 2011 Census, and to figures for 2012 to 2021 from the 2021 Census. Figures for 2001, 2011 and 2021 are the Census figures. More detail can be found in the 'scheduled revisions' section of our technical notes for the release linked below:"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 24,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 25,
+      "text": "Scheduled revisions"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 26,
+      "text": "Scheduled revisions for the dwelling stock estimates are dependent on revisions to the Housing Supply: Net Additional Dwelling statistics and the English Housing Survey statistics. Information on the revisions policy of those statistics can be found in the most recent release of those statistics, which are linked above."
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 27,
+      "text": "Contact details"
+    },
+    {
+      "edition_id": "table125",
+      "source_row": 28,
+      "text": "Email: housing.statistics@communities.gov.uk"
+    }
+  ],
+  "source_compatibility": "All source units dwellings; financial-year flows versus 31 March stock; flow publication 20 November 2025, stock cover publication 21 May 2026. No common denominator date or model-input vintage selected.",
+  "reproduction": "Read validated observations/coverage/notes; group by edition/sheet/measure/period. Cross publication precision join uses source_code and period, preserves both source columns; compare numeric and display fields separately. Full mandatory source XML audit is validate_ingestion.py."
+}
