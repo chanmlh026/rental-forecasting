@@ -276,3 +276,16 @@ No issue closed or newly duplicated. No fixed fallback months, maximum ages or
 predictor-age features are approved. No new source investigation, acquisition or
 exception to ISS-022. See the [baseline](data-architecture-and-dictionary.md#task-01410-approved-methodological-baseline---22-november-2026)
 and [task archive](014.10-consolidate-approved-methodology-and-forecasting-decisions.md).
+
+### Task 014.12 evidence consolidation ? 22 November 2026
+
+[Historical publication matrix and decision register](../reports/data_audits/014.12/README.md)
+consolidate existing evidence for ISS-004 and related ISS-005/009/011/012/013/014/015/016.
+Proceed with documented limitations for this audit; implementation prerequisites
+remain. Seven proposed owner decision groups distinguish historical timing,
+vintage/sample admission and cutoff/completeness handling. Known edition dates
+need no artificial fallback lag. Eight ASHE incomplete retained-input cases
+remain coverage gaps, not eight inferred missing dates. ISS-003/004/022 remain
+Open, ISS-022 access restrictions are unchanged, and no further acquisition was
+performed. Existing geography/Issue E approvals and every prior issue entry/status
+are preserved. No new issue duplicates these dependencies; none resolved here.

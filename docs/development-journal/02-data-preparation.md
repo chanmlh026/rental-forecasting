@@ -305,3 +305,29 @@ dependencies and measured timing remain in their existing shared records.
   documentation checks pass; eight existing ASHE completeness gaps and detailed
   operating/PIT choices remain explicit. Final receipt and measured cutoff are
   retained in Task 014.10 archive/CSV; independent review pending, no implementation.
+
+### 22 November 2026 ? Task 014.12: historical publication evidence consolidation
+
+- **Event/trigger:** Owner requested existing-evidence consolidation after merged
+  PR #18/Task 014.10, without source acquisition, reprocessing or new methods.
+- **Initiated by:** Human. **Human action:** Supplied scope, classification and
+  review requirements. **AI action:** Codex consolidated retained audit metadata
+  into a reproducible matrix and source summary, separating edition timing,
+  numerical vintages and coverage; documented seven outstanding decision groups.
+- **Decision/rationale:** Existing owner approvals preserved. Recommendations are
+  Proposed ? Not Approved. Retained 2022 population notes distinguish July 2024
+  replacement tables from November 2023 originals; no new research was needed.
+- **Outcome/status:** PASS WITH CONDITIONS for consolidation; 27 exact edition
+  dates, one verified month, 48 unresolved timing evidence units. Eight ASHE input
+  cases and five unacquired population versions remain separate coverage gaps.
+  Historical PIT sample/vintage/cutoff decisions remain outstanding. Review PR
+  requested; no merge authorised. No production or dataset changes.
+- **Evidence:** [Audit and decision register](../../reports/data_audits/014.12/README.md),
+  [validation receipt](../../reports/data_audits/014.12/validation-receipt.json),
+  [prompt archive](../014.12-consolidate-historical-publication-evidence-and-temporal-gaps.md),
+  shared execution CSV. ISS-003/004/022 preserved; no issue closed.
+
+- **Same-session submission update:** [PR #19](https://github.com/chanmlh026/rental-forecasting/pull/19)
+  opened for independent review, unmerged. Offline artifact checks executed and
+  passed; no independent source-data validation claimed. Final measured timing
+  cutoff and reporting exclusions are recorded in the shared CSV/task receipt.

@@ -1608,3 +1608,23 @@ implementation, quality, provenance or operating details. Existing source and
 access restrictions remain. Policy approval is distinct from implementation,
 source completeness and validation; this documentation changes no original data,
 production code, configuration, tests, feature generation or model outputs.
+
+## Task 014.12 ? Existing historical publication evidence
+
+The [consolidated audit](../reports/data_audits/014.12/README.md),
+[matrix](../reports/data_audits/014.12/publication-evidence-matrix.json) and
+[source counts](../reports/data_audits/014.12/source-summary.md) distinguish edition
+publication timing, original numerical vintage and input coverage. Exact edition
+dates do not date every observation's first release; update/retrieval/effective
+dates are not automatically publication timestamps. The 76 evidence units
+include 27 exact-date, one month-only and 48 unresolved timing records; these
+are overlapping evidence units, not historical month coverage percentages.
+
+Seven outstanding owner decision groups are proposals only, linked to existing
+ISS-004/005/009/011/012/013/014/015/016. No fixed fallback month, maximum age,
+operational cutoff or numerical-vintage substitution is approved here. The
+Task 014.10 baseline, Decisions A/B1, Issue E, Option B, approved IUMZID4 policy,
+complete-input ASHE mean scope, UMB baseline and excluded/deferred planning
+variables remain intact. Eight ASHE incomplete retained-input cases remain
+coverage gaps, separately from undated editions. ISS-003 and ISS-022 remain
+Open; no source acquisition or geographical/temporal implementation occurred.
