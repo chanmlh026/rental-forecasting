@@ -191,3 +191,8 @@ dependencies and measured timing remain in their existing shared records.
   [Task 014.3 research](../../reports/data_audits/014.3/README.md),
   [Task 014.4 research](../../reports/data_audits/014.4/README.md),
   [issues](../issue-register.md), [timing](../task-execution-log.csv).
+
+- **Integration outcome update:** PR #15 merged at `8d97df3`; PR #16 updated
+  at `079bb3e` and confirmed open/mergeable/unmerged. Both offline validators
+  and preservation checks pass. Final receipt/timing in the same Task 014.5
+  archive and CSV; independent review of PR #16 remains pending.
