@@ -41,6 +41,137 @@ The architecture below remains a proposal beyond the implemented PIPR workflow.
 Source findings inform later decisions; they do not authorise additional
 implementation.
 
+### Decision A: Barnsley and Sheffield historical boundary harmonisation
+
+**Decision date:** 22 November 2026. **Status:** Methodology approved by the
+project owner; technical implementation and validation pending (Task 014.1,
+ISS-003). This is the decision record in the existing dictionary convention;
+the [task archive](014.1-barnsley-sheffield-geography-decision-a.md) preserves
+the original, revised and resumption instructions.
+
+#### Approved policy and scope
+
+Historical Barnsley and Sheffield observations are accepted as sufficiently
+comparable with the approved April 2025 local-authority boundaries for rental
+forecasting. The following is an approved policy for future preprocessing,
+not an implemented mapping table:
+
+| Local authority | Historical GSS code | April 2025 target GSS code | Current identifier treatment |
+|---|---|---|---|
+| Barnsley | `E08000016` | `E08000038` | `E08000038` resolves to itself |
+| Sheffield | `E08000019` | `E08000039` | `E08000039` resolves to itself |
+
+Both historical and current identifiers will resolve to the respective target.
+Historical statistical values remain unchanged solely for this boundary change.
+Original source codes and geography vintages must remain available. Approval
+is limited to these two authorities and does not authorise broader historical
+harmonisation, an implementation now, or changes to the pinned reference.
+
+#### Project owner's stated rationale
+
+The owner judges the transferred Oughtibridge Mill area small relative to both
+authorities, with few existing/planned dwellings relative to their housing stock
+and limited potential population impact relative to their total populations.
+The owner expects the effect on aggregate population, unemployment and rental
+statistics to be unlikely to be material, and considers the historical data
+sufficiently representative for forecasting. Accepting this approximation
+preserves useful history while avoiding unnecessary statistical adjustments
+and engineering complexity.
+
+This is a **human-approved modelling judgement**, not empirical proof of zero
+impact. No transferred-area size, realised resident count or effect on rent or
+unemployment has been independently quantified here. The evidence below
+illustrates scale; it does not establish an impact estimate.
+
+#### Boundary evidence and definitions
+
+Official documents were reviewed on 22 November 2026 for documentation only;
+no statistical dataset was acquired.
+
+| Figure / fact | Official publisher, document and reference | Verification and limitations |
+|---|---|---|
+| Transfer effective **1 April 2025**, Barnsley to Sheffield | [UK Government, The Barnsley and Sheffield (Boundary Change) Order 2024, SI 2024/1328](https://www.legislation.gov.uk/uksi/2024/1328/pdfs/uksi_20241328_en.pdf), made 12 December 2024, articles 1(3), 2 and 3 | Verified transfer date/direction. Articles 8/9 commenced earlier for preparation; not the transfer date. |
+| Oughtibridge Mill; **12 occupied properties/households** at review time | [LGBCE, Oughtibridge Mill Principal Area Boundary Review: Final Recommendations, January 2023](https://www.lgbce.org.uk/sites/default/files/2023-03/barnsley_and_sheffield_pabr_final_recommendations_report.pdf), paragraphs 4 and 20, printed pages 1/5 | Verified historical review statement, not a count remeasured on 1 April 2025. The [review page](https://www.lgbce.org.uk/all-reviews/pabr-barnsley-and-sheffield) identifies the development; its draft-order status is superseded by the made Order. |
+| **284 planned/future dwellings** | Same LGBCE report, paragraphs 4/20 and Appendix A; [MHCLG, Explanatory Memorandum to SI 2024/1328](https://www.legislation.gov.uk/uksi/2024/1328/pdfs/uksiem_20241328_en_001.pdf), paragraph 5.7 | Official wording differs: LGBCE paragraph 4 describes 284 as the total expected dwellings and paragraph 20 as the eventual household total; Appendix A and the later memorandum describe 284 future dwellings, the memorandum alongside 12 existing dwellings. Total versus additional interpretation is therefore not conclusively reconciled. Neither interpretation establishes 284 completed homes transferred. |
+| **Approximately 500 projected electors** | LGBCE January 2023 report, paragraph 4 | Verified projection for site occupation; no precise projection date/build-out year stated there. Electors are not total residents, nor a measured electorate transferred in April 2025. |
+
+The conflicting 284 wording is retained for owner review, without choosing a
+new interpretation or changing Decision A. No current completion/occupancy
+count is inferred. The report's build-out projection does not establish the
+number of homes or residents actually transferred.
+
+#### Population evidence and illustrative calculations
+
+**Publisher:** Office for National Statistics. **Dataset:** Population estimates
+for England and Wales; edition `mid20252023localauthorityboundaries`, workbook
+*Mid-Year Population Estimates, England and Wales, June 2025*, published
+29 July 2026. **Reference period:** mid-2025 (June 2025); MYE4, all persons.
+The [exact official workbook URL](https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20252023localauthorityboundaries%2Fmye25tablesew.xlsx)
+is pinned as `summary2025` in [the existing inventory](../configs/ons_population_sources.json).
+
+| Authority / published source code | Exact population / source cell | Calculation | Illustrative result |
+|---|---|---|---|
+| Barnsley / `E08000016` | 252,784 persons, MYE4 `D72` | 500 / 252,784 x 100 | 0.198% |
+| Sheffield / `E08000019` | 579,517 persons, MYE4 `D75` | 500 / 579,517 x 100 | 0.086% |
+
+Verified independently by read-only inspection of the retained Task 010 source
+bytes; SHA-256 matches the inventory:
+`85b4e105e9618043884e5ac41d46e6eae8a46bb01b31790f1c76110cbe92d0d8`.
+Existing [Task 010 evidence](../reports/data_audits/010/README.md) remains unchanged.
+The workbook uses the historical codes; Notes 4/5 refer to April 2024 geography
+and April 2023 changes, despite the 2025 statistical reference. These wording
+limitations remain explicit; this is not verification of target-boundary totals.
+The percentages compare **projected electors with total estimated persons**,
+not actual population changes, and cannot identify the residents transferred.
+
+#### Housing-stock evidence and illustrative calculations
+
+**Publisher:** Ministry of Housing, Communities and Local Government.
+**Dataset:** [Table 125: Dwelling stock estimates by local authority district,
+England, 2001-2025](https://assets.publishing.service.gov.uk/media/6a0dcbf65c3c79da61662e39/LiveTable125.ods),
+cover publication 21 May 2026; `LT_125_unrounded`, **31 March 2025 [p]** column.
+These are all dwellings including vacants, not households, and are provisional.
+The reference date precedes the boundary transfer; historical source codes
+are retained.
+
+| Authority / published source code | Verified stock / source cell | Calculation using planned quantity 284 | Illustrative result |
+|---|---|---|---|
+| Barnsley / `E08000016` | 116,139 dwellings, `LT_125_unrounded!AB106` | 284 / 116,139 x 100 | 0.245% |
+| Sheffield / `E08000019` | 252,656 dwellings, `LT_125_unrounded!AB109` | 284 / 252,656 x 100 | 0.112% |
+
+Read-only inspection of the original ODS XML confirms these numeric source
+values; its SHA-256 matches [the pinned Task 011 inventory](../configs/mhclg_housing_sources.json):
+`8bf5ca0244e68d8cf8096e200535035fb02fada1802717327f933015c50c41b2`.
+The [existing source audit](../reports/data_audits/011/README.md) is unchanged.
+Earlier denominators 116,000 and 253,000 are approximate estimates consistent
+with these totals when expressed to the nearest thousand, not exact published
+stock values: 284 / 116,000 x 100 is approximately 0.245%;
+284 / 253,000 x 100 is approximately 0.112%.
+Their original vintage was not established; the verified totals above supply
+an explicit reference date instead. These are illustrative scale comparisons
+using a planned quantity with the definition uncertainty noted above, not
+measured completed-stock changes on 1 April 2025 or approved model features.
+Calculated percentages are rounded to three decimal places for display only.
+
+#### Future implementation, validation and amendments
+
+Task 014 implementation must use an explicit, reusable GSS mapping mechanism
+covering both historical and current identifiers; preserve original codes,
+geography vintages and mapping provenance; and retain source values without
+boundary-related numerical adjustment. Validate uniqueness and prevent
+unintended duplicate authority-period observations or incorrect many-to-one
+joins within the relevant source/measure/vintage. Investigate coexistence of
+historical and current identifiers for the same period before joining. Preserve
+the accepted approximation in audit and modelling metadata.
+
+The detailed mapping-table structure, file format and integration are delegated
+to Codex during later authorised implementation, not designed or implemented
+here. ISS-003 stays **Open** for implementation/validation and other historical
+geography issues. Issues B, C, D and E are separate, unreviewed and unapproved
+in Phase 2; Decision A does not resolve them. Retain this original approval and
+rationale; any subsequent amendment must record its date, reason and evidence
+without extending this approval to other transformations.
+
 ## 2. Proposed architecture
 
 ### Implemented Bank of England source contract (Task 007, 21 November 2026)
@@ -468,8 +599,12 @@ Recurring exact-code mismatches are **Barnsley** (source `E08000016`, project
 source rows exist: 292 direct-code matches must not be described as two absent
 geographic observations. Gateshead also uses an older code in Table 123's 2012-13
 sheet. Names alone do not establish boundary equivalence. Retain original codes
-and obtain approval for effective-dated mappings; this task changes neither the
-cohort nor geography reference.
+and apply only owner-approved policies during later authorised preprocessing.
+[Decision A](#decision-a-barnsley-and-sheffield-historical-boundary-harmonisation)
+now approves the Barnsley/Sheffield approximation; implementation and validation
+remain pending. Other historical mappings still require approval. Neither this
+documentation update nor the earlier source inspection changes the cohort or
+geography reference.
 
 A source numeric value can already contain publisher imputation or adjustment.
 Table 123 identifies imputation partly by colour; its Notes year labels lag its
