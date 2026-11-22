@@ -326,3 +326,8 @@ dependencies and measured timing remain in their existing shared records.
   [validation receipt](../../reports/data_audits/014.12/validation-receipt.json),
   [prompt archive](../014.12-consolidate-historical-publication-evidence-and-temporal-gaps.md),
   shared execution CSV. ISS-003/004/022 preserved; no issue closed.
+
+- **Same-session submission update:** [PR #19](https://github.com/chanmlh026/rental-forecasting/pull/19)
+  opened for independent review, unmerged. Offline artifact checks executed and
+  passed; no independent source-data validation claimed. Final measured timing
+  cutoff and reporting exclusions are recorded in the shared CSV/task receipt.
