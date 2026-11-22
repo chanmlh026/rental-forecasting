@@ -299,3 +299,9 @@ dependencies and measured timing remain in their existing shared records.
 - **Evidence/references:** [Verbatim prompt and receipt](../014.10-consolidate-approved-methodology-and-forecasting-decisions.md),
   [current baseline](../data-architecture-and-dictionary.md#task-01410-approved-methodological-baseline---22-november-2026),
   [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+- **Submission update:** [PR #18](https://github.com/chanmlh026/rental-forecasting/pull/18)
+  is open/non-draft/mergeable/unmerged against merged main `85e60e4`. Requested
+  documentation checks pass; eight existing ASHE completeness gaps and detailed
+  operating/PIT choices remain explicit. Final receipt and measured cutoff are
+  retained in Task 014.10 archive/CSV; independent review pending, no implementation.
