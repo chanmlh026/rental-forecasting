@@ -1,0 +1,13 @@
+{
+  "dataset_id": "NM_127_1",
+  "item": "2",
+  "rate_measure": "20100",
+  "confidence_measure": "20701",
+  "geography_selector": "2092957699TYPE424",
+  "geography_typecode": "424",
+  "geography_label": "local authorities: district / unitary (as of April 2023)",
+  "first_period": "2004-12",
+  "last_period": "2026-06",
+  "period_count": 87,
+  "chunk_periods": 20
+}

@@ -1,0 +1,183 @@
+{
+  "status": "PASS WITH CONDITIONS",
+  "conditions": [
+    "Unharmonised source geography",
+    "Incomplete historical publication availability",
+    "Source missingness and uncertainty gaps retained"
+  ],
+  "source_observations": 51504,
+  "source_areas": 296,
+  "periods": 87,
+  "all_source_records_reconciled": 51504,
+  "processed_measure_pairs_reconciled": 51504,
+  "representative_official_records_reconciled": 2,
+  "representative_comparison": {
+    "compared": [
+      {
+        "key": [
+          "2026-06",
+          "1778384897",
+          "2",
+          "20100"
+        ],
+        "source_urn": "Nm-127d1d32422e0d1778384897d2d20100",
+        "source_value_text": "5.5",
+        "request_fields_differing": [
+          "DATE_SORTORDER",
+          "ITEM_SORTORDER",
+          "RECORD_COUNT",
+          "RECORD_OFFSET"
+        ]
+      },
+      {
+        "key": [
+          "2026-06",
+          "1778384897",
+          "2",
+          "20701"
+        ],
+        "source_urn": "Nm-127d1d32422e0d1778384897d2d20701",
+        "source_value_text": "1.6",
+        "request_fields_differing": [
+          "DATE_SORTORDER",
+          "ITEM_SORTORDER",
+          "RECORD_COUNT",
+          "RECORD_OFFSET"
+        ]
+      }
+    ],
+    "count_rows_excluded": 2,
+    "excluded_equivalence_fields": [
+      "DATE_SORTORDER",
+      "GEOGRAPHY_SORTORDER",
+      "ITEM_SORTORDER",
+      "MEASURES_SORTORDER",
+      "RECORD_COUNT",
+      "RECORD_OFFSET"
+    ]
+  },
+  "independent_latest_rate_confidence_cells": 592,
+  "independent_latest_count_cells_excluded": 592,
+  "independent_request_provenance": {
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2026-06&item=1,2&measures=20100,20701",
+    "rows": 1184,
+    "item_codes": [
+      "1",
+      "2"
+    ],
+    "measure_codes": [
+      "20100",
+      "20701"
+    ],
+    "pagination_validated": true,
+    "response_sha256": "d772e7584ce392f4b6bd4710f4f3c97bc1317485ea4149bf05b3d6522e9d5d2f"
+  },
+  "original_failure_evidence_preserved": true,
+  "resumed_data_files_unchanged": 342,
+  "per_period_coverage_reconciled": 87,
+  "source_requests": [
+    {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2004-12%2C2005-03%2C2005-06%2C2005-09%2C2005-12%2C2006-03%2C2006-06%2C2006-09%2C2006-12%2C2007-03%2C2007-06%2C2007-09%2C2007-12%2C2008-03%2C2008-06%2C2008-09%2C2008-12%2C2009-03%2C2009-06%2C2009-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+      "rows": 11840,
+      "item_codes": [
+        "2"
+      ],
+      "measure_codes": [
+        "20100",
+        "20701"
+      ],
+      "pagination_validated": true,
+      "source": "history01",
+      "sha256": "bf41c4f77d3a10b0d10b78491f78e8ce27dd4169163643bc21b74b7334510960"
+    },
+    {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2009-12%2C2010-03%2C2010-06%2C2010-09%2C2010-12%2C2011-03%2C2011-06%2C2011-09%2C2011-12%2C2012-03%2C2012-06%2C2012-09%2C2012-12%2C2013-03%2C2013-06%2C2013-09%2C2013-12%2C2014-03%2C2014-06%2C2014-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+      "rows": 11840,
+      "item_codes": [
+        "2"
+      ],
+      "measure_codes": [
+        "20100",
+        "20701"
+      ],
+      "pagination_validated": true,
+      "source": "history02",
+      "sha256": "5c187cc5bbd2a8d8338d31768f4ddd5c7b53beda6015f47918aa340169c2cc17"
+    },
+    {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2014-12%2C2015-03%2C2015-06%2C2015-09%2C2015-12%2C2016-03%2C2016-06%2C2016-09%2C2016-12%2C2017-03%2C2017-06%2C2017-09%2C2017-12%2C2018-03%2C2018-06%2C2018-09%2C2018-12%2C2019-03%2C2019-06%2C2019-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+      "rows": 11840,
+      "item_codes": [
+        "2"
+      ],
+      "measure_codes": [
+        "20100",
+        "20701"
+      ],
+      "pagination_validated": true,
+      "source": "history03",
+      "sha256": "b90105346bc194eef70bfb2f1f24088100137ce82a870def7f193d9ac7f94147"
+    },
+    {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2019-12%2C2020-03%2C2020-06%2C2020-09%2C2020-12%2C2021-03%2C2021-06%2C2021-09%2C2021-12%2C2022-03%2C2022-06%2C2022-09%2C2022-12%2C2023-03%2C2023-06%2C2023-09%2C2023-12%2C2024-03%2C2024-06%2C2024-09&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+      "rows": 11840,
+      "item_codes": [
+        "2"
+      ],
+      "measure_codes": [
+        "20100",
+        "20701"
+      ],
+      "pagination_validated": true,
+      "source": "history04",
+      "sha256": "eebb0c6b8cbf7152376dc544cb323db4339e29142006ef55f1f922773149fd7a"
+    },
+    {
+      "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_127_1.data.csv?geography=2092957699TYPE424&date=2024-12%2C2025-03%2C2025-06%2C2025-09%2C2025-12%2C2026-03%2C2026-06&item=2&measures=20100%2C20701&ExcludeMissingValues=false&ExcludeZeroValues=false",
+      "rows": 4144,
+      "item_codes": [
+        "2"
+      ],
+      "measure_codes": [
+        "20100",
+        "20701"
+      ],
+      "pagination_validated": true,
+      "source": "history05",
+      "sha256": "cf23e79eb9890d97877e453cfb45688c035d80536b44566ca4af25a54ad61343"
+    }
+  ],
+  "verified_research_bundles": 29,
+  "raw_statuses": {
+    "A": 48928,
+    "Q": 2576
+  },
+  "numeric_rate_range": [
+    281,
+    292
+  ],
+  "numeric_confidence_range": [
+    273,
+    274
+  ],
+  "latest_coverage": {
+    "period_code": "2026-06",
+    "period_label": "Jul 2025-Jun 2026",
+    "source_areas": 296,
+    "source_observations": 592,
+    "exact_cohort_matches": 292,
+    "numeric_cohort_rates": 292,
+    "numeric_cohort_confidence": 273,
+    "numeric_source_rates": 294,
+    "numeric_source_confidence": 275,
+    "missing_numeric_cohort_rate_codes_json": "[]",
+    "missing_numeric_cohort_confidence_codes_json": "[\"E06000047\", \"E06000049\", \"E06000050\", \"E06000051\", \"E06000052\", \"E06000054\", \"E06000056\", \"E06000057\", \"E06000058\", \"E06000059\", \"E06000060\", \"E06000061\", \"E06000062\", \"E06000063\", \"E06000064\", \"E06000065\", \"E06000066\", \"E07000244\", \"E07000245\"]",
+    "unmatched_target_codes_json": "[\"E08000038\", \"E08000039\"]",
+    "unmatched_source_codes_json": "[\"E06000053\", \"E08000016\", \"E08000019\", \"E09000001\"]",
+    "observation_status_counts_json": "{\"A\": 569, \"Q\": 23}"
+  },
+  "prior_files_unchanged": 290,
+  "offline_rerun_files_unchanged": 342,
+  "original_checkout": "Untouched; separate original pre-remediation checkout is not a push source",
+  "preservation_scope": "All data files present in clean checkout before this resumed ingestion; excluded original checkout datasets were not imported"
+}
