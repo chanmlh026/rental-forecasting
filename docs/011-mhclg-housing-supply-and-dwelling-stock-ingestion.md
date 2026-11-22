@@ -579,3 +579,72 @@ This final receipt/timing/evidence-note write, documentation-only commit/push,
 remote read-back and final response are outside the cutoff. Stage C independent
 review remains pending and is not timed. The single shared Task 011 CSV row
 retains this actual start/end/duration and Completed status.
+
+
+## Task 011.1 owner-approved source decision - 22 November 2026
+
+The following owner instructions supersede the earlier pending source-selection
+checkpoint in this report. The source-selection part of ISS-009 is resolved; the
+issue remains Open for Phase 2 stock-denominator timing, rounding convention and
+other compatibility decisions. The [dictionary's approved policy](data-architecture-and-dictionary.md#task-0111-approved-mhclg-modelling-source-policy---22-november-2026)
+is the current modelling source contract. Earlier implementation/audit statements
+above describe the decisions and validation available at those historical checkpoints.
+No further detailed comparison is required before Task 011 merge. This update
+preserves the original audit evidence, source values and historical limitations;
+it introduces no ingestion, preprocessing or modelling change. ISS-020 stays Open.
+
+### Owner instructions (verbatim)
+
+# 011.1 Record Approved MHCLG Housing Supply Modelling Source Decision
+
+## Objective
+
+Record the project owner's approved methodology decision for MHCLG housing supply data, following Task 011.
+
+This is a documentation-only task. Do not modify ingestion code, source data, tests or modelling features.
+
+## Approved Decisions
+
+1. **Table 123 is the exclusive source for housing supply flow variables used in modelling**, including net additional dwellings, new-build completions, conversions, changes of use and demolitions.
+2. **Table 122 is retained solely for source reconciliation and data-quality auditing.** Its longer historical coverage is not required for the currently planned modelling period.
+3. The modelling history begins in **2015**, with data extending through 2026 where available. Do not assume unpublished observations exist. Preserve earlier ingested data where relevant for historical lags or future research.
+4. Observed differences between equivalent Table 122 and Table 123 net-additions values are accepted for the current ingestion scope. Existing evidence shows a maximum absolute difference of 0.5 dwelling across 4,530 comparable numeric observations.
+5. No further detailed comparison or reconciliation is required before merging Task 011. Retain the existing audit evidence and do not claim that rounding has been conclusively established as the cause of every difference.
+6. **During Phase 2, model-ready dwelling counts will be rounded to whole numbers.** The rounding convention will be explicitly defined before implementation. Original source values must remain unchanged.
+7. Table 125 remains the separate source for total dwelling stock. Denominator timing and any supply-to-stock ratios remain subject to Phase 2 methodological approval.
+
+## Documentation Updates
+
+Update only the relevant existing documentation:
+
+- `docs/data-architecture-and-dictionary.md`
+- `docs/issue-register.md`
+- The existing Task 011 report, if needed to preserve the decision history
+
+For ISS-009, record the source-selection decision as resolved while keeping the issue Open for outstanding stock-denominator timing and other compatibility decisions.
+
+Do not create a new issue or introduce unnecessary documentation.
+
+## Validation
+
+- Confirm all changes are documentation-only.
+- Verify the approved source policy is consistently described.
+- Preserve existing source reconciliation evidence and historical limitations.
+- Check Markdown formatting, links and Git diff.
+- Do not rerun ingestion or the full test suite solely for documentation changes.
+
+## GitHub Workflow
+
+Apply the documentation changes to the existing Task 011 PR branch if it remains open.
+
+Commit and push the changes to PR #11.
+
+Confirm that the PR remains private, contains no unrelated changes and is ready for final merge.
+
+**Do not merge automatically.**
+
+## Final Report
+
+Provide the documentation changes, commit SHA, PR status and any outstanding decisions.
+
+No new data acquisition, preprocessing or modelling work is authorised.
