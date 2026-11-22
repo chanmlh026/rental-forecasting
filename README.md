@@ -260,3 +260,21 @@ next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are
 unavailable.
+
+
+## MHCLG planning application statistics (Task 012, Phase 1)
+
+```powershell
+uv run python -m ingestion.mhclg_planning --snapshot-id 2026-11-22-task012
+```
+
+Uses `configs/storage.toml`, pinned `configs/mhclg_planning_sources.json` and the
+existing geography reference for exact-code audits only. Optional `--config`,
+`--inventory` and `--geography-reference` paths follow existing ingestion CLIs.
+Same-snapshot runs reuse immutable raw files and outputs; missing approved assets
+can be downloaded. For a strictly offline independent check, use
+`uv run python reports/data_audits/012/validate_ingestion.py` with retained bundles.
+PS1/PS2 source and numeric tables preserve native counts, geography and quarterly
+history, including missing markers and historical row collisions. Applications
+are not dwelling units. See [evidence and remaining conditions](reports/data_audits/012/README.md).
+No Phase 2 mapping, preprocessing or model features are implemented.

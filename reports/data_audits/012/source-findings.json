@@ -1,0 +1,54 @@
+{
+  "access_and_reuse": {
+    "publisher": "MHCLG",
+    "robots": "Retained www.gov.uk/robots.txt generic rules do not disallow requested publication/terms paths. Serial identified requests, bounded retries/response size, no credentials; terminal 403 and publisher waits respected. ONS-specific contact prerequisite remains separate; no ONS requests.",
+    "technical_notes_url": "https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-technical-notes",
+    "terms": "Crown copyright, OGL v3.0 with attribution and exceptions for third-party material; current technical notes explicitly state this. No specific exception found for PS1/PS2 government returns. No Glenigan local extract acquired or reuse rights inferred.",
+    "terms_url": "https://www.gov.uk/help/terms-conditions"
+  },
+  "approved_scope": "PS1/PS2 native application, decision and action counts; no dwelling-unit or modelling transformations",
+  "dependency_outcome": {
+    "ISS-003": "Proceed with native codes and collision audits; Phase 2 Decision A unchanged and no mappings.",
+    "ISS-004": "Proceed with retrospective snapshot limitation; original historical release dates not reconstructed.",
+    "ISS-010": "Open; no verified all-residential LA units numerator; partial affordable candidate recorded for separate approval.",
+    "ISS-011": "Proceed preserving markers/categories and publisher notes; no premature quality thresholds.",
+    "ISS-012": "Measure source histories and cohort coverage; no complete harmonised panel claim.",
+    "ISS-017": "Open; potential Glenigan LA extract availability/rights remain unconfirmed; no acquisition.",
+    "ISS-020": "Open; private repository maintained.",
+    "ISS-022": "ONS-only access prerequisite retained; no ONS requests."
+  },
+  "dwelling_units_investigation": {
+    "existing_issues": [
+      "ISS-010",
+      "ISS-017"
+    ],
+    "national_glenigan": {
+      "finding": "Published Glenigan detailed/reserved-matters housing-unit totals are England-level rolling annual estimates, distinct from applications. Existing Task 006.2 workbook evidence has no LA dimension. No LA extract or rights confirmed; no restricted data acquired. Definitions exclude PDR and selected accommodation and describe double-counting safeguards; no local inference.",
+      "source": "https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-technical-notes"
+    },
+    "next_checkpoint": "Owner-authorised source investigation/ingestion or methodological decision before any local units feature; do not substitute application counts or national totals.",
+    "partial_official_candidate": {
+      "availability": "Official collection lists 2009-10 onwards and current 2024-25 returns published/updated 25 June 2026, with an open-data time-series link. Permission-field history, geographic completeness, precise units definitions, revisions and extract-specific rights have not been audited.",
+      "discovery_reference": "Current planning technical notes section 6.2 links LAHS Section I affordable housing units granted planning permission, by LA, annual and seven tenure/ownership categories.",
+      "limitation": "Affordable-only scope cannot substitute for all-residential permissions. No LAHS data downloaded/ingested; requires separate owner authorisation before any candidate ingestion.",
+      "source": "https://www.gov.uk/government/collections/local-authority-housing-data"
+    },
+    "result": "No suitable openly verified all-residential LA dwelling-units-permission series established; PS1/PS2 ingestion proceeds with conditions."
+  },
+  "inspection_date": "2026-11-22",
+  "publication_and_revision": {
+    "correction": "Release change note explicitly corrects Table 3b in the statistical release; it does not establish that PS1/PS2 CSVs changed on that date. Earlier corrected release bytes not obtained. Current CSV and documents preserved separately.",
+    "historic_availability": "Reporting quarters are not release dates. Current files are retrospective snapshots; no complete historical PIT/vintage claim. Current notes describe routine refreshed/re-imputed previous seven quarters, July 2024-March 2026.",
+    "release_first_published": "2026-09-24T09:30:00+01:00",
+    "release_public_updated": "2026-10-29T10:36:12+00:00"
+  },
+  "quality_and_definitions": [
+    "All 88 PS1 and 329 PS2 count fields retained; original source rows preserve every field and F_Year labels. No application-to-dwelling-unit conversion.",
+    "PS1 has three preamble rows including a literal PDR category-change note; PS2 has two. Source punctuation/typo in the PDR note is retained, not silently corrected.",
+    "PS1 Applications at end of quarter no longer collected after 1 April 2014; the original .. marker is not zero. Categories enter/leave history; historical comparability not established by a constant exported schema.",
+    "Publisher imputation/revisions are described in retained notes; CSVs do not provide comprehensive cell-level imputation flags. No marker-free guarantee of unimputed values.",
+    "Original missing/legacy GSS identifiers and predecessor/development-corporation/national-park rows retained. LPA responsibility may cover only part of an LAD.",
+    "15 identical PS1 source-row pairs for Shepway in 1996 Q2-1999 Q4, and PS2 rows sharing missing-code marker -, retained with collision/payload flags. Source identity is edition plus original source record; no deduplication or harmonisation."
+  ],
+  "source_identity": "Four official CSV assets discovered from retained GOV.UK landing page. Full/recent assets remain separate; same source files reused offline. Task 006.2 JSON retained but its CSV bytes were not found in this clean checkout, so current official assets were acquired once."
+}

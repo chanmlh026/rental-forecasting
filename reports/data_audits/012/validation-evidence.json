@@ -1,0 +1,142 @@
+{
+  "all_tables_agree": 12,
+  "code_hashes": {
+    "configs/mhclg_planning_sources.json": "45fc9ebe3bd203e8eb14abc354c0f8fa4501b8d47eeb42e9986db142a57606d7",
+    "src/ingestion/mhclg_planning.py": "753efd67fe6283387823c29c7a762852b2ea856367fde6a4f691192bdbba3758"
+  },
+  "coverage_rows": 318,
+  "full_recent_comparison": [
+    {
+      "comparable_fields": 112840,
+      "comparable_rows": 1240,
+      "different_fields": 0,
+      "table": "ps1"
+    },
+    {
+      "comparable_fields": 411680,
+      "comparable_rows": 1240,
+      "different_fields": 0,
+      "table": "ps2"
+    }
+  ],
+  "limitations": [
+    "No model-ready or historical PIT claim",
+    "Original historical duplicate/missing-code rows retained and flagged",
+    "Publisher imputation/category changes retained; no cell-level un-imputed guarantee",
+    "LA-wide total dwelling-unit permissions source and extract rights unresolved; no substituted counts"
+  ],
+  "offline_unchanged_data_files": 471,
+  "phase2_journal_and_reference_unchanged": true,
+  "prior_data_files_preserved": 423,
+  "publication_metadata": [
+    {
+      "first_published_at": "2013-09-02T12:39:14+01:00",
+      "internal_updated_at": "2026-09-09T15:00:40+01:00",
+      "public_updated_at": "2024-09-03T15:21:50+01:00",
+      "source": "terms"
+    },
+    {
+      "first_published_at": null,
+      "internal_updated_at": null,
+      "public_updated_at": null,
+      "source": "robots"
+    },
+    {
+      "first_published_at": "2012-11-10T00:00:00+00:00",
+      "internal_updated_at": "2026-10-20T12:10:37+01:00",
+      "public_updated_at": "2026-09-24T09:30:16+01:00",
+      "source": "page"
+    },
+    {
+      "first_published_at": "2026-09-24T09:30:00+01:00",
+      "internal_updated_at": "2026-10-29T10:36:13+00:00",
+      "public_updated_at": "2026-10-29T10:36:12+00:00",
+      "source": "release"
+    },
+    {
+      "first_published_at": "2026-09-24T09:30:17+01:00",
+      "internal_updated_at": "2026-10-29T10:36:13+00:00",
+      "public_updated_at": "2026-10-29T10:36:12+00:00",
+      "source": "technical_notes"
+    },
+    {
+      "first_published_at": "2026-09-24T09:30:17+01:00",
+      "internal_updated_at": "2026-10-29T10:36:13+00:00",
+      "public_updated_at": "2026-10-29T10:36:12+00:00",
+      "source": "statistical_release"
+    },
+    {
+      "first_published_at": null,
+      "internal_updated_at": null,
+      "public_updated_at": null,
+      "source": "district_dictionary"
+    }
+  ],
+  "sources": [
+    {
+      "authority_period_collision_rows": 30,
+      "count_cells": 3771768,
+      "count_fields": 88,
+      "edition_id": "ps1_full",
+      "exact_duplicate_payload_rows": 30,
+      "exact_source_fields": 3986073,
+      "first_period": "1996 Q2",
+      "last_period": "2026 Q2",
+      "missing_gss_code_rows": 3678,
+      "missing_markers": 2260517,
+      "native_fields": 93,
+      "numeric_cells": 1511251,
+      "quarters": 121,
+      "source_rows": 42861
+    },
+    {
+      "authority_period_collision_rows": 0,
+      "count_cells": 109120,
+      "count_fields": 88,
+      "edition_id": "ps1_recent",
+      "exact_duplicate_payload_rows": 0,
+      "exact_source_fields": 115320,
+      "first_period": "2025 Q3",
+      "last_period": "2026 Q2",
+      "missing_gss_code_rows": 0,
+      "missing_markers": 43333,
+      "native_fields": 93,
+      "numeric_cells": 65787,
+      "quarters": 4,
+      "source_rows": 1240
+    },
+    {
+      "authority_period_collision_rows": 1905,
+      "count_cells": 22563807,
+      "count_fields": 329,
+      "edition_id": "ps2_full",
+      "exact_duplicate_payload_rows": 0,
+      "exact_source_fields": 22906722,
+      "first_period": "1979 Q2",
+      "last_period": "2026 Q2",
+      "missing_gss_code_rows": 9000,
+      "missing_markers": 9667739,
+      "native_fields": 334,
+      "numeric_cells": 12896068,
+      "quarters": 189,
+      "source_rows": 68583
+    },
+    {
+      "authority_period_collision_rows": 0,
+      "count_cells": 407960,
+      "count_fields": 329,
+      "edition_id": "ps2_recent",
+      "exact_duplicate_payload_rows": 0,
+      "exact_source_fields": 414160,
+      "first_period": "2025 Q3",
+      "last_period": "2026 Q2",
+      "missing_gss_code_rows": 0,
+      "missing_markers": 64480,
+      "native_fields": 334,
+      "numeric_cells": 343480,
+      "quarters": 4,
+      "source_rows": 1240
+    }
+  ],
+  "status": "PASS WITH CONDITIONS"
+}
