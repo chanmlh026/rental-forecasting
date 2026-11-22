@@ -435,4 +435,3 @@ No statistical values are reconstructed. Confidence is separate from the rate. F
 | Somerset | P | P | P | P | P | P | P | U | U | U | U | U |
 | East Suffolk | U | U | U | U | U | U | U | U | U | U | U | U |
 | West Suffolk | U | U | U | U | U | U | U | U | U | U | U | U |
-

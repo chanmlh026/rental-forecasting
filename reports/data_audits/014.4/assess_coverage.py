@@ -229,7 +229,7 @@ def main():
         lines+=['## '+var,'','| Authority | '+' | '.join(map(str,YEARS))+' |','|---|'+'---|'*len(YEARS)]
         for a in roster:lines.append('| '+a['name']+' | '+' | '.join({'Confirmed':'C','Unverified':'U','Predecessor-only':'P','Missing':'M','Evidence gap':'E'}[lookup[var,a['code'],y]['status']] for y in YEARS)+' |')
         lines.append('')
-    (OUT/'coverage-by-year.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (OUT/'coverage-by-year.md').write_text('\n'.join(lines).rstrip()+'\n',encoding='utf-8')
     validation=dict(status='pass',authorities=len(roster),variables=len(variables),years=len(YEARS),matrix_rows=len(matrix),
                     source_versions=len(versions),authority_year_version_records=len(details),native_source_rows_inspected=len(records),
                     source_files_hash_verified_and_unchanged=len(fingerprints),classification_counts=dict(Counter(r['status'] for r in matrix)),
