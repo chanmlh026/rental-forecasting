@@ -932,7 +932,7 @@ are retained in immutable raw/validated/processed layers. Full history, per-peri
 coverage and 592 independently requested latest-period cells reconcile. Original
 source values, Q missingness, confidentiality flags, notes and anomalous raw
 release/revision metadata are preserved. Numerical matched-rate coverage is
-281?292 per period; latest 292 rates and 273 confidence margins among 292 exact
+281–292 per period; latest 292 rates and 273 confidence margins among 292 exact
 cohort codes. Barnsley/Sheffield code discrepancies remain unresolved.
 
 The original ISS-021 representative-audit failure was an audit key/comparison

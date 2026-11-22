@@ -58,10 +58,10 @@ missing confidence, duplicate observations and invalid provenance/pagination.
 
 ## Coverage and remaining conditions
 
-The fixed approved history contains 87 overlapping annual periods, January?December
-2004 through July 2025?June 2026, released quarterly. All 296 source areas are
-retained; 292 match the approved cohort exactly. Across periods there are 281?292
-numeric matched rates and 273?274 numeric matched confidence margins. Latest:
+The fixed approved history contains 87 overlapping annual periods, January–December
+2004 through July 2025–June 2026, released quarterly. All 296 source areas are
+retained; 292 match the approved cohort exactly. Across periods there are 281–292
+numeric matched rates and 273–274 numeric matched confidence margins. Latest:
 292 matched numerical rates and 273 confidence margins. Q means source missingness;
 OBS_CONF is a confidentiality flag. Confidence gaps do not invalidate rate values.
 
