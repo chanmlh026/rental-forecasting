@@ -1327,3 +1327,27 @@ association. ISS-003 stays Open pending implementation and validation; ISS-004
 historical availability/PIT restrictions and ISS-022's automated ONS acquisition
 hold remain in force. Research findings and coverage evidence are preserved.
 See [Task 014.5](014.5-integrate-geography-research-and-approved-methodology.md).
+
+
+## Task 014.6 planning authority geography research - 22 November 2026
+
+[Planning research and source reconciliation](../reports/data_audits/014.6/README.md)
+assesses all 294 reference LAs across 46 quarters, 2015 Q1-2026 Q2. Official
+planning documents identify 49 non-coterminous cases (three nested splits,
+46 cross-LA sharing cases); 245 current relationships remain unresolved. The
+April 2025 lookup catalogue was inspected but its rows were not acquired under
+ISS-022; no certified coterminous total or exhaustive historical boundary ledger
+is available. Zero Direct certifications is an evidence limit, not a true zero.
+
+For each of four detailed measures, 41 LA-quarters offer documented addition,
+420 require allocation and 13063 remain Unverified. The 271 modern-code gaps
+in each asset all have numeric statutory-predecessor candidates, without
+establishing territorial completeness. No planning totals were reconstructed.
+Applications remain distinct from dwelling units. Native codes, names, markers,
+periods and publication provenance remain unchanged. The owner explicitly
+confirmed the absent lookup and authorised the bounded documentary investigation.
+
+The approved overarching PIPR reference policy, A/B1 and Issue E remain intact;
+historical PIPR boundary verification is still outstanding. This research neither
+selects a source/vintage nor approves allocation or a non-additive approximation.
+ISS-003/004/010/017/022 remain Open. No production changes or new datasets acquired.

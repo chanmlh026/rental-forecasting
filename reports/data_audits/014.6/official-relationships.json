@@ -1,0 +1,339 @@
+{
+  "purpose": "Research-only documentary relationships; not a production lookup or complete historical boundary certification.",
+  "lookup_status": "April 2025 official catalogue inspected; no retained lookup found. No ONS dataset or mirrored lookup acquired.",
+  "lookup_catalogue": "https://www.data.gov.uk/dataset/b07e6300-d9a5-43d6-a3d8-666496eb6991/local-planning-authority-to-local-authority-district-april-2025-lookup-in-the-uk",
+  "lookup_fields": [
+    "LAD25CD",
+    "LAD25NM",
+    "LAD25NMW",
+    "Coterm",
+    "LPA25CD",
+    "LPA25NM",
+    "LPA25NMW"
+  ],
+  "native_code_caution": "Retained E26/E51 reporting IDs are not presumed equal to LPA25CD/E600 identifiers. Association uses explicit official names/areas; crosswalk not adopted.",
+  "returns_rules": "https://www.gov.uk/government/publications/district-planning-matters-return-ps1-and-ps2/ps1-and-ps2-district-planning-matters-return-guidance-notes",
+  "historical_scope": "Only dated corporation tenures and three verified nested partitions have multi-quarter classifications; other non-coterminous documentary cases identify current quarter only. Earlier quarters remain Unverified, not assumed coterminous.",
+  "relationships": [
+    {
+      "id": "dartmoor",
+      "source_code": "E26000001",
+      "la_names": [
+        "Mid Devon",
+        "South Hams",
+        "Teignbridge",
+        "West Devon"
+      ],
+      "la_codes": [
+        "E07000042",
+        "E07000044",
+        "E07000045",
+        "E07000047"
+      ],
+      "official_url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0019/170542/Edge-Analytics-Demographic-Forecasts-Oct2016.pdf",
+      "evidence": "Section 2.1 lists four districts, including Mid Devon. Contemporary 2016 relationship evidence; earlier and intervening boundary history not certified.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "exmoor",
+      "source_code": "E26000002",
+      "la_names": [
+        "North Devon",
+        "Somerset"
+      ],
+      "la_codes": [
+        "E07000043",
+        "E06000066"
+      ],
+      "official_url": "https://www.exmoor-nationalpark.gov.uk/__data/assets/pdf_file/0014/3641/Statement-of-Community-Involvement-2022.pdf",
+      "evidence": "Paragraphs 3-5 distinguish sole park planning responsibility and Devon/Somerset councils; explicitly anticipates April 2023 Somerset replacement.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "northumberland",
+      "source_code": "E26000004",
+      "la_names": [
+        "Northumberland"
+      ],
+      "la_codes": [
+        "E06000057"
+      ],
+      "official_url": "https://www.northumberlandnationalpark.org.uk/planning/",
+      "evidence": "Park planning authority lies entirely within Northumberland; council local plan adopted March 2022 confirms separate park and council territories. Full-quarter partition assessed from 2022 Q2, not extrapolated to 2015.",
+      "historical_start": "2022Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": true,
+      "ended_by_latest": false
+    },
+    {
+      "id": "nym",
+      "source_code": "E26000005",
+      "la_names": [
+        "North Yorkshire",
+        "Redcar and Cleveland"
+      ],
+      "la_codes": [
+        "E06000065",
+        "E06000003"
+      ],
+      "official_url": "https://www.northyorkmoors.org.uk/planning/policy/local-plan-review-2/project-plan",
+      "evidence": "Current planning project identifies North Yorkshire and Redcar and Cleveland; relationship evidence is limited to current assessment, not an earlier boundary ledger.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "peak",
+      "source_code": "E26000006",
+      "la_names": [
+        "Barnsley",
+        "Cheshire East",
+        "Derbyshire Dales",
+        "High Peak",
+        "Kirklees",
+        "Oldham",
+        "North East Derbyshire",
+        "Sheffield",
+        "Staffordshire Moorlands"
+      ],
+      "la_codes": [
+        "E08000038",
+        "E06000049",
+        "E07000035",
+        "E07000037",
+        "E08000034",
+        "E08000004",
+        "E07000038",
+        "E08000039",
+        "E07000198"
+      ],
+      "official_url": "https://www.peakdistrict.gov.uk/__data/assets/pdf_file/0014/503051/Final-Statement-of-Community-Involvement-JAN24.pdf",
+      "evidence": "Appendix 3 lists nine district/unitary authorities; counties are not added as district-level LAs. A later economic report inconsistently labels constituent count: names retained, no count inferred from its heading.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "broads",
+      "source_code": "E26000007",
+      "la_names": [
+        "Broadland",
+        "South Norfolk",
+        "North Norfolk",
+        "Great Yarmouth",
+        "Norwich",
+        "East Suffolk"
+      ],
+      "la_codes": [
+        "E07000144",
+        "E07000149",
+        "E07000147",
+        "E07000145",
+        "E07000148",
+        "E07000244"
+      ],
+      "official_url": "https://www.broads-authority.gov.uk/about-us/committees/archive-committee-papers-2025/planning-committee-meetings/planning-committee-05-december-2025/Local-Plan-for-the-Broads-Supporting-material.pdf",
+      "evidence": "Section 1.2 names six district councils; councils plan outside Broads executive area, Broads Authority inside. Historical Waveney/East Suffolk requires dated roster.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "newforest",
+      "source_code": "E26000009",
+      "la_names": [
+        "New Forest",
+        "Test Valley",
+        "Wiltshire"
+      ],
+      "la_codes": [
+        "E07000091",
+        "E07000093",
+        "E06000054"
+      ],
+      "official_url": "https://www.newforestnpa.gov.uk/document/core-strategy/",
+      "evidence": "2010 core strategy sections 1.2-1.3 explicitly identify three LA areas and full park planning responsibilities from April 2006. Not an exhaustive intervening boundary ledger.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "southdowns",
+      "source_code": "E26000010",
+      "la_names": [
+        "Adur",
+        "Worthing",
+        "Arun",
+        "Brighton and Hove",
+        "Chichester",
+        "East Hampshire",
+        "Horsham",
+        "Lewes",
+        "Eastbourne",
+        "Mid Sussex",
+        "Wealden",
+        "Winchester"
+      ],
+      "la_codes": [
+        "E07000223",
+        "E07000229",
+        "E07000224",
+        "E06000043",
+        "E07000225",
+        "E07000085",
+        "E07000227",
+        "E07000063",
+        "E07000061",
+        "E07000228",
+        "E07000065",
+        "E07000094"
+      ],
+      "official_url": "https://www.southdowns.gov.uk/landscape-design-conservation/conservation-areas/conservation-area-maps/",
+      "evidence": "Official conservation-area documentation groups the 12 district/unitary LA names. County appointing bodies are not extra district LAs. Delegated administration on behalf of the park is not a second independent set of counts.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "lakedistrict",
+      "source_code": "E26000011",
+      "la_names": [
+        "Cumberland",
+        "Westmorland and Furness"
+      ],
+      "la_codes": [
+        "E06000063",
+        "E06000064"
+      ],
+      "official_url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Cumberland%20Consolidated%20Planning%20Policy%20Framework%20-%20March%202025.pdf",
+      "evidence": "Section 1.2 distinguishes 2023 successor council planning areas outside the national parks; park information page identifies both unitary authorities. Park extended in August 2016; earlier allocations remain unverified.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "dales",
+      "source_code": "E26000012",
+      "la_names": [
+        "North Yorkshire",
+        "Westmorland and Furness",
+        "Lancaster"
+      ],
+      "la_codes": [
+        "E06000065",
+        "E06000064",
+        "E07000121"
+      ],
+      "official_url": "https://www.yorkshiredales.org.uk/documents/dales-autumn-2016/html",
+      "evidence": "2016 park newsletter identifies new Eden/Lancaster/Lancashire constituents; retained statutory roster resolves Eden into Westmorland/Furness. 2026 plan confirms North Yorkshire/Westmorland-Furness/Lancashire geography. Lancaster entered in August 2016, not in 2015.",
+      "historical_start": "2026Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "lldc",
+      "source_code": "E51000001",
+      "la_names": [
+        "Hackney",
+        "Newham",
+        "Tower Hamlets",
+        "Waltham Forest"
+      ],
+      "la_codes": [
+        "E09000012",
+        "E09000025",
+        "E09000030",
+        "E09000031"
+      ],
+      "official_url": "https://www.london.gov.uk/who-we-are/what-mayor-does/our-publications/mayor-londons-annual-report-2024-25",
+      "evidence": "Planning powers returned to four named boroughs on 1 December 2024. 2024 Q4 is a mixed-responsibility transition; retain its separate row without allocating it.",
+      "historical_start": "2015Q1",
+      "historical_end": "2024Q3",
+      "complete_partition_verified": false,
+      "ended_by_latest": true
+    },
+    {
+      "id": "opdc",
+      "source_code": "E51000002",
+      "la_names": [
+        "Ealing",
+        "Brent",
+        "Hammersmith and Fulham"
+      ],
+      "la_codes": [
+        "E09000009",
+        "E09000005",
+        "E09000013"
+      ],
+      "official_url": "https://www.london.gov.uk/about-us/organisations-we-work/old-oak-and-park-royal-development-corporation-opdc",
+      "evidence": "LPA spans three named boroughs. City Hall DD132 confirms all planning applications received from 1 April 2015.",
+      "historical_start": "2015Q2",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "ebbsfleet",
+      "source_code": "E51000003",
+      "la_names": [
+        "Dartford",
+        "Gravesham"
+      ],
+      "la_codes": [
+        "E07000107",
+        "E07000109"
+      ],
+      "official_url": "https://www.legislation.gov.uk/uksi/2015/747/made/data.xht?view=snippet&wrap=true",
+      "evidence": "Order article 2 places designated area in Dartford and Gravesham. Parliamentary statement HLWS487 and 2023 annual report confirm planning powers from 1 July 2015.",
+      "historical_start": "2015Q3",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": false,
+      "ended_by_latest": false
+    },
+    {
+      "id": "hartlepool",
+      "source_code": "E51000007",
+      "la_names": [
+        "Hartlepool"
+      ],
+      "la_codes": [
+        "E06000001"
+      ],
+      "official_url": "https://www.hartlepool.gov.uk/planning/hartlepool-development-corporation",
+      "evidence": "Council documents planning responsibility within parts of borough from 1 June 2023; MHCLG returns require exclusion of corporation-handled cases. First full quarter used is 2023 Q3; transition Q2 not certified.",
+      "historical_start": "2023Q3",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": true,
+      "ended_by_latest": false
+    },
+    {
+      "id": "middlesbrough",
+      "source_code": "E51000006",
+      "la_names": [
+        "Middlesbrough"
+      ],
+      "la_codes": [
+        "E06000002"
+      ],
+      "official_url": "https://www.middlesbrough.gov.uk/planning-and-development/middlesbrough-development-corporation/",
+      "evidence": "Council documents planning powers for town centre/Middlehaven from 1 June 2023. First full quarter used is 2023 Q3; transition Q2 not certified.",
+      "historical_start": "2023Q3",
+      "historical_end": "2026Q2",
+      "complete_partition_verified": true,
+      "ended_by_latest": false
+    }
+  ]
+}

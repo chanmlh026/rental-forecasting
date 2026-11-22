@@ -222,3 +222,19 @@ All existing issue rows/statuses are preserved; no new issue or closure is neede
 PR #15 merged only after exact-head and offline checks; PR #16 is being reconciled
 for final independent review, without production changes or source acquisition.
 See [Task 014.5 receipt](014.5-integrate-geography-research-and-approved-methodology.md).
+
+
+### Task 014.6 planning geography dependency review - 22 November 2026
+
+**Proceed with documented limitations for the owner-authorised bounded research.**
+ISS-003 stays Open: 245 current LPA/LA relationships and historical coterminosity
+remain unresolved without lookup/history evidence; 49 documented non-coterminous
+cases and conservative period-specific findings are in the
+[planning audit](../reports/data_audits/014.6/README.md). Numeric predecessor
+coverage for all 271 code gaps is not verified territorial coverage. No mappings,
+allocation or reconstructed counts were implemented. A/B1, Issue E and the
+approved reference-boundary policy are unchanged. ISS-004 release/vintage limits,
+ISS-010/017 units/source-rights gaps and ISS-022 ONS acquisition restrictions remain
+Open. Owner confirmed no lookup is retained and instructed continuation with
+existing records/permitted documents; this is not acquisition approval. Existing
+issue records/statuses remain; no overlapping new issue or closure is warranted.

@@ -1,0 +1,12 @@
+{
+  "status": "pass with explicit geographical evidence limitations",
+  "independent_original_csv_selected_cells": 60004,
+  "independent_source_authority_quarters": 30002,
+  "all_native_count_field_availability_checked": 417,
+  "independently_checked_la_quarter_measure_rows": 54096,
+  "independently_reconciled_code_mismatches_per_asset": 271,
+  "original_source_manifest_and_output_hashes_rechecked": 26,
+  "geography_validation": "Documentary relationships and classification preconditions checked; no independent polygon/lookup certification. 245 LA relationships remain unresolved.",
+  "no_source_acquisition": true,
+  "no_counts_reconstructed": true
+}

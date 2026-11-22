@@ -1,0 +1,119 @@
+{
+  "status": "partial: geography lookup/history evidence prerequisite unresolved",
+  "cohort": 294,
+  "quarters": 46,
+  "measures": {
+    "ps1_full": [
+      "Applications received",
+      "Applications decided"
+    ],
+    "ps2_full": [
+      "Total granted; major dwellings (all)",
+      "Total granted; minor dwellings (all)"
+    ]
+  },
+  "latest_relationship_counts": {
+    "Split within one LA": 3,
+    "Shared": 46,
+    "Unresolved": 245
+  },
+  "latest_direct_coterminous_verified": 0,
+  "latest_direct_note": "Zero certified by evidence available here, not zero actually coterminous.",
+  "full_history": [
+    {
+      "edition": "ps1_full",
+      "rows": 42861,
+      "quarters": 121,
+      "non_gss_rows": 3678,
+      "code_quarter_collision_rows": 30,
+      "duplicate_payload_rows": 30
+    },
+    {
+      "edition": "ps2_full",
+      "rows": 68583,
+      "quarters": 189,
+      "non_gss_rows": 9000,
+      "code_quarter_collision_rows": 1905,
+      "duplicate_payload_rows": 0
+    }
+  ],
+  "source_rows_in_scope": 30002,
+  "original_nonstandard_code_rows_in_scope": 0,
+  "per_edition_mismatches": {
+    "ps1_full": 271,
+    "ps2_full": 271
+  },
+  "unique_mismatch_authority_quarters": 271,
+  "classification_counts": {
+    "Unverified": 52252,
+    "Additive": 164,
+    "Allocation required": 1680
+  },
+  "per_measure_counts": {
+    "Applications received": {
+      "Unverified": 13063,
+      "Additive": 41,
+      "Allocation required": 420
+    },
+    "Applications decided": {
+      "Unverified": 13063,
+      "Additive": 41,
+      "Allocation required": 420
+    },
+    "Total granted; major dwellings (all)": {
+      "Unverified": 13063,
+      "Additive": 41,
+      "Allocation required": 420
+    },
+    "Total granted; minor dwellings (all)": {
+      "Unverified": 13063,
+      "Additive": 41,
+      "Allocation required": 420
+    }
+  },
+  "unique_la_quarter_statuses": {
+    "Direct": 0,
+    "Additive": 41,
+    "Allocation required": 420,
+    "Missing": 0,
+    "Unverified": 13063
+  },
+  "mismatch_complete_numeric_predecessor_candidates_by_measure": {
+    "Applications received": 271,
+    "Applications decided": 271,
+    "Total granted; major dwellings (all)": 271,
+    "Total granted; minor dwellings (all)": 271
+  },
+  "verified_recovery_of_271_code_gaps": 0,
+  "source_files_unchanged": 26,
+  "input_hashes": {
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\manifest.json": "027bf8c390d4bcf52ca034c71a4046a881bc4b0a5b778c22862e8094df4a9be6",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\coverage.parquet": "c0b2e1fe4fb14403308bc91b8a6d99def2c901619a8801e58288e6379a0b2dc1",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\documents.parquet": "69c98203dc236ab1fcacb470f76ab7409b39c0a4a084dd8f33b501c61a634fb0",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\geography_audit.parquet": "6de29ae9f83bc608966520a8ba6a1d1321d892a142d22bb7f98449d9090d624f",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_full_source.parquet": "c24882eec8e10d323225d5b3b6efafa475fb7673db50d13bedf20559b213d9b4",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_full_values.parquet": "8f3cffcd5d6fc2ff811b58c9819c66366cc245ba6eac8860e65981dbd22dee58",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_recent_source.parquet": "1e6a68c3d3eaeef2f619d0fcf46d817dc61095ae586d14bd04cc430be71b78c4",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_recent_values.parquet": "74b89a29a6f9d55af6337a71db19df2a9749777c5aad1180f581ba034c2e01ab",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_full_source.parquet": "871562075d2f5ace1b58e46508ed7008257e83ddc590f1a354418a5c6f259ac8",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_full_values.parquet": "ce72bb9920dbd014fa65511f27d1072b107049a36cc4d1720da00f08130fc692",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_recent_source.parquet": "e23bc8a6bef4ac7213923f0c79880034d283352e6b1ce5bf4e4a9efaf827497a",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_recent_values.parquet": "ecc087ec53d06c50477f98386985cee1d3eadd763a25fb65530853907caf4112",
+    "data\\processed\\mhclg_planning\\snapshot=2026-11-22-task012\\schema.parquet": "181fa30b3476a82afb51a11a7be6cbba7cd280bf071f2504a50ff4e4dff9de69",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\district_dictionary\\response.bin": "61662c1803609425f62b214ded77b105552c357f1cf5c57b500ddce6fccf04d4",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\page\\response.bin": "cccd0a9671a5931bf77a139b2bf44cb7c4973b9d4f2e13089633654f96d85cf1",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_full\\response.bin": "256bbbff368ffb506596ca9da2bf9898eb98158ad1ea1c899e3d6c95dc1e4bd7",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\ps1_recent\\response.bin": "eddbda6aa3316177879d5347771248aaac3a1ce1f656a471d68f799f088cba99",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_full\\response.bin": "92e7efd61555b635448e899120a9d20339719cf97040585d2bd564bf841a7fda",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\ps2_recent\\response.bin": "4ae1adcec0431ddafa83797c22ce989f1f14ad193f6672967499697f67b995e0",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\release\\response.bin": "9c0e0bb0e60a3871649ed5ec18d2a636791256f9b15274bf6154c52dc1725e96",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\robots\\response.bin": "459835d29527b9c00f00f6af00f45c73a909af1944e81fefa153f585e1857305",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\statistical_release\\response.bin": "411812363c8b3c2e4e76fe1cf9dd35ccb07168e424974e5fa80bc8ff3cc2aa48",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\technical_notes\\response.bin": "a07f0a87b064f036ee7ddca14c7a5440fe14a7611e9c0a67003e6ba5765cbdf8",
+    "data\\raw\\mhclg_planning\\snapshot=2026-11-22-task012\\terms\\response.bin": "dfd1e05f6c8678b7742cfcc2a45238cc7a0cd9be9b3e18a581aa08e9e57bc810",
+    "configs\\ons_lad_apr2025_v2.csv": "120f51b8bfb9bed7f5fec4d20488263e3c62831f18b0a7e2937b5c2904edb70a",
+    "reports\\data_audits\\014.3\\predecessors.json": "2afc7b776b97304183baa289ea6d894b2e11202c0eb6f9bd78ed9a552907f1d1"
+  },
+  "no_reconstructed_counts": true,
+  "no_production_changes": true
+}

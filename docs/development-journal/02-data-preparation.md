@@ -196,3 +196,30 @@ dependencies and measured timing remain in their existing shared records.
   at `079bb3e` and confirmed open/mergeable/unmerged. Both offline validators
   and preservation checks pass. Final receipt/timing in the same Task 014.5
   archive and CSV; independent review of PR #16 remains pending.
+
+
+### Planning authority geography and source allocation research - 22 November 2026 (Task 014.6)
+
+- **Event/trigger:** Owner requested a 294-LA planning geography assessment,
+  2015 Q1-2026 Q2 classifications and investigation of Task 012's 271 code gaps.
+- **Initiated by:** Human.
+- **Human actions:** Required research-only work and retention of all policy,
+  source definitions and Open issues. Confirmed no local LPA/LAD lookup exists;
+  authorised completing as much as possible with retained records and permitted
+  official documentation while preserving ISS-022 and reporting unresolved cases.
+- **AI actions (Codex):** Preserved the dirty checkout and PR #16; created a
+  dedicated dependent branch. Inspected existing planning snapshots, official
+  metadata and authority documents. Classified 54096 measure-level records;
+  retained original reporting identities and all-field availability. Independently
+  reconciled original CSV tokens and input hashes. No download or count reconstruction.
+- **Outcome/status:** Documentary evidence identifies 49 non-coterminous cases,
+  with 245 current relationships unresolved. Per measure: 41 additive opportunities,
+  420 allocation cases and 13063 Unverified LA-quarters. All 271 code gaps have
+  complete numeric predecessor candidates, without confirmed whole-LA coverage.
+  Coterminous total/historical geography certification remains an evidence gap;
+  no Direct observations certified from code matching. A/B1, Issue E and the
+  overarching PIPR policy preserved; ISS-003/004/010/017/022 remain Open.
+- **Evidence/references:** [Task prompt and owner continuation](../014.6-verify-planning-authority-geography-and-la-allocation.md),
+  [research and independent source checks](../../reports/data_audits/014.6/README.md),
+  [dictionary](../data-architecture-and-dictionary.md#task-0146-planning-authority-geography-research---22-november-2026),
+  [register](../issue-register.md), [shared timing](../task-execution-log.csv).
