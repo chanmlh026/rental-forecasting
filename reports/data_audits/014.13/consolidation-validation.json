@@ -1,0 +1,39 @@
+{
+  "status": "PASS WITH DOCUMENTED PROMPT LIMITATION",
+  "base_main": "09c92ecb3a93528ab77d3f7ec2f451ee497044bf",
+  "scope": "T1-T7 documentation only; no implementation, datasets, downloads or scheduling",
+  "checks": [
+    "T1-T7 policy content and current ASHE treatment",
+    "A/B1 and modern-geography assumption unchanged",
+    "all 22 issue records/prior text/statuses retained",
+    "prior journal and seven-column timing rows retained",
+    "documentation/receipt-only changed-file allowlist",
+    "new local Markdown link targets",
+    "credential/conflict marker pattern scan",
+    "verbatim available prompt prefix",
+    "git diff --check",
+    "git fsck --connectivity-only"
+  ],
+  "research_evidence": "Task01412 matrix, original audits, source inputs and other task archives unchanged relative to main; changed-file allowlist verified",
+  "source_data_validation": "Not run; no source processing or independent statistical validation claimed",
+  "production_tests": "Not run: documentation-only policies, no production changes",
+  "prompt_archive_sha256": "f6e1ea2965affbade5ebead213eb80a48c4ffcbb5be4eded7f7060d7d928558f",
+  "prompt_limitation": "Supplied attachment ends at Section7 bullet - Phase 2; remainder requested asynchronously and not reconstructed. Complete supplied T1-T7 decisions documented; no additional acceptance/delivery instructions inferred.",
+  "issue_summary": "ISS-003/004/005/012/013/014/015/016 updated and remain Open; ISS-009/011/022 retained Open, planning issues Deferred; no new issues and none closed.",
+  "remaining_design": [
+    "timezone/cutoff conventions",
+    "multiple/exceptional MPC and late-month arrangements",
+    "essential-input/staleness/completeness rules",
+    "empty UMB donor fallback",
+    "historical publication/edition correspondence and input validation"
+  ],
+  "git_connectivity": "Pass; existing dangling objects retained",
+  "task_status": "In Progress: supplied T1-T7 work verified, remaining truncated instructions requested",
+  "timing": {
+    "start": "2026-11-22T19:40:04.9970559+00:00",
+    "stop": "2026-11-22T19:45:52.825258+00:00",
+    "duration_minutes": 5.797137,
+    "status": "In Progress",
+    "limitations": "One continuous measured session, host UTC microsecond precision at stop; original start recorded to 100 ns. Supplied T1-T7 documentation and offline checks complete. Full task remains In Progress because attachment ends mid-list at Section7 (- Phase 2); remaining instructions requested asynchronously but not received. No additional delivery/acceptance instructions inferred, no push/PR/merge. Includes tool waits and concurrent user-response wait, not separately measured/subtracted. Final commit/verification/reporting after this cutoff excluded."
+  }
+}

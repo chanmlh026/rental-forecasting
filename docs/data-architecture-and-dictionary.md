@@ -776,7 +776,10 @@ Proposed target/audit grain, not an implemented schema:
 - Run once per calendar month on an adaptive schedule based on the relevant
   official monthly publication calendar, after required releases and successful
   ingestion/validation. Record the exact timezone-aware cutoff. Detailed operating
-  timezone, release-delay exceptions and cutoff conventions remain unresolved.
+  timezone, exceptional scheduling and cutoff conventions remain unresolved.
+  Task 014.13 T7-B permits a delayed monthly source update to use its previous
+  published valid observation if essential validation passes; record delay/edition.
+  This permission does not require automatic cancellation solely for source delay.
 - Use only observations published and eligible at that cutoff. Preserve each
   series' actual observation month; do not shift target dates to match delayed inputs.
 - Keep GSS identifiers, native codes/names, source/geography vintages and provenance.
@@ -790,7 +793,10 @@ Proposed target/audit grain, not an implemented schema:
   shift is approved here. Latest eligible input/reference months may differ, but
   the common execution month still fixes the target month.
 - A target label is eligible for training only after publication by that historical
-  training cutoff. Evaluation target-vintage policy remains separate (ISS-016).
+  training cutoff. Evaluation target-vintage selection follows Task 014.13 T2:
+  prefer first published, else earliest retained; flag retrospective proxies and
+  do not default to latest revised targets for primary backtesting. Implementation
+  and evaluation validation remain under ISS-016.
 
 ### Historical Option A - superseded on 22 November 2026
 
@@ -910,27 +916,43 @@ automatically the value a historical model could have observed.
 
 ### As-of feature selection - approved principles
 
-For a forecast cutoff c, select only observations publicly available and eligible
-by c. Record observation period, publication/availability time, retrieval time,
-source vintage and relevant assumptions. Use the latest published eligible
-observation while respecting existing source-specific numerical-vintage policies;
-this is not a blanket choice of today's latest revised history. In particular,
-Task 007's implemented IUMZID4 recorded-vintage policy is not silently replaced.
-Training/backtesting must reproduce the same eligibility principle at each
-historical execution/cutoff, with target month fixed by Option B.
+**Current authority:** [Task 014.13 owner decisions T1-T7](014.13-consolidate-temporal-alignment-and-ashe-decisions.md).
+These are approved policies for future implementation; this task performs no
+preprocessing, feature engineering, training or production scheduling.
 
-Prefer verified historical publication dates and original numerical vintages.
-When timing cannot be verified, use only conservative, evidence-supported
-assumptions, retaining their evidence and uncertainty flags. Detailed fallback
-months and maximum ages have not been approved. Mark reconstruction as exact
-point-in-time only when publication and vintage evidence support that claim;
-otherwise distinguish approximate retrospective reconstruction. Do not assume
-today's revised values were available at earlier cutoffs.
+Historical training/backtesting must reproduce production information conditions
+as closely as retained evidence permits, with Option B's target fixed at the
+execution month plus 12 calendar months. Use the latest officially available
+eligible observation at the historical cutoff. Select its numerical vintage in
+this approved T1/T2 order, subject to the preserved IUMZID4-specific policy:
+
+1. Prefer the original first-release value where identifiable.
+2. Otherwise use the earliest identifiable retained version.
+3. If no suitable historical edition exists, permit an available retrospective
+   historical value as an explicitly flagged approximation.
+
+The earliest retained edition is not necessarily the original release. Preserve
+observation period, actual edition publication/availability evidence, retrieval,
+source vintage and uncertainty. Never silently backdate a later edition or
+present its value as genuinely known at an earlier cutoff. A retrospective proxy
+is an approved approximation exception, not proof of historical eligibility;
+identify affected rows and label the resulting dataset/evaluation appropriately.
+Claim exact PIT reconstruction only where both timing and numerical-vintage
+evidence support it. Verified publication dates take precedence over assumptions;
+no universal fallback month or maximum age is approved.
+
+**PIPR backtesting target (T2):** prefer the first published rental outcome;
+otherwise the earliest identifiable retained target version, with retrospective
+approximations explicitly flagged. Do not default to the latest revised target
+for primary backtesting. This supersedes any earlier suggestion that later
+retrospective revisions automatically take precedence. Distinguish target-label
+vintage from predictor information available at the historical cutoff; no future
+information may enter predictors, fitted transformations or imputation donors.
 
 ### Frequency, ordinary reporting patterns and carry-forward
 
-The following owner-approved expectations describe ordinary reporting patterns,
-not unconditional fixed-lag rules or newly verified publication calendars:
+These approved ordinary patterns are expectations, not unconditional fixed-lag
+rules or newly verified historical calendars:
 
 | Monthly variable | Typical reporting lag |
 |---|---|
@@ -939,36 +961,68 @@ not unconditional fixed-lag rules or newly verified publication calendars:
 | HPI house prices | 2 months |
 | BTL mortgage rate (IUMZID4) | 1 month |
 
-Actual historical publication availability takes precedence. Monthly execution
-is adaptive to relevant official releases and successful ingestion/validation;
-no fixed fallback month, calendar day, maximum-age limit or release-delay
-exception is introduced here. Exact operational choices remain under ISS-014.
+Monthly execution remains adaptive to relevant releases and successful essential
+validation. Under T7-B, a delayed expected monthly source update does not by
+itself cancel the forecast: proceed using the latest previously published valid
+observation only when essential data validation requirements are satisfied.
+Record the delayed update and actual source edition used. Detailed essential-input
+rules, acceptable staleness thresholds, timezone/cutoff conventions and exceptional
+scheduling remain future design decisions (ISS-014/015); no thresholds invented.
+This delayed-source permission does not authorise target-label imputation or
+change Option B's target month.
 
-For Bank of England Bank Rate, use the latest rate both publicly announced and
-effective by the forecast cutoff. Carry that effective rate forward until it
-changes. Apply the same rule to historical training/backtests, without an
-artificial monthly lag. Do not substitute a full-month average or future-effective
-announced rate for this approved cutoff-effective rate.
+**Bank Rate (T3):** use the latest Bank Rate effective within the monthly forecast
+execution period. When a scheduled MPC decision occurs that month, schedule the
+month's forecast after the relevant announcement and reconstruct history using a
+cutoff consistent with that post-announcement execution. Carry forward the
+previous effective rate when no change occurs. Use only a rate announced and
+effective by that cutoff; do not use a later-in-month/future-effective rate merely
+because it falls in the same calendar month. Minute-level historical announcement
+reconstruction is not required and no artificial monthly lag is introduced.
+Multiple decisions, exceptional effective-date arrangements and late-month
+scheduling conflicts require explicit future operational treatment, not an
+invented rule or silently selected full-month average.
 
-For annual and quarterly predictors, use the latest published eligible observation
-and carry it forward until a newer eligible release is available, in production
-and historical training alike. This represents latest known information, not a
-new measurement. Preserve native periods and definition breaks; do not fill
-backward, use future releases or forward-fill target labels. No maximum-age
-threshold is approved in this task. Any detailed stale-data handling or fallback
-requires the remaining evidence review/owner decision.
+**IUMZID4 (T4):** normal expected lag is one month: a November forecast generally
+uses October's mortgage-rate observation. Select the latest officially available
+eligible monthly observation while preserving the approved earliest-recorded
+numerical-vintage policy, including provisional states, audit revisions and
+uncertified/backfill flags. Later revisions must not silently replace selected
+values. Respect verified historical availability and known cadence changes;
+do not impose the current fifth-working-day schedule retrospectively on periods
+with different arrangements. Document approximation where availability is unresolved.
 
-**Interpretability decision:** do not introduce predictor-age variables such as
-`feature_age_months` into the modelling feature set. Publication dates, observation
-ages and availability-assumption flags may be retained as audit/validation
-metadata; they must not automatically become predictors. The prior proposal to
-add age features and impose maximum ages is superseded by Task 014.10.
+**ASHE publication alignment (T5):** use verified annual publication dates where
+available. A new edition may enter in its publication month when the reconstructed
+forecast runs after publication; retain the previous eligible edition until then.
+Verify bulletin-to-dataset-edition correspondence; a revised edition is not
+automatically an original release. Apply T2's historical vintage hierarchy and
+keep publication uncertainty distinct from predecessor-input missingness.
 
-Model splits remain chronological. Materialise each forecast row at its historical
-execution/cutoff with a target 12 calendar months after execution. Fit learned
-transformations on training data only and retain the approved preprocessing
-method's provenance/flags. No feature assembly, imputation or model fitting is
-implemented by these documented principles.
+**Annual demographics/housing (T6):** population, density, migration, dwelling
+stock, Table 123 new-build completions and net additional dwellings follow T2.
+Use verified publication dates where possible, admitting annual editions after
+release and carrying the latest eligible observation until a newer eligible one
+is available. Later retrospective histories may be flagged approximations;
+no universal fixed publication months or arbitrary lags are authorised.
+Official-first geography/density/migration treatment and compatible predecessor
+count aggregation remain unchanged; numerical-vintage priority does not approve
+an incompatible source or geography.
+
+**Nomis UMB (T7-A):** select the latest eligible quarterly update at each historical
+forecast cutoff using T2. Preserve its original overlapping annual reference
+period and approved published unemployment-rate definition; do not reinterpret it
+as a statistic measured over a single quarter. Retain same-quarter, same-region
+imputation for identified missing LA rates with cutoff-eligible donors only,
+without future information. Empty donor-pool fallback remains unresolved.
+
+**Interpretability decision:** predictor-age variables such as
+`feature_age_months` remain excluded. Publication dates, source availability,
+predecessor completeness and uncertainty flags are audit metadata; neither age
+nor missingness features are automatically added. Keep original periods/markers
+and do not forward-fill target labels. Model splits remain chronological; fit
+learned transformations on training data only. No feature assembly, imputation,
+vintage selection execution or model fitting occurs in this documentation task.
 
 ## 7. Proposed production ingestion batches
 
@@ -1008,7 +1062,7 @@ No cloud deployment, dependency installation or modelling is authorised here.
 ## 8. Findings and decisions for project-owner review
 
 The source findings retain their historical research context. The current
-Task 014.10 baseline and its dated approvals take precedence over older generic
+Task 014.13 decisions and the retained Task 014.10 baseline take precedence over older generic
 requests to approve policies already settled. Unresolved publication/vintage,
 completeness and implementation evidence remain distinct from approved methods.
 
@@ -1067,9 +1121,12 @@ completeness and implementation evidence remain distinct from approved methods.
    older migration components and metadata before asserting a continuous panel.
    Small samples and published ranges must not become invented completeness statistics.
 7. **Remaining operating detail:** monthly adaptive execution and Option B
-   are approved in Task 014.10. Specific timezone/cutoff conventions, release-delay
-   handling, common-run completeness and canonical target vintage still need
-   evidence/owner decisions. No fixed fallback month or maximum age is approved.
+   are approved in Task 014.10. Task 014.13 now approves T1-T7 vintage/target
+   preferences and delayed monthly release carry-forward. Specific timezone/cutoff
+   conventions, essential-input/staleness rules, common-run completeness and
+   exceptional MPC/late-month scheduling remain future design. Canonical primary
+   target vintage policy is approved; its evidence/application validation remains.
+   No fixed fallback month or maximum age is approved.
 8. **Task 006.1 source limitation:** the original prompt is restored and linked
    above, and the implementation guide and existing completion commit provide
    related context. The supplied Word document stops at its Section 4 heading;
@@ -1537,7 +1594,7 @@ below. Planning authority geography remains a separate case with the Task
 
 | Variable | Approved policy for future preprocessing | Required preservation/validation |
 |---|---|---|
-| ASHE earnings | Arithmetic mean of complete, verified predecessor-area medians for the 24 identified predecessor-only LA-years | Flag as an estimate, not a mathematically exact combined-area median; preserve all native medians/markers/CVs, roster, period and publication vintage |
+| ASHE earnings | Task 014.13 T5 supersedes the complete-input requirement: unweighted arithmetic mean of available numeric, geographically appropriate predecessor medians within the same 24 identified LA-years; one numeric median is used directly, none leaves missing | Flag partial estimates; retain expected/available counts, contributors, original medians/markers/CVs, geography, period and vintage; never claim an exact combined-area median |
 | UMB unemployment | Initial baseline: estimate identified missing quarterly rates with the same-quarter mean of other available LAs in the same region | Preserve original missing state, donors, region/period provenance and imputation flags; validate before use; no new alternative fallback selected |
 | Population | Prefer compatible official retrospective observations | Preserve original definitions, geography and publication vintages and historical availability limits |
 | Population density | Prefer official published values; only if genuinely missing derive from geographically compatible population and land area | Preserve population/area sources, units, geography and reference periods; no unapproved denominator vintage chosen |
@@ -1547,7 +1604,7 @@ below. Planning authority geography remains a separate case with the Task
 
 Transform only during a separately authorised preprocessing task. This table
 approves no new source acquisition, donor fallback, automatic exclusion threshold,
-source-vintage substitution or model training. The UMB quarter label must preserve
+untraceable source-vintage substitution or model training. Task 014.13 now governs documented vintage/proxy selection. The UMB quarter label must preserve
 its existing published rate definition and rolling-period basis; it must not be
 silently reinterpreted as a different unemployment statistic. Donor eligibility,
 regional completeness/empty-pool handling and implementation validation must be
@@ -1566,7 +1623,10 @@ index, not by expanding the cohort or averaging all historical reorganisations:
 | Westmorland and Furness | 2015-2021 | 7 |
 | Total | | 24 |
 
-**Eligibility limitation:** complete verified inputs remain a prerequisite.
+**Historical Task 014.10 eligibility limitation - superseded by Task 014.13 T5:**
+The following records the former complete-input restriction, not current policy.
+
+Complete verified inputs remained a prerequisite under Task 014.10.
 [Retained Task 014.3 ranges](../reports/data_audits/014.3/range-evidence.json)
 contain at least one complete retained edition for 16 of these 24 cases, but not
 for West Northamptonshire 2016/2019; Cumberland 2016/2017/2018/2020; and Westmorland
@@ -1576,6 +1636,14 @@ Do not calculate a partial-roster mean, impute missing predecessor medians or
 claim all 24 are currently constructible. Preserve these eight input-evidence
 gaps for preprocessing validation/owner assessment under ISS-012. No estimate is
 calculated here and no publication edition is selected.
+
+**Current T5 policy:** all 24 scoped LA-years, including the eight cases above,
+are eligible for future available-numeric predecessor treatment: average all
+when all are numeric; average the two when two are numeric; use one directly;
+leave missing when none are numeric. Verify geography/period compatibility,
+preserve non-numeric markers and record expected count, available count,
+contributing identifiers and partial-estimate status. This approval does not
+restore missing source observations or prove all years have compatible inputs.
 
 ### Planning decisions retained without duplication
 
@@ -1620,7 +1688,7 @@ dates are not automatically publication timestamps. The 76 evidence units
 include 27 exact-date, one month-only and 48 unresolved timing records; these
 are overlapping evidence units, not historical month coverage percentages.
 
-Seven outstanding owner decision groups are proposals only, linked to existing
+Historical Task 014.12 status: seven outstanding owner decision groups were proposals only, linked to existing
 ISS-004/005/009/011/012/013/014/015/016. No fixed fallback month, maximum age,
 operational cutoff or numerical-vintage substitution is approved here. The
 Task 014.10 baseline, Decisions A/B1, Issue E, Option B, approved IUMZID4 policy,
@@ -1628,3 +1696,49 @@ complete-input ASHE mean scope, UMB baseline and excluded/deferred planning
 variables remain intact. Eight ASHE incomplete retained-input cases remain
 coverage gaps, separately from undated editions. ISS-003 and ISS-022 remain
 Open; no source acquisition or geographical/temporal implementation occurred.
+Task 014.13 subsequently approves T1-T7 and supersedes the complete-input ASHE
+restriction. The original matrix and research conclusions remain historical
+evidence; publication gaps are not filled by policy approval.
+
+
+## Task 014.13 approved temporal alignment and ASHE decisions - 22 November 2026
+
+The owner supplied explicit T1-T7 approvals after Task 014.12. The
+[verbatim available prompt](014.13-consolidate-temporal-alignment-and-ashe-decisions.md)
+is the authority; its supplied text stops mid-list at Section 7, and any missing
+continuation has not been reconstructed. No implementation is authorised.
+
+| Approval | Current canonical policy |
+|---|---|
+| T1/T2 | Section 6: original first-release -> earliest identifiable retained -> explicitly flagged retrospective approximation; PIPR primary backtesting follows the same preference, not latest revised by default |
+| T3 | Section 6: monthly Bank Rate effective at a consistent post-scheduled-MPC cutoff; no minute-level history requirement or artificial monthly lag |
+| T4 | Section 6: latest eligible IUMZID4, normal one-month lag, preserved recorded-vintage policy and historical cadence evidence |
+| T5 | Section 6: verified ASHE edition publication alignment and T2 vintages; variable-specific section: available-numeric predecessor estimates supersede complete-input restriction within the existing 24 LA-years |
+| T6 | Section 6: latest eligible annual editions, carry-forward, verified dates and flagged retrospective approximations; geography methods preserved |
+| T7-A | Section 6: latest eligible UMB quarterly update, native annual windows and cutoff-safe same-region imputation |
+| T7-B | Section 6: delayed monthly release may use previous valid observation if essential validation passes; record delay/edition, no automatic cancellation |
+
+Owner-supplied illustration, not a newly generated production value: Cumberland
+2016 uses Carlisle (GBP 18,863) and Copeland (GBP 29,267), an approved partial unweighted
+arithmetic-mean estimate of GBP 24,065. Allerdale's non-numeric source value remains
+preserved. The example is consistent with the retained
+[Task 014.3 evidence](../reports/data_audits/014.3/range-evidence.json); this task
+calculates no reconstructed series and does not modify ingested earnings.
+The result is not the mathematically exact combined-area median and does not
+remove survey estimation uncertainty or geography/vintage limitations.
+
+Decisions A/B1, Issue E's verified-code HPI join/native-name preservation/reference
+output names, PIPR 294-LA geography, modern-code compatibility assumption, Option B,
+official-first density/migration, compatible additive-count aggregation and
+planning exclusions/deferrals remain intact. No automatic predictor-age or
+missingness feature, fixed annual publication month, staleness threshold or
+new source acquisition is approved.
+
+T1-T7 approval resolves the specified policy choices, not missing evidence or
+implementation/validation. ISS-003/004/005/009/011/012/013/014/015/016/022 remain
+Open for their remaining work; no blanket reopening of approved decisions.
+Remaining design includes operational timezone/cutoff, multiple/exceptional MPC
+arrangements, late-month conflicts, essential-input/staleness rules, empty UMB
+donor pools, edition correspondence and source-specific evidence validation.
+ISS-022 access restrictions remain unchanged. Historical Task 014.12 decision
+recommendations are not current requests to approve these settled choices.

@@ -331,3 +331,39 @@ dependencies and measured timing remain in their existing shared records.
   opened for independent review, unmerged. Offline artifact checks executed and
   passed; no independent source-data validation claimed. Final measured timing
   cutoff and reporting exclusions are recorded in the shared CSV/task receipt.
+
+
+### 22 November 2026 - Task 014.13: owner temporal and ASHE policy approval
+
+- **Event/trigger:** After merged PR #19 (Task 014.12), owner supplied T1-T7
+  decisions for documentation only. Available attachment ends mid-list in
+  Section 7; remaining text requested, not invented or represented as received.
+- **Initiated by:** Human. **Human actions:** Approved original-first/earliest-
+  retained/flagged-retrospective hierarchy and PIPR primary target preference;
+  monthly post-MPC Bank Rate, cadence-aware IUMZID4/annual ASHE and annual-source
+  eligibility, cutoff-safe UMB and delayed monthly release carry-forward policy.
+  Explicitly superseded complete-input ASHE restriction with available-numeric
+  predecessor estimates, including the eight incomplete cases in the same scope.
+- **AI actions:** Codex verified merged PR #19/current main, preserved dirty outer
+  checkout via isolated documentation worktree, archived supplied prompt verbatim,
+  updated canonical Section 6 and current ASHE guidance, annotated superseded
+  restrictions and updated existing issue dependencies without closing evidence gaps.
+- **Decision and stated rationale:** Reproduce historical production conditions as
+  closely as available evidence permits. Distinguish genuinely historical values
+  from retrospective proxies; no silent backdating. Partial ASHE values are
+  estimates, not exact combined-area medians; source missing markers remain.
+- **Outcome/status:** Policies documented for future implementation; no preprocessing,
+  model features, training, scheduling, geography transforms or source acquisition.
+  Remaining operational exceptions, essential-input/staleness rules and evidence
+  validation stay explicit. Decisions A/B1, Issue E, Option B and other baseline
+  geography/variable approvals preserved. ISS-003/004/022 remain Open.
+- **Evidence:** [Owner prompt](../014.13-consolidate-temporal-alignment-and-ashe-decisions.md),
+  [canonical decisions](../data-architecture-and-dictionary.md#task-01413-approved-temporal-alignment-and-ashe-decisions---22-november-2026),
+  [issue register](../issue-register.md), shared task execution CSV. Original
+  Task 014.12 matrix, reports and research evidence remain unchanged.
+
+- **Session stop:** Complete supplied T1-T7 documentation and offline preservation
+  checks passed. Full Task 014.13 remains In Progress pending the missing Section 7
+  continuation; no unprovided delivery requirements inferred. Changes retained on
+  isolated local branch; no push/PR/merge. Measured session and exclusions recorded
+  in shared CSV and task archive; [validation receipt](../../reports/data_audits/014.13/consolidation-validation.json).
