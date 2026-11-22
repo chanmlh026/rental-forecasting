@@ -1,0 +1,35 @@
+{
+  "status": "PASS WITH CONDITIONS",
+  "matrix_records": 76,
+  "publication_counts": {
+    "A": 27,
+    "B": 1,
+    "D": 48
+  },
+  "numerical_vintage_counts": {
+    "Later vintage retained": 23,
+    "Mixed vintage coverage": 20,
+    "Vintage unresolved": 23,
+    "Original vintage retained": 10
+  },
+  "source_groups": 10,
+  "decisions": 7,
+  "input_hashes_verified": 18,
+  "checks": [
+    "deterministic offline regeneration",
+    "local report links",
+    "unique records and source totals",
+    "date/null consistency and evidence paths",
+    "population replacement dates verified against retained notes",
+    "eight ASHE cases and five unacquired population files separate",
+    "prior dictionary/journal and all 22 issue records preserved",
+    "ISS-003/004/022 Open",
+    "prior timing rows and seven columns preserved",
+    "documentation/audit-only diff",
+    "conflict-marker and credential-pattern scan",
+    "git diff --check",
+    "git fsck --connectivity-only"
+  ],
+  "git_connectivity": "Pass; existing dangling objects retained, no connectivity failure",
+  "limitations": "Offline artifact validation only, not independent source/statistical validation. Original publication evidence is not recreated. Production tests not run: no production changes."
+}

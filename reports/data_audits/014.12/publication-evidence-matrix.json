@@ -1,0 +1,1998 @@
+{
+  "schema_version": 1,
+  "counting_unit": "Named edition or explicitly labelled history/test evidence unit; overlapping spans must not be summed as observations or interpreted as a percent of historical months",
+  "classification_definitions": {
+    "A": "Exact edition publication date supported",
+    "B": "Edition publication month supported",
+    "C": "Publication-month window supported",
+    "D": "Publication timing unresolved",
+    "N/A": "Not applicable with explanation"
+  },
+  "inputs_sha256": {
+    "reports/data_audits/005.1/vintage_comparison.csv": "67432f168c48a527cd62b4f6b4353fc885637b6092fa7091e58e5e46d6b703b7",
+    "reports/data_audits/008/validation-evidence.json": "2b15162778cdc5787d019972effaec844198b6916851db879eac5c970c544de0",
+    "reports/data_audits/007/validation-evidence.json": "5633dc64291d0517f299ea261590f2c2e3ab51f686297b4f3415808fa4b8edb1",
+    "reports/data_audits/007.1/observation-tests.json": "8793e645f432c691701799ada62916ecf01ff6bbfc1ad98b6c7f6d2406615abe",
+    "reports/data_audits/009.2/validation-evidence.json": "f8a6abecb84ff40ae40633250d363e71532758a562acec4090b48dc10fc3dbd7",
+    "reports/data_audits/009.3/archive-evidence.json": "f70c7bf53f54789ddb3d706f5557e1673fabb24156825f8d88fd8a9b07ceefb6",
+    "reports/data_audits/010/source-investigation.json": "e937946d1447c83432bdacbb701b718da742109ccb391ef694ffbbc00ca95a3d",
+    "reports/data_audits/014.10/consolidation-validation.json": "447b23e356d2b2423644c5a2667b5598519138f664c4526d63a60e17cd0dde02",
+    "docs/005.1-ons-pipr-workbook-coverage-audit.md": "4f306b7a03ab7f65061bdabf426ad2e3184df96dd8403768245da16925161e54",
+    "docs/006-ons-pipr-ingestion.md": "7eddfa7010d457a90426d65f2fd2b70b3ab71c9a00aeea7eafdd49b9cb5dd72f",
+    "docs/007.1-iumzid4-historical-revisions-and-publication-vintages.md": "2e54c900e66e0f56462b6ab45e316d02f9f006e5bcf208fd716d88629fe6f6f4",
+    "docs/008-ons-inflation-and-uk-hpi-ingestion.md": "bd904e441d5fd3ac308a9b9fa59763378edaee3cee01ad099cb3d4cb0a690032",
+    "docs/009.3-umb-unemployment-availability-and-quality-investigation.md": "3cee1b7a44054d9589ca7451ca60b99ffbfd72c286b4ccc28c2eceb2768a464c",
+    "reports/data_audits/009.1/publication-evidence.json": "6123d2cd49ea46d97b4455f268f3f5a011dc98d02f56d7c82250c656bccc04d7",
+    "reports/data_audits/009.4/validation-evidence.json": "fc13c0bc05e503c16b3d13acf04499c35a3b9c961412cfb7f5623a1e5ddc3630",
+    "reports/data_audits/011/README.md": "6962f4816cb7d76b7486dfe5141e382fabf530c6f074dc08d3eae0c262dfdbf4",
+    "reports/data_audits/011/source-findings.json": "188a7fb67e215cc5651c59baef84775250d4a0d7930b54579520b89c3c1d31b3",
+    "reports/data_audits/014.2/README.md": "7db66269f470202e5cf41412092f26c9ee48fa526590df8eb644b8c6bdeba35f"
+  },
+  "records": [
+    {
+      "record_id": "PIPR:2026-10-21",
+      "source": "PIPR",
+      "indicator": "Monthly rents: approved 294-LA target",
+      "edition": "2026-10-21",
+      "observation_period": "2015-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-10-21",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "docs/006-ons-pipr-ingestion.md",
+        "docs/005.1-ons-pipr-workbook-coverage-audit.md"
+      ],
+      "geography_or_series_limitations": "Reference boundaries; A/B1 preserved. Release label establishes date, not an independently verified publication timestamp.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "PIPR:2024-03 archive",
+      "source": "PIPR",
+      "indicator": "Monthly rents: archive comparison",
+      "edition": "2024-03 archive",
+      "observation_period": "2015-01 to 2024-02",
+      "publication_class": "B",
+      "publication_date": null,
+      "publication_month": "2024-03",
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/005.1/vintage_comparison.csv"
+      ],
+      "geography_or_series_limitations": "Archive lacks Barnsley/Sheffield reference codes; 81.91–84.08% of compared cells differ. No attribution to revision versus geography inferred.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:D7G7-v132",
+      "source": "CPI/CPIH",
+      "indicator": "D7G7",
+      "edition": "D7G7-v132",
+      "observation_period": "1989-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-10-20",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:D7G7-current-Nov2026",
+      "source": "CPI/CPIH",
+      "indicator": "D7G7",
+      "edition": "D7G7-current-Nov2026",
+      "observation_period": "1989-01 to 2026-10",
+      "publication_class": "A",
+      "publication_date": "2026-11-18",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:D7BT-v133",
+      "source": "CPI/CPIH",
+      "indicator": "D7BT",
+      "edition": "D7BT-v133",
+      "observation_period": "1988-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-10-20",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:D7BT-current-Nov2026",
+      "source": "CPI/CPIH",
+      "indicator": "D7BT",
+      "edition": "D7BT-current-Nov2026",
+      "observation_period": "1988-01 to 2026-10",
+      "publication_class": "A",
+      "publication_date": "2026-11-18",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:L55O-v133",
+      "source": "CPI/CPIH",
+      "indicator": "L55O",
+      "edition": "L55O-v133",
+      "observation_period": "1989-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-10-20",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:L55O-current-Nov2026",
+      "source": "CPI/CPIH",
+      "indicator": "L55O",
+      "edition": "L55O-current-Nov2026",
+      "observation_period": "1989-01 to 2026-10",
+      "publication_class": "A",
+      "publication_date": "2026-11-18",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:L522-v134",
+      "source": "CPI/CPIH",
+      "indicator": "L522",
+      "edition": "L522-v134",
+      "observation_period": "1988-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-10-20",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "CPI/CPIH:L522-current-Nov2026",
+      "source": "CPI/CPIH",
+      "indicator": "L522",
+      "edition": "L522-current-Nov2026",
+      "observation_period": "1988-01 to 2026-10",
+      "publication_class": "A",
+      "publication_date": "2026-11-18",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/inflation",
+        "reports/data_audits/008/validation-evidence.json#/inflation_sources"
+      ],
+      "geography_or_series_limitations": "UK series; two retained editions, zero overlap revisions in this pair only. Earlier first-release vintages not established.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "UKHPI:2026-08",
+      "source": "UKHPI",
+      "indicator": "AveragePrice and Index",
+      "edition": "2026-08",
+      "observation_period": "LA history 1995-01 to 2026-08",
+      "publication_class": "A",
+      "publication_date": "2026-10-21",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/hpi",
+        "docs/008-ons-inflation-and-uk-hpi-ingestion.md"
+      ],
+      "geography_or_series_limitations": "Verified LA-code joins, native names retained/reference output names (Issue E). Two releases do not supply full original LA vintages; aggregate revision matrices are not LA vintage evidence.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "UKHPI:2026-09",
+      "source": "UKHPI",
+      "indicator": "AveragePrice and Index",
+      "edition": "2026-09",
+      "observation_period": "LA history 1995-01 to 2026-09",
+      "publication_class": "A",
+      "publication_date": "2026-11-18",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/008/validation-evidence.json#/hpi",
+        "docs/008-ons-inflation-and-uk-hpi-ingestion.md"
+      ],
+      "geography_or_series_limitations": "Verified LA-code joins, native names retained/reference output names (Issue E). Two releases do not supply full original LA vintages; aggregate revision matrices are not LA vintage evidence.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Bank Rate:2026-11-21-task007",
+      "source": "Bank Rate",
+      "indicator": "Official effective rate event history",
+      "edition": "2026-11-21-task007",
+      "observation_period": "1975-01-20 to 2026-11-05 (259 events)",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Effective event dates are not publication dates. Retrieval is not announcement availability.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007/validation-evidence.json#/bank_rate",
+        "docs/007.1-iumzid4-historical-revisions-and-publication-vintages.md"
+      ],
+      "geography_or_series_limitations": "Effective dates are evidenced; original announcement timestamps are not. Latest publicly announced AND effective rate remains approved; no monthly lag.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2026-11-21-task007 history",
+      "source": "IUMZID4",
+      "indicator": "BTL mortgage rate",
+      "edition": "2026-11-21-task007 history",
+      "observation_period": "2012-01 to 2026-10 (178 months; 336 history rows)",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007/validation-evidence.json#/iumzid4",
+        "reports/data_audits/007.1/observation-tests.json"
+      ],
+      "geography_or_series_limitations": "Approved earliest recorded value, including provisional, preserved. Earliest retained update is not certified first public availability; historical cadence changes and unknown source timezone prevent extrapolation of current schedule.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2019-01",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2019-01",
+      "observation_period": "2019-01",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2019-02-07 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2019-02",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2019-02",
+      "observation_period": "2019-02",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2019-03-07 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2019-03",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2019-03",
+      "observation_period": "2019-03",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2019-04-05 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2012-01",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2012-01",
+      "observation_period": "2012-01",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2016-10-31 15:42:54; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2016-09",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2016-09",
+      "observation_period": "2016-09",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2016-10-31 15:42:54; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2016-10",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2016-10",
+      "observation_period": "2016-10",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2016-11-29 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2018-08",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2018-08",
+      "observation_period": "2018-08",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2018-10-01 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2018-09",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2018-09",
+      "observation_period": "2018-09",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2018-10-29 11:03:17; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2026-09",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2026-09",
+      "observation_period": "2026-09",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2026-10-07 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "IUMZID4:2026-10",
+      "source": "IUMZID4",
+      "indicator": "Selected retained update-history test",
+      "edition": "2026-10",
+      "observation_period": "2026-10",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "Source update timestamp retained verbatim; not promoted to a publication date or assigned a timezone.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/007.1/observation-tests.json#/tests"
+      ],
+      "geography_or_series_limitations": "Earliest retained update 2026-11-06 09:30:00; initial_publication_date=None. Retained values identifiable, original release not certified.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2002",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2002",
+      "observation_period": "2002",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2003",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2003",
+      "observation_period": "2003",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2004",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2004",
+      "observation_period": "2004",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2005",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2005",
+      "observation_period": "2005",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2006consistentw_005methodology",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2006consistentw_005methodology",
+      "observation_period": "2006",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2006consistentw_007methodology",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2006consistentw_007methodology",
+      "observation_period": "2006",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2007",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2007",
+      "observation_period": "2007",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2008",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2008",
+      "observation_period": "2008",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2009",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2009",
+      "observation_period": "2009",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2010revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2010revised",
+      "observation_period": "2010",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2011",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2011",
+      "observation_period": "2011",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2011revisedbasedonsoc2010",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2011revisedbasedonsoc2010",
+      "observation_period": "2011",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2012revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2012revised",
+      "observation_period": "2012",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2013revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2013revised",
+      "observation_period": "2013",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2014revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2014revised",
+      "observation_period": "2014",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2015",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2015",
+      "observation_period": "2015",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2016",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2016",
+      "observation_period": "2016",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Vintage unresolved",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2016revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2016revised",
+      "observation_period": "2016",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2017provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2017provisional",
+      "observation_period": "2017",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2017revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2017revised",
+      "observation_period": "2017",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2018provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2018provisional",
+      "observation_period": "2018",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2018revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2018revised",
+      "observation_period": "2018",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2019provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2019provisional",
+      "observation_period": "2019",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2019revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2019revised",
+      "observation_period": "2019",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2020provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2020provisional",
+      "observation_period": "2020",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2020revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2020revised",
+      "observation_period": "2020",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2021provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2021provisional",
+      "observation_period": "2021",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2021revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2021revised",
+      "observation_period": "2021",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2022provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2022provisional",
+      "observation_period": "2022",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2022revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2022revised",
+      "observation_period": "2022",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2023provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2023provisional",
+      "observation_period": "2023",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2023revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2023revised",
+      "observation_period": "2023",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2024provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2024provisional",
+      "observation_period": "2024",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2024revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2024revised",
+      "observation_period": "2024",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2025provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2025provisional",
+      "observation_period": "2025",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2025revised",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2025revised",
+      "observation_period": "2025",
+      "publication_class": "A",
+      "publication_date": "2026-10-22",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:2026provisional",
+      "source": "ASHE",
+      "indicator": "8.7a residence/all employees/both sexes/median gross annual earnings",
+      "edition": "2026provisional",
+      "observation_period": "2026",
+      "publication_class": "A",
+      "publication_date": "2026-10-22",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Original vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.2/validation-evidence.json#/editions",
+        "reports/data_audits/009.1/publication-evidence.json"
+      ],
+      "geography_or_series_limitations": "Native geography/methodology and pay/CV flags retained. Provisional-labelled values are identifiable provisional vintages, not proof of first-publication date. Old web-page update labels and generic October cadence do not prove old release timing.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "ASHE:11165",
+      "source": "ASHE",
+      "indicator": "Residence ad hoc 11165: historical geography comparator",
+      "edition": "11165",
+      "observation_period": "2015–2017 inspected; advertised 2003–2017",
+      "publication_class": "A",
+      "publication_date": "2020-01-23",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/014.2/README.md"
+      ],
+      "geography_or_series_limitations": "April 2019 boundaries; separate historical comparator, not a substituted production edition. Publication in 2020 cannot establish availability in 2015–2017.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Nomis UMB:2026-11-22-task009-4",
+      "source": "Nomis UMB",
+      "indicator": "Model-based unemployment rate",
+      "edition": "2026-11-22-task009-4",
+      "observation_period": "87 rolling annual periods ending 2004-12 to 2026-06",
+      "publication_class": "D",
+      "publication_date": null,
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.4/validation-evidence.json",
+        "docs/009.3-umb-unemployment-availability-and-quality-investigation.md"
+      ],
+      "geography_or_series_limitations": "2026-10-20 dataset update is not a demonstrated original release date for every period. Annual overlapping reference periods, quarterly updates, missing cells and future dimension placeholders remain distinct.",
+      "pit_support": "Exact historical eligibility not established by this evidence unit",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Nomis UMB:m01_latest",
+      "source": "Nomis UMB",
+      "indicator": "M01 archived rate comparator",
+      "edition": "m01_latest",
+      "observation_period": "1996/97 onward; see archive source columns for end period",
+      "publication_class": "A",
+      "publication_date": "2022-08-16",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.3/archive-evidence.json#/archives"
+      ],
+      "geography_or_series_limitations": "Archived edition values available, not every observation's original values. Early 1996/97 is March–February; later rolling annual windows differ. Both files claim final edition; preserve note inconsistency. No automatic substitution for Nomis.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Nomis UMB:m01_previous",
+      "source": "Nomis UMB",
+      "indicator": "M01 archived rate comparator",
+      "edition": "m01_previous",
+      "observation_period": "1996/97 onward; see archive source columns for end period",
+      "publication_class": "A",
+      "publication_date": "2022-04-12",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/009.3/archive-evidence.json#/archives"
+      ],
+      "geography_or_series_limitations": "Archived edition values available, not every observation's original values. Early 1996/97 is March–February; later rolling annual windows differ. Both files claim final edition; preserve note inconsistency. No automatic substitution for Nomis.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:summary2025",
+      "source": "Population/density/migration",
+      "indicator": "Population, density and latest-year migration components",
+      "edition": "summary2025",
+      "observation_period": "Population 2011–2025; migration 2025",
+      "publication_class": "A",
+      "publication_date": "2026-07-29",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:detail2025",
+      "source": "Population/density/migration",
+      "indicator": "Population and migration components",
+      "edition": "detail2025",
+      "observation_period": "Population 2011–2025; migration 2012–2025",
+      "publication_class": "A",
+      "publication_date": "2026-07-29",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:summary2024",
+      "source": "Population/density/migration",
+      "indicator": "Population, density and latest-year migration components",
+      "edition": "summary2024",
+      "observation_period": "Population 2011–2024; migration 2024",
+      "publication_class": "A",
+      "publication_date": "2025-07-30",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:detail2024",
+      "source": "Population/density/migration",
+      "indicator": "Population and migration components",
+      "edition": "detail2024",
+      "observation_period": "Population 2011–2024; migration 2012–2024",
+      "publication_class": "A",
+      "publication_date": "2025-07-30",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:summary2023",
+      "source": "Population/density/migration",
+      "indicator": "Population, density and latest-year migration components",
+      "edition": "summary2023",
+      "observation_period": "Population 2011–2023; migration 2023",
+      "publication_class": "A",
+      "publication_date": "2024-07-15",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:detail2023",
+      "source": "Population/density/migration",
+      "indicator": "Population and migration components",
+      "edition": "detail2023",
+      "observation_period": "Population 2011–2023; migration 2012–2023",
+      "publication_class": "A",
+      "publication_date": "2024-07-15",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover states edition publication date.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:summary2022_2023",
+      "source": "Population/density/migration",
+      "indicator": "Population, density and latest-year migration components",
+      "edition": "summary2022_2023",
+      "observation_period": "Population 2011–2022; migration 2022",
+      "publication_class": "A",
+      "publication_date": "2024-07-15",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover explicitly dates replacement tables 15 July 2024, replacing 23 November 2023 tables; original 2023 values not established by that statement.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:summary2022_2021",
+      "source": "Population/density/migration",
+      "indicator": "Population, density and latest-year migration components",
+      "edition": "summary2022_2021",
+      "observation_period": "Population 2011–2022; migration 2022",
+      "publication_class": "A",
+      "publication_date": "2024-07-15",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover explicitly dates replacement tables 15 July 2024, replacing 23 November 2023 tables; original 2023 values not established by that statement.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "Population/density/migration:detail2022",
+      "source": "Population/density/migration",
+      "indicator": "Population and migration components",
+      "edition": "detail2022",
+      "observation_period": "Population 2011–2022; migration 2012–2022",
+      "publication_class": "A",
+      "publication_date": "2024-07-15",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Mixed vintage coverage",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/010/source-investigation.json#/editions"
+      ],
+      "geography_or_series_limitations": "Native 2021/2023 boundary sheets remain distinct; compatible modern-code assumption is not polygon validation. Summary migration is latest-year only; revisions/Census rebasing preclude treating backcasts as original values. Retained cover explicitly dates replacement tables 15 July 2024, replacing 23 November 2023 tables; original 2023 values not established by that statement.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "MHCLG stock:Table125",
+      "source": "MHCLG stock",
+      "indicator": "Unrounded dwelling stock",
+      "edition": "Table125",
+      "observation_period": "Stock at 31 March, 2001–2025",
+      "publication_class": "A",
+      "publication_date": "2026-05-21",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/011/source-findings.json#/publication_evidence",
+        "reports/data_audits/011/README.md"
+      ],
+      "geography_or_series_limitations": "Retained edition includes historical revised/adjusted values; complete original archives absent. Preserve boundary, quality/imputation and precision flags. Table122 remains audit-only; identical Table123 URL aliases are one edition.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    },
+    {
+      "record_id": "MHCLG supply:Table123",
+      "source": "MHCLG supply",
+      "indicator": "New-build completions and net additional dwellings",
+      "edition": "Table123",
+      "observation_period": "Financial years 2012-13 to 2024-25",
+      "publication_class": "A",
+      "publication_date": "2025-11-20",
+      "publication_month": null,
+      "publication_window": null,
+      "timing_scope": "Named edition/history evidence unit, not every observation's first release",
+      "timing_note": "No verified intraday availability/timezone inferred.",
+      "original_observation_release_dates": "Not established across the full historical span",
+      "numerical_vintage": "Later vintage retained",
+      "vintage_scope": "Relative to original publication of the observations, not the retrieval date",
+      "evidence_refs": [
+        "reports/data_audits/011/source-findings.json#/publication_evidence",
+        "reports/data_audits/011/README.md"
+      ],
+      "geography_or_series_limitations": "Retained edition includes historical revised/adjusted values; complete original archives absent. Preserve boundary, quality/imputation and precision flags. Table122 remains audit-only; identical Table123 URL aliases are one edition.",
+      "pit_support": "Named dated edition potentially usable on/after its release, subject to geography, definitions and cutoff verification; not a full first-release history",
+      "remaining_assumption": "Historical first-release timing and original values remain unproven wherever not explicitly evidenced; no fallback authorised"
+    }
+  ],
+  "source_summary": {
+    "ASHE": {
+      "records": 38,
+      "publication_counts": {
+        "A": 3,
+        "B": 0,
+        "C": 0,
+        "D": 35,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Vintage unresolved": 12,
+        "Later vintage retained": 16,
+        "Original vintage retained": 10
+      },
+      "historical_availability_assumption_required": true
+    },
+    "Bank Rate": {
+      "records": 1,
+      "publication_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Vintage unresolved": 1
+      },
+      "historical_availability_assumption_required": true
+    },
+    "CPI/CPIH": {
+      "records": 8,
+      "publication_counts": {
+        "A": 8,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Mixed vintage coverage": 8
+      },
+      "historical_availability_assumption_required": true
+    },
+    "IUMZID4": {
+      "records": 11,
+      "publication_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 11,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Mixed vintage coverage": 1,
+        "Vintage unresolved": 10
+      },
+      "historical_availability_assumption_required": true
+    },
+    "MHCLG stock": {
+      "records": 1,
+      "publication_counts": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Later vintage retained": 1
+      },
+      "historical_availability_assumption_required": true
+    },
+    "MHCLG supply": {
+      "records": 1,
+      "publication_counts": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Later vintage retained": 1
+      },
+      "historical_availability_assumption_required": true
+    },
+    "Nomis UMB": {
+      "records": 3,
+      "publication_counts": {
+        "A": 2,
+        "B": 0,
+        "C": 0,
+        "D": 1,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Later vintage retained": 3
+      },
+      "historical_availability_assumption_required": true
+    },
+    "PIPR": {
+      "records": 2,
+      "publication_counts": {
+        "A": 1,
+        "B": 1,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Later vintage retained": 2
+      },
+      "historical_availability_assumption_required": true
+    },
+    "Population/density/migration": {
+      "records": 9,
+      "publication_counts": {
+        "A": 9,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Mixed vintage coverage": 9
+      },
+      "historical_availability_assumption_required": true
+    },
+    "UKHPI": {
+      "records": 2,
+      "publication_counts": {
+        "A": 2,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "N/A": 0
+      },
+      "numerical_vintage_counts": {
+        "Mixed vintage coverage": 2
+      },
+      "historical_availability_assumption_required": true
+    }
+  },
+  "coverage_gaps": {
+    "ashe_incomplete_retained_inputs": [
+      {
+        "code": "E06000062",
+        "year": 2016
+      },
+      {
+        "code": "E06000062",
+        "year": 2019
+      },
+      {
+        "code": "E06000063",
+        "year": 2016
+      },
+      {
+        "code": "E06000063",
+        "year": 2017
+      },
+      {
+        "code": "E06000063",
+        "year": 2018
+      },
+      {
+        "code": "E06000063",
+        "year": 2020
+      },
+      {
+        "code": "E06000064",
+        "year": 2017
+      },
+      {
+        "code": "E06000064",
+        "year": 2018
+      }
+    ],
+    "population_advertised_not_acquired": [
+      {
+        "edition_id": "summary2022_2023_previous_v2",
+        "kind": "summary",
+        "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2023geogsv2.xlsx",
+        "edition_slug": "mid20222023localauthorityboundaires",
+        "latest_reference_year": 2022,
+        "evidence_pages": [
+          "versions_summary2022_2023"
+        ],
+        "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+      },
+      {
+        "edition_id": "summary2022_2023_previous_v1",
+        "kind": "summary",
+        "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2023geogs.xlsx",
+        "edition_slug": "mid20222023localauthorityboundaires",
+        "latest_reference_year": 2022,
+        "evidence_pages": [
+          "versions_summary2022_2023"
+        ],
+        "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+      },
+      {
+        "edition_id": "summary2022_2021_previous_v2",
+        "kind": "summary",
+        "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2021geogsv2.xlsx",
+        "edition_slug": "mid20222021localauthorityboundaires",
+        "latest_reference_year": 2022,
+        "evidence_pages": [
+          "versions_summary2022_2021"
+        ],
+        "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+      },
+      {
+        "edition_id": "summary2022_2021_previous_v1",
+        "kind": "summary",
+        "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2021geogs.xlsx",
+        "edition_slug": "mid20222021localauthorityboundaires",
+        "latest_reference_year": 2022,
+        "evidence_pages": [
+          "versions_summary2022_2021"
+        ],
+        "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+      },
+      {
+        "edition_id": "detail2022_previous_v1",
+        "kind": "detail",
+        "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid2011tomid2022detailedtimeseries%2Fprevious%2Fv1%2Fmyebtablesenglandwales20112022v2.xlsx",
+        "edition_slug": "mid2011tomid2022detailedtimeseries",
+        "latest_reference_year": 2022,
+        "evidence_pages": [
+          "versions_detail2022"
+        ],
+        "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+      }
+    ],
+    "note": "Coverage gaps are not extra missing publication-date records; no new downloads under ISS-022."
+  },
+  "global_limitations": "Date-level evidence is not intraday cutoff verification; identifiable edition values are not automatically original observation values. Zero C/N/A records means none justified, not missing classification work."
+}
