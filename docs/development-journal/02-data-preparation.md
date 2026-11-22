@@ -223,3 +223,8 @@ dependencies and measured timing remain in their existing shared records.
   [research and independent source checks](../../reports/data_audits/014.6/README.md),
   [dictionary](../data-architecture-and-dictionary.md#task-0146-planning-authority-geography-research---22-november-2026),
   [register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+- **Submission update:** [PR #17](https://github.com/chanmlh026/rental-forecasting/pull/17)
+  is open/non-draft/mergeable/unmerged against PR #16's research branch.
+  Bounded investigation submitted; full geography certification remains incomplete.
+  Measured timing and validation receipt are in the same Task 014.6 archive/CSV row.
