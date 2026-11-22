@@ -201,7 +201,7 @@
     "end_utc": "2026-11-22T10:57:35+00:00",
     "seconds": 1668,
     "minutes": 27.8,
-    "notes": "Includes source investigation/implementation, focused/full tests, source audits/compatibility diagnosis, offline rerun and security. In-session waits included; test/audit intervals overlap."
+    "notes": "Includes source investigation/implementation, focused/full tests, source audits/compatibility diagnosis, offline rerun and security. In-session waits included; test durations are part of the continuous stage and are not added again. Separate activity/wait intervals were not timed."
   },
   "source_precision_assessment_reference": "source-findings.json includes both original numeric/display columns, 98 differing displays and 2925 raw numeric differences; no data/tolerance changes."
 }

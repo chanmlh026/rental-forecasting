@@ -529,8 +529,53 @@ merge is authorised.
 Stage A source investigation/implementation, tests, offline audit/diagnosis and
 security: **2026-11-22T10:29:47+00:00 to 2026-11-22T10:57:35+00:00**,
 **1668 seconds / 60 = 27.800000 minutes**. Whole-second UTC clock-tool precision.
-Full-suite/audit intervals overlap; measured test durations are evidence, not
-extra time added to the stage. Tool/network/access-review waits are included,
+Measured test durations are evidence within the continuous stage, not extra
+time added to it; separate activity/wait intervals were not timed. Tool/network/access-review waits are included,
 not separately timed or subtracted. Stage B documentation/PR preparation begins
 at that cutoff; final total and review receipt follow below. Stage C owner review
 is pending and has not been timed.
+
+
+## Independent-review handoff and final timing - 22 November 2026
+
+**Completed; PASS WITH CONDITIONS for source-level ingestion.** Implementation
+commit **d5d81d04a9d682598ad96346020a37505eb94fc4** is pushed on
+`feature/011-mhclg-housing-ingestion`. [PR #11](https://github.com/chanmlh026/rental-forecasting/pull/11)
+targets unchanged cleaned main **88a8d9ff6805779ad34d25dc6b5f16b3fdfd507d**.
+GitHub confirms OPEN, unmerged and mergeable; repository private and auto-merge
+disabled. The PR contains 20 authorised implementation/configuration/test/audit/
+documentation files, no datasets or unrelated ingestion/dependency changes.
+The original full stopped-gate artifact remains in ignored validation reports,
+linked by its checksum-preserving historical receipt. Source values remain intact.
+
+Independent owner review is the next checkpoint; no merge was requested or
+performed. Native precision differences, geography/quality/availability issues
+and denominator decisions remain explicit conditions under the existing issues;
+no issue is closed. ISS-020 remains Open and ISS-022 stays ONS-specific. There is
+no outstanding critical per-source ingestion discrepancy; future feature/input
+compatibility decisions are not implied by ingestion success. No model-ready
+claim, source substitution, ratio or denominator date is introduced.
+
+No full-suite or ingestion rerun was performed solely for documentation/PR
+preparation. Exact validated code/configuration hashes, source evidence, prompt/
+CSV, Markdown/link/UTF-8/table and final staged secret/whitespace checks passed.
+The status API reports no commit statuses and no CI workflow is configured;
+302 local regression tests plus two focused audit tests are not represented as CI.
+A transient first Git push DNS/thread failure was retried successfully without
+changing the commit or data.
+
+| Measured stage (UTC) | Recorded interval | Minutes |
+|---|---|---:|
+| A: source investigation/implementation/testing/audits/security | 2026-11-22T10:29:47+00:00 to 2026-11-22T10:57:35+00:00 | 27.800000 |
+| B: documentation and PR preparation | 2026-11-22T10:57:35+00:00 to 2026-11-22T11:08:02+00:00 | 10.450000 |
+| Total measured session | 2295 seconds divided by 60 | 38.250000 |
+
+Whole-second UTC clock-tool precision; one continuous work session. Reported test
+durations are within the stage totals, not extra time added to them. Tool/network/
+access-review waits and the initial push retry are included, not separately timed
+or subtracted; no active-CPU estimate or separate overlapping interval is inferred.
+Cutoff follows implementation push, PR creation and metadata/privacy/status checks.
+This final receipt/timing/evidence-note write, documentation-only commit/push,
+remote read-back and final response are outside the cutoff. Stage C independent
+review remains pending and is not timed. The single shared Task 011 CSV row
+retains this actual start/end/duration and Completed status.
