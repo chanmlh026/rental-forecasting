@@ -99,3 +99,9 @@ dependencies and measured timing remain in their existing shared records.
 - **Outcome/status:** Conflicts reconciled locally; ISS-003 Open, A/B1 unchanged;
   source acquisition, production edits and mapping absent. Remote confirmation
   and timing receipt are recorded in the [same task archive](../014.2-investigate-historical-ashe-current-boundaries.md).
+
+- **Dated outcome update, 22 November 2026:** Main update and both doc conflicts
+  committed/pushed as `1859d94`; GitHub confirms PR #14 mergeable, open and
+  unmerged. PR description updated to retain evidence gaps/access incident and
+  record the resolution. ISS-003 Open, Decisions A/B1 unchanged; no implementation
+  or acquisition. Final measured intervals retained in the same execution row.
