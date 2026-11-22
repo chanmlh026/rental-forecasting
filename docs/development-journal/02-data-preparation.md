@@ -37,3 +37,33 @@ dependencies and measured timing remain in their existing shared records.
 - **Evidence/references:** [Decision A, complete evidence and future requirements](../data-architecture-and-dictionary.md#decision-a-barnsley-and-sheffield-historical-boundary-harmonisation),
   [original/revised/resumption instructions](../014.1-barnsley-sheffield-geography-decision-a.md),
   [ISS-003](../issue-register.md), [shared execution timing](../task-execution-log.csv).
+
+## 22 November 2026 - Historical ASHE availability and B1 confirmation (Task 014.2)
+
+- **Event/trigger:** Owner requested research into earnings before 11 authorities'
+  creation, preserving the annual gross median All residence definition and
+  prohibiting harmonisation or source selection.
+- **Initiated by:** Human.
+- **Human actions:** Supplied test authorities and source/coverage requirements;
+  identified merged PR #12 and confirmed prior B1 approval, its four code changes,
+  rationale and deferred implementation. Earlier ChatGPT discussion is not available;
+  the owner's confirmation establishes the recorded approval.
+- **AI actions (Codex):** Read official Nomis metadata and focused observations;
+  inspected the residence historical extract and retained ONS editions offline.
+  Current-main review through the GitHub connector exposed the stale checkout
+  and ISS-022 after one ONS ZIP acquisition. Stopped further automated ONS downloads.
+  Preserved original dirty Task 009.5 work and moved only new Task 014.2 work
+  to an isolated branch at merged PR #12, using the clean checkout's local commit.
+  Recorded B1 in the existing dictionary and source findings in one audit report.
+- **Decision and stated rationale:** B1 retains unadjusted history for the four
+  minor 2013 changes because the owner considers affected property/elector counts
+  very small. No new ASHE source, vintage or reconstruction treatment selected.
+- **Outcome/status:** Research delivered with explicit geography/evidence gaps;
+  12 special-extract 2015-2017 pay/CV pairs verified on April 2019 boundaries.
+  Nomis family-specific missingness and Dorset's old-county values prevent a
+  blanket comparable-history conclusion. Decisions A/B1 preserved, implementation
+  deferred; ISS-003 and related issues remain Open. Owner review pending.
+- **Evidence/references:** [Task instructions and owner confirmation](../014.2-investigate-historical-ashe-current-boundaries.md),
+  [research and reproducible coverage](../../reports/data_audits/014.2/README.md),
+  [B1 decision record](../data-architecture-and-dictionary.md#decision-b1-minor-2013-boundary-changes),
+  [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
