@@ -1,24 +1,25 @@
 {
-  "status": "PASS WITH DOCUMENTED PROMPT LIMITATION",
+  "status": "PASS",
   "base_main": "09c92ecb3a93528ab77d3f7ec2f451ee497044bf",
   "scope": "T1-T7 documentation only; no implementation, datasets, downloads or scheduling",
   "checks": [
-    "T1-T7 policy content and current ASHE treatment",
-    "A/B1 and modern-geography assumption unchanged",
-    "all 22 issue records/prior text/statuses retained",
-    "prior journal and seven-column timing rows retained",
-    "documentation/receipt-only changed-file allowlist",
-    "new local Markdown link targets",
-    "credential/conflict marker pattern scan",
-    "verbatim available prompt prefix",
+    "T1-T7 content and explicit ASHE supersession",
+    "Option B definition preserved and Option A explicitly historical",
+    "Decisions A/B1, Issue E and modern-code geography assumption preserved",
+    "all 22 issue records/prior statements/statuses preserved",
+    "original journal and timing rows preserved; one seven-column task row",
+    "original research artifacts/data/code/configuration unchanged; Task01412 README approval note append-only",
+    "new relative Markdown paths and heading anchors",
+    "credential/conflict pattern scan",
+    "original attachment prefix and supplied continuation archived",
     "git diff --check",
     "git fsck --connectivity-only"
   ],
-  "research_evidence": "Task01412 matrix, original audits, source inputs and other task archives unchanged relative to main; changed-file allowlist verified",
+  "research_evidence": "All original PR16-19 research artifacts unchanged; only an appended subsequent-approval note in Task01412 README. No source acquisition/reprocessing.",
   "source_data_validation": "Not run; no source processing or independent statistical validation claimed",
   "production_tests": "Not run: documentation-only policies, no production changes",
   "prompt_archive_sha256": "f6e1ea2965affbade5ebead213eb80a48c4ffcbb5be4eded7f7060d7d928558f",
-  "prompt_limitation": "Supplied attachment ends at Section7 bullet - Phase 2; remainder requested asynchronously and not reconstructed. Complete supplied T1-T7 decisions documented; no additional acceptance/delivery instructions inferred.",
+  "prompt_limitation": "Resolved: owner supplied Section7-9 continuation and execution instructions; archived verbatim after original attachment and initial session receipt.",
   "issue_summary": "ISS-003/004/005/012/013/014/015/016 updated and remain Open; ISS-009/011/022 retained Open, planning issues Deferred; no new issues and none closed.",
   "remaining_design": [
     "timezone/cutoff conventions",
@@ -28,12 +29,46 @@
     "historical publication/edition correspondence and input validation"
   ],
   "git_connectivity": "Pass; existing dangling objects retained",
-  "task_status": "In Progress: supplied T1-T7 work verified, remaining truncated instructions requested",
+  "task_status": "In Progress: final verification passed; push/PR pending",
   "timing": {
     "start": "2026-11-22T19:40:04.9970559+00:00",
     "stop": "2026-11-22T19:45:52.825258+00:00",
     "duration_minutes": 5.797137,
     "status": "In Progress",
     "limitations": "One continuous measured session, host UTC microsecond precision at stop; original start recorded to 100 ns. Supplied T1-T7 documentation and offline checks complete. Full task remains In Progress because attachment ends mid-list at Section7 (- Phase 2); remaining instructions requested asynchronously but not received. No additional delivery/acceptance instructions inferred, no push/PR/merge. Includes tool waits and concurrent user-response wait, not separately measured/subtracted. Final commit/verification/reporting after this cutoff excluded."
-  }
+  },
+  "first_session_record": {
+    "status": "PASS WITH DOCUMENTED PROMPT LIMITATION",
+    "prompt_limitation": "Supplied attachment ends at Section7 bullet - Phase 2; remainder requested asynchronously and not reconstructed. Complete supplied T1-T7 decisions documented; no additional acceptance/delivery instructions inferred.",
+    "task_status": "In Progress: supplied T1-T7 work verified, remaining truncated instructions requested",
+    "timing": {
+      "start": "2026-11-22T19:40:04.9970559+00:00",
+      "stop": "2026-11-22T19:45:52.825258+00:00",
+      "duration_minutes": 5.797137,
+      "status": "In Progress",
+      "limitations": "One continuous measured session, host UTC microsecond precision at stop; original start recorded to 100 ns. Supplied T1-T7 documentation and offline checks complete. Full task remains In Progress because attachment ends mid-list at Section7 (- Phase 2); remaining instructions requested asynchronously but not received. No additional delivery/acceptance instructions inferred, no push/PR/merge. Includes tool waits and concurrent user-response wait, not separately measured/subtracted. Final commit/verification/reporting after this cutoff excluded."
+    }
+  },
+  "validated_at_utc": "2026-11-22T19:55:13.419960+00:00",
+  "acceptance_criteria": {
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS",
+    "5": "PASS",
+    "6": "PASS",
+    "7": "PASS",
+    "8": "PASS"
+  },
+  "changed_files": [
+    "README.md",
+    "docs/014.13-consolidate-temporal-alignment-and-ashe-decisions.md",
+    "docs/data-architecture-and-dictionary.md",
+    "docs/development-journal/02-data-preparation.md",
+    "docs/issue-register.md",
+    "docs/task-execution-log.csv",
+    "reports/data_audits/014.12/README.md",
+    "reports/data_audits/014.13/consolidation-validation.json"
+  ],
+  "new_local_links_checked": 61
 }

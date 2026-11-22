@@ -367,3 +367,12 @@ dependencies and measured timing remain in their existing shared records.
   continuation; no unprovided delivery requirements inferred. Changes retained on
   isolated local branch; no push/PR/merge. Measured session and exclusions recorded
   in shared CSV and task archive; [validation receipt](../../reports/data_audits/014.13/consolidation-validation.json).
+
+- **Same-date resumption:** Owner supplied the Section 7-9 continuation and
+  explicitly instructed resumption from `78461dd`, focused PR creation after
+  validation and no automatic merge. The initial local attachment's truncation
+  is now resolved as a prompt-availability limitation; prior session facts and
+  timing retained. Codex appended the continuation verbatim, confirmed latest
+  main still `09c92ec` (merged PR #19), reviewed existing changes against all eight
+  acceptance criteria and added a subsequent-approval note to the Task 014.12
+  summary without altering its matrix, counts or original research evidence.

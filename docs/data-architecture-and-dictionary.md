@@ -1705,8 +1705,10 @@ evidence; publication gaps are not filled by policy approval.
 
 The owner supplied explicit T1-T7 approvals after Task 014.12. The
 [verbatim available prompt](014.13-consolidate-temporal-alignment-and-ashe-decisions.md)
-is the authority; its supplied text stops mid-list at Section 7, and any missing
-continuation has not been reconstructed. No implementation is authorised.
+is the authority. The initial local attachment stopped mid-list at Section 7;
+the owner subsequently supplied Sections 7-9 and execution instructions, archived
+verbatim in the same file. That prompt-availability limitation is now resolved;
+the initial stop/receipt remains historical. No implementation is authorised.
 
 | Approval | Current canonical policy |
 |---|---|
