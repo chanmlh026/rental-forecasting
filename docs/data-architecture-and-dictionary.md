@@ -310,12 +310,12 @@ open questions. Coverage means observations, not historical availability.
 | Student Population Share | S1; historical proposal: possible Census TS068 student count / compatible population denominator, percent | LA residence / term-time residence | 21 March 2021 snapshot verified; no annual panel established | **Excluded from Current Modelling Scope** (Task 013.1); annual LA panel for the modelling period not established. TS068 includes schoolchildren aged 5+, not a direct higher-education concentration measure; future reconsideration requires evidence and owner approval |
 | Average House Price / HPI | M1; UK HPI average price in GBP or index (retain series base) | LA, also regional/national | Publisher documents England/Wales transactions from Jan 1995; current inspected release describes Aug 2026 | P for exact 294-LA history; dataset/measure V |
 | 12-month House-price Growth | M1; published annual change or proposed same-vintage index ratio, percent | LA | Earliest usable LA year-on-year pair unmeasured; no complete history inferred from 1995 source start | D/P; do not mix property definitions or vintages |
-| Housing Completions | M2 Table 123 `New build`, dwellings completed in financial year | English LA district | Inspected sheets 2012-13 through 2024-25 | V; annual net-supply component, distinct from quarterly housebuilding return |
-| Net Additional Dwellings | M2 Table 122; net stock flow, dwellings per financial year | English LA district | Inspected 2001-02 through 2024-25 | V; can be negative, includes more than new build |
+| Housing Completions | M2 Table 123 `New build`, dwellings completed in financial year | English LA district | Inspected sheets 2012-13 through 2024-25 | Task 011 source ingestion validated; annual net-supply component, distinct from quarterly housebuilding return |
+| Net Additional Dwellings | M2 Table 123; net stock flow, dwellings per financial year | English LA district | Inspected 2012-13 through 2024-25; modelling history begins in 2015 | Task 011.1 approved exclusive modelling flow source; Table 122 retained only for reconciliation/auditing; negative net additions preserved |
 | Planning Approvals | M3 PS2; granted major/minor residential application decisions, counts | Local planning authority (LPA) | Measured 2025 Q3-2026 Q2; publisher describes PS2 history from Q2 1979 | V for application counts; historical definition continuity unverified |
 | CPI Inflation | C1 D7G7; all-items 12-month percentage change | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; longer modelled history is distinct |
 | CPIH Inflation | C1 L55O; all-items 12-month percentage change including owner-occupier housing costs, percent | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; keep distinct from CPI |
-| Dwelling Stock (supply denominator) | M4 Table 125 unrounded; all dwellings including vacants, count at 31 March | English LA district | Inspected 2001-2025 | V; not households or private rented stock |
+| Dwelling Stock (supply denominator) | M4 Table 125 unrounded; all dwellings including vacants, count at 31 March | English LA district | Inspected 2001-2025 | Task 011 source ingestion validated; unrounded/rounded source sheets separate, not households or private rented stock |
 
 P0 reuses the existing audit: 294 LAs x 3 bedrooms x 141 months = **124,362**
 valid rent observations in the 21 October 2026 edition. It does not repeat the
@@ -479,6 +479,10 @@ inconsistencies rather than assuming all numeric observations are unadjusted.
 
 ### Dwelling-stock denominators and supply standardisation
 
+Task 011.1 approves Table 123 as the exclusive housing supply flow source for
+modelling; Table 122 is retained solely for source reconciliation and data-quality
+auditing. See the [approved source policy](#task-0111-approved-mhclg-modelling-source-policy---22-november-2026).
+
 The investigated denominator is **Table 125 all-dwelling stock**, including
 vacants, at 31 March. It is neither households, private rental stock, nor
 council-owned dwellings. These are construction proposals, not implemented
@@ -487,7 +491,7 @@ features or final operating definitions.
 | Proposed standardised predictor | Numerator / compatible denominator | Evidence / outstanding decision |
 |---|---|---|
 | New-build completions per 1,000 existing dwellings | Table 123 `New build` in financial year Y/Y+1 / Table 125 unrounded all-dwelling stock at chosen 31 March, multiplied by 1,000 | Same publisher/dwelling concept support investigation. Consider start-year 31 March Y stock, subject to approval; do not silently pick end-year or mean stock. |
-| Net additional dwellings as a percentage of existing dwelling stock | Table 122 net additions in Y/Y+1 / same explicitly dated stock, multiplied by 100 | Includes conversions, change of use, other changes and demolitions. Census calibration/revisions mean simple stock difference need not equal reported flow. Negative net changes can be valid. |
+| Net additional dwellings as a percentage of existing dwelling stock | Table 123 net additions in Y/Y+1 / same explicitly dated stock, multiplied by 100 | Includes conversions, change of use, other changes and demolitions. Census calibration/revisions mean simple stock difference need not equal reported flow. Negative net changes can be valid. |
 | Approved residential units per 1,000 existing dwellings | Actual units granted by compatible LA and period / matched all-dwelling stock, multiplied by 1,000 | **U for an openly accessible LA numerator in inspected sources.** PS2 counts decisions, not units. Glenigan's England rolling-annual table cannot supply local units or be differenced into quarterly units. Unresolved, not excluded. |
 
 The [planning technical notes](https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-technical-notes)
@@ -989,3 +993,80 @@ This does not block the owner-approved offline component. ISS-003/004/011/012/02
 remain Open. No population growth, density calculation, migration ratio, geographic
 harmonisation, imputation, target join or model was introduced; Household Growth
 and Student Population Share exclusions remain unchanged. Full suite: 266 tests.
+
+
+### Task 011 MHCLG production ingestion update - 22 November 2026
+
+The [Task 011 report](011-mhclg-housing-supply-and-dwelling-stock-ingestion.md) and
+[source audit](../reports/data_audits/011/README.md) supersede the earlier
+research-only implementation status for Tables 122/123/125. Three distinct official
+ODS workbooks retain 102000 source observations across 16 sheets, including
+Table 122 financial years 2001-02 through 2024-25, Table 123 2012-13 through
+2024-25, and rounded/unrounded stock at 31 March 2001-2025. Two alternate official
+asset links have identical bytes; their provenance is retained without duplicating
+observations. No complete historic-vintage archive or PIT reconstruction is claimed.
+
+Original source identifiers/rows and markers are preserved, with exact XML values,
+displayed text, formulas, inherited styles and publisher notes. There are 98366
+numeric and 3634 marked cells. Table 123 retains 584 cells with explicit publisher
+imputation signals, including 451 red-fill cells; no signal is null rather than
+proof of no publisher adjustment. Narrative historical imputation lists remain
+linked to original notes without automatically flagging every authority in a year.
+Negative net additions remain numeric. Known p/r note-year inconsistencies,
+unrounded-sheet rounded wording and two standalone PDR labels remain explicit.
+
+Latest exact matches are 292 of the approved cohort. Historical numeric coverage
+reproduces the original investigation: Tables 122/125 272-292, Table 123 new build
+277-292. Barnsley/Sheffield and the older 2012-13 Gateshead code discrepancy remain
+native source records. No mapping, imputation, aggregation or boundary adjustment
+is applied; missing source values and code mismatch remain separate concepts.
+
+Per-source independent XML/style reconciliation passes for all 102000 observations,
+589 note cells and 276 coverage rows. Source unit is dwellings, but Table 122
+integer stored totals and Table 123 fractional unrounded totals are not identical:
+2925 of 4530 numeric comparable pairs differ, with observed maximum absolute
+difference 0.5 dwelling; 98 displayed values also differ. Both originals are
+retained. An initial unconditional equality audit was stopped and corrected to
+the required compatibility report; no tolerance, rounding or preferred value
+was introduced. Future feature compatibility remains under ISS-009/011.
+
+Flow cover publication is 20 November 2025; stock cover is 21 May 2026. Financial
+year versus 31 March stock, geographic periods, publisher Census calibration and
+vintage differences do not establish a denominator date or stock-change equality.
+Unrounded stock is a future candidate, not a chosen ratio denominator. No supply
+ratio, stock difference feature, correlation, target join or model is created.
+ISS-003/004/009/011/012/020 remain Open; ISS-022 was reviewed and its ONS-specific
+restriction was not extended to GOV.UK without evidence. No ONS requests occurred.
+
+
+### Task 011.1 approved MHCLG modelling source policy - 22 November 2026
+
+The project owner approved **Table 123 as the exclusive modelling source for all
+housing supply flow variables**, including net additional dwellings, new-build
+completions, conversions, changes of use and demolitions. **Table 122 is retained
+solely for source reconciliation and data-quality auditing**; its longer history
+is not required for the currently planned modelling period. This supersedes the
+earlier Table 122 modelling-source proposal and resolves the source-selection
+part of ISS-009, which remains Open for other compatibility decisions.
+
+Modelling history begins in **2015**, extending through **2026 where available**.
+This is a modelling window, not a claim that unpublished observations exist:
+Task 011 retained flow observations through 2024-25 and stock through 31 March
+2025. Earlier ingested data remain available for historical lags or future research.
+
+The owner accepts the observed differences between equivalent Table 122 and
+Table 123 net-additions values for the current ingestion scope: maximum absolute
+difference **0.5 dwelling across 4,530 comparable numeric observations**. No further
+detailed comparison or reconciliation is required before merging Task 011. The
+[existing audit evidence](../reports/data_audits/011/README.md), original source
+values and historical limitations remain unchanged. Rounding has not been
+conclusively established as the cause of every difference.
+
+During **Phase 2, model-ready dwelling counts will be rounded to whole numbers**.
+The rounding convention must be explicitly defined before implementation; this
+approval does not select a convention or change original source values.
+**Table 125 remains the separate source for total dwelling stock**. Stock-denominator
+timing, supply-to-stock ratios and other compatibility decisions remain subject
+to Phase 2 methodological approval under ISS-009. No preprocessing or modelling
+is implemented by this documentation decision. The dated owner instructions are
+retained in the [Task 011 report](011-mhclg-housing-supply-and-dwelling-stock-ingestion.md#task-0111-owner-approved-source-decision---22-november-2026).

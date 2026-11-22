@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scanner": "Gitleaks 8.30.1",
+  "official_archive_sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+  "release_checksum_verified": true,
+  "git_eligible_source_files_scanned": 188,
+  "history_commits": 53,
+  "source_findings": 0,
+  "history_findings": 0,
+  "raw_bundles_verified": 9,
+  "unsafe_retained_http_headers": 0,
+  "git_integrity": "git fsck --strict passed; informational dangling objects only",
+  "lock": "uv lock --check passed",
+  "formatter": "Black 25.1.0 check passed for five Task 011 Python files",
+  "scope": "Git-eligible source/evidence and cleaned local history; ignored source data checked for checksums and retained HTTP headers separately. Retained remote PR/cache/external-copy history not certified.",
+  "iss020": "Open",
+  "iss022": "Reviewed; ONS-specific restriction not extended to GOV.UK/MHCLG. No ONS requests made; applicable GOV.UK terms/robots and official attachment identity reviewed.",
+  "staged_changes": "Passed with zero findings across 582875 staged bytes at pre-commit cutoff",
+  "final_scope": "20 authorised files; no datasets, dependency/storage changes or unrelated source/test edits. Documentation/CSV/Markdown/validated-code hash checks passed."
+}

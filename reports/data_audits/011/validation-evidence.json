@@ -1,0 +1,207 @@
+{
+  "status": "PASS WITH CONDITIONS",
+  "observations": 102000,
+  "source_cells_reconciled": 102000,
+  "source_results": [
+    {
+      "edition_id": "table122",
+      "table_id": "122",
+      "source_cells_reconciled": 10104,
+      "source_sheets": 1,
+      "GSS_codes": 417,
+      "source_area_rows": 421,
+      "periods": [
+        "2001-2002",
+        "2002-2003",
+        "2003-2004",
+        "2004-2005",
+        "2005-2006",
+        "2006-2007",
+        "2007-2008",
+        "2008-2009",
+        "2009-2010",
+        "2010-2011",
+        "2011-2012",
+        "2012-2013",
+        "2013-2014",
+        "2014-2015",
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025"
+      ],
+      "numeric_cells": 8880,
+      "negative_cells": 105,
+      "imputation_indicator_cells": 0
+    },
+    {
+      "edition_id": "table123",
+      "table_id": "123",
+      "source_cells_reconciled": 70546,
+      "source_sheets": 13,
+      "GSS_codes": 377,
+      "source_area_rows": 4596,
+      "periods": [
+        "2012-2013",
+        "2013-2014",
+        "2014-2015",
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025"
+      ],
+      "numeric_cells": 70546,
+      "negative_cells": 2101,
+      "imputation_indicator_cells": 584
+    },
+    {
+      "edition_id": "table125",
+      "table_id": "125",
+      "source_cells_reconciled": 21350,
+      "source_sheets": 2,
+      "GSS_codes": 427,
+      "source_area_rows": 854,
+      "periods": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "numeric_cells": 18940,
+      "negative_cells": 0,
+      "imputation_indicator_cells": 0
+    }
+  ],
+  "source_note_cells_reconciled": 589,
+  "coverage_rows_reconciled": 276,
+  "red_fill_imputation_cells": 451,
+  "row_imputation_note_cells": 584,
+  "imputation_indicator_cells": 584,
+  "source_value_kinds": {
+    "numeric": 98366,
+    "source_marker": 3634
+  },
+  "equivalent_net_additions_cells_compared": 4530,
+  "net_additions_compatibility": {
+    "numeric_pairs": 4530,
+    "exact_value_differences": 2925,
+    "missing_or_marker_pairs": 0,
+    "max_observed_absolute_difference": 0.5,
+    "differences_by_period": {
+      "2012-2013": 325,
+      "2013-2014": 328,
+      "2014-2015": 328,
+      "2015-2016": 328,
+      "2016-2017": 328,
+      "2017-2018": 328,
+      "2018-2019": 328,
+      "2019-2020": 318,
+      "2020-2021": 314
+    },
+    "policy": "Differences reported verbatim; no tolerance/rounding/transform/source choice; no stock-change equality or ratio",
+    "examples": [
+      {
+        "source_code": "E92000001",
+        "period": "2012-2013",
+        "value_122": 130611.0,
+        "value_123": 130611.1096323843,
+        "source_display_text": "130,611"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2013-2014",
+        "value_122": 142494.0,
+        "value_123": 142494.10963238432,
+        "source_display_text": "142,494"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2014-2015",
+        "value_122": 176582.0,
+        "value_123": 176582.10963238432,
+        "source_display_text": "176,582"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2015-2016",
+        "value_122": 195534.0,
+        "value_123": 195534.10963238435,
+        "source_display_text": "195,534"
+      },
+      {
+        "source_code": "E92000001",
+        "period": "2016-2017",
+        "value_122": 223234.0,
+        "value_123": 223234.10963238435,
+        "source_display_text": "223,234"
+      }
+    ]
+  },
+  "net_additions_missing_or_marker_pairs": 0,
+  "attachment_aliases_byte_identical": 2,
+  "raw_bundles_verified": 9,
+  "prior_data_files_unchanged": 388,
+  "offline_rerun_files_unchanged": 423,
+  "cross_dataset_policy": "Compare equivalent published net-additions cells; stock 31 March versus April-March flows and distinct publication vintages remain explicit. No stock-difference equality, ratio or denominator timing chosen.",
+  "conditions": [
+    "Native geography and historical code gaps retained",
+    "Publisher imputation/notes and inconsistent labels retained",
+    "Historical first-publication availability incomplete; no model-input vintage",
+    "Cross-table stored precision differs; raw differences retained without rounding/tolerance",
+    "Ratio/stock-denominator timing requires future owner approval"
+  ],
+  "validated_file_sha256": {
+    "src/ingestion/mhclg_housing.py": "bcd66c80cc82a3f868aba0471a097ab69db68b1ea8499347e6e912096af70d73",
+    "configs/mhclg_housing_sources.json": "2762df53b4d21e178df66b71657f4a02170d5e572209359ad7344229077e3fec",
+    "tests/test_mhclg_housing.py": "7d87738ae9949a33607f833a77be92355709ff243cb13bea3732f14b2f38e8eb",
+    "tests/test_mhclg_housing_audit.py": "b707d68ed5143943d0d8df1c5faaa6c5e42377881bc5252bfbff1f3b026b0598",
+    "reports/data_audits/011/inspect_sources.py": "374fdd09c967dd379bf1b13cf9001da905568a084ac9c6f3dfddece03a7a25a6",
+    "reports/data_audits/011/validate_ingestion.py": "5d643f30f2bbeb29f4061f40f3ca0dc6987402310cd0c397a28c86a7ea080dd7"
+  },
+  "tests": {
+    "focused_ingestion": "36 passed in 3.53 seconds",
+    "full_regression": "302 passed in 53.16 seconds; validated production code/configuration unchanged afterwards",
+    "audit_regression": "2 passed in 0.60 seconds after correcting unsupported cross-publication equality gate; full suite not repeated because production implementation/inputs/configuration unchanged"
+  },
+  "stage_a": {
+    "start_utc": "2026-11-22T10:29:47+00:00",
+    "end_utc": "2026-11-22T10:57:35+00:00",
+    "seconds": 1668,
+    "minutes": 27.8,
+    "notes": "Includes source investigation/implementation, focused/full tests, source audits/compatibility diagnosis, offline rerun and security. In-session waits included; test durations are part of the continuous stage and are not added again. Separate activity/wait intervals were not timed."
+  },
+  "source_precision_assessment_reference": "source-findings.json includes both original numeric/display columns, 98 differing displays and 2925 raw numeric differences; no data/tolerance changes."
+}

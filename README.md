@@ -226,9 +226,36 @@ See [Task 010](docs/010-ons-population-area-and-migration-ingestion.md) and the
 [offline audit/evidence](reports/data_audits/010/README.md) for validated coverage,
 remaining geography/publication limitations and the blocked acquisition follow-up.
 
+## MHCLG housing supply and dwelling stock ingestion
+
+Task 011 ingests the approved official ODS Tables 122 (net additions), 123
+(new build and source components) and 125 (unrounded stock plus rounded audit
+values). Periods remain financial years 2001-02 to 2024-25 for Table 122,
+2012-13 to 2024-25 for Table 123, and 31 March 2001-2025 for stock.
+
+```powershell
+uv run python -m ingestion.mhclg_housing --snapshot-id 2026-11-22-task011
+uv run python reports/data_audits/011/validate_ingestion.py
+```
+
+`configs/mhclg_housing_sources.json` pins official attachment identities,
+checksums and verified sheet/header schemas. Same-argument reruns use immutable
+saved requests without download; interrupted runs retain successful requests.
+`--config`, `--inventory` and `--geography-reference` use existing project settings.
+A changed source/inventory needs review and a new snapshot; existing raw or
+validated outputs cannot be overwritten. Data remain ignored by Git under the
+existing raw/validated/processed `mhclg_housing/snapshot={id}/` layers.
+
+Original values/display precision, notes, inherited styles, publisher imputation
+signals, revisions and legacy/current geography are retained. No source values
+are rounded or imputed and no ratio, denominator date or boundary mapping is
+selected. Cross-table native precision differences are reported explicitly.
+See [Task 011](docs/011-mhclg-housing-supply-and-dwelling-stock-ingestion.md) and
+[the independent source audit](reports/data_audits/011/README.md).
+
 ## Review and next source
 
-Review the generated PIPR, Bank of England, inflation, HPI, ASHE, UMB and population/migration outputs, then approve the
+Review the generated PIPR, Bank of England, inflation, HPI, ASHE, UMB, population/migration and MHCLG housing outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are
