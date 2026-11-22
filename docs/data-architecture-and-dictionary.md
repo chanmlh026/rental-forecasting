@@ -304,7 +304,7 @@ open questions. Coverage means observations, not historical availability.
 | Unemployment Rate | U1; owner-approved UMB-first published model-based rate, ITEM 2 / MEASURES 20100; percent of economically active residents 16+ | LA residence; native source geography preserved | API: 87 rolling annual periods, Jan–Dec 2004 to Jul 2025–Jun 2026; separate M01 archive 1996/97–2003/04 verified | Research verified in Task 009.3; no production ingestion. Latest 292 exact cohort matches, 292 numeric rates/273 confidence margins; two code discrepancies |
 | Population Density | D1 MYE5; population per square kilometre, supplied area denominator | LA | Inspected workbook mid-2011-mid-2025 | V; 292/294 direct-code matches, no mapping applied |
 | Population Growth | D1 MYE4; proposed percentage change between comparable annual mid-year populations | LA | Population mid-2011-mid-2025; annual pairs possible from 2012 on matched codes | D; revised population vintage and boundary policy required |
-| Household Growth | H1/H2; historical proposal: change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | **Excluded from Current Modelling Scope** (Task 013.1); consistent, timely observed annual 2015?2026 coverage for the required LA population not established. Estimate/projection concepts remain distinct; future reconsideration requires evidence and owner approval |
+| Household Growth | H1/H2; historical proposal: change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | **Excluded from Current Modelling Scope** (Task 013.1); consistent, timely observed annual 2015–2026 coverage for the required LA population not established. Estimate/projection concepts remain distinct; future reconsideration requires evidence and owner approval |
 | Net Internal Migration | D1 MYE3; internal inflow minus outflow, persons in year to mid-year | LA | Components inspected for year to mid-2025 only; older detailed editions identified, not exhaustively parsed | V for latest variable; P for continuous history |
 | Net International Migration | D1 MYE3; international inflow minus outflow, persons in year to mid-year | LA | Same latest extract and history limitation as internal migration | V for latest variable; P for historical methods and vintages |
 | Student Population Share | S1; historical proposal: possible Census TS068 student count / compatible population denominator, percent | LA residence / term-time residence | 21 March 2021 snapshot verified; no annual panel established | **Excluded from Current Modelling Scope** (Task 013.1); annual LA panel for the modelling period not established. TS068 includes schoolchildren aged 5+, not a direct higher-education concentration measure; future reconsideration requires evidence and owner approval |
@@ -331,16 +331,16 @@ data-availability decision, not a correlation result or a permanent judgement
 about predictive usefulness. It does not approve alternative measures, synthetic
 annual observations, feature construction or additional research.
 
-**Household Growth ? Excluded from Current Modelling Scope.** The existing
+**Household Growth — Excluded from Current Modelling Scope.** The existing
 [source assessment](#underlying-source-characteristics-and-evidence), recorded
-for Task 006.2, identified H1 APS household estimates for 2020?2022 (released
-12 March 2024), H1 administrative-data-based estimates for 2021?2023 (released
+for Task 006.2, identified H1 APS household estimates for 2020–2022 (released
+12 March 2024), H1 administrative-data-based estimates for 2021–2023 (released
 8 September 2026), and H2 household projections based on 2022 through 2047
 (released 28 October 2025); older 2018-/2016-based projection editions were also
 identified. These are identified products, not a verified 294-LA annual panel:
 the household workbooks were not parsed and completeness/comparability was not
 measured. The observation years and release dates do not establish consistent,
-timely historical availability across the required 2015?2026 period.
+timely historical availability across the required 2015–2026 period.
 
 APS estimates are survey-based; administrative-data-based estimates use a
 different estimation method, have revised methods and lack uncertainty measures
@@ -360,11 +360,11 @@ This does not establish that no suitable dataset can exist. Future reconsiderati
 requires new coverage/methodology evidence and explicit owner approval; estimates
 and projections must not be spliced silently.
 
-**Student Population Share ? Excluded from Current Modelling Scope.** S1 in the
+**Student Population Share — Excluded from Current Modelling Scope.** S1 in the
 [existing source assessment](#underlying-source-characteristics-and-evidence)
 identifies Census TS068, its Nomis definition and bulk-file route. The recorded
 Census day is 21 March 2021, with first release on 10 January 2023. A Census
-snapshot does not establish an annual LA series over 2015?2026 and was not
+snapshot does not establish an annual LA series over 2015–2026 and was not
 information available in 2015. Repeating or backfilling a snapshot would not
 create observed annual history. TS068 covers usual residents aged five and over
 in full-time education, including schoolchildren, and must not be presented as a
