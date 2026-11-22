@@ -1,0 +1,7 @@
+{
+  "stage": "Initial independent audit reference load",
+  "error": "KeyError: gss_code from UTF-8 BOM in pinned reference header",
+  "source_comparison_started": false,
+  "source_or_production_changes": false,
+  "resolution": "Independent audit reader uses utf-8-sig; regression test covers BOM and exclusions. Original reference unchanged; final validation evidence records outcome."
+}

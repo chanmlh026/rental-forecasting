@@ -706,3 +706,55 @@ is stated explicitly. Detailed findings remain in their source documents.
 - **AI actions (Codex):** Pushed implementation d5d81d04a9d682598ad96346020a37505eb94fc4 on feature/011-mhclg-housing-ingestion and opened [PR #11](https://github.com/chanmlh026/rental-forecasting/pull/11) against unchanged main 88a8d9ff6805779ad34d25dc6b5f16b3fdfd507d. Retried a transient Git push DNS/thread failure successfully; no commit/data changes were needed. Verified prompt/CSV, exact code/configuration hashes, Markdown, final scope and staged secrets without repeating full tests or ingestion for documentation.
 - **Outcome/status:** Completed, PASS WITH CONDITIONS; PR OPEN/unmerged/mergeable for independent owner review. Repository private, auto-merge disabled, all relevant issue statuses unchanged. Native source precision/quality conditions remain explicit; no ratio, source choice, mapping, merge, public visibility or ONS request occurred.
 - **Evidence/references:** [Task 011 final receipt](../011-mhclg-housing-supply-and-dwelling-stock-ingestion.md#independent-review-handoff-and-final-timing---22-november-2026), [source audit](../../reports/data_audits/011/README.md), [shared CSV](../task-execution-log.csv). Measured session 10:29:47 to 11:08:02 UTC, 38.250000 minutes; final receipt/commit/push/read-back/report outside cutoff, independent review pending.
+
+
+## 22 November 2026 - Planning application statistics ingestion (Task 012, Phase 1)
+
+- **Event/trigger:** Owner authorised official MHCLG PS1/PS2 investigation and
+  ingestion, while explicitly keeping this work in Phase 1 after Phase 2 began.
+- **Initiated by:** Human.
+- **Human actions:** Required original counts/geography/markers/provenance,
+  historical coverage and independent/offline validation. Authorised the separate
+  local dwelling-unit source investigation, but required separate approval before
+  candidate ingestion; no application-to-unit conversion or Phase 2 changes.
+- **AI actions (Codex):** Started from merged PR #11/#12 main, archived the prompt
+  and preserved pre-task checksums. Retained four official CSVs/seven documents,
+  implemented all-field source/count tables and coverage/collision audits using
+  existing immutable/security primitives. Detected PS1's extra preamble note,
+  retained 15 duplicate historical row pairs and PS2 shared missing-code groups.
+  Corrected an independent audit BOM-reader failure with a regression test and
+  preserved its diagnostic; production/reference/source bytes were unchanged.
+- **Decision and stated rationale:** Preserve native source records and distinctions
+  between applications and dwellings; model-ready treatment remains Phase 2 work.
+  An annual affordable-permissions candidate does not establish all-residential
+  units or authorise substitute ingestion; unresolved units availability/rights
+  remain under ISS-010/017 while PS1/PS2 work completes independently.
+- **Outcome/status:** PASS WITH CONDITIONS. 27,422,275 original fields and all
+  count values/periods reconcile; 318 quarterly audits and 12 layer tables agree.
+  Both recent assets match full-file counterparts. Offline replay preserves all
+  471 data files, including 423 pre-task files. 39 focused and 343 full regression
+  tests pass. Historical quality/geography/PIT and units-source limits remain.
+  ISS-003/004/010/011/012/017/020 remain Open. Phase 2 journal, Decision A, pinned
+  reference and approved housing-source policy are unchanged; no mappings, model
+  features or unapproved datasets. Documentation/PR review handoff follows.
+- **Evidence/references:** [Task 012 prompt/report](../012-mhclg-planning-applications-ingestion.md),
+  [source/reproduction index](../../reports/data_audits/012/README.md),
+  [passing independent evidence](../../reports/data_audits/012/validation-evidence.json),
+  [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+
+### 22 November 2026 update - Task 012 Phase 1 independent-review handoff
+
+- **AI actions (Codex):** Pushed implementation 67d268d6153b18e758949ee7c426e0b6677e5bba
+  and opened [PR #13](https://github.com/chanmlh026/rental-forecasting/pull/13)
+  against main c242af94b3e2be21889eac4092dd4ffc185ad788. Final staged secret,
+  documentation, validated-code/configuration hash and protected Phase 2 checks
+  pass without repeating successful full tests/ingestion for review preparation.
+- **Outcome/status:** Completed, PASS WITH CONDITIONS; PR OPEN/unmerged/mergeable
+  for owner-directed independent review, private repository and auto-merge disabled.
+  Relevant issues remain Open. No Phase 2 journal/decision changes or merge.
+- **Evidence/references:** [Task 012 final receipt](../012-mhclg-planning-applications-ingestion.md#independent-review-handoff-and-final-measured-timing---22-november-2026),
+  [audit index](../../reports/data_audits/012/README.md), [shared timing](../task-execution-log.csv).
+  Measured 12:58:38 to 13:21:51 UTC, 23.216667 minutes. Final receipt/timing/
+  security-note write, documentation-only commit/push/read-back and reporting
+  excluded; independent review pending and untimed.
