@@ -20,10 +20,14 @@ features, forecast labels, training splits, or models.
 - Target measure: monthly average rent level in GBP, not a rent index or
   growth rate.
 
-The project target remains `y(LA, bedroom, t) = Rent(LA, bedroom, t + 12
-calendar months)`. This ingestion stores the historical rent observations
-only; it does not generate 12-month labels or change the approved Option A
-origin definition.
+**Current horizon update, Task 014.10 (22 November 2026):** Option B forecasts
+`Rent(LA, bedroom, execution_month + 12 calendar months)`. Publication delays
+change eligible input/reference observations, not the target month. See the
+[current target definition](data-architecture-and-dictionary.md#4-target-variable-specification).
+This ingestion still stores historical rent observations only; it creates no
+forecast labels. Its original documentation referenced the then-approved Option A
+observation-month anchor, now retained as superseded history in the dictionary.
+No ingestion code, data or validation gates are changed by this policy update.
 
 ## Run the pipeline
 
