@@ -106,6 +106,38 @@ dependencies and measured timing remain in their existing shared records.
   record the resolution. ISS-003 Open, Decisions A/B1 unchanged; no implementation
   or acquisition. Final measured intervals retained in the same execution row.
 
+## 22 November 2026 - Predecessor median earnings range research (Task 014.3)
+
+- **Event/trigger:** Owner requested numerical historical earnings-range evidence
+  for the 11 reorganised authorities, retaining the approved ASHE definition and
+  forbidding production reconstruction, methodology decisions and new ONS downloads.
+- **Initiated by:** Human.
+- **Human actions:** Specified yearly min/max/GBP/percentage spans, numeric and
+  missing/suppressed counts, dated predecessor history, uncertainty limitations,
+  official comparator assessment and independent review before merge.
+- **AI actions (Codex):** Created a separate branch from merged Task 014.2 main;
+  checked statutory membership and Somerset's intermediate merger. Read retained
+  ingestion and verified raw pay/CV cells offline; preserved all editions and
+  supplied complete/partial/unassessable ranges plus comparator qualifications.
+  Independently reconciled every range to source observations and confirmed
+  existing processed snapshot files unchanged. No statistical source acquisition.
+- **Outcome/status:** Across 65 pre-reorganisation authority-years, 37 have a
+  complete retained edition and 28 do not. Complete ranges differ substantially;
+  partial narrow ranges cannot establish similar full-area earnings. Official
+  comparator overlaps offer qualified future research opportunities; no candidate
+  combined median or approximation accuracy calculated. Research supports only
+  selective further investigation, with owner decision/independent review pending.
+  Decisions A/B1 preserved, ISS-003 and related source limitations remain Open;
+  no production implementation or geography harmonisation.
+- **Evidence/references:** [Research, roster and numerical evidence](../../reports/data_audits/014.3/README.md),
+  [original task prompt and handoff](../014.3-ashe-predecessor-median-earnings-ranges.md),
+  [shared timing](../task-execution-log.csv), [ISS-003](../issue-register.md).
+
+- **Dated review update, 22 November 2026:** Research commit `cce7f2c` pushed;
+  [PR #15](https://github.com/chanmlh026/rental-forecasting/pull/15) opened for
+  independent review against merged Task 014.2 main and confirmed mergeable,
+  open and unmerged. Final timing and review receipt recorded in the same task
+  archive/CSV row. No model or methodology approval inferred from submission.
 
 ### Cross-dataset official historical geography investigation - 22 November 2026 (Task 014.4)
 
@@ -131,3 +163,31 @@ dependencies and measured timing remain in their existing shared records.
 - **Submission update, 22 November 2026:** [PR #16](https://github.com/chanmlh026/rental-forecasting/pull/16)
   is open/non-draft/mergeable and unmerged; independent review pending. The same
   task archive and execution row retain measured cutoff and submission evidence.
+
+### Research integration and approved geography policy - 22 November 2026 (Task 014.5)
+
+- **Event/trigger:** Owner authorised merging the unchanged reviewed PR #15,
+  updating PR #16 against main and leaving PR #16 open for final independent review.
+- **Initiated by:** Human.
+- **Human actions:** Approved the overarching policy: ONS PIPR is the geographical
+  reference for the approved 294 Local Authorities; all historical LA predictors
+  must use the same reference boundaries regardless of observation year. Official
+  retrospective estimates are preferred; compatible additive counts may be
+  reconstructed when necessary subject to verification; non-additive approximations
+  need separate owner approval. Reaffirmed Issue E: join HPI by verified LA code,
+  retain original source names and use reference names in modelling outputs.
+- **AI actions (Codex):** Verified exact reviewed heads, reran PR #15's offline
+  independent range validator and merged #15 with an expected-head guard. Fetched
+  updated main and reconciled three append conflicts in the dictionary, this
+  journal and timing CSV, preserving both tasks in order. Recorded the approved
+  policy separately from implementation and source verification.
+- **Decision/status:** The policy approval does not verify historical PIPR
+  boundary compatibility or approve a particular source/vintage/transformation.
+  Task 014.4 classifications and original research conclusions remain unchanged.
+  A/B1 and Issue E preserved; ISS-003 stays Open, ISS-004/022 restrictions retained.
+  No acquisition, production changes or approximation approval; PR #16 must remain open.
+- **Evidence/references:** [Task 014.5 and integration receipt](../014.5-integrate-geography-research-and-approved-methodology.md),
+  [approved policy](../data-architecture-and-dictionary.md#approved-overarching-geographical-policy-and-issue-e---22-november-2026),
+  [Task 014.3 research](../../reports/data_audits/014.3/README.md),
+  [Task 014.4 research](../../reports/data_audits/014.4/README.md),
+  [issues](../issue-register.md), [timing](../task-execution-log.csv).

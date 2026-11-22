@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "reviewed_pr15_head": "7d2ddf2b2efe1af27e4182348e41e150aae3b683",
+  "reviewed_pr16_head": "ee0a0326b45dfd2718b1fed4625412b66dbd18a3",
+  "pr15_merge_main": "8d97df3a68a7a7f002afbea5eafca3c26d4af9cd",
+  "exact_research_and_prompt_files_preserved": {
+    "014.3": 8,
+    "014.4": 8
+  },
+  "original_document_narrative_and_issue_cell_content_preserved": true,
+  "all_22_issue_records_and_statuses_preserved": true,
+  "historical_csv_rows_preserved": true,
+  "syntax_json_local_links_conflict_markers_credential_pattern_scan": "pass; pattern scan is not proof of absence",
+  "conflicts_resolved": [
+    "dictionary",
+    "Phase 2 journal",
+    "timing CSV"
+  ],
+  "resolution": "Both append contributions retained in task order; CSV row content preserved. ISS-003 automatic merge retains both research updates.",
+  "production_tests": "Not run: documentation/research integration only.",
+  "independent_offline_validators_executed": "Task 014.3: all 142 ranges; Task 014.4: 3564 grid rows and 11682 native period records. Both pass; original validation files unchanged."
+}
