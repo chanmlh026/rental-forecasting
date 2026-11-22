@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "authorities": 11,
+  "variables": 27,
+  "years": 12,
+  "matrix_rows": 3564,
+  "source_versions": 69,
+  "authority_year_version_records": 6927,
+  "native_source_rows_inspected": 26857,
+  "source_files_hash_verified_and_unchanged": 22,
+  "classification_counts": {
+    "Confirmed": 1287,
+    "Unverified": 1230,
+    "Predecessor-only": 718,
+    "Missing": 197,
+    "Evidence gap": 132
+  },
+  "no_statistical_values_reconstructed": true,
+  "no_production_outputs": true,
+  "independent_native_period_records_reconciled": 11682,
+  "independently_checked_grid_rows": 3564,
+  "classification_coverage_refs_and_availability_invariants": "pass",
+  "all_source_manifest_file_and_query_hashes_rechecked": "pass",
+  "documentation_scope_preservation_prompt_csv_links_syntax_secret_pattern_checks": "pass",
+  "original_22_issue_rows_and_A_B1_preserved": "pass",
+  "git_integrity": "Connectivity check exit 0; existing dangling objects retained, no missing or corrupt objects.",
+  "production_tests": "Not run: production code/configuration/datasets unchanged; independent research checks passed."
+}

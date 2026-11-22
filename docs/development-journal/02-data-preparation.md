@@ -138,3 +138,61 @@ dependencies and measured timing remain in their existing shared records.
   independent review against merged Task 014.2 main and confirmed mergeable,
   open and unmerged. Final timing and review receipt recorded in the same task
   archive/CSV row. No model or methodology approval inferred from submission.
+
+### Cross-dataset official historical geography investigation - 22 November 2026 (Task 014.4)
+
+- **Event/trigger:** Owner requested official historical geography research for the
+  exact 11 reorganised authorities across current LA predictors and PIPR targets.
+- **Initiated by:** Human.
+- **Human actions:** Specified research-only scope, source priority, five evidence
+  classifications, preservation of A/B1 and ISS-003 Open, and the ISS-022 acquisition hold.
+- **AI actions (Codex):** Checked current main and unmerged Task 014.3; used an isolated
+  main-based worktree to preserve unrelated dirty work and PR #15. Inspected retained
+  source parquets, manifests and geography notes; consulted official documentation;
+  retained three focused public Nomis responses. Created an offline coverage audit
+  and independent source-period checks; no automated ONS download or reconstruction.
+- **Outcome/status:** 11 authorities, 27 audited fields and 2015?2026 assessed. Official
+  population/migration backcasts identified; HPI/PIPR historical footprint verification,
+  non-additive series and planning units remain review priorities. No methodology
+  selected; A/B1 and all issue statuses preserved. Independent review pending.
+- **Evidence/references:** [Prompt](../014.4-cross-dataset-historical-geography-and-official-sources.md),
+  [findings and validation](../../reports/data_audits/014.4/README.md),
+  [dictionary](../data-architecture-and-dictionary.md#task-0144-cross-dataset-historical-geography-research---22-november-2026),
+  [register](../issue-register.md), [measured timing](../task-execution-log.csv).
+
+- **Submission update, 22 November 2026:** [PR #16](https://github.com/chanmlh026/rental-forecasting/pull/16)
+  is open/non-draft/mergeable and unmerged; independent review pending. The same
+  task archive and execution row retain measured cutoff and submission evidence.
+
+### Research integration and approved geography policy - 22 November 2026 (Task 014.5)
+
+- **Event/trigger:** Owner authorised merging the unchanged reviewed PR #15,
+  updating PR #16 against main and leaving PR #16 open for final independent review.
+- **Initiated by:** Human.
+- **Human actions:** Approved the overarching policy: ONS PIPR is the geographical
+  reference for the approved 294 Local Authorities; all historical LA predictors
+  must use the same reference boundaries regardless of observation year. Official
+  retrospective estimates are preferred; compatible additive counts may be
+  reconstructed when necessary subject to verification; non-additive approximations
+  need separate owner approval. Reaffirmed Issue E: join HPI by verified LA code,
+  retain original source names and use reference names in modelling outputs.
+- **AI actions (Codex):** Verified exact reviewed heads, reran PR #15's offline
+  independent range validator and merged #15 with an expected-head guard. Fetched
+  updated main and reconciled three append conflicts in the dictionary, this
+  journal and timing CSV, preserving both tasks in order. Recorded the approved
+  policy separately from implementation and source verification.
+- **Decision/status:** The policy approval does not verify historical PIPR
+  boundary compatibility or approve a particular source/vintage/transformation.
+  Task 014.4 classifications and original research conclusions remain unchanged.
+  A/B1 and Issue E preserved; ISS-003 stays Open, ISS-004/022 restrictions retained.
+  No acquisition, production changes or approximation approval; PR #16 must remain open.
+- **Evidence/references:** [Task 014.5 and integration receipt](../014.5-integrate-geography-research-and-approved-methodology.md),
+  [approved policy](../data-architecture-and-dictionary.md#approved-overarching-geographical-policy-and-issue-e---22-november-2026),
+  [Task 014.3 research](../../reports/data_audits/014.3/README.md),
+  [Task 014.4 research](../../reports/data_audits/014.4/README.md),
+  [issues](../issue-register.md), [timing](../task-execution-log.csv).
+
+- **Integration outcome update:** PR #15 merged at `8d97df3`; PR #16 updated
+  at `079bb3e` and confirmed open/mergeable/unmerged. Both offline validators
+  and preservation checks pass. Final receipt/timing in the same Task 014.5
+  archive and CSV; independent review of PR #16 remains pending.

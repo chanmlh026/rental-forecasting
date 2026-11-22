@@ -190,3 +190,35 @@ and offline ONS inspection continued. No contact, bypass or licence exception
 was invented. [Task 014.2](../reports/data_audits/014.2/README.md) records the
 access evidence and remaining geography uncertainty. No issue was closed and
 no new overlapping issue was created. Historical issue/decision entries remain.
+
+
+### Task 014.4 dependency review - 22 November 2026
+
+**Proceed with documented limitations for research only.** ISS-003 remains Open;
+[the cross-dataset assessment](../reports/data_audits/014.4/README.md) distinguishes
+official geography declarations from current-code matches for all 11 authorities.
+Population/migration backcasts offer official-source candidates; HPI/PIPR historical
+footprints, UMB families, ASHE gaps and stock/planning geography still require
+verification or later owner decisions. Decisions A/B1 remain unchanged.
+ISS-004/009/011/012 remain Open for availability, denominator and quality policies.
+ISS-010/017 remain Open: application counts and affordable-only permissions cannot
+replace an all-residential units source or establish extract rights. ISS-020 remains
+Open in the private repository context. ISS-022 remains Open and no automated
+ONS-host downloads occurred; only retained files, official documentation and
+three focused public Nomis queries were used. No new overlapping issue, closure,
+source substitution, reconstructed statistic or production mapping is introduced.
+
+### Task 014.5 approved policy and integration update - 22 November 2026
+
+**Proceed with documented limitations.** The owner approved the overarching
+[PIPR reference-boundary policy and reaffirmed Issue E](data-architecture-and-dictionary.md#approved-overarching-geographical-policy-and-issue-e---22-november-2026).
+Earlier statements that all B–E decisions remain unapproved retain their dated
+historical meaning; B1 and Issue E now have explicit approval records. This does
+not approve other unresolved decisions or particular sources/transformations.
+ISS-003 remains **Open** pending implementation, compatibility checks and validation;
+historical PIPR boundary verification is still outstanding. ISS-004 PIT/vintage
+restrictions and ISS-022's automated ONS acquisition hold remain unchanged.
+All existing issue rows/statuses are preserved; no new issue or closure is needed.
+PR #15 merged only after exact-head and offline checks; PR #16 is being reconciled
+for final independent review, without production changes or source acquisition.
+See [Task 014.5 receipt](014.5-integrate-geography-research-and-approved-methodology.md).

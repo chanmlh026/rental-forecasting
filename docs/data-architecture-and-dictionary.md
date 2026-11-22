@@ -1279,3 +1279,51 @@ Published combined-area comparator overlaps are qualified by geography/vintage
 and survey uncertainty. No reconstructed combined median, approximation method,
 model-input vintage or harmonisation is selected or implemented. Decisions A/B1
 and ISS-003 Open are preserved; ISS-022's ONS acquisition hold was respected.
+
+## Task 014.4 cross-dataset historical geography research - 22 November 2026
+
+[Research and coverage evidence](../reports/data_audits/014.4/README.md) assesses
+27 fields across the exact 11 reorganised authorities and 2015?2026. Official
+population/migration backcasts declare successor geography; density notes and
+publication vintages remain explicit. Existing numeric HPI/PIPR histories require
+historical-footprint verification. ASHE/UMB family gaps, stock/supply reporting
+changes and LPA territory limitations remain distinct. Planning applications do
+not fill the dwelling-units gap. Matching codes do not certify comparability.
+
+The report separates documented geography, unverified numeric candidates,
+predecessor-only evidence, missing observations and source gaps. It identifies
+priorities for owner review; no source/vintage, reconstruction, mapping or PIT
+policy is approved. Table 123 remains the modelling flow source; Table 122 is
+audit-only. Decisions A/B1 are preserved, ISS-003 remains Open and ISS-022 still
+blocks further affected ONS acquisition. No production data or implementation changed.
+
+## Approved overarching geographical policy and Issue E - 22 November 2026
+
+**Project-owner approval, Task 014.5:**
+
+> ONS PIPR is the geographical reference for the approved 294 Local Authorities. All historical LA-level predictors must align with the same reference boundaries, regardless of observation year. Official retrospective estimates are preferred. Compatible additive counts may be reconstructed when necessary, subject to verification. Non-additive approximations require separate owner approval.
+
+This approves the geographical policy. It does **not** establish that every
+historical PIPR observation uses the required reference boundaries. Task 014.4's
+outstanding historical PIPR boundary verification remains unchanged, including
+the Unverified coverage classifications. Matching source codes alone is insufficient.
+No particular historical source, vintage, aggregation or transformation is adopted
+by this record; implementation and validation remain pending under ISS-003.
+Compatible counts still require checks of footprint, disjoint membership,
+statistical definition, observation period and publication vintage. Non-additive
+approximations require separate owner approval; no such method is approved here.
+
+**Issue E, accepted methodology reaffirmed by the owner:** join HPI by verified
+LA code, retain original source names and use reference names in modelling
+outputs. Name differences do not authorise name-based joins or overwrite native
+source identities. Code verification does not itself certify historical boundary
+compatibility. This records the accepted method, without implementing joins or
+selecting historical HPI sources/vintages.
+
+Decisions A and B1 remain intact. Earlier entries describing B–E as unapproved
+retain their historical context; the dated B1 and Issue E approvals govern those
+specific decisions. Other unresolved geography matters are not approved by
+association. ISS-003 stays Open pending implementation and validation; ISS-004
+historical availability/PIT restrictions and ISS-022's automated ONS acquisition
+hold remain in force. Research findings and coverage evidence are preserved.
+See [Task 014.5](014.5-integrate-geography-research-and-approved-methodology.md).
