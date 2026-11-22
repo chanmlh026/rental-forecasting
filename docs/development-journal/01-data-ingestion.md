@@ -741,3 +741,20 @@ is stated explicitly. Detailed findings remain in their source documents.
   [source/reproduction index](../../reports/data_audits/012/README.md),
   [passing independent evidence](../../reports/data_audits/012/validation-evidence.json),
   [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+
+### 22 November 2026 update - Task 012 Phase 1 independent-review handoff
+
+- **AI actions (Codex):** Pushed implementation 67d268d6153b18e758949ee7c426e0b6677e5bba
+  and opened [PR #13](https://github.com/chanmlh026/rental-forecasting/pull/13)
+  against main c242af94b3e2be21889eac4092dd4ffc185ad788. Final staged secret,
+  documentation, validated-code/configuration hash and protected Phase 2 checks
+  pass without repeating successful full tests/ingestion for review preparation.
+- **Outcome/status:** Completed, PASS WITH CONDITIONS; PR OPEN/unmerged/mergeable
+  for owner-directed independent review, private repository and auto-merge disabled.
+  Relevant issues remain Open. No Phase 2 journal/decision changes or merge.
+- **Evidence/references:** [Task 012 final receipt](../012-mhclg-planning-applications-ingestion.md#independent-review-handoff-and-final-measured-timing---22-november-2026),
+  [audit index](../../reports/data_audits/012/README.md), [shared timing](../task-execution-log.csv).
+  Measured 12:58:38 to 13:21:51 UTC, 23.216667 minutes. Final receipt/timing/
+  security-note write, documentation-only commit/push/read-back and reporting
+  excluded; independent review pending and untimed.

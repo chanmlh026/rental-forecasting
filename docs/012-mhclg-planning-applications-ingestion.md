@@ -507,3 +507,43 @@ PR preparation continues from that measured checkpoint. Test durations are
 within wall-clock totals, not added again. Tool/network/access-review waits
 are included, not separately measured/subtracted. Final measured total and
 independent-review receipt follow; no automatic merge is authorised.
+
+
+## Independent-review handoff and final measured timing - 22 November 2026
+
+**Completed; PASS WITH CONDITIONS for Phase 1 source ingestion.** Implementation
+commit **67d268d6153b18e758949ee7c426e0b6677e5bba** is pushed on
+`feature/012-mhclg-planning-ingestion`. [PR #13](https://github.com/chanmlh026/rental-forecasting/pull/13)
+targets unchanged main **c242af94b3e2be21889eac4092dd4ffc185ad788**. GitHub
+confirms OPEN, unmerged and mergeable; repository private, auto-merge disabled.
+Exactly 19 authorised code/configuration/test/lightweight-evidence/documentation
+files are included; no datasets, unrelated source changes or Phase 2 changes.
+
+Final source/configuration hashes match independently validated production.
+Original prompt bytes, prior journal/timing history, strict JSON, Markdown/links/
+anchors, whitespace and staged secret checks pass; all original data/protected
+Phase 2 files and both approved methodology sections are unchanged. The
+quarterly audit is lightweight JSON under existing ignore conventions, not an
+exception committing CSV datasets. Receipt-only JSON/date formatting changes
+left comparison results unchanged; no expensive validation repeat.
+
+No full-suite or ingestion rerun solely for PR preparation. **343 local tests
+pass**; GitHub reports no commit statuses and no CI workflow is configured, so
+local verification is not represented as CI. ISS-003/004/010/011/012/017/020
+remain Open; all source/units limitations remain explicit. Stage C is owner-
+directed independent review, not performed or inferred from PR creation.
+No merge, public visibility, unapproved source or Phase 2 policy change.
+
+| Measured stage (UTC) | Actual recorded interval | Minutes |
+|---|---|---:|
+| A: source investigation/implementation/tests/offline validation checkpoint | 2026-11-22T12:58:38+00:00 to 2026-11-22T13:14:30+00:00 | 15.866667 |
+| B: documentation/final security/scope checks/commit/push/PR preparation | 2026-11-22T13:14:30+00:00 to 2026-11-22T13:21:51+00:00 | 7.350000 |
+| Total continuous measured session | 1393 seconds divided by 60 | 23.216667 |
+
+Whole-second UTC clock-tool precision. Test durations occur within these totals;
+tool/network/access-review waits are included, not separately timed or subtracted.
+No active-execution estimate is inferred. Cutoff follows the implementation push,
+PR creation and remote privacy/status checks. This final receipt/timing/security-
+note write, documentation-only commit/push, PR-body update/read-back and final
+response are outside the cutoff; Stage C independent review is pending and
+untimed. The single shared Task 012 row records Completed and the measured total.
