@@ -14,6 +14,10 @@ eligible input observations, not that target. Monthly execution follows the
 relevant official publication calendar and successful ingestion/validation.
 This policy is documented; preprocessing and modelling are not implemented.
 
+The current approved [temporal and ASHE methodology](docs/data-architecture-and-dictionary.md#task-01413-approved-temporal-alignment-and-ashe-decisions---22-november-2026)
+is recorded by Task 014.13. These policies await separately authorised
+preprocessing; ingestion retains original data and source vintages.
+
 ## Project layout
 
 | Path | Purpose |

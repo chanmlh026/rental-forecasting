@@ -101,3 +101,18 @@ inputs, and produces the JSON matrix and count table. It opens no datasets or
 URLs. The [execution receipt](validation-receipt.json) records checks actually
 executed. Production tests are not applicable to this metadata/documentation
 change; no independent statistical/source-data validation is claimed.
+
+
+## Subsequent owner approval - Task 014.13, 22 November 2026
+
+The decision-register recommendations above record the Task 014.12 research
+state, not outstanding requests to approve the subsequently settled T1-T7
+policies. The owner has now approved the
+[Task 014.13 temporal/vintage and ASHE decisions](../../../docs/data-architecture-and-dictionary.md#task-01413-approved-temporal-alignment-and-ashe-decisions---22-november-2026).
+In particular, available-numeric predecessor averaging supersedes the former
+complete-input ASHE restriction within the same 24 LA-years, including the eight
+previously incomplete cases. This changes policy, not the historical evidence:
+missing original inputs, publication dates and numerical vintages remain gaps.
+The original matrix, source-summary counts, research statements and validation
+receipt are unchanged; no source values or retrospective series were generated.
+Operational exceptions and detailed validation rules remain to design.
