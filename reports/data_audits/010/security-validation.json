@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scanner": "Gitleaks 8.30.1",
+  "official_archive_sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+  "archive_checksum_verified": true,
+  "git_eligible_source_files_scanned": 173,
+  "history_commits_scanned": 50,
+  "source_findings": 0,
+  "history_findings": 0,
+  "raw_bundles_verified": 16,
+  "unsafe_retained_http_headers": 0,
+  "network_policy": "No further automated ONS acquisition after owner offline instruction; production CLI and investigation replay are offline-only. Low-level transport requires approved non-personal contact before requests.",
+  "scope": "Current Git-eligible source/evidence and cleaned local Git history; ignored datasets checked for bundle integrity/metadata separately. Retained remote historical PRs/caches/external copies not covered.",
+  "iss020": "Open",
+  "git_integrity": "git fsck --strict passed; informational dangling objects only",
+  "lock": "uv lock --check passed",
+  "formatter": "Black 25.1.0 check passed",
+  "staged_changes": "Passed; zero findings across 444687 staged bytes at pre-commit cutoff",
+  "final_scope_and_markdown": "17 authorised files; no datasets/dependencies/unrelated source changes; 22 issue rows parse as one Markdown table; local links/fences/UTF-8/punctuation checked"
+}

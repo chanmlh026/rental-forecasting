@@ -1,0 +1,708 @@
+{
+  "status": "PASS WITH CONDITIONS",
+  "acquisition_scope": "Owner-authorised offline validation of nine retained editions; five advertised older versions remain unacquired pending approved project contact",
+  "observations": 198505,
+  "edition_results": [
+    {
+      "edition_id": "summary2025",
+      "source_cells_reconciled": 13209,
+      "source_sheets": 3,
+      "geography_codes": 357,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "migration_years": [
+        2025
+      ]
+    },
+    {
+      "edition_id": "detail2025",
+      "source_cells_reconciled": 31482,
+      "source_sheets": 1,
+      "geography_codes": 318,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "migration_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "edition_id": "summary2024",
+      "source_cells_reconciled": 12495,
+      "source_sheets": 3,
+      "geography_codes": 357,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "migration_years": [
+        2024
+      ]
+    },
+    {
+      "edition_id": "detail2024",
+      "source_cells_reconciled": 29256,
+      "source_sheets": 1,
+      "geography_codes": 318,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "migration_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "edition_id": "summary2023",
+      "source_cells_reconciled": 11781,
+      "source_sheets": 3,
+      "geography_codes": 357,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "migration_years": [
+        2023
+      ]
+    },
+    {
+      "edition_id": "detail2023",
+      "source_cells_reconciled": 27030,
+      "source_sheets": 1,
+      "geography_codes": 318,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "migration_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_cells_reconciled": 11067,
+      "source_sheets": 3,
+      "geography_codes": 357,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "migration_years": [
+        2022
+      ]
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_cells_reconciled": 11563,
+      "source_sheets": 3,
+      "geography_codes": 373,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "migration_years": [
+        2022
+      ]
+    },
+    {
+      "edition_id": "detail2022",
+      "source_cells_reconciled": 50622,
+      "source_sheets": 2,
+      "geography_codes": 335,
+      "population_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "migration_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    }
+  ],
+  "source_cells_reconciled": 198505,
+  "within_vintage_comparisons": [
+    {
+      "summary": "summary2022_2023",
+      "detail": "detail2022",
+      "cells_compared": 5724
+    },
+    {
+      "summary": "summary2023",
+      "detail": "detail2023",
+      "cells_compared": 6042
+    },
+    {
+      "summary": "summary2024",
+      "detail": "detail2024",
+      "cells_compared": 6360
+    },
+    {
+      "summary": "summary2025",
+      "detail": "detail2025",
+      "cells_compared": 6678
+    }
+  ],
+  "source_value_kinds": {
+    "numeric": 198429,
+    "source_marker": 76
+  },
+  "coverage_rows_reconciled": 599,
+  "same_name_code_discrepancies": [
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2021 Geography)",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2021 Geography)",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2023 Geography)",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "detail2022",
+      "source_sheet": "MYEB3 (2023 Geography)",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "detail2023",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "detail2023",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "detail2024",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "detail2024",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "detail2025",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "detail2025",
+      "source_sheet": "MYEB3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE3",
+      "source_code": "E10000023",
+      "source_name": "North Yorkshire",
+      "same_name_target_code": "E06000065"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE3",
+      "source_code": "E10000027",
+      "source_name": "Somerset",
+      "same_name_target_code": "E06000066"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE4",
+      "source_code": "E10000023",
+      "source_name": "North Yorkshire",
+      "same_name_target_code": "E06000065"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE4",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE4",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE4",
+      "source_code": "E10000027",
+      "source_name": "Somerset",
+      "same_name_target_code": "E06000066"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE5",
+      "source_code": "E10000023",
+      "source_name": "North Yorkshire",
+      "same_name_target_code": "E06000065"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE5",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE5",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2021",
+      "source_sheet": "MYE5",
+      "source_code": "E10000027",
+      "source_name": "Somerset",
+      "same_name_target_code": "E06000066"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE4",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE4",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE5",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2022_2023",
+      "source_sheet": "MYE5",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE4",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE4",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE5",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2023",
+      "source_sheet": "MYE5",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE4",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE4",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE5",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2024",
+      "source_sheet": "MYE5",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE3",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE3",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE4",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE4",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE5",
+      "source_code": "E08000016",
+      "source_name": "Barnsley",
+      "same_name_target_code": "E08000038"
+    },
+    {
+      "edition_id": "summary2025",
+      "source_sheet": "MYE5",
+      "source_code": "E08000019",
+      "source_name": "Sheffield",
+      "same_name_target_code": "E08000039"
+    }
+  ],
+  "prior_files_unchanged": 342,
+  "offline_rerun_files_unchanged": 388,
+  "raw_bundles_verified": 16,
+  "pending_downloads": [
+    {
+      "edition_id": "summary2022_2023_previous_v2",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2023geogsv2.xlsx",
+      "edition_slug": "mid20222023localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2023"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2023_previous_v1",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222023localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2023geogs.xlsx",
+      "edition_slug": "mid20222023localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2023"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2021_previous_v2",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv2%2Fmye22tablesew2021geogsv2.xlsx",
+      "edition_slug": "mid20222021localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2021"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "summary2022_2021_previous_v1",
+      "kind": "summary",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid20222021localauthorityboundaires%2Fprevious%2Fv1%2Fmye22tablesew2021geogs.xlsx",
+      "edition_slug": "mid20222021localauthorityboundaires",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_summary2022_2021"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    },
+    {
+      "edition_id": "detail2022_previous_v1",
+      "kind": "detail",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fmid2011tomid2022detailedtimeseries%2Fprevious%2Fv1%2Fmyebtablesenglandwales20112022v2.xlsx",
+      "edition_slug": "mid2011tomid2022detailedtimeseries",
+      "latest_reference_year": 2022,
+      "evidence_pages": [
+        "versions_detail2022"
+      ],
+      "status": "Not acquired; owner-approved offline continuation; project contact approval required before download"
+    }
+  ],
+  "conditions": [
+    "Source geography/notes unresolved; no mappings",
+    "Separate revision vintages; incomplete historical publication availability",
+    "Further automated ONS downloads blocked pending contact approval"
+  ],
+  "point_in_time_claim": false,
+  "production_network_requests_after_offline_instruction": 0,
+  "validated_implementation_and_contract_sha256": {
+    "src/ingestion/ons_population.py": "8948ad44ad0b7e7313fedd0749db665d8d1d875b37f36efd4da7e82d373321c5",
+    "configs/ons_population_sources.json": "8798cdedc0cfbd2927e53fb34401f592ab92f6a79fc169aa5c3cdd1d7b26bb87",
+    "tests/test_ons_population.py": "79ce9e6ddab701ac81ce79d459258103d8d0a6547b831999b56e2c5791b3ccd6",
+    "reports/data_audits/010/inspect_sources.py": "d893ad657fd69b06a4cb0b7337bf091f39a7461064251436c3db236e211ee5a0",
+    "reports/data_audits/010/validate_ingestion.py": "edbf33157fb292b5b94364d413154d2114c8be475a2f4e6466ad2a86ed9906a0"
+  },
+  "tests": {
+    "focused": "38 passed in 3.47 seconds",
+    "full_suite": "266 passed in 66.56 seconds"
+  },
+  "phase_cutoff": {
+    "stage_a_start_utc": "2026-11-22T09:35:31+00:00",
+    "stage_a_end_utc": "2026-11-22T09:58:00+00:00",
+    "stage_a_minutes": 22.483333,
+    "notes": "Implementation/source investigation, focused/full tests, production offline parsing/reconciliation/rerun and security. Full-suite interval overlaps audit; do not add it again."
+  }
+}
