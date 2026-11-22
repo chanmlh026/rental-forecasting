@@ -79,3 +79,9 @@ dependencies and measured timing remain in their existing shared records.
   two shared-document merge-preview conflicts, recorded for independent review.
   No merge or harmonisation authorised; final PR receipt is in the
   [Task 014.2 archive](../014.2-investigate-historical-ashe-current-boundaries.md).
+
+- **Dated outcome update, 22 November 2026:** [PR #14](https://github.com/chanmlh026/rental-forecasting/pull/14)
+  created open/non-draft against main for independent review. Research and
+  submission-check commits pushed; final timing/PR receipt recorded in the same
+  task archive and CSV row. Dictionary/register merge conflicts remain disclosed;
+  no merge, production change, acquisition or methodological implementation.
