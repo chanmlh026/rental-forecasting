@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scanner": "Gitleaks 8.30.1",
+  "official_release_archive_sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+  "release_checksum_verified": true,
+  "working_source_files_scanned": 161,
+  "clean_history_commits_scanned": 36,
+  "source_findings": 0,
+  "history_findings": 0,
+  "broad_working_directory_findings": 47,
+  "broad_findings_all_in_ignored_dependency_environment": true,
+  "broad_scan_limitations": "Initial dir scan included .venv; all 47 findings were in ignored third-party dependency files. Final source scan exports exactly git ls-files --cached --others --exclude-standard; no suppression rules added. Ignored datasets are outside that Git-source scan.",
+  "raw_umb_manifests_checked": 18,
+  "raw_http_header_maps_checked": 36,
+  "unsafe_retained_metadata_fields": 0,
+  "git_fsck_strict": "Passed; informational dangling objects only",
+  "lock_check": "uv lock --check passed",
+  "formatter": "Black 25.1.0: four Task 009.4 Python files passed",
+  "repository_visibility": "Private confirmed via GitHub; no visibility mutation",
+  "iss020": "Open; source/history scans do not prove removal from retained remote PRs, caches or external copies",
+  "staged_change_secret_scan": "Passed with zero findings; 240848 staged bytes at pre-commit cutoff",
+  "governance_checks": "Unique seven-column task CSV; original evidence/prior timing rows preserved; issue states and JSON syntax passed"
+}

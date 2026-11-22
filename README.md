@@ -169,9 +169,35 @@ storage TOML and geography-reference options apply. See the
 [Task 009.2 report](docs/009.2-ons-ashe-earnings-ingestion.md#implementation-report---21-november-2026)
 for outputs, recovery and source-note/publication limitations.
 
+## Nomis model-based unemployment ingestion
+
+Task 009.4 retains the approved NM_127_1 ITEM 2 published unemployment rate
+(20100) and confidence margin (20701) for 87 rolling annual periods, end-month
+2004-12 through 2026-06, with original TYPE424 geography and all source areas.
+
+```powershell
+uv run python -m ingestion.nomis_umb --snapshot-id YOUR-NEW-SNAPSHOT-ID
+```
+
+Optional `--source-cache data/raw/umb-009-3-investigation` imports verified
+retained official responses without repeating successful data downloads; a missing
+terms response is retrieved once. `--config`, `--contract` and
+`--geography-reference` use the existing project configuration. Same-argument
+reruns reuse immutable snapshots. Interrupted runs retain completed requests;
+rerun with the same snapshot ID to resume. Changed contracts, source bytes or
+completed outputs cannot overwrite that snapshot.
+
+Raw, validated and processed outputs use `nomis_umb/snapshot={id}/` in the
+existing storage layers. Source missingness, confidence gaps, original geography,
+notes, release/revision metadata and original value strings remain intact. No
+monthly conversion, imputation, harmonisation or model-input vintage is selected.
+See the [Task 009.4 report](docs/009.4-nomis-umb-unemployment-ingestion.md#implementation-completion-report---22-november-2026)
+and [reproducible audit](reports/data_audits/009.4/README.md). Future historical or
+geography extensions require separate approval of the pinned contract.
+
 ## Review and next source
 
-Review the generated PIPR, Bank of England, inflation, HPI and ASHE outputs, then approve the
+Review the generated PIPR, Bank of England, inflation, HPI, ASHE and UMB outputs, then approve the
 next data source before feature engineering. Preserve each ONS release as a
 separate vintage; do not claim exact historical point-in-time reconstruction
 where the required release snapshots and publication timestamps are

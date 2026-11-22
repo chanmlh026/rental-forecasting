@@ -1,0 +1,24 @@
+{
+  "status": "FAIL",
+  "component": "Independent representative-observation audit",
+  "production_ingestion": "Passed its source/structure gates; final independent validation incomplete",
+  "test_result": "205 passed in 39.96 seconds",
+  "passed_before_failure": {
+    "source_rows_reconciled": 51504,
+    "processed_measure_cells_reconciled": 51504,
+    "period_coverage_reconciled": 87,
+    "prior_clean_checkout_files_unchanged": 290,
+    "research_bundles_verified": 29
+  },
+  "failure": "Representative evidence includes ITEM=1 count rows and ITEM=2 rate rows; new audit key omitted ITEM and compares request-local sort/pagination fields.",
+  "diagnosis": "Audit implementation error; full primary ITEM=2 source records reconciled. No source-data discrepancy established.",
+  "next_action": "Correct representative key to include ITEM, restrict to approved ITEM=2, compare substantive observation fields separately from request-local pagination/sort metadata; rerun only after resumption.",
+  "not_run": [
+    "Offline production idempotency rerun (not reached)",
+    "Final security/Git integrity checks",
+    "Final documentation/completion checks",
+    "PR creation"
+  ],
+  "stop_instruction": "Owner explicitly required stopping on any validation failure; no audit correction or further ingestion performed after failure.",
+  "scope": "Original checkout untouched; clean-history branch feature/009-4-umb-ingestion; no commit/push/PR/merge."
+}

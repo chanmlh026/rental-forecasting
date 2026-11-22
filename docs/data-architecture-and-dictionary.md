@@ -301,7 +301,7 @@ open questions. Coverage means observations, not historical availability.
 | 2-year 75% LTV BTL Mortgage Rate (IUMZID4) | B2; quoted sterling mortgage rate, percent, not seasonally adjusted | UK national | Measured Jan 2012-Oct 2026, 178 consecutive months | V; historical release vintages remain P |
 | Median Earnings | E1; approved gross annual median employee-job earnings, Table 8.7a All D; GBP/year; all sexes and full-/part-time | LA residence | Verified in 37 advertised editions, 2002–2026; historical cohort varies | Task 009.2 ingestion implemented; all editions/source rows retained. Annual guide: adult-rate jobs held over a year; tax year ending 5 April. Two source-note conflicts flagged |
 | Earnings Growth | E1; proposed percentage change in consistent annual median earnings | LA residence | First usable pair unresolved; no continuous 2002-2026 LA panel assumed | D/P; annual pay definition approved in Task 009.1; growth unimplemented, geography and vintages must agree |
-| Unemployment Rate | U1; owner-approved UMB-first published model-based rate, ITEM 2 / MEASURES 20100; percent of economically active residents 16+ | LA residence; native source geography preserved | API: 87 rolling annual periods, Jan–Dec 2004 to Jul 2025–Jun 2026; separate M01 archive 1996/97–2003/04 verified | Research verified in Task 009.3; no production ingestion. Latest 292 exact cohort matches, 292 numeric rates/273 confidence margins; two code discrepancies |
+| Unemployment Rate | U1; owner-approved UMB-first published model-based rate, ITEM 2 / MEASURES 20100; percent of economically active residents 16+ | LA residence; native source geography preserved | API: 87 rolling annual periods, Jan–Dec 2004 to Jul 2025–Jun 2026; separate M01 archive 1996/97–2003/04 verified | Production ingestion validated in Task 009.4; original geography and rolling-year semantics retained. Latest 292 exact cohort matches, 292 numeric rates/273 confidence margins; two code discrepancies |
 | Population Density | D1 MYE5; population per square kilometre, supplied area denominator | LA | Inspected workbook mid-2011-mid-2025 | V; 292/294 direct-code matches, no mapping applied |
 | Population Growth | D1 MYE4; proposed percentage change between comparable annual mid-year populations | LA | Population mid-2011-mid-2025; annual pairs possible from 2012 on matched codes | D; revised population vintage and boundary policy required |
 | Household Growth | H1/H2; historical proposal: change in number of households, not dwellings | LA | APS estimates 2020-2022; admin-based estimates 2021-2023; projections base 2022 through 2047 | **Excluded from Current Modelling Scope** (Task 013.1); consistent, timely observed annual 2015–2026 coverage for the required LA population not established. Estimate/projection concepts remain distinct; future reconsideration requires evidence and owner approval |
@@ -759,7 +759,7 @@ publication checkpoints even when implemented within one batch.
 |---|---|---|---|
 | **007. Bank of England financing data** | Bank Rate and IUMZID4; common publisher, IADB exports and national geography | Preserve change-date versus monthly grains. Confirm quoted-rate measurement breaks, actual publication calendar, revised weights and archives. Choose cutoff/monthly policy-rate semantics separately; no averaging implemented here. | Independently reconcile both exports with official rows; report date gaps and metadata, preserve release bytes, and demonstrate vintage-aware rerun/failure behavior before next batch. |
 | **008. ONS inflation and UK HPI** | CPI/CPIH series plus HMLR/ONS UK HPI; monthly price releases and common timing controls | Keep national inflation and LA house prices separate; independent adapters/contracts despite related release cycle. Select all-property HPI, base, geography, revisions and vintage sources; do not infer missingness from national coverage. | Reconcile each series with its official release; report all-294 HPI code/month coverage and revisions; verify that later publications cannot enter earlier cutoff examples. Review each dataset independently. |
-| **009. ONS local earnings and unemployment** | ASHE Table 8 and Nomis APS/UMB; related labour-market definitions and survey-quality metadata | Task 009.1 verified ASHE access and approved annual gross median All field; historical geography, quality preservation and PIT limits remain. Task 009.3 verifies the owner-approved UMB-first unemployment measure; no unemployment production ingestion is implemented. Retain source uncertainty/suppression, distinct annual versus rolling-year periods and revisions. | Inspect selected fields with source examples, quantify historical/cohort coverage and uncertainty markers, preserve missing/suppressed records, and review each source contract. No arbitrary data rejection threshold. |
+| **009. ONS local earnings and unemployment** | ASHE Table 8 and Nomis APS/UMB; related labour-market definitions and survey-quality metadata | Task 009.1 verified ASHE access and approved annual gross median All field; historical geography, quality preservation and PIT limits remain. Task 009.3 verifies the owner-approved UMB-first unemployment measure; Task 009.4 implements and validates the approved primary rolling-year production ingestion, excluding M01 archives. Retain source uncertainty/suppression, distinct annual versus rolling-year periods and revisions. | Inspect selected fields with source examples, quantify historical/cohort coverage and uncertainty markers, preserve missing/suppressed records, and review each source contract. No arbitrary data rejection threshold. |
 | **010. ONS population, area and migration** | MYE3/MYE4/MYE5 and necessary older component editions; same workbook family and code-vintage issues | Investigate Barnsley/Sheffield codes and older authority changes; approve mapping before use. Retain area units, year-ending migration definitions, revised population components and source vintages. Density/growth construction remains a later feature task. | Reproduce the measured 292 exact-code result, explain additional matches only through approved evidence, and report historical component coverage and vintage revisions. |
 | **011. MHCLG housing supply and dwelling stock** | Tables 122, 123 and 125; annual dwelling accounting with numerator/denominator dependencies | Retain sheet-specific components, source imputation/style/footnotes, Census adjustments and stock dates. Agree common geography and proposed denominator timing before any ratio implementation. | Reconcile selected source rows/components and report per-year code coverage separately for all three files; demonstrate preservation of previous validated releases on failure. Review compatibility without constructing features. |
 | **012. MHCLG planning decisions and permission-unit investigation** | PS1/PS2 residential approvals; same publisher and quarter-based returns. Treat local units as a separate conditional source investigation within the batch. | Preserve decision counts versus dwelling units, LPA/LAD differences, category changes, cp1252/preamble parsing and corrections. A local units source and rights must be established before its ingestion is approved. Do not replace units with application counts. | Reproduce 294 codes per quarter in the inspected sample, extend reported history checks, reconcile categories, and present a separate evidence/approval checkpoint for any LA units source. |
@@ -919,3 +919,31 @@ separate earnings-branch integration; Task 009.3 does not merge or alter them.
 ### Task 009.5.8 integration context - 21 November 2026
 
 The ASHE and UMB source findings above are now combined on cleaned history. Task 009.3's preceding statement about pending earnings-branch integration records its original branch context; it no longer describes the integrated tree. No geography mapping, imputation, preferred modelling vintage, feature engineering or unemployment production ingestion is introduced.
+
+
+### Task 009.4 UMB production ingestion update - 22 November 2026
+
+The [implementation report](009.4-nomis-umb-unemployment-ingestion.md#implementation-completion-report---22-november-2026)
+and [independent audit](../reports/data_audits/009.4/README.md) supersede earlier
+research-only implementation-status statements. NM_127_1 ITEM 2, measures 20100
+(rate) and 20701 (confidence margin), is now captured under the pinned 87-period
+TYPE424 contract. All 51,504 source observations and 25,752 paired source rows
+are retained in immutable raw/validated/processed layers. Full history, per-period
+coverage and 592 independently requested latest-period cells reconcile. Original
+source values, Q missingness, confidentiality flags, notes and anomalous raw
+release/revision metadata are preserved. Numerical matched-rate coverage is
+281?292 per period; latest 292 rates and 273 confidence margins among 292 exact
+cohort codes. Barnsley/Sheffield code discrepancies remain unresolved.
+
+The original ISS-021 representative-audit failure was an audit key/comparison
+error: mixed ITEM 1 counts and ITEM 2 rates share measure codes; request-local
+sort/pagination fields also differ. Corrected observation identity, explicit
+ITEM 2 selection and separately validated provenance pass regression tests and
+the independent source audit without changing production data. The original
+failed-check evidence remains preserved. No source discrepancy was established.
+
+M01 remains research evidence outside production scope. Geography harmonisation,
+missingness treatment, complete first-publication availability, vintage selection
+and later feature policies remain future decisions under ISS-003/004/011/012.
+ISS-006 stays Resolved for source selection; ISS-020 remains Open. Task 013.1's
+Household Growth and Student Population Share exclusions remain unchanged.
