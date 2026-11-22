@@ -29,13 +29,16 @@
     "historical publication/edition correspondence and input validation"
   ],
   "git_connectivity": "Pass; existing dangling objects retained",
-  "task_status": "In Progress: final verification passed; push/PR pending",
+  "task_status": "Completed",
   "timing": {
-    "start": "2026-11-22T19:40:04.9970559+00:00",
-    "stop": "2026-11-22T19:45:52.825258+00:00",
-    "duration_minutes": 5.797137,
-    "status": "In Progress",
-    "limitations": "One continuous measured session, host UTC microsecond precision at stop; original start recorded to 100 ns. Supplied T1-T7 documentation and offline checks complete. Full task remains In Progress because attachment ends mid-list at Section7 (- Phase 2); remaining instructions requested asynchronously but not received. No additional delivery/acceptance instructions inferred, no push/PR/merge. Includes tool waits and concurrent user-response wait, not separately measured/subtracted. Final commit/verification/reporting after this cutoff excluded."
+    "first_start": "2026-11-22T19:40:04.9970559+00:00",
+    "latest_stop": "2026-11-22T19:57:48.459279+00:00",
+    "duration_minutes": 10.312029,
+    "status": "Completed",
+    "session1_minutes": 5.797137,
+    "session2_start": "2026-11-22T19:53:17.5657677+00:00",
+    "session2_minutes": 4.514892,
+    "notes": "Two measured sessions, host UTC: 2026-11-22T19:40:04.9970559+00:00 to 2026-11-22T19:45:52.825258+00:00 = 5.797137 min (prior recorded total retained); 2026-11-22T19:53:17.5657677+00:00 to 2026-11-22T19:57:48.459279+00:00 = 4.514892 min. Sum 10.312029 min; inter-session gap excluded. UTC microsecond precision at cutoffs, original starts recorded to 100 ns. Initial attachment ended mid-list; owner supplied full continuation on resumption, now archived. Includes tool/network waits (one bounded push timeout, retry succeeded); first-session concurrent response wait not separately measured/subtracted. Initial commentary and final commit/verification/push/reporting outside measured cutoffs excluded. PR20 created, open for independent review, not merged; final receipt commit follows cutoff."
   },
   "first_session_record": {
     "status": "PASS WITH DOCUMENTED PROMPT LIMITATION",
@@ -70,5 +73,11 @@
     "reports/data_audits/014.12/README.md",
     "reports/data_audits/014.13/consolidation-validation.json"
   ],
-  "new_local_links_checked": 61
+  "new_local_links_checked": 61,
+  "submission": {
+    "pr": "https://github.com/chanmlh026/rental-forecasting/pull/20",
+    "branch": "docs/014-13-temporal-ashe-decisions",
+    "state": "Open for independent review; not merged",
+    "base_main": "09c92ecb3a93528ab77d3f7ec2f451ee497044bf"
+  }
 }

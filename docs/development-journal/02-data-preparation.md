@@ -376,3 +376,11 @@ dependencies and measured timing remain in their existing shared records.
   main still `09c92ec` (merged PR #19), reviewed existing changes against all eight
   acceptance criteria and added a subsequent-approval note to the Task 014.12
   summary without altering its matrix, counts or original research evidence.
+
+- **Final submission update:** Full Task 014.13 acceptance checks passed; prompt
+  continuation resolved the initial local availability limitation. [PR #20](https://github.com/chanmlh026/rental-forecasting/pull/20)
+  opened/non-draft for independent review, not merged. Original research matrix,
+  code and datasets unchanged; all prior decisions retained except explicitly
+  superseded complete-input ASHE policy. Remaining operational/evidence work is
+  recorded without invented decisions. Completed row sums two measured sessions
+  and excludes the gap/final reporting cutoff; see shared CSV and task receipt.
