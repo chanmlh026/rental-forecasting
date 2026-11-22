@@ -1,7 +1,7 @@
 # 004. Rental Forecasting Data Architecture & Data Dictionary
 
 **Status:** Living design and source assessment; current modelling-scope decisions
-updated for Task 013.1 on 21 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
+updated through Task 014.7 on 22 November 2026. Sections 2 and 4-6 retain the proposed architecture and confirmed
 forecasting decisions; Section 3 records source evidence and its limits. The
 Section 7 ingestion batches are proposals for project-owner review, not approval
 to implement them. No production ingestion or feature functionality is added by
@@ -9,12 +9,22 @@ the research sections. Tasks 007, 008 and 009.2 implement Bank of England, infla
 UK HPI and approved ASHE earnings ingestion; see their implemented contracts below. Other proposed
 batches remain unapproved.
 
-**Current modelling scope (Task 013.1, 21 November 2026):** Household Growth
+**Previously approved exclusions (Task 013.1, 21 November 2026):** Household Growth
 and Student Population Share are **Excluded from Current Modelling Scope** by
 explicit owner decision. Their proposed definitions and source findings remain
 below as research history, not approved modelling inputs. Reconsideration needs
 new evidence and owner approval. Other predictor statuses, the approved 294-LA
 cohort and the 12-calendar-month forecast horizon are unchanged.
+
+**Current planning scope (Task 014.7, owner approval 22 November 2026):**
+Residential planning application counts are **Excluded from initial modelling**;
+no further LPA-to-LAD harmonisation is required for those excluded predictors.
+All-residential new homes permitted (dwelling units granted permission) are
+**Deferred to a future development phase**. No further source investigation is
+authorised for the initial phase. Retain all PS1/PS2 datasets unchanged for audit
+and potential future use. New-build completions and net additional dwellings
+remain in scope under their existing approved treatment. See the
+[planning decision record](#task-0147-approved-planning-variable-decisions---22-november-2026).
 
 ## 1. Existing project decisions
 
@@ -459,7 +469,8 @@ open questions. Coverage means observations, not historical availability.
 | 12-month House-price Growth | M1; published annual change or proposed same-vintage index ratio, percent | LA | Earliest usable LA year-on-year pair unmeasured; no complete history inferred from 1995 source start | D/P; do not mix property definitions or vintages |
 | Housing Completions | M2 Table 123 `New build`, dwellings completed in financial year | English LA district | Inspected sheets 2012-13 through 2024-25 | Task 011 source ingestion validated; annual net-supply component, distinct from quarterly housebuilding return |
 | Net Additional Dwellings | M2 Table 123; net stock flow, dwellings per financial year | English LA district | Inspected 2012-13 through 2024-25; modelling history begins in 2015 | Task 011.1 approved exclusive modelling flow source; Table 122 retained only for reconciliation/auditing; negative net additions preserved |
-| Planning Approvals | M3 PS2; granted major/minor residential application decisions, counts | Local planning authority (LPA) | Task 012 verified PS2 1979 Q2-2026 Q2; PS1 1996 Q2-2026 Q2 | Phase 1 application-count ingestion validated; local all-residential units source and historical definition continuity remain unresolved |
+| Planning Approvals | M3 PS2; granted major/minor residential application decisions, counts | Local planning authority (LPA) | Task 012 verified PS2 1979 Q2-2026 Q2; PS1 1996 Q2-2026 Q2 | **Excluded from initial modelling (Task 014.7)**; application activity is not homes permitted. Phase 1 ingestion retained unchanged for audit; no further LPA/LAD harmonisation for this excluded predictor |
+| New Homes Permitted | All-residential dwelling units granted planning permission; not application counts | Approved 294-LA reference | No suitable historical LA-level source established across coverage, history and rights requirements | **Deferred to a future development phase (Task 014.7)**; no initial-phase source investigation or application/affordable-only substitution |
 | CPI Inflation | C1 D7G7; all-items 12-month percentage change | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; longer modelled history is distinct |
 | CPIH Inflation | C1 L55O; all-items 12-month percentage change including owner-occupier housing costs, percent | UK national | Official monthly table displays Jan 1989-Sep 2026 | V; keep distinct from CPI |
 | Dwelling Stock (supply denominator) | M4 Table 125 unrounded; all dwellings including vacants, count at 31 March | English LA district | Inspected 2001-2025 | Task 011 source ingestion validated; unrounded/rounded source sheets separate, not households or private rented stock |
@@ -643,7 +654,7 @@ features or final operating definitions.
 |---|---|---|
 | New-build completions per 1,000 existing dwellings | Table 123 `New build` in financial year Y/Y+1 / Table 125 unrounded all-dwelling stock at chosen 31 March, multiplied by 1,000 | Same publisher/dwelling concept support investigation. Consider start-year 31 March Y stock, subject to approval; do not silently pick end-year or mean stock. |
 | Net additional dwellings as a percentage of existing dwelling stock | Table 123 net additions in Y/Y+1 / same explicitly dated stock, multiplied by 100 | Includes conversions, change of use, other changes and demolitions. Census calibration/revisions mean simple stock difference need not equal reported flow. Negative net changes can be valid. |
-| Approved residential units per 1,000 existing dwellings | Actual units granted by compatible LA and period / matched all-dwelling stock, multiplied by 1,000 | **U for an openly accessible LA numerator in inspected sources.** PS2 counts decisions, not units. Glenigan's England rolling-annual table cannot supply local units or be differenced into quarterly units. Unresolved, not excluded. |
+| Approved residential units per 1,000 existing dwellings | Actual units granted by compatible LA and period / matched all-dwelling stock, multiplied by 1,000 | **Deferred to a future development phase (Task 014.7); numerator remains unverified.** PS2 counts decisions, not units. Glenigan's England rolling-annual table cannot supply local units or be differenced into quarterly units. No source investigation or construction in the initial modelling phase. |
 
 The [planning technical notes](https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-technical-notes)
 define units granted at detailed permission or reserved-matters approval, with
@@ -1351,3 +1362,67 @@ The approved overarching PIPR reference policy, A/B1 and Issue E remain intact;
 historical PIPR boundary verification is still outstanding. This research neither
 selects a source/vintage nor approves allocation or a non-additive approximation.
 ISS-003/004/010/017/022 remain Open. No production changes or new datasets acquired.
+
+
+## Task 014.7 approved planning-variable decisions - 22 November 2026
+
+The project owner explicitly approved the following planning decisions in
+[Task 014.7](014.7-finalise-planning-variable-decisions-and-pr17-documentation.md).
+These labels are local to Task 014.7: **planning Decision A** does not replace
+**geography Decision A**, and planning Decision B does not amend geography B1.
+
+### Planning Decision A: exclude residential planning application counts
+
+**Exclude residential planning application counts from the rental forecasting
+model's initial feature set.** MHCLG PS1/PS2 applications measure planning
+activity, not the number of new homes permitted. No further LPA-to-LAD
+harmonisation is to be undertaken for these excluded predictors. All previously
+ingested PS1/PS2 data, original identities and evidence remain unchanged for audit,
+reproducibility and potential future use. This is a resolved owner scope decision,
+not a claim that their geographical evidence gaps have been solved.
+
+### Planning Decision B: defer new homes permitted
+
+**Defer all-residential dwelling units granted planning permission to a future
+development phase.** The concept remains relevant, but no suitable historical
+LA-level dataset has been established satisfying all three requirements:
+
+1. Compatible coverage of the approved 294 English LAs.
+2. Sufficient historical observations for the forecasting period.
+3. Verified access rights and licensing for the intended use.
+
+Official and commercial sources, including Glenigan, may contain relevant
+information; suitability and accessibility remain unestablished. Do not substitute
+planning application counts or affordable-only permissions for all-residential
+units. No additional source investigation is authorised for the initial modelling
+phase. Future reconsideration requires explicit owner authorisation and verified
+coverage/history/rights before source use; deferral is not evidence resolution.
+
+### Planning Decision C: other housing-supply predictors stay in scope
+
+New-build completions and net additional dwellings remain in scope. Their
+approved treatment is unchanged: Table 123 is the exclusive modelling flow
+source; Table 122 remains audit-only. This record approves no new denominator,
+frequency, vintage, feature calculation or source selection.
+
+### Task 014.6 completion and preprocessing implications
+
+The owner-authorised **bounded research task completed successfully**; full
+LPA-to-LAD geographical certification did not. Preserve the
+[original research and validation](../reports/data_audits/014.6/README.md):
+49 documented non-coterminous LAs, 245 unresolved relationships, and per measure
+41 additive opportunities, 420 allocation-required LA-quarters and 13063
+Unverified LA-quarters. All 271 modern-code gaps have numeric predecessor
+candidates without confirmed geographical recovery. No planning counts were
+reconstructed. The absent April 2025 lookup remains an evidence limitation;
+it is not a reason to continue investigating an excluded initial-phase predictor.
+Earlier planning research recommendations remain historical possibilities,
+superseded for current work by these scope decisions, not an active work queue.
+
+ISS-010 and ISS-017 are **Deferred**, with unresolved source and rights evidence
+retained and a future-phase reauthorisation checkpoint. They are not Resolved.
+ISS-003/004/022 remain Open; geography/PIT restrictions and the ONS acquisition
+hold continue for affected in-scope work. Geography A/B1, Issue E, PIPR reference
+policy, historical PIPR verification limits, other modelling definitions, the
+294-LA cohort and Option A horizon are unchanged. No production features or
+preprocessing are implemented by this documentation.

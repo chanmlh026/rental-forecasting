@@ -228,3 +228,38 @@ dependencies and measured timing remain in their existing shared records.
   is open/non-draft/mergeable/unmerged against PR #16's research branch.
   Bounded investigation submitted; full geography certification remains incomplete.
   Measured timing and validation receipt are in the same Task 014.6 archive/CSV row.
+
+
+### Approved planning-variable decisions and PR finalisation - 22 November 2026 (Task 014.7)
+
+- **Event/trigger:** Owner requested documentation-only finalisation of Task 014.6
+  and PR #17, with no further investigation, acquisition or implementation.
+- **Initiated by:** Human.
+- **Human actions:** Explicitly approved excluding residential planning application
+  counts because they measure activity rather than homes permitted; deferring
+  all-residential dwelling units granted permission until a future phase because
+  compatible 294-LA history and verified intended-use rights are not established;
+  and retaining new-build completions/net additional dwellings in scope unchanged.
+  Prohibited further initial-phase planning geography/units-source investigation
+  and application-count or affordable-only substitution; required data preservation.
+- **AI actions (Codex):** Verified PR #15 merged, #16 open against main and #17
+  open against #16's branch; applied the decisions only to PR #17's branch.
+  Updated current dictionary statuses and dated decision records; moved ISS-010/017
+  to Deferred with future reauthorisation checkpoints and unresolved evidence intact.
+  Preserved Task 014.6 findings and distinguished completed bounded research from
+  incomplete geographical certification. Updated PR review/dependency descriptions.
+- **Decision/outcome:** Planning scope decisions approved; no particular source,
+  approximation, rights or geography compatibility approved. No further LPA/LAD
+  work for excluded predictors in initial modelling. Geography A/B1, Issue E and
+  PIPR policy preserved; ISS-003/004/022 remain Open. All research/data unchanged;
+  independent review of documentation remains required; no PR merge.
+- **Evidence/references:** [Verbatim prompt and receipt](../014.7-finalise-planning-variable-decisions-and-pr17-documentation.md),
+  [planning decisions](../data-architecture-and-dictionary.md#task-0147-approved-planning-variable-decisions---22-november-2026),
+  [retained Task 014.6 audit](../../reports/data_audits/014.6/README.md),
+  [issue register](../issue-register.md), [shared timing](../task-execution-log.csv).
+
+- **Finalisation update:** Documentation/preservation checks passed, including
+  140 unchanged prior audit/archive blobs. PR #17 description requests independent
+  review; PR #16 description cross-references the later scope decisions. Review
+  order is #16, then retarget/recheck #17 against main under separate merge
+  authorisation. No PR merged; measured receipt is in the Task 014.7 archive/CSV.
